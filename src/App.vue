@@ -1,16 +1,22 @@
 <template>
   <div id="app">
-    <RandomChart></RandomChart>
+    <LineChartMaker></LineChartMaker>
+    <PieChartMaker></PieChartMaker>
+    <DoughnutChartMaker></DoughnutChartMaker>
   </div>
 </template>
 
 <script>
-import RandomChart from "@/components/RandomChart.vue";
+import LineChartMaker from "@/components/charts/Line/LineChartMaker.vue";
+import PieChartMaker from "@/components/charts/Pie/PieChartMaker.vue";
+import DoughnutChartMaker from "@/components/charts/Doughnut/DoughnutChartMaker.vue";
 
 export default {
   name: 'App',
   components: {
-    RandomChart
+    LineChartMaker,
+    PieChartMaker,
+    DoughnutChartMaker
   }
 }
 </script>

@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import LineChart from '@/components/graphs/LineGraph.vue';
+  import LineChart from '@/components/charts/Line/LineChart.vue';
 
   export default {
     components: {
@@ -15,17 +15,31 @@
     data () {
       return {
         datacollection: this.datacollection = {
-          labels: [this.getRandomInt(), this.getRandomInt()],
+          labels: [1,2,3,4],
           datasets: [
             {
               label: 'Data One',
+              lineTension: 0,
               backgroundColor: '#f87979',
-              data: [this.getRandomInt(), this.getRandomInt()]
-            }, {
-              label: 'Data One',
-              backgroundColor: '#f87979',
-              data: [this.getRandomInt(), this.getRandomInt()]
-            }
+              data: [
+                {
+                  x: this.getRandomInt(),
+                  y: this.getRandomInt()
+                },
+                {
+                  x: this.getRandomInt(),
+                  y: this.getRandomInt()
+                },
+                {
+                  x: this.getRandomInt(),
+                  y: this.getRandomInt()
+                },
+                {
+                  x: this.getRandomInt(),
+                  y: this.getRandomInt()
+                },
+              ]
+            },
           ]
         }
       }
