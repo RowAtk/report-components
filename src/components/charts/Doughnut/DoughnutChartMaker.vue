@@ -1,48 +1,55 @@
 <template>
   <div class="small">
-    <DoughnutChart :chartdata="datacollection" :options="options"></DoughnutChart>
+    <DoughnutChart
+      :chartdata="datacollection"
+      :options="options"
+    ></DoughnutChart>
     <!-- <button @click="fillData()">Randomize</button> -->
   </div>
 </template>
 
 <script>
-  import DoughnutChart from '@/components/charts/Doughnut/DoughnutChart.vue';
+import DoughnutChart from "@/components/charts/Doughnut/DoughnutChart.vue";
 
-  export default {
-    components: {
-      DoughnutChart
-    },
-    data () {
-      return {
-        datacollection: this.datacollection = {
-            labels: ["Food", "Clothes", "Bills"],
-            datasets: [
-                {
-                label: 'Data One',
-                // lineTension: 0,
-                backgroundColor: ['#55D310', '#AEF43F', '#121250'],
-                data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt()],
-                },
-            ]
+export default {
+  components: {
+    DoughnutChart,
+  },
+  data() {
+    return {
+      datacollection: (this.datacollection = {
+        labels: ["Food", "Clothes", "Bills"],
+        datasets: [
+          {
+            label: "Data One",
+            lineTension: 0,
+            backgroundColor: ["#3498DB", "#138D75", "#6C3483"],
+            data: [
+              this.getRandomInt(),
+              this.getRandomInt(),
+              this.getRandomInt(),
+            ],
+          },
+        ],
+      }),
+      options: (this.options = {
+        animation: {
+          animateScale: true,
         },
-        options: this.options = {
-            animation: {
-                animateScale: true
-            }
-        }
-      }
+      }),
+    };
+  },
+  methods: {
+    getRandomInt() {
+      return Math.floor(Math.random() * (50 - 5 + 1)) + 5;
     },
-    methods: {
-      getRandomInt () {
-        return Math.floor(Math.random() * (50 - 5 + 1)) + 5
-      }
-    }
-  }
+  },
+};
 </script>
 
 <style>
-  .small {
-    max-width: 600px;
-    margin:  150px auto;
-  }
+.small {
+  width: 200px;
+  margin: 20px auto;
+}
 </style>

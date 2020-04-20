@@ -7,7 +7,8 @@
 
 <script>
   import DoughnutChart from '@/components/charts/Doughnut/DoughnutChart.vue';
-  import { DoughnutData } from '@/components/charts/models.js'
+  // import DoughnutDataset from '@/components/charts/models.js'
+  import DoughnutDataset from './doughnut.js'
 
   export default {
     components: {
@@ -15,26 +16,33 @@
     },
     props: {
       title: String,
-      chartdata: DoughnutData,
-
+      chartdata: DoughnutDataset,
     },
     data () {
       return {
-        datacollection: this.datacollection = {
+        /* datacollection: this.datacollection = {
             labels: ["Food", "Clothes", "Bills"],
             datasets: [
                 {
-                label: 'Data One',
-                // lineTension: 0,
                 backgroundColor: ['#55D310', '#AEF43F', '#121250'],
                 data: [this.getRandomInt(), this.getRandomInt(), this.getRandomInt()],
                 },
             ]
+        }, */
+
+        datacollection: this.datacollection = {
+          labels: this.chartdata.labels,
+          datasets: [
+            {
+              backgroundColor: this.chartdata.colors,
+              data: this.chartdata.values
+            }
+          ]
         },
         options: this.options = {
-            animation: {
-                animateScale: true
-            }
+          animation: {
+              animateScale: true
+          }
         }
       }
     },
