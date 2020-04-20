@@ -3,6 +3,7 @@
     <LineChartMaker></LineChartMaker>
     <PieChartMaker></PieChartMaker>
     <DoughnutChartMaker></DoughnutChartMaker>
+    <MockDoughnutChartMaker></MockDoughnutChartMaker>
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import LineChartMaker from "@/components/charts/Line/LineChartMaker.vue";
 import PieChartMaker from "@/components/charts/Pie/PieChartMaker.vue";
 import DoughnutChartMaker from "@/components/charts/Doughnut/DoughnutChartMaker.vue";
+import MockDoughnutChartMaker from "@/components/charts/Doughnut/MockDoughnutChartMaker.vue";
 
 export default {
   name: 'App',
   components: {
     LineChartMaker,
     PieChartMaker,
-    DoughnutChartMaker
+    DoughnutChartMaker,
+    MockDoughnutChartMaker
   }
 }
 </script>
