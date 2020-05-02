@@ -1,5 +1,6 @@
 <template>
   <div class="small">
+    <h4>{{ title }}</h4>
     <DoughnutChart :chartdata="datacollection" :options="options"></DoughnutChart>
     <!-- <button @click="fillData()">Randomize</button> -->
   </div>

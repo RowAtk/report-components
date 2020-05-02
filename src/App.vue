@@ -218,27 +218,31 @@
       </div>
       <div class="right">
         <DoughnutChartMaker></DoughnutChartMaker>
-        <DoughnutChartMaker></DoughnutChartMaker>
-        <!-- <DoughnutChartMaker></DoughnutChartMaker> -->
-        <MockDoughnutChartMaker></MockDoughnutChartMaker>
+        <PieChartMaker></PieChartMaker>
+        <LineChartMaker></LineChartMaker>
+        <!-- <MockDoughnutChartMaker></MockDoughnutChartMaker> -->
       </div>
     </div>
+
+    <DoughnutChartMaker></DoughnutChartMaker>
+    <PieChartMaker></PieChartMaker>
+    <LineChartMaker></LineChartMaker>
   </div>
 </template>
 
 <script>
 import DoughnutChartMaker from "@/components/charts/Doughnut/DoughnutChartMaker.vue";
-import MockDoughnutChartMaker from "@/components/charts/Doughnut/MockDoughnutChartMaker.vue";
-// import LineChartMaker from "@/components/charts/Line/LineChartMaker.vue";
-// import PieChartMaker from "@/components/charts/Pie/PieChartMaker.vue";
+// import MockDoughnutChartMaker from "@/components/charts/Doughnut/MockDoughnutChartMaker.vue";
+import LineChartMaker from "@/components/charts/Line/LineChartMaker.vue";
+import PieChartMaker from "@/components/charts/Pie/PieChartMaker.vue";
 
 export default {
   name: "App",
   components: {
-    // LineChartMaker,
-    // PieChartMaker,
+    LineChartMaker,
+    PieChartMaker,
     DoughnutChartMaker,
-    MockDoughnutChartMaker
+    // MockDoughnutChartMaker
   }
 }
 </script>

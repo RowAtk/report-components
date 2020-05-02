@@ -23,6 +23,7 @@ export default {
           {
             label: "Data One",
             lineTension: 0,
+            circumference: Math.PI,
             backgroundColor: ["#3498DB", "#138D75", "#6C3483"],
             data: [
               this.getRandomInt(),

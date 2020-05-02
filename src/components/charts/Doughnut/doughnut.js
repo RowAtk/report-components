@@ -39,12 +39,20 @@ export class DoughnutDataset {
     get colors(){
         let color_list = []
         this.data.forEach(part => {
-            color_list.push
+            color_list.push(part.color)
         })
+
+        return color_list
     }
 
     get datasets() {
-
+        return {
+            labels: this.labels,
+            datasets: {
+                backgroundColor: this.colors,
+                data: this.data
+            }
+        }
     }
 }
 
