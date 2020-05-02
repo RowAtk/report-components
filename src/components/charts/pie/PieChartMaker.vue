@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import PieChart from '@/components/charts/Pie/PieChart.vue';
+  import PieChart from '@/components/charts/pie/PieChart.vue';
 
   export default {
     components: {

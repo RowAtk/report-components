@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import LineChart from '@/components/charts/Line/LineChart.vue';
+  import LineChart from '@/components/charts/line/LineChart.vue';
 
   export default {
     components: {
