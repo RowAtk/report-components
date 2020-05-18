@@ -1,6 +1,6 @@
 <template>
     <div>
-        <!-- rdynamically render components based on type specified in configuration -->
+        <!-- dynamically render components based on type specified in configuration -->
         <component
             :is="compchoice"
             v-if="compchoice"
@@ -17,7 +17,8 @@ export default {
             compchoice: null, // actual component to be rendered
             cregister: {
                 // register to map config component types to component filenames on vue
-                "doughnut": "DoughnutChartMaker"
+                "doughnut": "DoughnutChartMaker",
+                "line": "LineChartMaker"
             }
         }
     },
