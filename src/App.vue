@@ -600,7 +600,7 @@ export default {
     DoughnutChart,
     Row
   },
-  data() {
+   data() {
     return {
       sexdist: (this.sexdist = {
         labels: ["Male", "Female"],
