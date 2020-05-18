@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <Row 
+      :w1="75" 
+      :w2="25"
+    />
     <section class="access">
       <div class="container">
         <div class="row">
@@ -294,7 +298,7 @@
                   <DoughnutChart
                     :chartdata="studylevel"
                     :options="studyleveloptions"
-                  ></DoughnutChart>
+                  ></DoughnutChart> 
                 </div>
               </div>
               <div class="c">
@@ -589,10 +593,12 @@
 
 <script>
 import DoughnutChart from "@/components/charts/Doughnut/DoughnutChart.vue";
+import Row from '@/components/Row.vue'
 export default {
   name: "App",
   components: {
     DoughnutChart,
+    Row
   },
   data() {
     return {
