@@ -8,7 +8,7 @@
             "group": "charts",
             "type" : "doughnut",
             "align": "left",
-            "size": 75,
+            "size": 50,
             "config": {
               "properties": {
                 "labels": ["Male", "Female"],
@@ -32,7 +32,7 @@
             "group": "charts",
             "type" : "doughnut",
             "align": "right",
-            "size": 25,
+            "size": 50,
             "config": {
               "properties": {
                 "labels": ["Postgraduate", "Undergraduate"],

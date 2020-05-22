@@ -1,13 +1,12 @@
 <template>
   <div>
-    {{ class1 }}
-    <div class="d-flex p-4" v-if="data">
-      <div :class="class1">
+    <div class="d-flex p-4" v-if="comp1 || comp2">
+      <div :class="class1" v-if="comp1">
         <RComponent :data="comp1"/>
         COMP1
       </div>
 
-      <div :class="class2" v-if="class2">
+      <div :class="class2" v-if="comp2">
         <RComponent :data="comp2"/>
         COMP2
       </div>
@@ -32,30 +31,33 @@ export default {
     }
   },
   mounted () {
-    const len = data.length
-    if (data[0].align == 'left' || data[0].align == 'full') {
-      this.comp1 = data[0]
-      this.comp2 = len === 2 && data[0].align == 'full' ? data[1] : null
+    console.log(this.data)
+    const len = this.data.length
+    if (this.data[0].align == 'left' || this.data[0].align == 'full') {
+      this.comp1 = this.data[0]
+      this.comp2 = len === 2 && this.data[0].align != 'full' ? this.data[1] : null
 
     } else {
-      this.comp2 = 
+      this.comp2 = this.data[0]
+      this.comp1 = len === 2 && this.data[1].align == 'right' ? this.data[1] : null
     }
-
-    this.comp2 = len === 2 ? data[1] : null
+    console.log("COMP1", this.comp1)
+    console.log("COMP2", this.comp2)
   },
   computed: {
-    get class1 () {
+    class1 () {
+      const width = this.comp1.align == 'full' ? '100' : this.comp1.size ? this.comp1.size : '0'
       const classes = [
         'row-item',
-        'w-' + this.comp1.,
-        ''
+        'w-' + width
       ];
       return classes.join(' ')
     },
-    get class2 () {
+    class2 () {
+      const width = this.comp2.align == 'full' ? '100' : this.comp2.size ? this.comp2.size : '0'
       const classes = [
         'row-item',
-        'w-' + this.w2
+        'w-' + width
       ];
       return classes.join(' ')
     }

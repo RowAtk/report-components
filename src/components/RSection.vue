@@ -33,8 +33,9 @@ export default {
         }
     },
     mounted() {
+        console.log(this.data)
         this.title = this.data.section
-        this.components = this.data.components
+        // this.components = this.data.components
         // console.log(this.components)
         // let data = JSON.parse(JSON.stringify(this.data))
         // console.log("SECTION DATA")
