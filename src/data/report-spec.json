@@ -1,0 +1,90 @@
+{
+  "report": [
+    {
+      "section": "oneuwi",
+      "components": [
+        {
+          "group": "charts",
+          "type": "doughnut",
+          "config": {
+            "properties": {
+              "labels": ["Male", "Female"],
+              "datasets": [
+                {
+                  "label": "Sex Distribution",
+                  "lineTension": 0,
+                  "backgroundColor": ["#2B2D42", "#3F78BD"],
+                  "data": [31, 69]
+                }
+              ]
+            },
+            "options": {
+              "animation": {
+                "animateScale": true
+              }
+            }
+          }
+        },
+        {
+          "group": "charts",
+          "type": "doughnut",
+          "config": {
+            "properties": {
+              "labels": ["Postgraduate", "Undergraduate"],
+              "datasets": [
+                {
+                  "label": "Level Of Study",
+                  "lineTension": 0,
+                  "data": [18, 82]
+                }
+              ]
+            },
+            "options": {
+              "animation": {
+                "animateScale": true
+              },
+              "circumference": 3.14,
+              "rotation": 3.14
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "section": "line graphs",
+      "components": [
+        {
+          "group": "charts",
+          "type": "line",
+          "config": {
+            "properties": {
+              "labels": ["January", "February", "March"],
+              "datasets": [
+                {
+                  "backgroundColor": "#f87979",
+                  "label": "DS 1",
+                  "data": [
+                    { "x": "January", "y": 20 },
+                    { "x": "February", "y": 10 },
+                    { "x": "March", "y": 35 }
+                  ]
+                },
+                {
+                  "backgroundColor": "#ffffff",
+                  "label": "DS 2",
+                  "data": [
+                    { "x": "January", "y": 30 },
+                    { "x": "February", "y": 17 },
+                    { "x": "March", "y": 60 }
+                  ]
+                }
+              ]
+            },
+            "options": {}
+          }
+        }
+      ]
+    }
+  ]
+}
