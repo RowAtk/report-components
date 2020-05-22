@@ -16,7 +16,7 @@ export default {
   components: {
     DoughnutChart,
   },
-  props: ["uconfig"], // user defined properties
+  props: ["data"], // user defined properties
   data() {
     return {
       chartdata: {
@@ -33,7 +33,7 @@ export default {
   },
   mounted() {
     console.log("USER CONFIG")
-    console.log(this.uconfig)
+    console.log(this.data)
   },
   methods: {
     getRandomInt() {
@@ -45,7 +45,7 @@ export default {
      * @return {Object} merged chartdata object for chart
      */
     mergeProps() {
-      let mp = merge(this.chartdata, this.uconfig.properties)
+      let mp = merge(this.chartdata, this.data.properties)
       console.log("MERGED")
       console.log(mp)
       return mp
@@ -57,7 +57,7 @@ export default {
      */
     mergeOptions() {
 
-      return merge(this.options, this.uconfig.options)
+      return merge(this.options, this.data.options)
     }
   },
 };

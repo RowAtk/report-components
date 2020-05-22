@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="responsive">
     <div class="d-flex p-4" v-if="comp1 || comp2">
-      <div :class="class1" v-if="comp1">
-        <RComponent :data="comp1"/>
+      <div :class="class1">
+        <RComponent :data="comp1" v-if="comp1"/>
         COMP1
       </div>
 
@@ -46,7 +46,8 @@ export default {
   },
   computed: {
     class1 () {
-      const width = this.comp1.align == 'full' ? '100' : this.comp1.size ? this.comp1.size : '0'
+      const width = this.comp1.align == 'full' ? '100' : this.comp1.size ? this.comp1.size : this.comp2.size ? toString(100 - parseInt(this.comp2.size)) : '0'
+      console.log(width)
       const classes = [
         'row-item',
         'w-' + width
@@ -68,5 +69,9 @@ export default {
 <style scoped>
 .row-item {
   justify-content:end;
+}
+
+.responsive {
+
 }
 </style>

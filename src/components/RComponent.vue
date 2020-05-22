@@ -1,10 +1,10 @@
 <template>
-    <div>
+    <div >
         <!-- dynamically render components based on type specified in configuration -->
         <component
             :is="compchoice"
             v-if="compchoice"
-            :uconfig="data.config"
+            :data="data.config"
         ></component>
     </div>
 </template>
@@ -18,7 +18,11 @@ export default {
             cregister: {
                 // register to map config component types to component filenames on vue
                 "doughnut": "DoughnutChartMaker",
-                "line": "LineChartMaker"
+                "line": "LineChartMaker",
+                'callout': 'callout',
+                'paragraph': 'paragraph',
+                'stacked': 'paragraph-stacked',
+                'table': 'table'
             }
         }
     },
@@ -52,5 +56,11 @@ export default {
 </script>
 
 <style scoped>
+
+
+
+
+
+
 
 </style>

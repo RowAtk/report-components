@@ -40,5 +40,7 @@ export default {
 </script>
 
 <style scoped>
-
+.access > div {
+    
+}
 </style>
