@@ -1,22 +1,30 @@
 <template>
     <div>
         {{ title }}
+        <!-- Render all rows in section -->
+        <Row
+            v-for="(row, index) in data.rows"
+            :key="index"
+            :data="row"
+        />
         <!-- render all components in a section based on configuration object -->
-        <RComponent
+        <!-- <RComponent
             v-for="(component, index) in data.components"
             :key="index"
             :data="component"
         >
-        </RComponent>
+        </RComponent> -->
         
     </div>
 </template>
 
 <script>
-import RComponent from "@/components/RComponent.vue"
+import Row from '@/components/Row.vue'
+// import RComponent from "@/components/RComponent.vue"
 export default {
     components: {
-        RComponent
+        Row,
+        // RComponent
     },
     props: ["data"],
     data() {

@@ -5,6 +5,20 @@
       "rows" : [
         [
           {
+            "group": "texts",
+            "type": "paragraph",
+            "align": "left",
+            "size": 75,
+            "data": [
+              "p1",
+              "p2",
+              "p3"
+            ]
+          },
+          {
+            // callouts
+          },
+          {
             "group": "charts",
             "type" : "doughnut",
             "align": "left",
