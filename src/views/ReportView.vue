@@ -7,13 +7,12 @@
             :data="section"
         >
         </RSection>
-        
     </div>
 </template>
 
 <script>
 import RSection from "@/components/RSection.vue"
-import reportdata from "@/data/report-spec.json" // configuration object from json file 
+import reportdata from "@/data/report-spec-RA.json" // configuration object from json file 
 
 export default {
     components: {
