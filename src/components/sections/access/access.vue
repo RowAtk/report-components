@@ -31,7 +31,7 @@ import reportdata from "@/data/report-spec.json";
 // import DoughnutChart from "@/components/charts/Doughnut/DoughnutChart.vue";
 import ParagraphText from "@/components/texts/paragraph/paragraph.vue";
 import Callout from "@/components/texts/callout/callout.vue";
-import RTable from "@/components/table/table.vue";
+import RTable from "@/components/tables/table/table.vue";
 // import CaptionImage from "@/components/images/caption-image/caption-image.vue";
 export default {
   name: "Access",

@@ -1,8 +1,8 @@
 <template>
   <div class="Captions-wrapper">
     <i
-      ><p v-for="text in ptext" :key="text.data">
-        {{ text.data }}
+      ><p v-for="(text, index) in data.texts" :key="index">
+        {{ text }}
       </p></i
     >
   </div>
@@ -11,7 +11,7 @@
 <script>
 export default {
   name: "CaptionsText",
-  props: ["ptext"],
+  props: ["data"],
 };
 </script>
 
