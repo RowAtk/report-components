@@ -1,13 +1,21 @@
 <template>
   <div class="responsive">
-    <div class="d-flex p-4" v-if="comp1 || comp2">
+    <div class="d-flex p-2" v-if="comp1 || comp2">
       <div :class="class1">
-        <RComponent :data="comp1" v-if="comp1"/>
+        <RComponent 
+          v-for="(comp, index) in comp1.components || []"
+          :key="index"
+          :data="comp"
+        />
         COMP1
       </div>
 
       <div :class="class2" v-if="comp2">
-        <RComponent :data="comp2"/>
+        <RComponent 
+          v-for="(comp, index) in comp2.components || []"
+          :key="index"
+          :data="comp"
+        />
         COMP2
       </div>
 
@@ -21,9 +29,7 @@ export default {
   components: {
     RComponent
   },
-  props: {
-    data : Array
-  },
+  props: ['data'],
   data () {
     return {
       comp1: null,
@@ -31,34 +37,24 @@ export default {
     }
   },
   mounted () {
-    console.log(this.data)
-    const len = this.data.length
-    if (this.data[0].align == 'left' || this.data[0].align == 'full') {
-      this.comp1 = this.data[0]
-      this.comp2 = len === 2 && this.data[0].align != 'full' ? this.data[1] : null
-
-    } else {
-      this.comp2 = this.data[0]
-      this.comp1 = len === 2 && this.data[1].align == 'right' ? this.data[1] : null
-    }
-    console.log("COMP1", this.comp1)
-    console.log("COMP2", this.comp2)
+    console.log("ROW: ",this.data)
+    this.comp1 = this.data.left
+    this.comp2 = this.data.right
   },
   computed: {
     class1 () {
-      const width = this.comp1.align == 'full' ? '100' : this.comp1.size ? this.comp1.size : this.comp2.size ? toString(100 - parseInt(this.comp2.size)) : '0'
-      console.log(width)
+      const width = this.comp1.size ? this.comp1.size : this.comp2.size ? 100 - this.comp2.size : 0
       const classes = [
         'row-item',
-        'w-' + width
+        'w-' + width.toString()
       ];
       return classes.join(' ')
     },
     class2 () {
-      const width = this.comp2.align == 'full' ? '100' : this.comp2.size ? this.comp2.size : '0'
+      const width = this.comp2.size ? this.comp2.size : this.comp1.size ? 100 - this.comp1.size : 0
       const classes = [
         'row-item',
-        'w-' + width
+        'w-' + width.toString()
       ];
       return classes.join(' ')
     }
@@ -69,9 +65,5 @@ export default {
 <style scoped>
 .row-item {
   justify-content:end;
-}
-
-.responsive {
-
 }
 </style>
