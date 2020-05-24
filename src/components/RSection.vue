@@ -33,13 +33,13 @@ export default {
         }
     },
     mounted() {
-        console.log(this.data)
+        // console.log(this.data)
         this.title = this.data.section
         // this.components = this.data.components
         // console.log(this.components)
         // let data = JSON.parse(JSON.stringify(this.data))
         // console.log("SECTION DATA")
-        console.log(this.data)
+        // console.log(this.data)
         // this.title = data
         // console.log(this.data)
     },

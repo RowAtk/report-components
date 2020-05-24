@@ -1,5 +1,5 @@
 <template>
-    <div >
+    <div class="mb-5 p-3">
         <!-- dynamically render components based on type specified in configuration -->
         <component
             :is="compchoice"
@@ -10,6 +10,7 @@
 </template>
 
 <script>
+// const complist = !Array.isArray(this.data) && typeof this.data == "object" ? [this.data] : this.data
 export default {
     props: ["data"],
     data() {
@@ -31,10 +32,8 @@ export default {
         console.log(this.data.config)
         // extract component group (name of component folder eg. charts, text, images)
         let group = this.data.group 
-
         // extract specific type belonging to group (Eg. doughnut(chart), line(chart), paragraph(text), testimony(text))
         let type = this.data.type 
-
         // get filename based on type using cregister
         let name = this.cname(this.data.type)
         
@@ -56,11 +55,4 @@ export default {
 </script>
 
 <style scoped>
-
-
-
-
-
-
-
 </style>
