@@ -1,6 +1,7 @@
 <template>
     <div>
-        {{ title }}
+        <Level2 v-if="title" :data="title" />
+        <!-- {{ title }} -->
         <!-- Render all rows in section -->
         <Row
             v-for="(row, index) in data.rows"
@@ -20,11 +21,12 @@
 
 <script>
 import Row from '@/components/Row.vue'
-// import RComponent from "@/components/RComponent.vue"
+import Level2 from '@/components/texts/headers/level2.vue'
+
 export default {
     components: {
         Row,
-        // RComponent
+        Level2
     },
     props: ["data"],
     data() {
@@ -33,15 +35,7 @@ export default {
         }
     },
     mounted() {
-        // console.log(this.data)
         this.title = this.data.section
-        // this.components = this.data.components
-        // console.log(this.components)
-        // let data = JSON.parse(JSON.stringify(this.data))
-        // console.log("SECTION DATA")
-        // console.log(this.data)
-        // this.title = data
-        // console.log(this.data)
     },
     methods: {
 

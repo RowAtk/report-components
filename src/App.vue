@@ -7,20 +7,13 @@
 <script>
 // import Access from "@/components/sections/access/access.vue";
 import ReportView from '@/views/ReportView.vue';
-import ReportData from "@/data/report-spec.json";
 
 export default {
   name: "App",
   components: {
     // Access,
     ReportView
-  },
-
-  data() {
-    return {
-      rdata: ReportData.report[0].section,
-    };
-  },
+  }
 };
 </script>
 

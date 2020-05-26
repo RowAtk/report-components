@@ -1,5 +1,6 @@
 <template>
-  <div class="responsive">
+  <div class="border border- border-dark">
+    <Header v-if="data.header" :data="data.header" />
     <div class="d-flex p-2" v-if="comp1 || comp2">
       <div :class="class1">
         <RComponent 
@@ -7,16 +8,16 @@
           :key="index"
           :data="comp"
         />
-        COMP1
+        <div class="d-block block bg-info text-dark">COMP1</div>
       </div>
 
-      <div :class="class2" v-if="comp2">
+      <div :class="class2" v-if="comp2">  
         <RComponent 
           v-for="(comp, index) in comp2.components || []"
           :key="index"
           :data="comp"
         />
-        COMP2
+        <div class="d-block block bg-info text-dark">COMP2</div>
       </div>
 
     </div>
@@ -24,9 +25,11 @@
 </template>
 
 <script>
+import Header from '@/components/texts/header/header.vue'
 import RComponent from '@/components/RComponent.vue'
 export default {
   components: {
+    Header,
     RComponent
   },
   props: ['data'],
@@ -38,8 +41,8 @@ export default {
   },
   mounted () {
     console.log("ROW: ",this.data)
-    this.comp1 = this.data.left
-    this.comp2 = this.data.right
+    this.comp1 = this.data.left || {}
+    this.comp2 = this.data.right || {}
   },
   computed: {
     class1 () {

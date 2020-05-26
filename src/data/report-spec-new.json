@@ -87,6 +87,10 @@
       "section": "shak",
       "rows": [
         {
+          "header":{
+              "level": 2,
+              "text": "To be the University of First Choice"
+          },
           "left":{
             "size":50,
             "components":[
@@ -122,7 +126,7 @@
           }
         },
         {
-          "left":{
+          "right":{
             "size":50,
             "components":[
               {
