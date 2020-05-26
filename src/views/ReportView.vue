@@ -24,6 +24,9 @@ export default {
         }
     },
     mounted() {
+        console.log(reportconfig)
+        // const y = YAML.safeLoad()
+        // console.log(y)
         // reportdata.then((s) => {console.log(s)})
         // console.log(reportdata)
     },

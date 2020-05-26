@@ -1,5 +1,5 @@
 <template>
-    <div class="mb-5 p-3">
+    <div class="p-3">
         <!-- dynamically render components based on type specified in configuration -->
         <component
             :is="compchoice"
@@ -23,7 +23,9 @@ export default {
                 'callout': 'callout',
                 'paragraph': 'paragraph',
                 'stacked': 'paragraph-stacked',
-                'table': 'table'
+                'table': 'table',
+                'header': 'header',
+                'bullet': 'bullet'
             }
         }
     },

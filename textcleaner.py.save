@@ -1,0 +1,14 @@
+
+
+blacklist = ["\n"]
+exceptions = ["\n\n"]
+
+def textcleaner(text):
+	for occ in []:
+		print("hello")
+
+
+for i in re.finditer(r"\n", "klgfgf\njfd\n"):
+	print(i.start())
+
+
