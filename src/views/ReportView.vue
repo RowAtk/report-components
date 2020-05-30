@@ -12,7 +12,7 @@
 
 <script>
 import RSection from "@/components/RSection.vue"
-import reportdata from "@/data/report-spec-RA.json" // configuration object from json file 
+import reportdata from "@/data/report-spec-new.json" // configuration object from json file 
 
 export default {
     components: {
@@ -24,6 +24,9 @@ export default {
         }
     },
     mounted() {
+        console.log(reportconfig)
+        // const y = YAML.safeLoad()
+        // console.log(y)
         // reportdata.then((s) => {console.log(s)})
         // console.log(reportdata)
     },
