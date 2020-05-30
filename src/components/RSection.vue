@@ -21,7 +21,7 @@
 
 <script>
 import Row from '@/components/Row.vue'
-import Level2 from '@/components/texts/headers/level2.vue'
+import Level2 from '@/components/texts/header/level2.vue'
 
 export default {
     components: {
