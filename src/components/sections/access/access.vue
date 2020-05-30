@@ -3,30 +3,32 @@
     <div class="row ">
       <div class="col-lg d-flex align-items-center justify-content-center">
         <div class="row">
-          <ParagraphText :ptext="pdata1"> </ParagraphText>
-          <ParagraphText :ptext="pdata2"> </ParagraphText>
-          <ParagraphText :ptext="pdata3"> </ParagraphText>
+          <ParagraphText :data="pdata1"> </ParagraphText>
+          <ParagraphText :data="pdata2"> </ParagraphText>
+          <ParagraphText :data="pdata3"> </ParagraphText>
         </div>
       </div>
       <div class="col-lg-5 d-flex align-items-center justify-content-center">
         <div class="row d-flex justify-content-center">
-          <Callout :ptext="pdata4"> </Callout>
+          <Title :data="title" />
+          <Callout :data="pdata4"> </Callout>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col">
-        <RTable :thead="tdata.headers" :trow="tdata.rows" />
+        <RTable :data="tdata" />
       </div>
       <div class="col-lg">
-        <ParagraphText :ptext="pdata1"> </ParagraphText>
-        <ParagraphText :ptext="pdata1"> </ParagraphText>
+        <ParagraphText :data="pdata1"> </ParagraphText>
+        <ParagraphText :data="pdata1"> </ParagraphText>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Title from "@/components/texts/title/title.vue";
 import reportdata from "@/data/report-spec.json";
 // import DoughnutChart from "@/components/charts/Doughnut/DoughnutChart.vue";
 import ParagraphText from "@/components/texts/paragraph/paragraph.vue";
@@ -40,12 +42,16 @@ export default {
     ParagraphText,
     Callout,
     RTable,
+    Title,
     // CaptionImage,
   },
   props: ["test"],
   data() {
     return {
-      pcaption: `Research affiliates and industry partners`,
+      title: {
+        class: "caption-header",
+        text: "Further Expansion of the Mona Western Jamaica Campus",
+      },
       rdata: reportdata,
       tdata: {
         headers: [
