@@ -1,8 +1,8 @@
 <template>
   <div class="Captions-wrapper" v-if="data">
     <i
-      ><p v-for="(text, index) in data.texts" :key="index">
-        {{ text }}
+      ><p v-for="(text, index) in data" :key="index">
+        {{ text.data }}
       </p></i
     >
   </div>
