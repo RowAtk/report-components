@@ -1,15 +1,15 @@
 {
-  "report" : [
+  "report": [
     {
-      "section" : "access",
-      "rows" : [
+      "section": "Access",
+      "rows": [
         {
           "left": {
-            "size":50,
+            "size": 50,
             "components": [
               {
                 "group": "charts",
-                "type" : "doughnut",
+                "type": "doughnut",
                 "config": {
                   "properties": {
                     "labels": ["Male", "Female"],
@@ -20,7 +20,7 @@
                         "backgroundColor": ["#2B2D42", "#3F78BD"],
                         "data": [31, 69]
                       }
-                    ]            
+                    ]
                   },
                   "options": {
                     "animation": {
@@ -31,7 +31,7 @@
               },
               {
                 "group": "charts",
-                "type" : "doughnut",
+                "type": "doughnut",
                 "config": {
                   "properties": {
                     "labels": ["Male", "Female"],
@@ -42,7 +42,7 @@
                         "backgroundColor": ["#2B2D42", "#3F78BD"],
                         "data": [31, 69]
                       }
-                    ]            
+                    ]
                   },
                   "options": {
                     "animation": {
@@ -54,11 +54,11 @@
             ]
           },
           "right": {
-            "size":50,
-            "components":[
+            "size": 50,
+            "components": [
               {
                 "group": "charts",
-                "type" : "doughnut",
+                "type": "doughnut",
                 "config": {
                   "properties": {
                     "labels": ["Male", "Female"],
@@ -69,7 +69,7 @@
                         "backgroundColor": ["#2B2D42", "#3F78BD"],
                         "data": [31, 69]
                       }
-                    ]            
+                    ]
                   },
                   "options": {
                     "animation": {
@@ -82,21 +82,21 @@
           }
         }
       ]
-    },     
+    },
     {
       "section": "shak",
       "rows": [
         {
-          "header":{
-              "level": 2,
-              "text": "To be the University of First Choice"
+          "header": {
+            "level": 2,
+            "text": "To be the University of First Choice"
           },
-          "left":{
-            "size":50,
-            "components":[
+          "left": {
+            "size": 50,
+            "components": [
               {
                 "group": "texts",
-                "type" : "stacked",
+                "type": "stacked",
                 "config": {
                   "texts": [
                     "Standing tall in our vision is the hope that the Mona Campus must be the preferred choice for the many communities we serve: students, neighbours, research affiliates and industry partners; and that government and civil society leaders see us as a major resource for supporting policy and socio-economic development initiatives. ",
@@ -108,11 +108,11 @@
             ]
           },
           "right": {
-            "size":50,
-            "components":[
+            "size": 50,
+            "components": [
               {
                 "group": "texts",
-                "type" : "callout",
+                "type": "callout",
                 "config": {
                   "texts": [
                     "On Friday, March 22, 2019, a Ground Breaking Ceremony was held on Barnett site in Montego Bay to signal the start of construction of the new Mona Western Jamaica Campus. ",
@@ -126,12 +126,12 @@
           }
         },
         {
-          "right":{
-            "size":50,
-            "components":[
+          "right": {
+            "size": 50,
+            "components": [
               {
                 "group": "tables",
-                "type" : "table",
+                "type": "table",
                 "config": {
                   "headers": [
                     {
