@@ -1,13 +1,13 @@
 <template>
-    <div>
-        <!-- Rendering of list ofsections from configuration object -->
-        <RSection 
-            v-for="(section, index) in parsedData()"
-            :key="index"
-            :data="section"
-        >
-        </RSection>
-    </div>
+  <div>
+    <!-- Rendering of list ofsections from configuration object -->
+    <RSection
+      v-for="(section, index) in parsedData()"
+      :key="index"
+      :data="section"
+    >
+    </RSection>
+  </div>
 </template>
 
 <script>
@@ -15,8 +15,28 @@ import RSection from "@/components/RSection.vue"
 import reportdata from "@/data/agility.json" // configuration object from json file 
 
 export default {
-    components: {
-        RSection
+  components: {
+    RSection,
+  },
+  data() {
+    return {
+      rsections: reportdata,
+    };
+  },
+  mounted() {
+    // console.log(reportconfig)
+    // const y = YAML.safeLoad()
+    // console.log(y)
+    // reportdata.then((s) => {console.log(s)})
+    // console.log(reportdata)
+  },
+  methods: {
+    /**
+     * parse data from reactive config object
+     */
+    parsedData() {
+      let spec = JSON.parse(JSON.stringify(this.rsections));
+      return spec.report;
     },
     data() {
         return {
@@ -29,21 +49,12 @@ export default {
         // console.log(y)
         // reportdata.then((s) => {console.log(s)})
         // console.log(reportdata)
-    },
-    methods: {
-        /**
-         * parse data from reactive config object
-         */
-        parsedData() {
-            let spec = JSON.parse(JSON.stringify(this.rsections))
-            return spec.report
-        }
     }
+  }
 }
 </script>
 
 <style scoped>
 .access > div {
-    
 }
 </style>
