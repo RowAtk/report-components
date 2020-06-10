@@ -4,7 +4,7 @@
     <div class="caption-wrapper">
       <i
         ><h3 class="caption">
-          {{ caption }}
+          {{ data.caption }}
         </h3></i
       >
     </div>
@@ -14,7 +14,7 @@
 <script>
 export default {
   name: "ImageCaption",
-  props: ["caption"],
+  props: ["data"],
 };
 </script>
 

@@ -1,0 +1,223 @@
+{
+  "report" : [
+    {
+      "header": "Agility",
+      "subheader": "More Proactive, More Responsive",
+      "rows": [
+        {
+          "left": {
+            "size": 100,
+            "components":[
+              {
+                "group": "contents",
+                "type": "list",
+                "config": {
+                  "header": "5. SUSTAINABLE FINANCIAL HEALTH",
+                  "contents": [
+                    "Realizing Cost Savings",  
+                    "Diversifying the Revenue Base",   
+                    "Public Private Partnerships",   
+                    "Our Financial Status"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "Realizing Cost Savings"
+          },
+          "left":{
+            "size": 75,
+            "components":[
+              {
+                "group": "texts",
+                "type": "stacked",
+                "config":{
+                  "texts": [
+                    "In an era of fiscal restraint and reduced government funding, the long-term viability of The UWI  can no longer rely solely on subventions and tuition fees to fund its operations. We  have accelerated our strategic partnerships with local, regional, and international agencies,  and continued with the recent past initiatives in refining the new business model. This agile thinking has informed the efforts made in 2018/2019 to improve our financial health.",
+                    "Financial gains are earned by a reduction in expenditures. All departments were urged to consider ways in which they would reduce costs to the budget and create more savings. SALISES was able to reduce spending by purchasing airline tickets directly online, reviewing and streaming existing service contracts for cost effectiveness and potential by engaging students during the summer to replace staff on leave. CARIMAC reduced hospitality costs by placing vending machines in the Main Building and Annex 2. Moving to a paperless system, they also reduced printing costs by digitizing the annual CARIMAC Times magazine and using QR Scan codes for orientation and other material. The CARIMAC Times (now CARIMAC Digitimes) and orientation material are now available electronically. CARIMAC also reduced expenditures in advertising in print media by promoting programmes and short courses by exploiting social media such as Facebook and Instagram. Social media is one of the primary ways in which information flows are now received and circulated."
+                  ]
+                }
+              }
+            ]            
+          },
+          "right":{
+            "components":[
+              {
+                "group": "images",
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level":4,
+            "text": "Diversifying the Revenue Base"
+          },
+          "left":{
+            "size":50,
+            "components":[
+              {
+                "group": "texts",
+                "type":"stacked",
+                "config": {
+                  "texts": [
+                    "During the previous academic year, The UWI made strides in becoming an income-generating enterprise. In October of 2018, a number of labs received accreditation status inclusive of the Chemical Pathology, Haematology, Cytology and Flow Cytometry Laboratories. Accreditation will assist in attracting international research grants and participation in clinical trials. Mrs. Sandra Hing, a Molecular Geneticist from the United Kingdom, offered instruction on new techniques at the Cytogenetics Laboratory in the Department of Pathology. These techniques will result in increased clinical service and income generation and will enable staff to undertake more impactful research.",
+                    "In an effort to commercialize research, the Dermatology Group, within the Department of Medicine, began a pilot randomized controlled clinical trial to evaluate the efficacy of a novel cream, Keloflat,® in the treatment of pathologic scarring.  If successful, the product will  yield benefits for the University’s reputation and  its economic health.",
+                    "During the previous academic year, the Mona Geoinformatics Institute (MGI) continued to diversify its operations, with an increasing number of projects in the Eastern Caribbean. These included an additional sixteen (16) projects across six (6) countries, with partners comprising IMC Inc., Goldsmiths College, University of South Hampshire and University of York (all UK); as well as DE Design+Environment (Canada). Target beneficiaries of these grants include the governments of Antigua, Guyana, British Virgin Islands, Saint Lucia, Jamaica and Dominica; and the Eastern Caribbean States as a sub-region.  New projects since 2018   will yield a total revenue of USD$ 2.6 million over the next few years. These projects all address critical regional and global issues related to climate change, applying GIS modeling capabilities to effect practical and policy"
+                  ]
+                }
+              }
+            ]
+          },
+          "right":{
+            "size":50,
+            "components":[
+              {
+                "group": "texts",
+                "type":"stacked",
+                "config": {
+                  "texts": [
+                    "solutions across different sectors of host countries’ societies. Providing access to technology, data and information and gaining revenues are pivotal outcomes of these projects with the added advantage of generating empirical evidence that allows for the generation of suitable policies. ",
+                    "The Mona Library primarily through the Reprographic Services Unit (RESU), and rental from its Multifunctional Room, generated income for the Library and the Campus. The year under review saw RESU generating a profit of JMD$ 9,510,701.27 an increase of over two (2) million dollars compared to last year.  Income generated by the Multifunctional Room showed a slight increase, which allowed for necessary renovations to be carried out during the year. ",
+                    "Two (2) other examples of our diversification attempts are useful in demonstrating how the Mona Campus has sought to commercialize services for income generation. The Energy Management Unit within Mona Tech Engineering Services submitted a proposal to the Petroleum Corporation of Jamaica for bulb crushing services to government buildings island wide. The focus of the project is on removing mercury from fluorescent bulbs before disposing the glass and other fragments; the mercury will be safely stored and eventually shipped overseas in accordance with international guidelines. The proposal was accepted and is expected to bring in revenue of JMD$ 16 million.",
+                    "The Human Resource Development Unit within the Department of Sociology, Psychology and Social Work developed a consultancy to market its courseware and psychometric testing services; The UWI’s legal team is currently advising on how best to preserve our patents on the open market for this new set of services being offered by The UWI. "
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header":{
+            "level":4,
+            "text": "The Business Development Office"
+          },
+          "left":{
+            "size":50,
+            "components":[
+              {
+                "group": "texts",
+                "type":"stacked",
+                "config": {
+                  "texts": [
+                    "For the 2018/2019 academic year, the Business Development Office (BDO) undertook several projects related to the core functions of the BDO. These included increasing the revenue base of the University; providing financial assistance to deserving students through third-party partnerships; and enhancing and promoting The UWI brand through tours and partnerships. The BDO generated revenues of nearly JMD$ 80 million over the 2018/2019 reporting period."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components":[
+              {
+                "group": "charts",
+                "type": "doughnut",
+                "config": {
+                  "title": "Breakdown of 2018/2019 Revenues Generated by the BDO from Leasehold & Other Sources",
+                  "properties": {
+                    "labels": ["Financial Services", "Food Services", "Communication Services", "Other"],
+                    "datasets": [
+                      {
+                        "data": [11, 48, 36, 5]
+                      }
+                    ]            
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header":{
+            "level": 4,
+            "text": "Public Private Partnerships (PPPs)"
+          },
+          "left":{
+            "size":50,
+            "components":[
+              {
+                "group": "texts",
+                "type":"stacked",
+                "config": {
+                  "texts": [
+                    "Recognizing the importance of Public Private Partnerships to the financial health of the Campus, the Mona Campus in 2018 formally established a PPP Unit to manage and provide necessary oversight to the development, implementation, management and operation of relevant contractual agreements at the Mona Campus. The role of the PPP Unit also extends beyond the management of the agreements, to the maintenance of good stakeholder relations with the various private partners, Campus entities and vendors involved with the operation of PPPs.",
+                    "The PPP Unit comprises General Management, Technical, Financial and Legal expertise, all of which are deemed to be critical areas of focus in PPP management. This structure was established in keeping with international best practices for the establishment of PPP Units.  Additional administrative staff will be brought in to further streamline and strengthen PPP communication, record keeping, and operations."
+                  ]
+                }
+              },
+              {
+                "group": "texts",
+                "type": "header",
+                "config":{
+                  "level": 5,
+                  "text": "Student Housing Project-Partner: 138 Students Living Limited"
+                }
+              },
+              {
+                "group": "texts",
+                "type":"stacked",
+                "config": {
+                  "texts": [
+                    "138 Students Living Limited operates three (3) of eleven (11) Halls of residence at the Mona Campus, namely; Irvine, Leslie Robinson and George Alleyne Halls (138 Halls) through PPP agreements established with the Campus in 2014 and 2015. While there were some challenges in meeting near full user capacity in the first years, in more recent times we have been able to achieve the guaranteed occupancy level during the first and second semesters of each academic year.",
+                    "The PPP was also plagued with a number of unresolved financial matters; under the current administration unresolved financial issues as at July 2018 were settled resulting in a net receivable for the Campus. The review of academic year 2018/2019 is underway and is expected to also result in a net receivable for the Campus."
+                  ]
+                }
+              }
+            ]
+          },
+          "right":{
+            "components":[
+              {
+                "group": "texts",
+                "type":"stacked",
+                "config": {
+                  "texts": [
+                    "The quality of the services offered to students by 138 SL have also improved which is evidenced in the reduction of complaints being submitted to the Campus. Campus offices and 138 partners have become more willing to work together to resolve issues when they arise. A good foundation has been established to further improve the partnership which will assist the Campus in realizing its expected benefits.  As the project matures, the benefits to the Campus are expected to increase. "
+                  ]
+                }
+              },
+              {
+                "group": "texts",
+                "type": "header",
+                "config":{
+                  "level": 5,
+                  "text": "Cogen Project – Partner: Pelican Power Limited"
+                }
+              },
+              {
+                "group": "texts",
+                "type":"stacked",
+                "config": {
+                  "texts": [
+                    "The University of the West Indies, Mona Campus (UWI Mona), has a student population of almost 19,000 and growing and a staff complement in excess of 3,000. The UWI Mona currently consumes approximately six (6) Megawatts (MW) of electricity at its peak during the day and a base load of approximately three (3) MW at night. This makes UWI Mona one of the largest consumers of electricity in the country, with an annual bill at the beginning of 2019 of some JMD$ 819,625,135.15. Significantly, this power cost came during a period of relatively low global oil prices, which kept the price of power purchased from Jamaica Public Service (JPS) relatively low.",
+                    "In the recent past, the Mona Campus has received monthly billings from JPS as high as JMD$ 84,000,000. Against this background UWI Mona is working on becoming an energy self-generator by constructing a power plant and connecting it to existing heat absorption chillers now on Campus, thereby establishing a co-generation plant for its own use. The project commenced in 2018 and is set for completion during the second quarter 2020. At that time the Campus should see a net reduction of over JMD$ 160 Million per year in its charges for energy, thus reducing this  financial operating overhead  considerably. "
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        { 
+          "left":{
+            "size": 100,
+            "components":[{
+              "group": "images",
+              "type": "image",
+              "config":{
+                "src": null
+              }
+            }]
+          }
+        }
+      ]
+    }
+  ]
+}
+

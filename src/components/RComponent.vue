@@ -1,5 +1,5 @@
 <template>
-    <div class="p-3">
+    <div class="">
         <!-- dynamically render components based on type specified in configuration -->
         <component
             :is="compchoice"
@@ -25,7 +25,10 @@ export default {
                 'stacked': 'paragraph-stacked',
                 'table': 'table',
                 'header': 'header',
-                'bullet': 'bullet'
+                'bullet': 'bullet',
+                'list': 'contentList',
+                'image': 'image',
+                'caption-image': 'caption-image'
             }
         }
     },

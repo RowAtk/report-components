@@ -1,14 +1,14 @@
 <template>
-  <div class="border border- border-dark">
-    <Header v-if="data.header" :data="data.header" />
-    <div class="d-flex p-2" v-if="comp1 || comp2">
+  <div class="p-3">
+    <Header v-if="data.header" :data="data.header" class="mb-3" />
+    <div class="d-flex" v-if="comp1 || comp2">
       <div :class="class1">
         <RComponent 
           v-for="(comp, index) in comp1.components || []"
           :key="index"
           :data="comp"
         />
-        <div class="d-block block bg-info text-dark">COMP1</div>
+        <!-- <div class="d-block block bg-info text-dark">COMP1</div> -->
       </div>
 
       <div :class="class2" v-if="comp2">  
@@ -17,7 +17,7 @@
           :key="index"
           :data="comp"
         />
-        <div class="d-block block bg-info text-dark">COMP2</div>
+        <!-- <div class="d-block block bg-info text-dark">COMP2</div> -->
       </div>
 
     </div>

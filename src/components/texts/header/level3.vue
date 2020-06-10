@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="p-1">
     <h3>{{data}}</h3>
   </div>
 </template>
@@ -12,5 +12,7 @@ export default {
 </script>
 
 <style scoped>
-
+h3 {
+  color: #3F78BD;
+}
 </style>

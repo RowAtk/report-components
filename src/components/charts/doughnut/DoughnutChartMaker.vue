@@ -1,10 +1,9 @@
 <template>
-  <div class="small">
+  <div class="chart d-flex justify-content-center">
     <DoughnutChart
       :chartdata="mergeProps()"
       :options="mergeOptions()"
     ></DoughnutChart>
-    DOUGHNUT!!
   </div>
 </template>
 
@@ -22,12 +21,21 @@ export default {
       chartdata: {
         datasets: [
           {
-            backgroundColor: ["#2B2D42", "#3F78BD"]
+            backgroundColor: ["#2B2D42", "#39B54A", "#3F78BD", "#7AB6FF", "#DBECF8", "#D90429"]
           }
         ] 
       },
       options: {
-
+        animation: {
+          animateScale: true
+        },
+        title: {
+          display: true,
+          text: this.splitTitle(),
+          position: 'bottom',
+          padding: 30,
+          fontColor: '#2B2D42'
+        }
       }
     };
   },
@@ -40,12 +48,27 @@ export default {
       return Math.floor(Math.random() * (50 - 5 + 1)) + 5;
     },
 
+    splitTitle() {
+      if (this.data.title) {
+        const limit = 7
+        const words = this.data.title.split(' ')
+        let lines = []
+        for(var i = 0; i<words.length; i+=limit){
+          lines.push(words.slice(i, i+limit).join(' '))
+        }
+        console.log(lines)
+        return lines
+      } else {
+        return ''
+      }
+    },
+
     /**
      * merge user chartdata and developer chartdata. preference placed on user chartdata
      * @return {Object} merged chartdata object for chart
      */
     mergeProps() {
-      let mp = merge(this.chartdata, this.data.properties)
+      let mp = merge(this.chartdata || {}, this.data.properties)
       console.log("MERGED")
       console.log(mp)
       return mp
@@ -57,15 +80,16 @@ export default {
      */
     mergeOptions() {
 
-      return merge(this.options, this.data.options)
+      return merge(this.options || {}, this.data.options)
     }
   },
 };
 </script>
 
 <style>
-.small {
-  width: 200px;
-  margin: 20px auto;
+.chart {
+  width: 100%;
+  height: auto;
+  /* margin: 20px auto; */
 }
 </style>
