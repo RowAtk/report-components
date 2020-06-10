@@ -215,6 +215,31 @@
               }
             }]
           }
+        },
+        {
+          "left":{
+            "components":[{
+              "group": "texts",
+                "type":"stacked",
+                "config": {
+                  "texts": [
+                    "In the recent past, the Mona Campus has received monthly billings from JPS as high as JMD$ 84,000,000. Against this background UWI Mona is working on becoming an energy self-generator by constructing a power plant and connecting it to existing heat absorption chillers now on Campus, thereby establishing a co-generation plant for its own use. The project commenced in 2018 and is set for completion during the second quarter 2020. At that time the Campus should see a net reduction of over JMD$ 160 Million per year in its charges for energy, thus reducing this  financial operating overhead  considerably. "
+                  ]
+                }
+            }]
+          },
+          "right":{
+            "components":[{
+              "group": "texts",
+                "type":"stacked",
+                "config": {
+                  "texts": [
+                    "The project also presents unique training opportunities for UWI Mona Engineering students in the operation and maintenance of dual fuel medium speed reciprocating engine technology. This will benefit Engineering graduates by providing them with hands-on experience and practical understanding of combined heat and power (CHP) plant technology in the region. In addition, real life practical experience in the skillful management of multiple fuel economics and procurement practices will be invaluable to students. They will graduate into an environment in which those skillsets will position them as both engineers and power plant developers setting out to confront the country’s and the region’s power development challenges."
+                  ]
+                }
+            }]
+          }
+
         }
       ]
     }
