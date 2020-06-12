@@ -7,23 +7,32 @@
     </div>
     <div class="row d-flex justify-content-center" v-if="comp1 || comp2">
       <div class="col-lg d-flex align-items-center justify-content-center">
-        <RComponent
-          v-for="(comp, index) in comp1.components || []"
-          :key="index"
-          :data="comp"
-        />
-        <!-- <div class="d-block block bg-info text-dark">COMP1</div> -->
+        <div class="row">
+          <div class="col-lg">
+            <RComponent
+              v-for="(comp, index) in comp1.components || []"
+              :key="index"
+              :data="comp"
+            />
+            <!-- <div class="d-block block bg-info text-dark">COMP1</div> -->
+          </div>
+        </div>
       </div>
 
       <div
         class="col-lg d-flex align-items-center justify-content-center"
         v-if="comp2"
       >
-        <RComponent
-          v-for="(comp, index) in comp2.components || []"
-          :key="index"
-          :data="comp"
-        />
+        <div class="row">
+          <div class="col-lg">
+            <RComponent
+              v-for="(comp, index) in comp2.components || []"
+              :key="index"
+              :data="comp"
+            />
+          </div>
+        </div>
+
         <!-- <div class="d-block block bg-info text-dark">COMP2</div> -->
       </div>
     </div>
