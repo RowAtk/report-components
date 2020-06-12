@@ -1,16 +1,23 @@
 <template>
   <div class="Captions-wrapper" v-if="data">
-    <i
-      ><p v-for="(text, index) in data.texts" :key="index">
+    <i>
+      <RComponent
+        v-for="(comp, index) in data.components || []"
+        :key="index"
+        :data="comp"
+      />
+      <p v-for="(text, index) in data.texts" :key="index">
         {{ text }}
-      </p></i
-    >
+      </p>
+    </i>
   </div>
 </template>
 
 <script>
+import RComponent from '@/components/RComponent.vue'
 export default {
   name: "CaptionsText",
+  components: { RComponent },
   props: ["data"],
 };
 </script>

@@ -22,17 +22,18 @@ export default {
             compchoice: null, // actual component to be rendered
             cregister: {
                 // register to map config component types to component filenames on vue
-                "doughnut": "DoughnutChartMaker",
-                "line": "LineChartMaker",
-                'callout': 'callout',
-                'paragraph': 'paragraph',
-                'stacked': 'paragraph-stacked',
-                'table': 'table',
-                'header': 'header',
-                'bullet': 'bullet',
-                'list': 'contentList',
-                'image': 'image',
-                'caption-image': 'caption-image'
+                "doughnutChart": "charts/doughnut/DoughnutChartMaker",
+                "lineChart": "charts/line/LineChartMaker",
+                "columnChart": "charts/column/ColumnChartMaker",
+                'callout': 'texts/callout',
+                'paragraph': 'texts/paragraph',
+                'stacked': 'texts/paragraph-stacked',
+                'table': 'tables/table',
+                'header': 'texts/header/header',
+                'bullet': 'texts/bullet',
+                'list': 'nav/contentList',
+                'image': 'images/image',
+                'caption-image': 'images/caption-image'
             }
         }
     },
@@ -40,14 +41,14 @@ export default {
         console.log("DATA")
         console.log(this.data.config)
         // extract component group (name of component folder eg. charts, text, images)
-        let group = this.data.group 
+        // let group = this.data.group 
         // extract specific type belonging to group (Eg. doughnut(chart), line(chart), paragraph(text), testimony(text))
-        let type = this.data.type 
+        // let type = this.data.type 
         // get filename based on type using cregister
-        let name = this.cregister[this.data.type]
+        let path = this.cregister[this.data.type]
         
-        this.compchoice = () => import(`@/components/${group}/${type}/${name}.vue`); // dynamic component import
-        console.log(`@/components/${group}/${type}/${name}.vue`)
+        this.compchoice = () => import(`@/components/${path}.vue`); // dynamic component import
+        console.log(`@/components/${path}.vue`)
         // console.log(this.compchoice)
     },
 };
