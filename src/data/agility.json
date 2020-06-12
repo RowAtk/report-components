@@ -334,6 +334,14 @@
                         "label": null
                       }
                     ]
+                  },
+                  "options":{
+                    "title": {
+                      "position": "top"
+                    },
+                    "legend":{
+                      "display": false
+                    }
                   }
                 }
               }
