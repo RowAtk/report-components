@@ -1,7 +1,7 @@
 <template>
   <div class="chart d-flex justify-content-center">
     <ColumnChart
-      :chartdata="mergeProps()"
+      :chartdata="mergeData()"
       :options="mergeOptions()"
     ></ColumnChart>
   </div>
@@ -22,14 +22,12 @@ export default {
     console.log("COLOOOOORS:", this.backgroundColors)
     return {
       chartdata: {
-        datasets: [
-          {
-            borderColor: "#000000",
-            borderWidth: 1,
-            hoverBackgroundColor: "#8D99AE",
-            hoverBorderColor: "#FFFFFF",
-          }
+        datasets: [ 
         ] 
+      },
+      dataset: {
+        borderColor: "#000000",
+        borderWidth: 0,
       },
       options: {
         barPercentage: 0.9,
@@ -43,7 +41,6 @@ export default {
   mounted() {
     console.log("USER CONFIG")
     console.log(this.data)
-    console.log("COLUMN COLOOOOORS:", this.backgroundColors)
   }
 };
 </script>

@@ -33,7 +33,8 @@ export default {
                 'bullet': 'texts/bullet',
                 'list': 'nav/contentList',
                 'image': 'images/image',
-                'caption-image': 'images/caption-image'
+                'caption-image': 'images/caption-image',
+                'note': 'texts/note'
             }
         }
     },

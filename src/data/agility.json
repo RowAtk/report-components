@@ -330,8 +330,7 @@
                     "labels": ["2015", "2016", "2017", "2018"],
                     "datasets":[
                       {
-                        "data": [17196, 17827, 18469, 19414],
-                        "label": null
+                        "data": [17196, 17827, 18469, 19414]
                       }
                     ]
                   },
@@ -343,6 +342,117 @@
                       "display": false
                     }
                   }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components":[
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "Net revenue"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["Revenue growth has been a cause for concern. Government subvention has been increasing at a rate of 5.8% annually over the last five (5) years while overall revenue has grown at a rate of 3.9%. This is troubling since it is happening in the context of declining support from the governments in real terms. It has been our intent to grow revenues significantly from other sources so that we would be far less dependent on subventions and more so on tuition fees and commercial operations. The graph shows that since the closure of the Sutherland Call Centre (a commercial operation) early in the 2017 financial year, we have not been able to find a JMD$1 billion replacement for that lost stream of income. We are fully aware that our efforts to find and grow significant commercial sources of income must intensify."]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components":[
+              {
+                "type": "columnChart",
+                "config": {
+                  "title": "UWI MONA - FY 2015-19\nNet Revenue",
+                  "properties":{
+                    "labels": ["2014/15", "2015/16", "2016/17", "2017/18", "2018/19"],
+                    "datasets":[  
+                      {
+                        "label": "Gov't Contributions",
+                        "data": [5269, 6501, 6607, 6847, 7050]
+                      },
+                      {
+                        "label": "Tuition Fees",
+                        "data": [2210, 2501, 2624, 2643, 2553]
+                      },
+                      {
+                        "label": "Donor Funds & Spec. Proj",
+                        "data": [4805, 5078, 5478, 5539, 5403]
+                      },
+                      {
+                        "label": "Commercial Ops",
+                        "data": [3827, 4364, 3100, 3178, 3143]
+                      },
+                      {
+                        "label": "Other Income",
+                        "data": [144, 0, 62, 578, 817]
+                      }
+                    ]
+                  },
+                  "options":{
+                    "scales": {
+                      "xAxes": [{
+                          "stacked": true
+                      }],
+                      "yAxes": [{
+                          "stacked": true
+                      }]
+                    }
+                  }
+                }
+              },
+              {
+                "type": "note",
+                "config":{
+                  "texts": ["Annualised Growth Rates: Govt 5.8%, Tuition Fees 0.8%, Spec Proj 2.4%, Comm Ops 2.1% Total Net Revenue: 3.9%"]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header":{
+            "level": 4,
+            "text": "Total Comprehensive Loss"
+          },
+          "full": true,
+          "left":{
+            "components":[
+              {
+                "type": "stacked",
+                "config":{
+                  "texts": ["For the first time in the last five (5) years, The UWI has had to post net loss before Pension and Post-employment benefits. The sharp decline in bottom line performance this year is a combination of flat revenue (it grew by less than JMD$ 200 million) and a ballooning wage bill arising from signed union agreements. The increases from staff costs (including accruals for pension and post-employment benefits) amounted to well over JMD$1 billion. To reverse this unsustainable trend, measures will be pursued in 2019/2020 to reduce or hold steady operating costs in five major areas. Furthermore, until and unless there are surpluses from non-core businesses that can subsidize the cost of operating the Campus, tuition fees will have to be increased annually by at least the rate of inflation."]
+                }
+              }
+            ] 
+          }
+        },
+        {
+          "left":{
+            "components":[
+              {
+                "type": "lineChart",
+                "config":{
+                  "title": "UWI Mona Net Income before pensions and PE benefits",
+                  "labels":["2014/15", "2015/16", "2016/17", "2017/18", "2018/19"],
+                  "properties":{
+                    "datasets":[
+                      {"data": [106600, 558237, 798133, 1242327, -565109]}
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "note",
+                "config":{
+                  "texts": ["Annualised Growth Rate: 38.4% over six years"]
                 }
               }
             ]

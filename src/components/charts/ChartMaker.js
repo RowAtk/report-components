@@ -6,10 +6,10 @@ const ChartMaker = Vue.mixin({
     return {
       defaultChartData: {
         datasets: [
-          {
-            backgroundColor: ["#2B2D42", "#39B54A", "#3F78BD", "#7AB6FF", "#DBECF8", "#D90429"],
-          }
         ] 
+      },
+      backgroundColor: ["#2B2D42", "#39B54A", "#3F78BD", "#7AB6FF", "#DBECF8", "#D90429"],
+      defaultDataset: {
       },
       defaultOptions: {
         title: {
@@ -17,9 +17,11 @@ const ChartMaker = Vue.mixin({
           text: this.splitTitle(),
           position: 'bottom',
           padding: 30,
-          fontColor: '#2B2D42'
+          fontColor: '#2B2D42',
+          fontSize: 16
         }
-      }
+      },
+      bgnum: 0
     }
   },
   methods: {
@@ -28,7 +30,7 @@ const ChartMaker = Vue.mixin({
     },
 
     splitTitle() {
-      if (this.data.title) {
+      if (this.data && this.data.title) {
         const limit = 7
         const words = this.data.title.split(' ')
         let lines = []
@@ -42,14 +44,26 @@ const ChartMaker = Vue.mixin({
       }
     },
 
+    makeDefaults() {
+      let d = []
+      console.log("LENGTH DATASET: ", this.data.properties.datasets)
+      for(var i=0; i < this.data.properties.datasets.length; i++) {
+        d.push(merge({backgroundColor: this.backgroundColor[i]}, this.defaultDataset || {}, this.dataset || {}))
+      }
+      console.log('ddd: ', d)
+      const defaultConfig = merge(this.defaultChartData, {datasets: d})
+      console.log("DEFAULT CONFIG:", defaultConfig)
+      return defaultConfig
+    },
+
     /**
      * merge user chartdata and developer chartdata. preference placed on user chartdata
      * @return {Object} merged chartdata object for chart
      */
-    mergeProps() {
-      let mp = merge(this.chartdata || {}, this.defaultChartData, this.data.properties )
-      console.log("MERGED")
-      console.log(mp)
+    mergeData() {
+      const defaultConfig = this.makeDefaults(); 
+      console.log("DEFAULT CONFIG:", defaultConfig)
+      let mp = merge(defaultConfig, this.chartdata || {}, this.data.properties)
       return mp
     },
 
@@ -58,8 +72,7 @@ const ChartMaker = Vue.mixin({
      * @return {Object} merged options object for chart
      */
     mergeOptions() {
-
-      return merge(this.options || {}, this.defaultOptions, this.data.options)
+      return merge(this.options || {}, this.defaultOptions, this.data.options || {})
     }
   },
 });

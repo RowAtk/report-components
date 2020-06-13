@@ -5,7 +5,7 @@
         <Header v-if="data.header" :data="data.header" />
       </div>
     </div>
-    <div class="row d-flex justify-content-center" v-if="comp1 || comp2">
+    <div class="row d-flex justify-content-center" v-if="comp1">
       <div class="col-lg d-flex align-items-center justify-content-center">
         <div class="row">
           <div class="col-lg">
@@ -23,7 +23,7 @@
         class="col-lg d-flex align-items-center justify-content-center"
         v-if="comp2"
       >
-        <div class="row">
+        <div v-if="!full" class="row">
           <div class="col-lg">
             <RComponent
               v-for="(comp, index) in comp2.components || []"
@@ -52,12 +52,14 @@ export default {
     return {
       comp1: null,
       comp2: null,
+      full: null
     };
   },
   mounted() {
     console.log("ROW: ", this.data);
-    this.comp1 = this.data.left || {};
-    this.comp2 = this.data.right || {};
+    this.full = this.data.full || false;
+    this.comp1 = this.data.left || (this.full? null : {});
+    this.comp2 = this.data.right || (this.full? null : {});
   },
   computed: {
     class1() {

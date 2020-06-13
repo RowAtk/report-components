@@ -1,7 +1,7 @@
 <template>
   <div class="chart d-flex justify-content-center">
     <DoughnutChart
-      :chartdata="mergeProps()"
+      :chartdata="mergeData()"
       :options="mergeOptions()"
     ></DoughnutChart>
   </div>
@@ -19,6 +19,13 @@ export default {
   props: ["data"], // user defined properties
   data() {
     return {
+      chartdata:{
+        datasets:[
+          {
+            backgroundColor: ["#2B2D42", "#39B54A", "#3F78BD", "#7AB6FF", "#DBECF8", "#D90429"],
+          }
+        ]
+      },
       options: {
         animation: {
           animateScale: true
