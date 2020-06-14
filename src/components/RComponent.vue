@@ -39,8 +39,8 @@ export default {
         }
     },
     mounted() {
-        console.log("DATA")
-        console.log(this.data.config)
+        // console.log("DATA")
+        // console.log(this.data.config)
         // extract component group (name of component folder eg. charts, text, images)
         // let group = this.data.group 
         // extract specific type belonging to group (Eg. doughnut(chart), line(chart), paragraph(text), testimony(text))
@@ -49,7 +49,7 @@ export default {
         let path = this.cregister[this.data.type]
         
         this.compchoice = () => import(`@/components/${path}.vue`); // dynamic component import
-        console.log(`@/components/${path}.vue`)
+        // console.log(`@/components/${path}.vue`)
         // console.log(this.compchoice)
     },
 };

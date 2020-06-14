@@ -47,7 +47,7 @@ export default {
     },
     props: ["data"],
     mounted() {
-        console.log(this.data.img || '@/assets/agility/ph.jpg')
+        // console.log(this.data.img || '@/assets/agility/ph.jpg')
     },
     computed: {
         image () {

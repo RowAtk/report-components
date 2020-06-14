@@ -2,11 +2,17 @@
   <div class="img-wrapper">
     <img src="@/assets/forest.jpg" alt="" />
     <div class="caption-wrapper">
-      <i
-        ><h3 class="caption">
-          {{ data.caption }}
-        </h3></i
-      >
+      <i>
+        <h3 class="caption">
+          {{ data.caption[0] }}
+        </h3>
+        <h4 v-if="data.caption.length > 1" class="caption">
+          {{ data.caption[1] }}
+        </h4>
+        <h5 v-if="data.caption.length > 2" class="caption">
+          {{ data.caption[2] }}
+        </h5>
+      </i>
     </div>
   </div>
 </template>

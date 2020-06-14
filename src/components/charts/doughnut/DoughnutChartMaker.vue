@@ -1,6 +1,7 @@
 <template>
   <div class="chart d-flex justify-content-center">
     <DoughnutChart
+      v-if="data"
       :chartdata="mergeData()"
       :options="mergeOptions()"
     ></DoughnutChart>

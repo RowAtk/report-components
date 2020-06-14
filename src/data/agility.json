@@ -5,6 +5,7 @@
       "subheader": "More Proactive, More Responsive",
       "rows": [
         {
+          "full": true,
           "left": {
             "size": 100,
             "components":[
@@ -436,26 +437,393 @@
         },
         {
           "left":{
-            "components":[
-              {
+            "components":[{
                 "type": "lineChart",
                 "config":{
                   "title": "UWI Mona Net Income before pensions and PE benefits",
-                  "labels":["2014/15", "2015/16", "2016/17", "2017/18", "2018/19"],
                   "properties":{
-                    "datasets":[
-                      {"data": [106600, 558237, 798133, 1242327, -565109]}
-                    ]
-                  }
+                    "labels":["2014/15", "2015/16", "2016/17", "2017/18", "2018/19"],
+                    "datasets":[{"data": [106600, 558237, 798133, 1242327, -565109]}]
+                  },
+                  "options":{ "legend":{ "display": false }}
                 }
               },
               {
                 "type": "note",
                 "config":{
                   "texts": ["Annualised Growth Rate: 38.4% over six years"]
+                } 
+            }]
+          },
+          "right":{
+            "components":[{
+              "type": "columnChart",
+              "config":{
+                "title": "UWI Mona Campus Total Comprehensive Income 2018/19",
+                "properties":{
+                  "labels": ["2014/15", "2015/16", "2016/17", "2017/18", "2018/19"],
+                  "datasets":[
+                    {
+                      "label": "TC Income / (Loss)",
+                      "data":[4,-140,-1688,-963,-3413],
+                      "type": "line"
+                    },
+                    {
+                      "label": "NI before PE Benefits",
+                      "data":[100,200,300,400,500]
+                    },
+                    {
+                      "label": "PE Benefits",
+                      "data":[600,700,800,900,1000]
+                    }
+                  ]
+                }
+              }
+            }]
+          }
+        },
+        {
+          "full": true,
+          "left": {
+            "components":[
+              {
+                "group": "contents",
+                "type": "list",
+                "config": {
+                  "header": "6. CARING ACCOUNTABLE MOTIVATED PROFESSIONAL TEAM (CAMP)",
+                  "contents": [
+                    "Mobilizing Human Resources: Radical Collaboration",  
+                    "Faculty Initiatives",   
+                    "Congratulations",   
+                    "Staff Members Completing Degree Programmes at UWI",
+                    "UWI Gender Mainstreaming",
+                    "UWI Western Jamaica Campus"
+                  ]
                 }
               }
             ]
+          }
+        },
+        {
+          "header":{
+            "level": 4,
+            "text": "Mobilizing Human Resources: Radical Collaboration"
+          },
+          "left":{
+            "components":[{
+              "type": "stacked",
+              "config":{
+                "texts":["In support of The UWI 2017–2022 Strategic Plan to develop a “creative, caring, accountable, motivated and professional staff”, the Mona Campus included Radical Collaboration as one of its priority strategies for maximizing resources for a sustainable future. Through this, we hope to expose hundreds of staff to the skills necessary to build a collaborative environment at the Campus. Radical Collaboration is an approach to building and maintaining climates of trust and collaboration within organizations. The skills focus on  building lasting collaborative relationships by minimizing conflicts.  Widely used in a range of applications in both public and private sectors worldwide, including universities, the Radical Collaboration approach is proven to increase productivity, efficiency and staff engagement."]
+              }
+            }]
+          },
+          "right":{
+            "components":[{
+              "type": "image",
+              "config":{
+                "src": null
+              }
+            }]
+          }
+        },
+        {
+          "left":{
+            "components":[
+              {
+                "type": "stacked",
+                "config":{"texts": ["Our human resources at the Mona Campus are our greatest asset.  We know that people can make or break an organization. Inspired, driven and motivated employees work harder and with more commitment to the collective good of the organization. The cumulative effect of increased efforts from a significant percentage of employees shows up immediately in the vastly improved quality of outputs and services.  The Radical Collaboration model provides the necessary support to ensure loyal and motivated employees. During the 2018/2019 academic year a total of 132 persons were trained in Radical Collaboration including the Senior Management team and senior members of Faculties and Administrative Units. The programme is focused primarily on skill building and helps participants:"]}
+              },
+              {
+                "type": "bullet",
+                "config":{"bullets":[
+                  "Build collaborative skills",
+                  "Build and maintain long-term climates of trust",
+                  "Develop and solidify partnerships and alliances",
+                  "Learn about the dynamics of interpersonal relationships",
+                  "Practice problem solving in simulated and real-time situations",
+                  "Gain personal insight into attitudes and behaviours in conflicted situations"
+                ]}
+              },
+              {
+                "type": "stacked",
+                "config":{"texts": ["This initiative will continue in the new academic year 2019/2020 with a strategy being developed to sustain the momentum of trained staff.  The model thrives on the spill on effect of trainings, such that those who are trained will keep training others on the job. New persons will also be recommended for certification as Radical Collaboration Trainers, departments will be earmarked for staff training, with agreed timelines for certification training and the numbers per certification programme."]}
+              }
+            ]
+          },
+          "right":{
+            "components":[{
+              "type": "caption-image",
+              "config":{
+                "src": null,
+                "caption": ["Senior members of Faculties (Heads of Department, Deputy Deans) and Managers of Administrative Units during a Radical Collaboration Training Session"]
+              }
+            }]
+          }
+        },
+        {
+          "left":{"components":[{
+            "type": "caption-image",
+            "config":{
+              "src": null,
+              "caption": ["Radical Collaboration"]
+            }
+          }]},
+          "right":{"components":[{
+            "type": "image",
+            "config":{"src":null}
+          }]}
+        },
+        {
+          "left":{"components":[{
+            "type": "caption-image",
+            "config":{
+              "src": null,
+              "caption": [
+                "Dr. Tomlin Paul", 
+                "Dean, Faculty of Medical Sciences, Mona Campus", 
+                "Views on Radical Collaboration's Success"
+              ]
+            }
+          }]},
+          "right":{
+
+          }
+        },
+        {
+          "full": true,
+          "header":{
+            "level": 4,
+            "text": "Congratulations"
+          },
+          "left":{
+            "components":[{
+                "type": "stacked",
+                "config":{"texts":["The CAMP approach promotes a sincere recognition of those who have been honoured by the University, have gained senior promotions or achieved awards for excellence in research. For the 2018/2019 year we honoured the following: "]}
+            }]
+          }
+        },
+        {
+          "header":{
+            "level": 5,
+            "text": "Honorary Graduands 2018/2019 recipients"
+          },
+          "left":{
+            "components":[{
+              "type": "caption-image",
+              "config":{
+                "src": null, 
+                "caption":[
+                  "Mr. Michael Anthony Holding from Jamaica for his achievements in the sport of cricket – LLD.",
+                  "Mrs. Donette St M. Chin-Loy Chang from Jamaica for her philanthropy – LLD"]
+              }
+            }]            
+          },
+          "right":{
+            "components":[{
+              "type": "caption-image",
+              "config":{
+                "src": null, 
+                "caption":[
+                  "Dr. Karl Wellington from Jamaica for his contributions as an Agricultural Scientist – DSc (left).", 
+                  "Professor Shirley J. Thompson from Jamaica/UK, for her ground-breaking work as a classical music composer, artistic director and educator - DLitt (right)"]
+              }
+            }] 
+          }
+        },
+        {
+          "left":{
+            "components":[{
+              "type": "caption-image",
+              "config":{
+                "src": null, 
+                "caption":[
+                  "Ms. Grace B. Jones from Jamaica for her achievements as an entertainer, model and global trendsetter – DLitt", 
+                  "Mr. H. Carl McCall from the United States of America for his leadership in Public Service – DLitt", 
+                  "Mr. Montgomery Bernard “Monty” Alexander from Jamaica for his achievements as a Musician – Dlitt"
+                ]
+              }
+            }]            
+          },
+          "right":{
+            "components":[{
+              "type": "caption-image",
+              "config":{
+                "src": null, 
+                "caption":[
+                  "Mr. Lloyd A. Williams from Jamaica for his contributions in leadership – LLD",
+                  "The Honourable Kenneth S. Benjamin, OJ, CD from Jamaica for his leadership in the field of Security - LLD"
+                ]
+              }
+            }] 
+          }
+        },
+        {
+          "header": {
+            "level":5,
+            "text": "New Professors"
+          },
+          "left":{
+            "components":[{
+              "type": "caption-image",
+              "config":{
+                "src": null, 
+                "caption":["Professor Lloyd Waller","Professor of Digital Transformation Policy and Governance"]
+              }
+            }]            
+          },
+          "right":{
+            "components":[{
+              "type": "caption-image",
+              "config":{
+                "src": null, 
+                "caption":["Professor Thejani Rupika Delgoda","Professor of Biochemical Pharmacology and Pharmacognosy"]
+              }
+            }]  
+          }
+        },
+        {
+          "left":{
+            "components":[{
+              "type": "caption-image",
+              "config":{
+                "src": null, 
+                "caption":["Professor Eris Schoburgh","Professor of Public Policy and Management"]
+              }
+            }]            
+          },
+          "right":{
+            "components":[{
+              "type": "caption-image",
+              "config":{
+                "src": null, 
+                "caption":["Professor Lawrence Bamikole","Professor of Philosophy"]
+              }
+            }]  
+          }
+        },
+        {
+          "left":{
+            "components":[{
+              "type": "caption-image",
+              "config":{
+                "src": null, 
+                "caption":["Professor Rachel Irving","Professor of Biochemistry and Sport Science"]
+              }
+            }]            
+          },
+          "right":{
+            "components":[{
+              "type": "caption-image",
+              "config":{
+                "src": null, 
+                "caption":["Professor Mehmet Orhan","Professor in the Department of Economics"]
+              }
+            }]  
+          }
+        },
+        {
+          "full": true,
+          "left":{
+            "components":[
+              {
+                "type": "stacked",
+                "config":{
+                  "texts": ["The Vice Chancellor’s Award for Excellence is given for outstanding performance by senior and administrative staff. This year the Mona campus recipients of the Vice Chancellor Awards were:"]
+                }
+              }
+            ]
+          },
+          "across":{
+            "components":[
+              {
+                "type": "caption-image",
+                "config": {
+                  "src":null,
+                  "caption":["Dr. Aisha Spencer", "School of Education"]
+                }
+              },
+              {
+                "type": "caption-image",
+                "config": {
+                  "src":null,
+                  "caption":["Dr. Georgiana Gordon-Strachan", "Caribbean Institute for Health Research"]
+                }
+              },
+              {
+                "type": "caption-image",
+                "config": {
+                  "src":null,
+                  "caption":["Dr. Saran Stewart", "School of Education"]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header":{
+            "level": 5,
+            "text": "IGDS 7 Women"
+          },
+          "left":{
+            "components":[{
+              "type": "stacked",
+              "config":{
+                "texts": ["The Institute for Gender & Development Studies (IGDS) of The University of the West Indies honoured over 70 outstanding women at an awards ceremony at The UWI Regional Headquarters, Mona on February 14, 2019. Marking the IGDS' 25t  anniversary and The UWI's 70t , the event celebrated the fact that women, educated at The UWI since 1948, have made widespread and lasting contributions regionally and internationally. Recipients from Mona Campus were: Dr. Hon. Gloria Knight; Professor Pamela Rodgers-Johnson; Dr. Carroll Dawes; Dr. Muriel Lowe-Valentine; Dr. Cynthia Wilson; Mrs. Jean D’Costa; Hon. Angela King; Dr. Barbara Lyle-Harper; Professor Joycelin Massiah; Dr. Erna Brodber; Professor Elsa Leo-Rhynie; Professor Barbara Bailey; Professor Maureen Warner-Lewis; Ms. Marjorie Whylie; Professor Patricia Martin-Deleon; Dr. M. Nourbese Philip; Professor Emerita, Hazel Simmonds-McDonald; Professor Carolyn Cooper; Professor Merle Collins; Ms. Joy Spence; Dr. Lucille Mathurin-Mair; Professor Rhoda Reddock; Dr. Carissa F. Etienne; Professor Marlene Hamilton; Professor Celia Christie-Samuels; Professor Maureen Samms-Vaughan; Professor Kathleen Coard; Professor Verene Shepherd; Dr. Luz Longsworth; Professor Mona Webber; Dr. Maxine Gossell-Williams; Professor Marcia Roye; Dr. Paula Dawson; Dr. Sylvia Mitchell; Ms. Fae Ellington; Mrs. Norma Rodney Harrack; Professor Sonjah Stanley Niaah; Dr. Marcia Forbes; Dr. Jean Thelma Small; Dr. Simone Badal-McCreath; Ms. Shakeba Foster; and Dr. Myrna Hague-Bradshaw."]
+              }
+            }]
+          },
+          "right":{
+            "components":[
+              {
+                "type": "image",
+                "config":{"src": null}
+              },
+              {
+                "type": "image",
+                "config":{"src": null}
+              }
+            ]
+          }
+        },
+        {
+          "across":{
+            "components":[{
+              "type": "image",
+              "config": {"src": null}
+            }]
+          }
+        },
+        {
+          "header":{
+            "level": 5,
+            "text": "National Awards Recipients"
+          },
+          "left":{
+            "components":[
+              {
+                "type": "stacked",
+                "config": {
+                  "texts":[
+                    "National Honours and Awards recognise individuals who by their service and contribution, have had a meaningful and significant impact on national life. Orders are used to recognise merit in terms of achievement and service. Decorations and Awards are used to recognise bravery, meritorious, long and/or valuable service and/or good conduct."
+                  ]
+                }
+              },
+              {
+                "type": "note",
+                "config": {
+                  "texts":[
+                    "In the Picture:",
+                    "L-R: Mr. Michael Gardner, conferred with the Order of Distinction in the rank of Commander (CD) in recognition of services to the Medical Sciences, in particular Anatomy and to the Arts; Dr. Delroy Fray, awarded the Order of Distinction in the rank of Officer (OD) for service to the health sector; Professor Dale Webber, awarded the Order of Distinction in the rank of Commander (CD) for outstanding contribution to Environmental Conservation; Professor Celia Christie-Samuels, awarded the Order of Distinction in the rank of Commander (CD) for outstanding contribution to Public Service and Child Health; and Dr. Erroll Williams, awarded the Order of Distinction in the rank of Commander (CD) for outstanding service to the field of Dentistry."
+                  ]
+                }
+              }
+            ]
+          },
+          "right":{
+            "components":[{
+              "type": "image",
+              "config": {"src":null}
+            }]
           }
         }
       ]

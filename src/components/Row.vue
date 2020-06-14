@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row d-flex justify-content-center">
       <div class="col-lg d-flex align-items-center justify-content-center">
-        <Header v-if="data.header" :data="data.header" />
+        <RHeader v-if="data.header" :data="data.header" />
       </div>
     </div>
     <div class="row d-flex justify-content-center" v-if="comp1">
@@ -32,19 +32,37 @@
             />
           </div>
         </div>
+      </div>
 
-        <!-- <div class="d-block block bg-info text-dark">COMP2</div> -->
+      
+
+    </div>
+    <div class="row d-flex justify-content-center" v-if="comp1">
+
+      <div
+        class="col-lg d-flex align-items-center justify-content-center"
+        v-if="data.across"
+      >
+        <div class="row">
+          <div class="col-lg d-flex">
+            <RComponent
+              v-for="(comp, index) in data.across.components || []"
+              :key="index"
+              :data="comp"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import Header from "@/components/texts/header/header.vue";
+import RHeader from "@/components/texts/header/header.vue";
 import RComponent from "@/components/RComponent.vue";
 export default {
   components: {
-    Header,
+    RHeader,
     RComponent,
   },
   props: ["data"],
@@ -56,7 +74,7 @@ export default {
     };
   },
   mounted() {
-    console.log("ROW: ", this.data);
+    // console.log("ROW: ", this.data);
     this.full = this.data.full || false;
     this.comp1 = this.data.left || (this.full? null : {});
     this.comp2 = this.data.right || (this.full? null : {});

@@ -16,7 +16,7 @@ import Level4 from '@/components/texts/header/level4.vue'
 import Level5 from '@/components/texts/header/level5.vue'
 
 export default {
-  name: 'header',
+  name: 'RHeader',
   props: ['data'],
   components: {
     Level1,

@@ -10,6 +10,10 @@ const ChartMaker = Vue.mixin({
       },
       backgroundColor: ["#2B2D42", "#39B54A", "#3F78BD", "#7AB6FF", "#DBECF8", "#D90429"],
       defaultDataset: {
+
+        // line graphs
+        lineTension: 0,
+        fill: false
       },
       defaultOptions: {
         title: {
@@ -46,13 +50,13 @@ const ChartMaker = Vue.mixin({
 
     makeDefaults() {
       let d = []
-      console.log("LENGTH DATASET: ", this.data.properties.datasets)
+      // console.log("LENGTH DATASET: ", this.data.properties.datasets)
       for(var i=0; i < this.data.properties.datasets.length; i++) {
         d.push(merge({backgroundColor: this.backgroundColor[i]}, this.defaultDataset || {}, this.dataset || {}))
       }
-      console.log('ddd: ', d)
+      // console.log('ddd: ', d)
       const defaultConfig = merge(this.defaultChartData, {datasets: d})
-      console.log("DEFAULT CONFIG:", defaultConfig)
+      // console.log("DEFAULT CONFIG:", defaultConfig)
       return defaultConfig
     },
 
@@ -61,10 +65,12 @@ const ChartMaker = Vue.mixin({
      * @return {Object} merged chartdata object for chart
      */
     mergeData() {
-      const defaultConfig = this.makeDefaults(); 
-      console.log("DEFAULT CONFIG:", defaultConfig)
-      let mp = merge(defaultConfig, this.chartdata || {}, this.data.properties)
-      return mp
+      if (this.data) {
+        const defaultConfig = this.makeDefaults(); 
+        // console.log("DEFAULT CONFIG:", defaultConfig)
+        let mp = merge(defaultConfig, this.chartdata || {}, this.data.properties)
+        return mp
+      }
     },
 
     /**

@@ -1,6 +1,7 @@
 <template>
-  <div class="small">
+  <div class="chart d-flex justify-content-center">
     <LineChart 
+       v-if="data"
       :chartdata="mergeData()"
       :options="mergeOptions()"
     ></LineChart>
@@ -12,11 +13,10 @@ import ChartMaker from '@/components/charts/ChartMaker.js'
 import LineChart from '@/components/charts/line/LineChart.vue';
 
 export default {
-  name: "LineChart",
-  mixins: [ChartMaker],
   components: {
     LineChart
   },
+  mixins: [ChartMaker],
   props: ["data"], // user defined properties
   data () {
     return {
@@ -26,19 +26,23 @@ export default {
         ] 
       },
       dataset:{
-        lineTension: 0
       },
       options: {
         
       }
-    }
+    };
   },
+  mounted() {
+    // console.log("USER CONFIG")
+    // console.log(this.data)
+  }
 }
 </script>
 
 <style>
-  .small {
-    max-width: 600px;
-    margin:  150px auto;
-  }
+.chart {
+  width: 100%;
+  height: auto;
+  /* margin: 20px auto; */
+}
 </style>

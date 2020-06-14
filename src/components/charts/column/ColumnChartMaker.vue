@@ -1,6 +1,7 @@
 <template>
   <div class="chart d-flex justify-content-center">
     <ColumnChart
+      v-if="data"
       :chartdata="mergeData()"
       :options="mergeOptions()"
     ></ColumnChart>
@@ -19,7 +20,6 @@ export default {
   mixins: [ChartMaker],
   props: ["data"], // user defined properties
   data() {
-    console.log("COLOOOOORS:", this.backgroundColors)
     return {
       chartdata: {
         datasets: [ 
@@ -39,8 +39,8 @@ export default {
     };
   },
   mounted() {
-    console.log("USER CONFIG")
-    console.log(this.data)
+    // console.log("USER CONFIG")
+    // console.log(this.data)
   }
 };
 </script>

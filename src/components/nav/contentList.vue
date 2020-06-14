@@ -1,8 +1,8 @@
 <template>
-  <div class="section-content">
-    <Header :data="{level: 3, text:data.header}" />
+  <div class="section-content mb-5">
+    <RHeader :data="{level: 3, text:data.header}" />
     <div class="mt-3 content-list">
-      <Header
+      <RHeader
         v-for="(content, index) in data.contents || []"
         :key="index"
         :data="{level: 4, text: content}"
@@ -12,11 +12,11 @@
 </template>
 
 <script>
-import Header from '@/components/texts/header/header.vue'
+import RHeader from '@/components/texts/header/header.vue'
 
 export default {
   components: {
-    Header,
+    RHeader,
   },
   props: ['data']
   
@@ -26,6 +26,8 @@ export default {
 <style scoped>
 .section-content {
   background-color: #DBECF8;
+  width: 100vw;
+  padding: 3%;
 }
 
 .content-list {
