@@ -25,6 +25,6 @@ p {
 .paragraph-wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  width: 100%;
+  width: 80%;
 }
 </style>

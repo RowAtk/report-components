@@ -39,7 +39,7 @@ export default {
 
 <style>
 .chart {
-  width: 100%;
+  width: 80%;
   height: auto;
   /* margin: 20px auto; */
 }

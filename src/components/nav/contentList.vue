@@ -26,8 +26,8 @@ export default {
 <style scoped>
 .section-content {
   background-color: #DBECF8;
-  width: 100vw;
-  padding: 3%;
+  width: 93vw;
+  padding: 3% 0% 3% 0%;
 }
 
 .content-list {

@@ -1,8 +1,13 @@
 <template>
   <div>
     <!-- Rendering of list ofsections from configuration object -->
-    <RSection
+    <!-- <RSection
       v-for="(section, index) in parsedData()"
+      :key="index"
+      :data="section"
+    > -->
+    <RSection
+      v-for="(section, index) in parsedData(agility)"
       :key="index"
       :data="section"
     >
@@ -12,7 +17,7 @@
 
 <script>
 import RSection from "@/components/RSection.vue"
-import reportdata from "@/data/agility.json" // configuration object from json file 
+import agilitydata from "@/data/agility.json" // configuration object from json file 
 
 export default {
   components: {
@@ -20,35 +25,16 @@ export default {
   },
   data() {
     return {
-      rsections: reportdata,
+      agility: agilitydata,
     };
-  },
-  mounted() {
-    // console.log(reportconfig)
-    // const y = YAML.safeLoad()
-    // console.log(y)
-    // reportdata.then((s) => {console.log(s)})
-    // console.log(reportdata)
   },
   methods: {
     /**
      * parse data from reactive config object
      */
-    parsedData() {
-      let spec = JSON.parse(JSON.stringify(this.rsections));
+    parsedData(section) {
+      let spec = JSON.parse(JSON.stringify(section));
       return spec.report;
-    },
-    data() {
-        return {
-            rsections: reportdata
-        }
-    },
-    mounted() {
-        console.log(reportdata)
-        // const y = YAML.safeLoad()
-        // console.log(y)
-        // reportdata.then((s) => {console.log(s)})
-        // console.log(reportdata)
     }
   }
 }

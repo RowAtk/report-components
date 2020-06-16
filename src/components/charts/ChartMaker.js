@@ -17,7 +17,7 @@ const ChartMaker = Vue.mixin({
       },
       defaultOptions: {
         title: {
-          display: true,
+          display: false,
           text: this.splitTitle(),
           position: 'bottom',
           padding: 30,
@@ -35,7 +35,7 @@ const ChartMaker = Vue.mixin({
 
     splitTitle() {
       if (this.data && this.data.title) {
-        const limit = 7
+        const limit = 1000
         const words = this.data.title.split(' ')
         let lines = []
         for(var i = 0; i<words.length; i+=limit){

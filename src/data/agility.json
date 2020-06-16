@@ -5,7 +5,7 @@
       "subheader": "More Proactive, More Responsive",
       "rows": [
         {
-          "full": true,
+          "full":true,
           "left": {
             "size": 100,
             "components":[
