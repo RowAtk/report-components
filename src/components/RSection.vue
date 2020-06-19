@@ -4,12 +4,12 @@
             <div class="w-50 d-flex align-items-center justify-content-center">
                 <div>
                     <Level2 :data="data.header" />
-                    <Level3 :data="data.subheader" />
+                    <Level3 :data="data.subheader || ''" />
                 </div>
             </div>
 
             <div class="w-50 p-2">
-                <RImage :data="{}"/>
+                <RImage :data="data.img || {}"/>
                 <!-- <img src="@/assets/placeholder.jpg" alt="place holder image" class="section-img"> -->
             </div>
         </div>

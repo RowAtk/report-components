@@ -10,14 +10,19 @@
       v-for="(section, index) in parsedData(agility)"
       :key="index"
       :data="section"
-    >
-    </RSection>
+    />
+    <RSection
+      v-for="(section, index) in parsedData(oneuwi)"
+      :key="index"
+      :data="section"
+    />
   </div>
 </template>
 
 <script>
 import RSection from "@/components/RSection.vue"
 import agilitydata from "@/data/agility.json" // configuration object from json file 
+import oneuwidata from "@/data/oneuwi.json"
 
 export default {
   components: {
@@ -26,6 +31,7 @@ export default {
   data() {
     return {
       agility: agilitydata,
+      oneuwi: oneuwidata
     };
   },
   methods: {

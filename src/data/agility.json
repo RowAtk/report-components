@@ -205,7 +205,8 @@
             ]
           }
         },
-        { 
+        {
+          "full": true, 
           "left":{
             "size": 100,
             "components":[{
@@ -928,7 +929,7 @@
               {
                 "type": "content-list",
                 "config": {
-                  "header": "IMPROVING INFRASTRUCTURE",
+                  "header": "7. IMPROVING INFRASTRUCTURE",
                   "contents":[
                     "Enhancing Operational Efficiencies",
                     "Digitization Initiatives",

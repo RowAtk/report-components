@@ -173,7 +173,12 @@
 	},
 	"across": {
 		"prefix": "across",
-		"body": "\"across\": {\n\t\"components\": [\n\t\t{\n\t\t}\n\t]\n}",
+		"body": [
+			"\"across\": {",
+			"\t\"components\": [",
+			"\t]",
+			"}"
+		],
 		"description": "across row property"
 	},
 	"title-row":{
