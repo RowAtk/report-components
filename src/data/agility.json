@@ -11,7 +11,7 @@
             "components":[
               {
                 "group": "contents",
-                "type": "list",
+                "type": "content-list",
                 "config": {
                   "header": "5. SUSTAINABLE FINANCIAL HEALTH",
                   "contents": [
@@ -331,6 +331,7 @@
                     "labels": ["2015", "2016", "2017", "2018"],
                     "datasets":[
                       {
+                        "label": "No. of students",
                         "data": [17196, 17827, 18469, 19414]
                       }
                     ]
@@ -487,8 +488,7 @@
           "left": {
             "components":[
               {
-                "group": "contents",
-                "type": "list",
+                "type": "content-list",
                 "config": {
                   "header": "6. CARING ACCOUNTABLE MOTIVATED PROFESSIONAL TEAM (CAMP)",
                   "contents": [
@@ -555,7 +555,7 @@
               "type": "caption-image",
               "config":{
                 "src": null,
-                "caption": ["Senior members of Faculties (Heads of Department, Deputy Deans) and Managers of Administrative Units during a Radical Collaboration Training Session"]
+                "captions": ["Senior members of Faculties (Heads of Department, Deputy Deans) and Managers of Administrative Units during a Radical Collaboration Training Session"]
               }
             }]
           }
@@ -565,7 +565,7 @@
             "type": "caption-image",
             "config":{
               "src": null,
-              "caption": ["Radical Collaboration"]
+              "captions": ["Radical Collaboration"]
             }
           }]},
           "right":{"components":[{
@@ -578,7 +578,7 @@
             "type": "caption-image",
             "config":{
               "src": null,
-              "caption": [
+              "captions": [
                 "Dr. Tomlin Paul", 
                 "Dean, Faculty of Medical Sciences, Mona Campus", 
                 "Views on Radical Collaboration's Success"
@@ -612,7 +612,7 @@
               "type": "caption-image",
               "config":{
                 "src": null, 
-                "caption":[
+                "captions":[
                   "Mr. Michael Anthony Holding from Jamaica for his achievements in the sport of cricket – LLD.",
                   "Mrs. Donette St M. Chin-Loy Chang from Jamaica for her philanthropy – LLD"]
               }
@@ -623,7 +623,7 @@
               "type": "caption-image",
               "config":{
                 "src": null, 
-                "caption":[
+                "captions":[
                   "Dr. Karl Wellington from Jamaica for his contributions as an Agricultural Scientist – DSc (left).", 
                   "Professor Shirley J. Thompson from Jamaica/UK, for her ground-breaking work as a classical music composer, artistic director and educator - DLitt (right)"]
               }
@@ -636,7 +636,7 @@
               "type": "caption-image",
               "config":{
                 "src": null, 
-                "caption":[
+                "captions":[
                   "Ms. Grace B. Jones from Jamaica for her achievements as an entertainer, model and global trendsetter – DLitt", 
                   "Mr. H. Carl McCall from the United States of America for his leadership in Public Service – DLitt", 
                   "Mr. Montgomery Bernard “Monty” Alexander from Jamaica for his achievements as a Musician – Dlitt"
@@ -649,7 +649,7 @@
               "type": "caption-image",
               "config":{
                 "src": null, 
-                "caption":[
+                "captions":[
                   "Mr. Lloyd A. Williams from Jamaica for his contributions in leadership – LLD",
                   "The Honourable Kenneth S. Benjamin, OJ, CD from Jamaica for his leadership in the field of Security - LLD"
                 ]
@@ -667,7 +667,7 @@
               "type": "caption-image",
               "config":{
                 "src": null, 
-                "caption":["Professor Lloyd Waller","Professor of Digital Transformation Policy and Governance"]
+                "captions":["Professor Lloyd Waller","Professor of Digital Transformation Policy and Governance"]
               }
             }]            
           },
@@ -676,7 +676,7 @@
               "type": "caption-image",
               "config":{
                 "src": null, 
-                "caption":["Professor Thejani Rupika Delgoda","Professor of Biochemical Pharmacology and Pharmacognosy"]
+                "captions":["Professor Thejani Rupika Delgoda","Professor of Biochemical Pharmacology and Pharmacognosy"]
               }
             }]  
           }
@@ -687,7 +687,7 @@
               "type": "caption-image",
               "config":{
                 "src": null, 
-                "caption":["Professor Eris Schoburgh","Professor of Public Policy and Management"]
+                "captions":["Professor Eris Schoburgh","Professor of Public Policy and Management"]
               }
             }]            
           },
@@ -696,7 +696,7 @@
               "type": "caption-image",
               "config":{
                 "src": null, 
-                "caption":["Professor Lawrence Bamikole","Professor of Philosophy"]
+                "captions":["Professor Lawrence Bamikole","Professor of Philosophy"]
               }
             }]  
           }
@@ -707,7 +707,7 @@
               "type": "caption-image",
               "config":{
                 "src": null, 
-                "caption":["Professor Rachel Irving","Professor of Biochemistry and Sport Science"]
+                "captions":["Professor Rachel Irving","Professor of Biochemistry and Sport Science"]
               }
             }]            
           },
@@ -716,7 +716,7 @@
               "type": "caption-image",
               "config":{
                 "src": null, 
-                "caption":["Professor Mehmet Orhan","Professor in the Department of Economics"]
+                "captions":["Professor Mehmet Orhan","Professor in the Department of Economics"]
               }
             }]  
           }
@@ -739,21 +739,21 @@
                 "type": "caption-image",
                 "config": {
                   "src":null,
-                  "caption":["Dr. Aisha Spencer", "School of Education"]
+                  "captions":["Dr. Aisha Spencer", "School of Education"]
                 }
               },
               {
                 "type": "caption-image",
                 "config": {
                   "src":null,
-                  "caption":["Dr. Georgiana Gordon-Strachan", "Caribbean Institute for Health Research"]
+                  "captions":["Dr. Georgiana Gordon-Strachan", "Caribbean Institute for Health Research"]
                 }
               },
               {
                 "type": "caption-image",
                 "config": {
                   "src":null,
-                  "caption":["Dr. Saran Stewart", "School of Education"]
+                  "captions":["Dr. Saran Stewart", "School of Education"]
                 }
               }
             ]
@@ -824,6 +824,435 @@
               "type": "image",
               "config": {"src":null}
             }]
+          }
+        },
+        {
+          "left":{
+            "components":[{
+              "type": "image",
+              "config": {"src":null}
+            }]
+          },
+          "right":{
+            "components":[{
+              "type":"stacked",
+              "config": {"texts":["Mr. Earl Jarrett, Chairman of the UWI Mona Campus Council received the Order of Jamaica (OJ). Mr. Jarrett was recognised for exceptional contribution to the banking and financial sectors, public service and volunteerism."]}
+            }]
+          }
+        },
+        {
+          "left":{
+            "components":[{
+              "type": "image",
+              "config": {"src":null}
+            }]
+          },
+          "right":{
+            "components":[{
+              "type":"stacked",
+              "config": {"texts":["The UWI/Guardian Life Premium Teaching Award - Since 2004, the UWI has partnered withGuardian Life Limited/Guardian Group to offer the UWI/Guardian Life Premium Teaching Award.This award is now the most prestigious award offered on the Campus for teaching. Dr. AishaSpencer, Lecturer in the School of Education, was the 2018 recipient. She was lauded for herpedagogical accomplishments and offered special prizes. Other faculty who were shortlisted forthe Award were Dr. Wayne Palmer, Faculty of Medical Sciences; Dr. Venkateswara Penugonda,Faculty of Science and Technology; and Miss Lisa R. Brown, Faculty of Humanities and Education."]}
+            }]
+          }
+        },
+        {
+          "left":{
+            "components":[
+              {
+                "type": "header",
+                "config":{
+                  "level": 4,
+                  "text": "Staff Members Completing Degree Programmes at UWI"
+                }
+              },
+              {
+                "type": "stacked",
+                "config":{"texts":["The UWI provides the facility for staff to access most programmes delivered at The UWI without having to bear the cost of tuition. Many staff members access this benefit and in the 2018/2019, 15% of our staff were enrolled in programmes being offered at the Mona Campus."]}
+              },
+              {
+                "type": "header",
+                "config":{
+                  "level": 4,
+                  "text": "UWI Gender Mainstreaming"
+                }
+              },
+              {
+                "type": "stacked",
+                "config":{"texts":[
+                  "The UWI continued in its efforts to promote a culture of gender equity and equality. Since the establishment of The UWI Gender Policy in 2017, the Institute of Gender and Development Studies has spearheaded several initiatives geared at creating a gender equity footprint across the Campus. These are engrained in policies and programmes that directly influence our students and staff: Gender Focal Points have been nominated in each Faculty; Gender Sensitization Sessions were organized and presented to various stakeholders across the Campus; and Gender Action Plans are being developed for each Faculty.",
+                  "The UWI Mona's commitment to Gender Mainstreaming since 2012/2013 has also been strengthened by the UN's Sustainable Development Goals 2015-2030 (SDGs). These include Gender Equality (Goal 5), Reduced Inequalities (Goal 10), and the recognition of gender as essential to achieving all 17 SDGs. The SDGs provide entry points to integrate gender in ALL UWI faculties and departments. It also aligns with the Gender Sector Plan for Jamaica's Vision 2030 National Development Agenda."
+                ]}
+              }
+            ]
+          },
+          "right":{
+            "components":[
+              {
+                "type": "doughnutChart",
+                "config":{
+                  "title": "Number of staff/dependents receiving tuition waivers",
+                  "properties":{
+                    "labels":["2017/18", "2018/19"],
+                    "datasets":[{"data":[485, 528]}]
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "full": true,
+          "left":{
+            "components":[
+              {
+                "type": "image",
+                "config":{"src": null}
+              },
+              {
+                "type": "header",
+                "config":{
+                  "level": 4,
+                  "text": "The UWI Western Jamaica Campus"
+                }
+              },
+              {
+                "type": "stacked",
+                "config":{"texts":["At the Western Jamaica Campus, all members of the Facilities Management Unit (FMU) – office attendants, lab attendants, grounds persons and gardeners – were exposed to on-site training in cleaning, landscaping, and safety in the workplace. These sessions were led by established external facilitators. Among support staff, one member is pursuing an Associate Degree while another is pursuing a Diploma in Education, while others are actively involved in professional and civic associations and community outreach programmes."]}
+              }
+            ]
+          }
+        },
+        {
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "content-list",
+                "config": {
+                  "header": "IMPROVING INFRASTRUCTURE",
+                  "contents":[
+                    "Enhancing Operational Efficiencies",
+                    "Digitization Initiatives",
+                    "Mona Information Technology Services driving Digitalization"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "Enhancing Operational Efficiencies"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["During the previous academic year, a number of initiatives contributed to increased operational efficiencies.  In consultation with the Office of Student Services and Development, the Estate Management Department (EMD) developed water management strategies, particularly for the Halls of Residence. In addition, the EMD is collaborating with the Marketing, Recruitment and Communications Office to roll out an environmental awareness initiative across the Campus to ensure both responsiveness to the SDGs as well as financial savings on unnecessary wastage."]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Members of the Finance and General Purposes Committee approved the adoption of The Maintenance Authority Computerized Maintenance Management System (TMA-CMMS) across the Campus. The System allows for effective tracking of assets at the Department and Faculty levels and management of the Campus’ maintenance costs.",
+                    "The Estate Management Department adopted REDCap® software for more efficient tracking of rental information as well as for tracking the movement and status of documents within the EMD and between the EMD and the Bursary.  The software was created at Vanderbilt University and is free to use for any type of data collection activity that is entirely maintained and supported by each institution. The software, which resides with Mona Information Technology Services (MITS), can be used by departments and staff at Mona.",
+                    "To improve the turn-around time for requested information and customer service, the automation and production of Status Letters, which are requested by students, were achieved in the Student Affairs section of the Admissions Office.  Automation has greatly reduced the time to process Status Letters and reduced the risk of human error.  Students are now able to initiate requests through the click of a button and complete payment in person or online.  The process has also reduced the workload of staff allowing them to redirect their activities on other areas also requiring improved efficiencies in our customer service.",
+                    "Throughout the academic year the Library continued an aggressive weeding out of printed materials that registered low circulation for which digital surrogates were available. Weeding is necessary to transform Library areas to accommodate the demand by undergraduate students for more collaborative spaces. This is also a part of The Library’s strategic initiative to foster student innovation and creativity."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "callout",
+                "config": {
+                  "components": [
+                    {
+                      "type": "image",
+                      "config": {
+                        "src": null
+                      }
+                    },
+                    {
+                      "type": "stacked",
+                      "config": {
+                        "texts": ["The UWI Mona Library was also awarded an Elton B. Stephens Company (EBSCO) Solar Grant of USD$ 100,000 to implement a 46.86kWdc Solar Photovoltaic System on the roofs of the Science & Engineering Branch Library (SEBL) and the Physics Lab. The UWI, Mona is the first university outside the United States to win the EBSCO Solar Grant.   These solar panels were successfully installed on the Science and Engineering Branch Library and the Department of Physics and became operational in February 2019. A visit and tour by a team from EBSCO was carried out in March 2019."]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "note",
+                "config": {
+                  "texts": ["Library staff with visiting members of the EBSCO Team, Solar Buzz and the Department of Physics during a tour of the solar panels"]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "Digitization Initiatives"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Digitization was identified as one of the priority strategies for transforming processes used in administration and in the primary services we offer of teaching and communication of knowledge products. Digital technology represents a powerful tool for widening access to a UWI education, reducing expenditure on capital projects, and developing products for commercialization.  During the year under review a number of departments used digital technology to generate gains.  For example, to improve learning outcomes, several instructors in the Department of Computing recorded their lectures and posted the videos on OurVLE, the University’s course management system. The recorded videos not only enhance student learning but also have the potential of attracting regional and part-time students to the Department’s programmes.",
+                    "In the Office of the Campus Registrar, staff from the Student Affairs section teamed up with MITS to develop an automated ranking system of entry qualifications from student applications to the Faculty of Humanities and Education. The automation would not only bring the Faculty in line with  what obtained in other Faculties, but would also considerably diminish the time and resources  deployed in the processing of applications. As a result of this initiative, the number of offers for the Faculty at January 31, 2019 increased by 30%, no doubt as a result of the shift from the manual process which previously existed.",
+                    "The Digitization Project, which is overseen by the Campus Records Office in the Office of the Campus Registrar, expanded in 2011 to include the conversion of all student files to digital format. Digitization has saved approximately JMD$ 1.5 million annually on file jackets and other filing supplies. More importantly, the electronic system allows for easy access and fast retrieval of information when used in conjunction with the Banner Student System. To date, approximately 530,000 pages of documents for students who commenced in the academic year 2010/2011 to present is now available in Banner Document Management System.  This effort has served to establish the viability of a central electronic document management service for the University’s administrative functions."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "Digital Transformation"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "MITS is charged with realizing a vision of a digitally transformed University that markedly improves the student experience and student outcomes. Digitally transforming teaching and learning is fundamental to the University’s mission. This transformation also includes the creation of new technology enabled business models, particularly in the context of contracting public sector funding and increased competition in the higher education space. While the transformation requires continuous innovation of capabilities and approaches to administrative processes, teaching, learning, and research, the year 2018/2019 saw a refocusing and rationalization of our resources and potential for achieving gains.",
+                    "The work of MITS over the last year has focused on the ICT infrastructure necessary to support digital transformation, and laying the platform for digital transformation initiatives, specifically to"
+                  ]
+                }
+              },
+              {
+                "type": "bullet",
+                "config": {
+                  "bullets": [
+                    "Create a highly connected Campus",
+                    "Enhance teaching and learning spaces",
+                    "Improve and expand online education and e-learning",
+                    "Implement technology to support research and innovation (Research Computing)",
+                    "Improve administrative efficiency and the student experience"
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        }, 
+        {
+          "header": {
+            "level": 5,
+            "text": "Creating a highly connected Campus"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["Ubiquitous, high performance network (and Internet) connectivity is fundamental to a technology enabled Campus and digital transformation. The recent focus has been on improving wireless Internet services to students on the Halls of Residence. A new wireless (Wi-Fi) network was implemented for (the new) Irvine Hall providing wireless Internet services to all residential and common areas of the Hall. This is the latest in a broader initiative to continuously improve wireless (Wi-Fi) services across the Campus which has resulted in a more than doubling of wireless service capacity Campus-wide and new wireless networks commissioned on the ABC, Chancellor, Preston, Rex Nettleford, and Taylor Halls and the upgrade on wireless infrastructure of all Faculties."]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 5,
+            "text": "Enhancing  teaching and learning spaces"
+          },
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "caption-image",
+                "config": {
+                  "src": null,
+                  "captions": ["FMS 300 Lecture Theatre"]
+                }
+              },
+              {
+                "type": "caption-image",
+                "config": {
+                  "src": null,
+                  "captions": ["Law Lecture Theatre 2"]
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["The need to implement more student-centered, flexible and interactive approaches to learning requires re-engineering of existing learning spaces. In part this can be supported by multimedia and Internet collaboration and streaming technologies.  An additional four (4) teaching spaces were equipped with multimedia and videoconferencing systems. Currently, one hundred and sixty (160) instructional spaces (at Mona and the Western Jamaica Campus) are equipped with multimedia infrastructure."]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 5,
+            "text": "Improvement  and expansion of  online education and e-learning"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["MITS has implemented technologies critical to the support of online and blended learning. These include learning management systems (LMS), virtual learning environments (VLE) and interactive response systems. An objective is to accelerate the move of teaching and learning online.  In this regard, the number of active online course environments have increased by 26% over the prior year. This resulted in the number of courses with an online component increasing from approximately 2300 to a current total of 2,892. In addition, MITS developed and delivered staff (faculty) training – some aspects in collaboration with CETL – in the effective use of the virtual learning environment and learning management systems, and collaborative learning platforms that include the following:"]
+                }
+              },
+              {
+                "type": "bullet",
+                "config": {
+                  "bullets": [
+                    "Basic training for staff members and all new academic staff members prior to the start of each academic year and upon request thereafter.",
+                    "Interactive classroom response systems.",
+                    "Intermediate and advanced training for all staff members at the start of each semester.",
+                    "Tailored on demand training with groups or individuals as needed.",
+                    "Computer based training and self-help resources online.",
+                    "Access to a catalogue of self-service video resources offering step-by-step guidance   to tutors in accomplishing common tasks within the Virtual Learning Environment.",
+                    "Virtual training using online tools such as Blackboard Collaborate and Zoom video conferencing."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "columnChart",
+                "config": {
+                  "title":"OSS Installations",
+                  "properties":{
+                    "labels":["2015-17", "2017-19"],
+                    "datasets":[{
+                      "data":[1298,1596]
+                    }]
+                  }
+                }
+              },
+              {
+                "type": "note",
+                "config": {
+                  "texts": ["MITS delivered software application support of teaching and learning in specific courses by providing for the installation, training and support of open source software (OSS) – a. free alternative to specific commercial off-the-shelf applications. During the period August 2017- July 2019, there was a total of 1,596 open source software applications installed. This compares with 1,298 installed instances for the prior period, August 2015 toJuly 2017."]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "Research Computing Implementing technology to support research and innovation"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["Research computing, that is, the use of high-performance computers to support and solve problems that are computationally and data intensive, is necessary for many contemporary areas of basic and applied research. MITS successfully manages a high-performance computing cluster (HPCC) in support of research and innovation and   prioritizes supporting this resource to faculty to diversify the range of research areas that might benefit. During the last year MITS management of high-performance computers has served as a resource for scientific modelling, numerical computation and (big) data analytics in support of the following research areas:"]
+                }
+              },
+              {
+                "type": "bullet",
+                "config": {
+                  "bullets": [
+                    "Climate Change, Climate Risk Assessment and Climate Resilience",
+                    "Material Science Studies",
+                    "Post-fire Characterization",
+                    "Environmental Modelling"
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "Improving administrative efficiency and the student experience"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["Informed decision-making increases administrative efficiency and effectiveness and is a critical prerequisite for digital business agility and consequently, digital transformation. In the last year specific administrative and academic processes have been targeted for improvement, automation and analytics to better support and drive a culture of data driven decision-making included initiatives in the following:"]
+                }
+              },
+              {
+                "type": "bullet",
+                "config": {
+                  "bullets": [
+                    "Improving the student experience",
+                    "Improving workforce management",
+                    "Improving the management of the physical plant (facilities management)",
+                    "Improving financial management "
+                  ]
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["The objective is to have  similar and other related initiatives lay the platform for digital transformation of the Campus in the coming years."]
+                }
+              }
+            ]
           }
         }
       ]

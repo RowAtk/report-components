@@ -1,0 +1,333 @@
+{
+	// Place your snippets for json here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// },
+	"rowl": {
+		"prefix": "rowl",
+		"body": [
+			"{",
+			"\t\"left\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t}",
+			"}"
+		],
+		"description": "Row with left"
+	},
+	"rowlf": {
+		"prefix": "rowlf",
+		"body": [
+			"{",
+			"\t\"full\": true,",
+			"\t\"left\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t}",
+			"}"
+		],
+		"description": "Row with left - full width"
+	},
+	"rowlh": {
+		"prefix": "rowlh",
+		"body": [
+			"{",
+			"\t\"header\": {",
+			"\t\t\"level\": $1,",
+			"\t\t\"text\": \"$2\"",
+			"\t},",
+			"\t\"left\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t}",
+			"}"
+		],
+		"description": "Row with left (w/ header)"
+	},
+	"rowr": {
+		"prefix": "rowr",
+		"body": [
+			"{",
+			"\t\"right\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t}",
+			"}"
+		],
+		"description": "Row with right"
+	},
+	"rowrh": {
+		"prefix": "rowrh",
+		"body": [
+			"{",
+			"\t\"header\": {",
+			"\t\t\"level\": $1,",
+			"\t\t\"text\": \"$2\"",
+			"\t},",
+			"\t\"right\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t}",
+			"}"
+		],
+		"description": "Row with right (w/ header)"
+	},
+	"rowlr": {
+		"prefix": "rowlr",
+		"body": [
+			"{",
+			"\t\"left\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t},",
+			"\t\"right\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t}",
+			"}",
+		],
+		"description": "Row with left and right"
+	},
+	"rowlrh": {
+		"prefix": "rowlrh",
+		"body": [
+			"{",
+			"\t\"header\": {",
+			"\t\t\"level\": $1,",
+			"\t\t\"text\": \"$2\"",
+			"\t},",
+			"\t\"left\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t},",
+			"\t\"right\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t}",
+			"}",
+		],
+		"description": "Row with left and right (w/ header)"
+	},
+	"rowalra": {
+		"prefix": "rowlra",
+		"body": [
+			"{",
+			"\t\"left\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t},",
+			"\t\"right\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t},",
+			"\t\"across\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t}",
+			"},",
+		],
+		"description": "Row with left, right & across"
+	},
+	"rowalrah": {
+		"prefix": "rowlrah",
+		"body": [
+			"{",
+			"\t\"header\": {",
+			"\t\t\"level\": $1,",
+			"\t\t\"text\": \"$2\"",
+			"\t},",
+			"\t\"left\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t},",
+			"\t\"right\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t},",
+			"\t\"across\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t}",
+			"},",
+		],
+		"description": "Row with left, right & across (w/ header)"
+	},
+	"left": {
+		"prefix": "left",
+		"body": "\"left\": {\n\t\"components\": [\n\t\t{\n\t\t}\n\t]\n}",
+		"description": "left row property"
+	},
+	"right": {
+		"prefix": "right",
+		"body": "\"right\": {\n\t\"components\": [\n\t\t{\n\t\t}\n\t]\n}",
+		"description": "right row property"
+	},
+	"across": {
+		"prefix": "across",
+		"body": "\"across\": {\n\t\"components\": [\n\t\t{\n\t\t}\n\t]\n}",
+		"description": "across row property"
+	},
+	"title-row":{
+		"prefix": "title-row",
+		"body": [
+			"{",
+			"\t\"left\": {",
+			"\t\t\"components\": [",
+			"\t\t\t{",
+			"\t\t\t}",
+			"\t\t]",
+			"\t}",
+			"},",
+			"{",
+			"\t\"right\": {",
+			"\t\t\"components\": [",
+			"\t\t\t{",
+			"\t\t\t}",
+			"\t\t]",
+			"\t}",
+			"}",
+		]
+	},
+
+	// COMPONENT SNIPPETS
+	"component": {
+		"prefix": "component",
+		"body": [
+			"{",
+			"\t\"type\": \"\",",
+			"\t\"config\": {",
+			"\t}",
+			"}"
+		]
+	},
+	"stacked component": {
+		"prefix": "stacked",
+		"body":[
+			"{",
+			"\t\"type\": \"stacked\",",
+			"\t\"config\": {",
+			"\t\t\"texts\": [$1]",
+			"\t}",
+			"}"
+		],
+		"description": "Stacked component snippet"
+	},
+	"image component": {
+		"prefix": "image",
+		"body":[
+			"{",
+			"\t\"type\": \"image\",",
+			"\t\"config\": {",
+			"\t\t\"src\": null",
+			"\t}",
+			"}"
+		],
+		"description": "Image component snippet"
+	},
+	"caption-image component": {
+		"prefix": "caption-image",
+		"body":[
+			"{",
+			"\t\"type\": \"caption-image\",",
+			"\t\"config\": {",
+			"\t\t\"src\": null,",
+			"\t\t\"captions\": []",
+			"\t}",
+			"}"
+		],
+		"description": "Caption Image component snippet"
+	},
+	"content-list": {
+		"prefix": "content-list2",
+		"body": [
+			"{",
+			"\t\"type\": \"content-list\",",
+			"\t\"config\": {",
+			"\t\t\"header\": \"$1\",",
+			"\t\t\"contents\": [",
+			"\t\t]",
+			"\t}",
+			"}"
+		],
+		"description": ""
+	},
+	"content-list-row": {
+		"prefix": "content-list",
+		"body": [
+			"{",
+			"\t\"full\": true,",
+			"\t\"left\": {",
+			"\t\t\"components\": [{",
+			"\t\t\t\"type\": \"content-list\",",
+			"\t\t\t\"config\": {",
+			"\t\t\t\t\"header\": \"$1\",",
+			"\t\t\t\t\"contents\": [",
+			"\t\t\t\t\t\"$2\"",
+			"\t\t\t\t]",
+			"\t\t\t}",
+			"\t\t}]",
+			"\t}",
+			"}"
+		],
+		"description": ""
+	},
+	"header": {
+		"prefix": "header",
+		"body": [
+			"{",
+			"\t\"type\": \"header\",",
+			"\t\"config\": {",
+			"\t\t\"level\": $1,",
+			"\t\t\"text\": \"$2\"",
+			"\t}",
+			"}"
+		],
+		"description": ""
+	},
+	"cutout": {
+		"prefix": "callout",
+		"body": [
+			"{",
+			"\t\"type\": \"callout\",",
+			"\t\"config\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t}",
+			"}"
+		],
+		"description": ""
+	},
+	"note": {
+		"prefix": "note",
+		"body": [
+			"{",
+			"\t\"type\": \"note\",",
+			"\t\"config\": {",
+			"\t\t\"texts\": [\"$1\"]",
+			"\t}",
+			"}"
+		]
+	},
+	"bullter": {
+		"prefix": "bullet",
+		"body": [
+			"{",
+			"\t\"type\": \"bullet\",",
+			"\t\"config\": {",
+			"\t\t\"bullets\": [",
+			"\t\t\t\"$1\"",
+			"\t\t]",
+			"\t}",
+			"}"
+		]
+	}
+}

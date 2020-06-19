@@ -1,16 +1,16 @@
 <template>
   <div class="img-wrapper">
-    <img src="@/assets/forest.jpg" alt="" />
+    <img :src="src" alt="" />
     <div class="caption-wrapper">
       <i>
         <h3 class="caption">
-          {{ data.caption[0] }}
+          {{ data.captions[0] }}
         </h3>
-        <h4 v-if="data.caption.length > 1" class="caption">
-          {{ data.caption[1] }}
+        <h4 v-if="data.captions.length > 1" class="caption">
+          {{ data.captions[1] }}
         </h4>
-        <h5 v-if="data.caption.length > 2" class="caption">
-          {{ data.caption[2] }}
+        <h5 v-if="data.captions.length > 2" class="caption">
+          {{ data.captions[2] }}
         </h5>
       </i>
     </div>
@@ -21,6 +21,12 @@
 export default {
   name: "ImageCaption",
   props: ["data"],
+  computed: {
+    src () {
+      const src = this.data.src ? require(this.data.src) : require('@/assets/placeholder.jpg')
+      return src
+    }
+  }
 };
 </script>
 

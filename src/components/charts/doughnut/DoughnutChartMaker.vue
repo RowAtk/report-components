@@ -30,6 +30,9 @@ export default {
       options: {
         animation: {
           animateScale: true
+        },
+        legend:{
+          display: true
         }
       }
     };

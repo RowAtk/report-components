@@ -17,12 +17,15 @@ const ChartMaker = Vue.mixin({
       },
       defaultOptions: {
         title: {
-          display: false,
+          display: true,
           text: this.splitTitle(),
           position: 'bottom',
           padding: 30,
           fontColor: '#2B2D42',
           fontSize: 16
+        },
+        legend: {
+          display: true
         }
       },
       bgnum: 0
@@ -78,7 +81,12 @@ const ChartMaker = Vue.mixin({
      * @return {Object} merged options object for chart
      */
     mergeOptions() {
-      return merge(this.options || {}, this.defaultOptions, this.data.options || {})
+      // only show legend by default if more than dataset provided
+      const ldisplay = this.data.properties.datasets.length == 1 ? false : true
+      this.defaultOptions.legend.display = ldisplay;
+
+      // actual merging
+      return merge(this.defaultOptions || {}, this.options || {}, this.data.options || {})
     }
   },
 });

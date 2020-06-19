@@ -31,7 +31,7 @@ export default {
                 'table': 'tables/table',
                 'header': 'texts/header/header',
                 'bullet': 'texts/bullet',
-                'list': 'nav/contentList',
+                'content-list': 'nav/contentList',
                 'image': 'images/image',
                 'caption-image': 'images/caption-image',
                 'note': 'texts/note'
