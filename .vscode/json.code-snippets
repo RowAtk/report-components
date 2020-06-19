@@ -24,19 +24,6 @@
 		],
 		"description": "Row with left"
 	},
-	"rowlf": {
-		"prefix": "rowlf",
-		"body": [
-			"{",
-			"\t\"full\": true,",
-			"\t\"left\": {",
-			"\t\t\"components\": [",
-			"\t\t]",
-			"\t}",
-			"}"
-		],
-		"description": "Row with left - full width"
-	},
 	"rowlh": {
 		"prefix": "rowlh",
 		"body": [
@@ -52,6 +39,36 @@
 			"}"
 		],
 		"description": "Row with left (w/ header)"
+	},
+	"rowlf": {
+		"prefix": "rowlf",
+		"body": [
+			"{",
+			"\t\"full\": true,",
+			"\t\"left\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t}",
+			"}"
+		],
+		"description": "Row with left - full width"
+	},
+	"rowlfh": {
+		"prefix": "rowlfh",
+		"body": [
+			"{",
+			"\t\"header\": {",
+			"\t\t\"level\": $1,",
+			"\t\t\"text\": \"$2\"",
+			"\t},",
+			"\t\"full\": true,",
+			"\t\"left\": {",
+			"\t\t\"components\": [",
+			"\t\t]",
+			"\t}",
+			"}"
+		],
+		"description": "Row with left - full width (with header)"
 	},
 	"rowr": {
 		"prefix": "rowr",
@@ -322,13 +339,26 @@
 			"}"
 		]
 	},
-	"bullter": {
+	"bullet": {
 		"prefix": "bullet",
 		"body": [
 			"{",
 			"\t\"type\": \"bullet\",",
 			"\t\"config\": {",
 			"\t\t\"bullets\": [",
+			"\t\t\t\"$1\"",
+			"\t\t]",
+			"\t}",
+			"}"
+		]
+	},
+	"list": {
+		"prefix": "list",
+		"body": [
+			"{",
+			"\t\"type\": \"list\",",
+			"\t\"config\": {",
+			"\t\t\"items\": [",
 			"\t\t\t\"$1\"",
 			"\t\t]",
 			"\t}",

@@ -38,7 +38,7 @@ const ChartMaker = Vue.mixin({
 
     splitTitle() {
       if (this.data && this.data.title) {
-        const limit = 1000
+        const limit = 5
         const words = this.data.title.split(' ')
         let lines = []
         for(var i = 0; i<words.length; i+=limit){
@@ -81,12 +81,13 @@ const ChartMaker = Vue.mixin({
      * @return {Object} merged options object for chart
      */
     mergeOptions() {
-      // only show legend by default if more than dataset provided
+      // only show legend by default if more than 1 dataset provided
       const ldisplay = this.data.properties.datasets.length == 1 ? false : true
-      this.defaultOptions.legend.display = ldisplay;
+      const defaultOptions = JSON.parse(JSON.stringify(this.defaultOptions))
+      defaultOptions.legend.display = ldisplay;
 
       // actual merging
-      return merge(this.defaultOptions || {}, this.options || {}, this.data.options || {})
+      return merge(defaultOptions || {}, this.options || {}, this.data.options || {})
     }
   },
 });

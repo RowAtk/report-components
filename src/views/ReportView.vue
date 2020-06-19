@@ -6,13 +6,18 @@
       :key="index"
       :data="section"
     > -->
-    <RSection
+    <!-- <RSection
       v-for="(section, index) in parsedData(agility)"
       :key="index"
       :data="section"
     />
     <RSection
       v-for="(section, index) in parsedData(oneuwi)"
+      :key="index"
+      :data="section"
+    /> -->
+    <RSection
+      v-for="(section, index) in sections"
       :key="index"
       :data="section"
     />
@@ -23,6 +28,7 @@
 import RSection from "@/components/RSection.vue"
 import agilitydata from "@/data/agility.json" // configuration object from json file 
 import oneuwidata from "@/data/oneuwi.json"
+import alignmentdata from "@/data/alignment.json"
 
 export default {
   components: {
@@ -30,9 +36,20 @@ export default {
   },
   data() {
     return {
+      sections: [],
       agility: agilitydata,
       oneuwi: oneuwidata
     };
+  },
+  mounted () {
+    this.sections = this.sections
+    .concat(alignmentdata.report)
+    .concat(agilitydata.report)
+    .concat(oneuwidata.report)
+    // console.log(agilitydata.report);
+    // console.log(oneuwidata.report);
+    
+    // console.log(this.sections)
   },
   methods: {
     /**

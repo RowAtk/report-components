@@ -34,7 +34,8 @@ export default {
                 'content-list': 'nav/contentList',
                 'image': 'images/image',
                 'caption-image': 'images/caption-image',
-                'note': 'texts/note'
+                'note': 'texts/note',
+                'list': 'texts/list'
             }
         }
     },
