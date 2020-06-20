@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <!-- <ReportView /> -->
-    <Access />
+    <ReportView />
+    <!-- <Access /> -->
   </div>
 </template>
 
 <script>
-import Access from "@/components/sections/access/access.vue";
-// import ReportView from "@/views/ReportView.vue";
+// import Access from "@/components/sections/access/access.vue";
+import ReportView from "@/views/ReportView.vue";
 // import ReportData from "@/data/report-spec.json";
 // // import Access from "@/components/sections/access/access.vue";
 // import ReportView from '@/views/ReportView.vue';
@@ -15,13 +15,16 @@ import Access from "@/components/sections/access/access.vue";
 export default {
   name: "App",
   components: {
-    Access,
-    // ReportView
+    // Access,
+    ReportView
   },
 };
 </script>
 
 <style>
+body {
+  background-color: #FAFAFA;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -30,5 +33,10 @@ export default {
   color: #2c3e50;
   margin-top: 0;
   padding: 0;
+  background-color: #FAFAFA;
+}
+
+*{
+  /* border:1px solid red; */
 }
 </style>

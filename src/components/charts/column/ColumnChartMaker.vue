@@ -1,48 +1,53 @@
 <template>
   <div class="chart d-flex justify-content-center">
-    <DoughnutChart
+    <ColumnChart
       v-if="data"
       :chartdata="mergeData()"
       :options="mergeOptions()"
-    ></DoughnutChart>
+    ></ColumnChart>
   </div>
 </template>
 
 <script>
 import ChartMaker from "@/components/charts/ChartMaker.js"
-import DoughnutChart from "@/components/charts/doughnut/DoughnutChart.vue";
+import ColumnChart from "@/components/charts/column/ColumnChart.vue";
+// import { merge } from 'lodash'
 // backgroundColor: ["#3498DB", "#138D75", "#6C3483"],
 export default {
   components: {
-    DoughnutChart,
+    ColumnChart,
   },
   mixins: [ChartMaker],
   props: ["data"], // user defined properties
   data() {
     return {
-      chartdata:{
-        datasets:[
-          {
-            backgroundColor: ["#2B2D42", "#39B54A", "#3F78BD", "#7AB6FF", "#DBECF8", "#D90429"],
-          }
-        ]
+      chartdata: {
+        datasets: [ 
+        ] 
+      },
+      dataset: {
+        borderColor: "#000000",
+        borderWidth: 0,
       },
       options: {
+        barPercentage: 0.9,
+        categoryPercentage: 0.8,
         animation: {
           animateScale: true
-        },
-        legend:{
-          display: true
         }
       }
     };
+  },
+  mounted() {
+    // console.log("USER CONFIG")
+    // console.log(this.data)
   }
 };
 </script>
 
 <style>
 .chart {
-  width: 80%;
+  width: 100%;
   height: auto;
   /* margin: 20px auto; */
 }

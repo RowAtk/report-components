@@ -3,19 +3,16 @@
 import { Line } from 'vue-chartjs';
 
 export default {
-    name: "LineGraph",
+    name: "LineChart",
     extends: Line,
     props: [   
         'chartdata', 
         'options'
     ],
     data() {
-        return {
-
-        }
+        return {};
     },
     mounted() {
-        console.log(this.chartdata);
         this.renderChart(this.chartdata, this.options);
     }
 }

@@ -1,0 +1,251 @@
+{
+  "report": [
+    {
+      "header": "ALIGNMENT",
+      "subheader": "Let us be your research engine",
+      "img": null,
+      "rows": [
+        {
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "content-list",
+                "config": {
+                  "header": "4. Partnerships: Strategic Alignment to Improve Teaching and Research Partnerships",
+                  "contents": [
+                    "Collaborations with other Universities",
+                    "Academic/Industry Partnerships"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 4,
+                  "text": "Introduction"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["A foundational pillar of The UWI Strategic Plan is the objective of alignment which calls for strategic linkages with the public and private sectors.  The University must take a leading role in initiating these partnerships and being an advocate for impactful social change.  The following selected collaborations showcase the intellectual capital of the University and demonstrate that we are fully poised to play a leading role in a wide range of disciplinary development initiatives.    As a research-driven University, a primary goal of the academy is to confront the many challenges facing the region and find solutions through scientific research.  Such solutions are better realized through partnerships which bring both intellectual and financial resources that complement our scholars and students’ expertise. To maximize its current resources, the Mona Campus is building on the model of many successful universities and economies that are founded on shared research and development partnerships to realize efficiencies in production and cost savings through technology. During the year under review the University renewed established alliances and engaged in a number of new strategic alliances."]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 4,
+                  "text": "Collaborations with other Universities"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "External recognition of UWI scholars provides some assurance that we are, indeed, becoming an excellent global university rooted in the Caribbean. Efforts to broaden The UWI’s visibility were evident during the previous year when a number of departments formalized agreements with other institutions.  The Department of Literatures in English partnered with a similar department at the University of Maryland, United States, to co-teach two thematically identical courses in the second semester of 2018/2019. Literature and Ideas in the Caribbean was taught at the Mona Campus while Caribbean Literature: Literature and Ideas in the Caribbean was taught at the University of Maryland. Co-teaching these courses led to the sharing of course materials and a cross-fertilization of ideas that were mutually beneficial.",
+                    "A collaborative agreement between the Government of Mexico and the Government of Jamaica gave rise to the establishment of a Mexico Chair at The University of the West Indies. Under this agreement, Dr. Rubén Olachea Pérez visited the Faculty of Humanities and Education and gave lectures on various themes to staff and students during October to November 2018. In the words of the Head of the Department of History and Archaeology, “[Dr. Pérez’s] ideas and contributions …  [were] greatly appreciated, especially at a time when our Department is implementing significant changes regarding the content and delivery of our programmes.”"
+                  ]
+                }
+              }
+            ]
+          },
+          "across": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Faculty of Engineering (FOE) students were able to attend lectures at the University of Pennsylvania (UPENN) via live stream each Thursday; this is in keeping with an MOU with the University of Pennsylvania. Students are exposed to projects that are not available at the Faculty of Engineering because of the current infrastructure within the Faculty. Students from UPENN visited the Faculty in the 2018/2019 academic year and at the end of the exchange a combined team of students from The UWI Mona, the University of Technology (UTech) and UPENN built a prototype for rehabilitative devices. The next step is for the design and development of devices for the Jamaican market. In addition, the Engineering Faculty entered an Agreement with the University of Florida where students will study at their home and partner institution for the award of a Joint Degree. Students will be afforded the opportunity to pursue Joint Degrees in the following areas: Mechanical Engineering, Chemical Engineering, Systems Engineering and Aerospace Engineering.  The first set of students will depart for the University of Florida in the 2020/2021 academic year.",
+                    "The Office of Student Services and Development (OSSD) continues to enhance the global presence of The University of the West Indies through the two Short-term Exchange Programmes coordinated by the Office was arranged under The Memoranda of Understanding for both programmes signed in 1995. The Short-term Exchange Programmes are delivered as formal agreements between The University of the West Indies (UWI, Mona) and Florida State University (FSU) and the University of Costa Rica (UCR)."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Under the MOU, twelve (12) students and two (2) members of staff from The UWI, Mona visit FSU in October of each year and an equal number of staff and students from FSU, visit The UWI, Mona, in March. Similarly, twelve (12) students and two (2) members of staff from The UWI, Mona visit the UCR in May of each year and an equal number of staff and students from the UCR, visit The UWI, Mona, in January. The Programme has been in existence since the 1995/1996 academic year.",
+                    "In June 2019 a Dendrochronology Laboratory was established in the Department of Geography and Geology to enhance capacity in Paleoclimatology. The lab was established in collaboration with researchers in Amsterdam and at the University of Nevada, Reno and funded by a National Geographic Grant. "
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Based on an Agreement with the Global Institute of Software Engineering (GIST) in China, the first 18-member cohort of the BSc in Software Engineering UWI-CIIT programme, left for China on September 4, 2018.  Under the Agreement, UWI students complete the first (2) two years at The UWI and the last (2) two years in China.  As part of the programme, students complete a six-month paid internship at an IT company in the Suzhou Industrial Park.  Graduating students receive a diploma from GIST and a Bachelor’s degree from The UWI.",
+                    "In alignment with the objectives of the 2017-2022 Strategic Plan with respect to international partnerships, the International Students Office (ISO), UWI Mona, renewed the following Agreements that have been converted into active partnerships for The UWI Mona. These are:"
+                  ]
+                }
+              },
+              {
+                "type": "list",
+                "config": {
+                  "items": [
+                    "University of Western Ontario – Canada",
+                    "University of Toronto – Canada",
+                    "Santo Domingo Institute of Technology (INTEC) – Dominican Republic",
+                    "Ryerson University – Canada",
+                    "University of Valladolid – Spain",
+                    "University of Gothenburg – Sweden",
+                    "University of Guelph – Canada",
+                    "University of New Brunswick – Canada",
+                    "Brock University - Canada",
+                    "Dokkyo University – Japan"
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Under these Agreements, students at The UWI are exposed to various student exchange opportunities in areas such as Chemistry, Social Work, and Marine Sciences.  The Agreement with Brock University forms part of the new initiative by the Vice Chancellor to establish the Canada-Caribbean Institute. The purpose of the Institute is to provide a focal point for multi-disciplinary research and teaching to deepen and improve the multi-faceted relationships between Canada and the Caribbean and examine issues affecting the Caribbean diaspora communities in Canada.",
+                    "The ISO also successfully negotiated new partnerships with four (4) Universities:"
+                  ]
+                }
+              },
+              {
+                "type": "list",
+                "config": {
+                  "items": [
+                    "University of Salzburg – Austria",
+                    "University of Magdalena – Colombia",
+                    "Cottey College – USA",
+                    "McEwan University – Canada"
+                  ]
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["These efforts at international collaboration are crucial for UWI’s development as a research enterprise and for attracting more students from outside the Caribbean region."]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 5,
+            "text": "Locations of Universities with which The UWI Mona has research partnerships"
+          },
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "Academic/Industry Partnerships"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "During the previous academic year, the Mona Campus continued efforts to increase access to products and services for the public and private sectors.  This synergy is crucial for the continued exchange of ideas and for collectively solving problems that face the country and the region. The MSBM signed an MOU with the Human Resource Management Association of Jamaica (HRMAJ). The two entities plan to collaborate on certification of professional developmental courses, which are aligned to internationally recognized standards. It is hoped that this collaboration will lead to further research in human resource management. ",
+                    "Ongoing discussions and collaboration between the Jamaica National (JN) Bank and the Mona Library since 2016 were also formalized in July 2019 with JN accepting the “Executive Research Access” proposal which will provide research services and resources of the Mona Library to 12 JN Group Executives for an annual fee of JMD$ 1 milion. This successful partnership aligns not only with core value of “collaboration” of the Mona Library but more importantly with a key objective of The UWI Triple A Strategy to increase and improve academic/industry research partnerships.",
+                    "Within the Faculty of Social Sciences, Social Work students collaborated with the National Housing Trust to assist with community research and project development in NHT communities."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "A Memorandum of Understanding was signed with the Bureau of Standards Jamaica (BSJ) and the Alternative Energy Research Group (AERG), Department of Physics. Under the MOU the AERG will assist the BSJ in the development and execution of a plan to reduce energy consumption at BSJ locations in Kingston, Montego Bay, Mandeville, Ocho Rios and Savanna-la-Mar. Memorandum of Understandings were signed between the Centre for Marine Sciences, and the National Environment and Planning Agency (NEPA) for the UWI-CMS/DBML to assess the current status of the Winn’s Morass mangrove stand in Trelawny and its potential for rehabilitation; as well as with the Ministry of Industry, Commerce, Agriculture and Fisheries’- Fisheries Division to facilitate the completion of the 2018 Queen Conch Abundance Surveys.",
+                    "The UWI Libraries collaborated with the Jamaica Intellectual Property Office (JIPO) towards (i) the setting up of an IP Desk in the Mona Library as requested by Pro Vice-Chancellor for Graduate Studies and Research, Professor Stephan Gift and (ii) setting up of a Technical Innovation Support Centre (TISC) at UWI Mona. Towards this end, members of the Library staff were awarded scholarships to pursue IP Training courses via the World Intellectual Property Organization (WIPO). "
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["In July 2019, Principal Dale Webber and Dr. Courtney Hogarth, Director of the Confucius Institute in Jamaica, visited the Taiyuan University of Technology (TYUT) in China. This was in response to an invitation extended by Dr. Feng Lei, the Chinese Director appointed to the Confucius Institute at Mona.  Principal Webber had the opportunity to meet with Mr. Wu Yucheng, Chair of the Council of Taiyuan University of Technology, Huang Qingxue, President of TYUT, and several representatives from TYUT. Several matters were discussed relating to the 10t anniversary of the CI at Mona that included: the Second Caribbean Confucius Institutes Regional Meeting to be hosted by Mona in mid-October; future staff and student exchanges; and collaboration on the operations of the Confucius Institute. A brief ceremony was also held to confer on Professor Webber the title of Honorary Professor to the TYUT; and on Dr. Hogarth, the title of Visiting Professor, TYUT College of Art. They were both presented official documents by President Huang Qingxue."]
+                }
+              },
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              },
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

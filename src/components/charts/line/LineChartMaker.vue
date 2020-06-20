@@ -1,66 +1,48 @@
 <template>
-  <div class="small">
+  <div class="chart d-flex justify-content-center">
     <LineChart 
-      :chartdata="mergeProps()"
+       v-if="data"
+      :chartdata="mergeData()"
       :options="mergeOptions()"
     ></LineChart>
   </div>
 </template>
 
 <script>
-  import LineChart from '@/components/charts/line/LineChart.vue';
-  import { merge } from 'lodash'
+import ChartMaker from '@/components/charts/ChartMaker.js'
+import LineChart from '@/components/charts/line/LineChart.vue';
 
-  export default {
-    components: {
-      LineChart
-    },
-    props: ["uconfig"], // user defined properties
-    data () {
-      return {
-        chartdata: {
-          datasets: [
-            {
-              backgroundColor: ["#2B2D42", "#3F78BD"]
-            }
-          ] 
-        },
-        options: {
+export default {
+  components: {
+    LineChart
+  },
+  mixins: [ChartMaker],
+  props: ["data"], // user defined properties
+  data () {
+    return {
+      chartdata: {
+        datasets: [
           
-        }
-      }
-    },
-    methods: {
-      getRandomInt () {
-        return Math.floor(Math.random() * (50 - 5 + 1)) + 5
+        ] 
       },
-
-      /**
-       * merge user chartdata and developer chartdata. preference placed on user chartdata
-       * @return {Object} merged chartdata object for chart
-       */
-      mergeProps() {
-        let mp = merge(this.chartdata, this.uconfig.properties)
-        console.log("MERGED")
-        console.log(mp)
-        return mp
+      dataset:{
       },
-
-      /**
-       * merge user options and developer options. preference placed on user options
-       * @return {Object} merged options object for chart
-       */
-      mergeOptions() {
-
-        return merge(this.options, this.uconfig.options)
+      options: {
+        
       }
-    }
+    };
+  },
+  mounted() {
+    // console.log("USER CONFIG")
+    // console.log(this.data)
   }
+}
 </script>
 
 <style>
-  .small {
-    max-width: 600px;
-    margin:  150px auto;
-  }
+.chart {
+  width: 100%;
+  height: auto;
+  /* margin: 20px auto; */
+}
 </style>
