@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid border border-danger">
     <div class="row d-flex justify-content-center">
       <div class="col-lg d-flex align-items-center justify-content-center">
         <RHeader v-if="data.header" :data="data.header" />

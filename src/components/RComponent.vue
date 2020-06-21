@@ -25,6 +25,7 @@ export default {
                 "doughnutChart": "charts/doughnut/DoughnutChartMaker",
                 "lineChart": "charts/line/LineChartMaker",
                 "columnChart": "charts/column/ColumnChartMaker",
+                "barChart": "charts/bar/BarChartMaker",
                 'callout': 'texts/callout',
                 'paragraph': 'texts/paragraph',
                 'stacked': 'texts/paragraph-stacked',
