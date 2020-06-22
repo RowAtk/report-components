@@ -6,6 +6,178 @@
       "img": null,
       "rows": [
         {
+          "full": true,
+          "left": {
+            "size": 100,
+            "components": [
+              {
+                "group": "contents",
+                "type": "content-list",
+                "config": {
+                  "header": "1. STUDENTS: To be the University of Choice",
+                  "contents": [
+                    "Financing the Dream",
+                    "International Students",
+                    "Increasing Access through Online Delivery",
+                    "Engaging Students through Teaching and Learning",
+                    "Student Development: Fostering a Culture of Research",
+                    "Student Internships: Facilitating Industry Partnerships",
+                    "Recognizing Excellence",
+                    "Achievements in Sports",
+                    "Student Entrepreneurship",
+                    "Student Housing",
+                    "A University for All",
+                    "Student Events: Photo gallery"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "To be the University of First Choice"
+          },
+          "left": {
+            "size": 75,
+            "components": [
+              {
+                "group": "texts",
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Standing tall in our vision is the hope that the Mona Campus must be the preferred choice for the many communities we serve: students, neighbours, research affiliates and industry partners; and that government and civil society leaders see us as a major resource for supporting policy and socio-economic development initiatives.",
+                    "In 2018, we assessed the uptake of secondary education leading to tertiary education choices and found, according to the most recent census, that the Jamaican population possessing tertiary education qualifications increased from 12.3% in 2001 to 12.8% in 2011.1 Over the same inter-censal period, the Jamaican population aged 15 and over gaining a secondary education, declined from 55.5% in 2001 to 52.7% in 2011. In light of a waning uptake of secondary education, and its implications for a growing under-education in this society, our current drive in the second decade of the twenty-first century to increase access to a university education is both timely and necessary for revitalizing Caribbean development. In the 2018/19 academic year our total student registration showed a 3% increase over the previous academic year. Our marketing in high schools to encourage secondary students into tertiary education stimulates the necessary expansion of both levels of education.",
+                    "Although minimal gains were experienced, we were nonetheless able to achieve a steady rise in student registration at the Mona Campus between 2017/2018 and 2018/2019. The Campus in 2018/2019 registered 19,599 students, the highest number ever registered in the 71 years, providing more access than ever before. This was only possible through the efforts of the entire Mona Campus team maximizing the available resources."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "group": "texts",
+                "type": "callout",
+                "config": {
+                  "components": [
+                    {
+                      "type": "header",
+                      "config": {
+                        "level": 5,
+                        "text": "Further Expansion of the Mona Western Jamaica Campus"
+                      }
+                    },
+                    {
+                      "group": "texts",
+                      "type": "stacked",
+                      "config": {
+                        "texts": [
+                          "On Friday, March 22, 2019, a Ground Breaking Ceremony was held on Barnett site in Montego Bay to signal the start of construction of the new Mona Western Jamaica Campus."
+                        ]
+                      }
+                    },
+                    {
+                      "group": "texts",
+                      "type": "stacked",
+                      "config": {
+                        "texts": [
+                          "The development of The UWI Mona Western Jamaica Campus (The UWI-WJC) will provide: more tertiary opportunities in Western Jamaica (access); more academic and industry partnerships through collaboration with Barnett Limited (alignment) and; another step toward restoring the financial health of The UWI."
+                        ]
+                      }
+                    },
+                    {
+                      "group": "texts",
+                      "type": "stacked",
+                      "config": {
+                        "texts": [
+                          "The Campus is expected to have a world class School of Management that caters to Business Process Outsourcing (BPO), as well as Financial and Tourism Management. A world class School of Engineering will provide the technical skillset for the BPO sector."
+                        ]
+                      }
+                    },
+                    {
+                      "group": "texts",
+                      "type": "stacked",
+                      "config": {
+                        "texts": [
+                          "Minister of Tourism, The Hon. Edmund Bartlett, expressed his delight at the ceremony. “To see this vision now become a reality under the leadership of Professor Dale Webber, augurs well for tourism and our human capital development strategy.”"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "across": {
+            "components": [
+              {
+                "type": "columnChart",
+                "config": {
+                  "title": "Total Enrolment by Faculty",
+                  "properties": {
+                    "labels": ["FHE", "FOL", "FMS", "FST", "FOE", "FSS", "FOS"],
+                    "datasets": [
+                      {
+                        "label": "2016/17",
+                        "data": [2484, 576, 4501, 3484, 0, 7272]
+                      },
+                      {
+                        "label": "2017/18",
+                        "data": [2613, 647, 4428, 3639, 0, 7950, 3]
+                      },
+                      {
+                        "label": "2018/19",
+                        "data": [2578, 648, 4379, 3298, 262, 8297]
+                      }
+                    ]
+                  },
+                  "options": {
+                    "scales": {
+                      "xAxes": [
+                        {
+                          "stacked": false
+                        }
+                      ],
+                      "yAxes": [
+                        {
+                          "stacked": false
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "type": "columnChart",
+                "config": {
+                  "title": "Student Registrations",
+                  "properties": {
+                    "labels": ["2016-17", "2017-18", "2018-19"],
+                    "datasets": [
+                      {
+                        "label": "Registered Students",
+                        "data": [18469, 19408, 19599]
+                      }
+                    ]
+                  },
+                  "options": {
+                    "title": {
+                      "position": "top"
+                    },
+                    "legend": {
+                      "display": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
           "header": {
             "level": 4,
             "text": "A university for All"
@@ -209,7 +381,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The Faculty of Sport, aided by a grant from the Caribbean Development Bank (CDB), launched the Community Inclusion Project, a pilot project targeting children between the ages of 9 and 16 to expose them to the values and ethics of sports.  Youngsters from the community of August Town were counselled on vocational opportunities in and around sport and given the opportunity to mingle and compete with some of the top sportsmen and sportswomen in the region. Another portion of the CDB grant was used to commence the Regional Emerging Athlete Development Programme. National sporting organizations around the region nominated an athlete from which three (3) were selected for the programme. The athletes, accompanied by their coaches, had extensive baseline medical and sports science testing done in Barbados, following which customized programmes were forwarded to their coaches."]
+                  "texts": [
+                    "The Faculty of Sport, aided by a grant from the Caribbean Development Bank (CDB), launched the Community Inclusion Project, a pilot project targeting children between the ages of 9 and 16 to expose them to the values and ethics of sports.  Youngsters from the community of August Town were counselled on vocational opportunities in and around sport and given the opportunity to mingle and compete with some of the top sportsmen and sportswomen in the region. Another portion of the CDB grant was used to commence the Regional Emerging Athlete Development Programme. National sporting organizations around the region nominated an athlete from which three (3) were selected for the programme. The athletes, accompanied by their coaches, had extensive baseline medical and sports science testing done in Barbados, following which customized programmes were forwarded to their coaches."
+                  ]
                 }
               }
             ]
@@ -219,7 +393,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The athletes will be retested in the next academic year to monitor their progress. The Faculty of Sport also launched the Pace Like Fire programme scouting fast bowlers. Testing was conducted in multiple sites in Trinidad and Tobago, Guyana, St. Lucia, Barbados and Jamaica in which any fast bowler was invited to bowl balls which were measured using a radar gun. The top 20 were then assessed by an expert panel of elite coaches and were taken into a camp at Cave Hill for intensive baseline testing and training to enhance their bowling technique. The entire process was filmed by Flow Sports working in conjunction with UWItv and was aired as a multi-episode series on Flow Sports."]
+                  "texts": [
+                    "The athletes will be retested in the next academic year to monitor their progress. The Faculty of Sport also launched the Pace Like Fire programme scouting fast bowlers. Testing was conducted in multiple sites in Trinidad and Tobago, Guyana, St. Lucia, Barbados and Jamaica in which any fast bowler was invited to bowl balls which were measured using a radar gun. The top 20 were then assessed by an expert panel of elite coaches and were taken into a camp at Cave Hill for intensive baseline testing and training to enhance their bowling technique. The entire process was filmed by Flow Sports working in conjunction with UWItv and was aired as a multi-episode series on Flow Sports."
+                  ]
                 }
               }
             ]
@@ -298,20 +474,22 @@
         {
           "full": true,
           "left": {
-            "components": [{
-              "type": "content-list",
-              "config": {
-                "header": "3. STRATEGIC RESEARCH PARTNERSHIPS: Fostering a culture of Research",
-                "contents": [
-                  "Research Publications",
-                  "Fostering a Culture of Research for staff",
-                  "Research: Outstanding Researchers",
-                  "Research Advocacy: Contributions to Sustainable Development and the Environment",
-                  "Research: Contribution to Regional Development",
-                  "Research Advocacy: Contribution to Social Development"
-                ]
+            "components": [
+              {
+                "type": "content-list",
+                "config": {
+                  "header": "3. STRATEGIC RESEARCH PARTNERSHIPS: Fostering a culture of Research",
+                  "contents": [
+                    "Research Publications",
+                    "Fostering a Culture of Research for staff",
+                    "Research: Outstanding Researchers",
+                    "Research Advocacy: Contributions to Sustainable Development and the Environment",
+                    "Research: Contribution to Regional Development",
+                    "Research Advocacy: Contribution to Social Development"
+                  ]
+                }
               }
-            }]
+            ]
           }
         },
         {
@@ -324,7 +502,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["Pure and applied research must both be understood and appreciated by the University and its partners. While there are immediate outcomes of some research that can serve commerce or policy, some research raises the profile of the University on the global landscape, signalling our capacity for both stridency and innovative research,  and allowing where possible conversion into entrepreneurial benefits.  Partnerships are established at all levels, between staff and students, with our national and regional partners across islands, with our sister University of the West Indies campuses, and with our international connections. In building strategic partnerships in research we recognize the importance of our research integrity - the formal and informal ethics, standards, protocols and policies researchers follow in their environment, and that developing a partnership is inevitably a non-linear process involving many “starts” and “restarts”. While funding the research enterprise is an important ingredient, the spill on effect of stimulating and generating research at all levels and with strategic vibrant partnerships is unmeasurable for a university. Research is the lifeblood of our existence, running through the arteries of each discipline as they cater to the varied needs of our society and the raison d’etre of our University."]
+                  "texts": [
+                    "Pure and applied research must both be understood and appreciated by the University and its partners. While there are immediate outcomes of some research that can serve commerce or policy, some research raises the profile of the University on the global landscape, signalling our capacity for both stridency and innovative research,  and allowing where possible conversion into entrepreneurial benefits.  Partnerships are established at all levels, between staff and students, with our national and regional partners across islands, with our sister University of the West Indies campuses, and with our international connections. In building strategic partnerships in research we recognize the importance of our research integrity - the formal and informal ethics, standards, protocols and policies researchers follow in their environment, and that developing a partnership is inevitably a non-linear process involving many “starts” and “restarts”. While funding the research enterprise is an important ingredient, the spill on effect of stimulating and generating research at all levels and with strategic vibrant partnerships is unmeasurable for a university. Research is the lifeblood of our existence, running through the arteries of each discipline as they cater to the varied needs of our society and the raison d’etre of our University."
+                  ]
                 }
               }
             ]
@@ -389,7 +569,16 @@
                 "type": "barChart",
                 "config": {
                   "properties": {
-                    "labels": ["FMS", "FST", "FSS", "FHE", "LAW", "IGDS", "SPORT", "FEN"],
+                    "labels": [
+                      "FMS",
+                      "FST",
+                      "FSS",
+                      "FHE",
+                      "LAW",
+                      "IGDS",
+                      "SPORT",
+                      "FEN"
+                    ],
                     "datasets": [
                       {
                         "label": "2015-2016",
@@ -419,7 +608,9 @@
               {
                 "type": "note",
                 "config": {
-                  "texts": ["Source: Departmental Reports (Book chapters, journal articles, and technical reports)"]
+                  "texts": [
+                    "Source: Departmental Reports (Book chapters, journal articles, and technical reports)"
+                  ]
                 }
               }
             ]
@@ -492,7 +683,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["For the 2018/2019 academic year, the Mona Campus received an allocation of JMD$ 6,068,953 for Research and Publication. A total of twenty (20) staff members were awarded Research and Publication Grants. The seed funding provided by the Research and Publication fund continues to be foundational to inspiring a research culture on the Campus for staff who are beginning to generate new and exciting research projects."]
+                  "texts": [
+                    "For the 2018/2019 academic year, the Mona Campus received an allocation of JMD$ 6,068,953 for Research and Publication. A total of twenty (20) staff members were awarded Research and Publication Grants. The seed funding provided by the Research and Publication fund continues to be foundational to inspiring a research culture on the Campus for staff who are beginning to generate new and exciting research projects."
+                  ]
                 }
               },
               {
@@ -505,7 +698,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The traditionally staged UWI, Mona Research Day activities led by the Director of Graduate Studies and Research, was held between Wednesday, February 6 and Friday, February 8, 2019 under the theme Powering Development through Partnerships in Research & Innovation as the University celebrated twenty (20) years of Research Days. Research Days provide an opportunity for The UWI to showcase research that is being done across the Campus. Over the years, the series of activities have sparked the interest of the government, the public and private sector, and other institutions that share The UWI mission of positively transforming the Caribbean and the wider world."]
+                  "texts": [
+                    "The traditionally staged UWI, Mona Research Day activities led by the Director of Graduate Studies and Research, was held between Wednesday, February 6 and Friday, February 8, 2019 under the theme Powering Development through Partnerships in Research & Innovation as the University celebrated twenty (20) years of Research Days. Research Days provide an opportunity for The UWI to showcase research that is being done across the Campus. Over the years, the series of activities have sparked the interest of the government, the public and private sector, and other institutions that share The UWI mission of positively transforming the Caribbean and the wider world."
+                  ]
                 }
               }
             ]
@@ -517,14 +712,18 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["Dr. Wayne Henry, Director General of the Planning Institute of Jamaica (PIOJ), participated in this years’ event by presenting a paper which highlighted the contributions of 32 UWI academics to Vision 2030, Jamaica’s National Development Agenda, from concept stage and continuing throughout to the now implementation."]
+                  "texts": [
+                    "Dr. Wayne Henry, Director General of the Planning Institute of Jamaica (PIOJ), participated in this years’ event by presenting a paper which highlighted the contributions of 32 UWI academics to Vision 2030, Jamaica’s National Development Agenda, from concept stage and continuing throughout to the now implementation."
+                  ]
                 }
               },
               {
                 "type": "caption-image",
                 "config": {
                   "src": null,
-                  "captions": ["Professor Dale Webber, Pro Vice-Chancellor and Principal of The UWI MonaCampus, and Dr. Wayne Henry, Director General of the Planning Institute ofJamaica (PIOJ) during Dr. Henry’s Distinguished Lecture at The UWI ResearchDays 2019."]
+                  "captions": [
+                    "Professor Dale Webber, Pro Vice-Chancellor and Principal of The UWI MonaCampus, and Dr. Wayne Henry, Director General of the Planning Institute ofJamaica (PIOJ) during Dr. Henry’s Distinguished Lecture at The UWI ResearchDays 2019."
+                  ]
                 }
               }
             ]
@@ -534,14 +733,18 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The event received tremendous support from The UWI community. There were over 100 posters on display and 53 interactive sessions covering areas including gender, the environment, marine science, community, energy, puppets in teaching, archaeology digs and natural products. A Policy Wall was also mounted which looked back at the contributions of UWI academics over the past 20 years to significant policies impacting Child Health, Ageing, HIV Prevention, Medium Size Enterprises, Climate Change, and Mangroves and Environmental Management. Finance Minister, Dr. Nigel Clarke, in his keynote address at the Opening Ceremony, emphasized the importance of research to social and economic development. To underscore the government’s commitment to research and development, a budget allocation will be made for research at the tertiary level. Research and development will also be included in Jamaica’s measurement of Gross Domestic Product (GDP) as of September 2020."]
+                  "texts": [
+                    "The event received tremendous support from The UWI community. There were over 100 posters on display and 53 interactive sessions covering areas including gender, the environment, marine science, community, energy, puppets in teaching, archaeology digs and natural products. A Policy Wall was also mounted which looked back at the contributions of UWI academics over the past 20 years to significant policies impacting Child Health, Ageing, HIV Prevention, Medium Size Enterprises, Climate Change, and Mangroves and Environmental Management. Finance Minister, Dr. Nigel Clarke, in his keynote address at the Opening Ceremony, emphasized the importance of research to social and economic development. To underscore the government’s commitment to research and development, a budget allocation will be made for research at the tertiary level. Research and development will also be included in Jamaica’s measurement of Gross Domestic Product (GDP) as of September 2020."
+                  ]
                 }
               },
               {
                 "type": "caption-image",
                 "config": {
                   "src": null,
-                  "captions": ["Dr. Nigel Clarke interacts with the Discovery Bay Marine Lab exhibit in the Research Days tent village."]
+                  "captions": [
+                    "Dr. Nigel Clarke interacts with the Discovery Bay Marine Lab exhibit in the Research Days tent village."
+                  ]
                 }
               }
             ]
@@ -553,7 +756,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The Annual Research Day Awards was held to once again recognize the contributions of those in our community whose research has generated transformative solutions relevant to the region’s complex development. Their work is highlighted through the Awards Ceremony to encourage faculty to continue the tradition of knowledge-creation and to urge stakeholders in the public and private sectors to partner with The UWI to ensure the sustainability of the University’s research enterprise. This year over 75 researchers were recognized at the Awards for their contributions over the 2017/2018 academic year."]
+                  "texts": [
+                    "The Annual Research Day Awards was held to once again recognize the contributions of those in our community whose research has generated transformative solutions relevant to the region’s complex development. Their work is highlighted through the Awards Ceremony to encourage faculty to continue the tradition of knowledge-creation and to urge stakeholders in the public and private sectors to partner with The UWI to ensure the sustainability of the University’s research enterprise. This year over 75 researchers were recognized at the Awards for their contributions over the 2017/2018 academic year."
+                  ]
                 }
               }
             ]
@@ -575,7 +780,9 @@
               {
                 "type": "note",
                 "config": {
-                  "texts": ["Highlights from UWI Mona Research Days Awards Ceremony 2019"]
+                  "texts": [
+                    "Highlights from UWI Mona Research Days Awards Ceremony 2019"
+                  ]
                 }
               }
             ]
@@ -614,14 +821,14 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["Over the years, grant funding has provided an opportunity for The UWI to conduct research beyond its current capacity.  Partnerships that are established under these agreements bridge the gap between the goals of the funding institutions and the outputs of scholarly research.  Administration at The UWI has also benefitted immensely from the percentage monetary allocations that accompany these arrangements. For the academic period August 2018 to March 2019, the following data was recorded for The UWI Mona Campus:"]
+                  "texts": [
+                    "Over the years, grant funding has provided an opportunity for The UWI to conduct research beyond its current capacity.  Partnerships that are established under these agreements bridge the gap between the goals of the funding institutions and the outputs of scholarly research.  Administration at The UWI has also benefitted immensely from the percentage monetary allocations that accompany these arrangements. For the academic period August 2018 to March 2019, the following data was recorded for The UWI Mona Campus:"
+                  ]
                 }
               },
               {
                 "type": "table",
-                "config": {
-
-                }
+                "config": {}
               }
             ]
           }
@@ -636,7 +843,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The Mona Campus Entrepreneurial Committee was established to identify and accelerate the entrepreneurial possibilities that exist on the Campus. For the 2018/2019 academic year efforts were made to inculcate a mindset about entrepreneurship – being a problem seeker, a problem solver, and an innovator - among our staff and students and to facilitate the commercialization of ideas. To help fulfill its mandate the Committee worked closely with the Mona Office of Research and Innovation (MORI), the Mona Entrepreneurial and Commercialization Centre (MECC), the Mona School of Business and Management (MSBM) and Faculties that offer courses on entrepreneurship. The Mona Campus Entrepreneurial Committee also falls under the umbrella of the Innovation and Entrepreneurship arm of the School for Graduate Studies and Research, headed by Pro Vice-Chancellor Professor Stephan Gift. In February 2019, the Mona Entrepreneurial and Commercialization Centre ran a Boot Camp that had 14 startup companies participating; of those, 8 were selected to participate in a twelve-week-long Entrepreneurship Development Programme. This was a project funded by the Development Bank of Jamaica. MECC provides guidance to aspiring entrepreneurs, and incubation to those that qualify."]
+                  "texts": [
+                    "The Mona Campus Entrepreneurial Committee was established to identify and accelerate the entrepreneurial possibilities that exist on the Campus. For the 2018/2019 academic year efforts were made to inculcate a mindset about entrepreneurship – being a problem seeker, a problem solver, and an innovator - among our staff and students and to facilitate the commercialization of ideas. To help fulfill its mandate the Committee worked closely with the Mona Office of Research and Innovation (MORI), the Mona Entrepreneurial and Commercialization Centre (MECC), the Mona School of Business and Management (MSBM) and Faculties that offer courses on entrepreneurship. The Mona Campus Entrepreneurial Committee also falls under the umbrella of the Innovation and Entrepreneurship arm of the School for Graduate Studies and Research, headed by Pro Vice-Chancellor Professor Stephan Gift. In February 2019, the Mona Entrepreneurial and Commercialization Centre ran a Boot Camp that had 14 startup companies participating; of those, 8 were selected to participate in a twelve-week-long Entrepreneurship Development Programme. This was a project funded by the Development Bank of Jamaica. MECC provides guidance to aspiring entrepreneurs, and incubation to those that qualify."
+                  ]
                 }
               }
             ]
@@ -704,7 +913,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The natural environment has taken center stage in the geo-political arena. It is a feature of both the UN Sustainable Development Goals and the Vision 2030 Jamaica National Development Plan. Understanding the fragile nature of the environment and the threat of climate change, UWI researchers sought to tackle some of the most pressing problems facing the region.  Central among these was the contribution of UWI, Mona academics to a global report of the United Nations’ Intergovernmental Panel on Climate Change (IPCC).  Contributors to the Special Report on Climate Change And Land were Dr. Adrian Spence of the International Centre for Environmental and Nuclear Sciences, Dr. Donovan Campbell of the Department of Geography and Geology, Professor Noureddine Benkeblia of the Department of Life Sciences, and Professor Michael Taylor and Dr. Tannecia Stephenson of the Faculty of Science and Technology. The Report highlighted the effects of climate change on oceans – increase in acidity, decline in oxygen levels, rising sea levels, and ocean warming and ice–melting of permafrost. Findings of the Report were also used to inform a special Summary for Policymakers."]
+                  "texts": [
+                    "The natural environment has taken center stage in the geo-political arena. It is a feature of both the UN Sustainable Development Goals and the Vision 2030 Jamaica National Development Plan. Understanding the fragile nature of the environment and the threat of climate change, UWI researchers sought to tackle some of the most pressing problems facing the region.  Central among these was the contribution of UWI, Mona academics to a global report of the United Nations’ Intergovernmental Panel on Climate Change (IPCC).  Contributors to the Special Report on Climate Change And Land were Dr. Adrian Spence of the International Centre for Environmental and Nuclear Sciences, Dr. Donovan Campbell of the Department of Geography and Geology, Professor Noureddine Benkeblia of the Department of Life Sciences, and Professor Michael Taylor and Dr. Tannecia Stephenson of the Faculty of Science and Technology. The Report highlighted the effects of climate change on oceans – increase in acidity, decline in oxygen levels, rising sea levels, and ocean warming and ice–melting of permafrost. Findings of the Report were also used to inform a special Summary for Policymakers."
+                  ]
                 }
               }
             ]
@@ -751,7 +962,9 @@
                     {
                       "type": "stacked",
                       "config": {
-                        "texts": ["SDG Goal 14: Conserve and sustainably use the oceans, seas and marine resources for sustainable development. Professor Mona Webber is the James S. Moss Solomon Sr. Chair in Environmental Management funded by the Grace Kennedy Foundation. During the previous academic year, the JSMSS Chair addressed SDG Goal 14 through the following initiatives:"]
+                        "texts": [
+                          "SDG Goal 14: Conserve and sustainably use the oceans, seas and marine resources for sustainable development. Professor Mona Webber is the James S. Moss Solomon Sr. Chair in Environmental Management funded by the Grace Kennedy Foundation. During the previous academic year, the JSMSS Chair addressed SDG Goal 14 through the following initiatives:"
+                        ]
                       }
                     },
                     {
@@ -779,7 +992,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["In a world increasingly challenged with diminishing natural resources and devastating effects of global warming and climate change on food security and land for housing and settlement, the Mona Campus renewed its commitment in 2018/2019 to advocacy research that will improve the lives of citizens everywhere."]
+                  "texts": [
+                    "In a world increasingly challenged with diminishing natural resources and devastating effects of global warming and climate change on food security and land for housing and settlement, the Mona Campus renewed its commitment in 2018/2019 to advocacy research that will improve the lives of citizens everywhere."
+                  ]
                 }
               }
             ]
@@ -830,7 +1045,7 @@
             "text": "Contribution to Social Development"
           }
         },
-        
+
         {
           "header": {
             "level": 5,
