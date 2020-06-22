@@ -1,0 +1,39 @@
+{
+  "report": [
+    {
+      "header": "Access",
+      "subheader": "Repositioning who we are to meet the needs of society",
+      "rows": [
+        {
+          "full": true,
+          "left": {
+            "size": 100,
+            "components": [
+              {
+                "group": "contents",
+                "type": "content-list",
+                "config": {
+                  "header": "1. STUDENTS: To be the University of Choice",
+                  "contents": [
+                    "Financing the Dream",
+                    "International Students",
+                    "Increasing Access through Online Delivery",
+                    "Engaging Students through Teaching and Learning",
+                    "Student Development: Fostering a Culture of Research",
+                    "Student Internships: Facilitating Industry Partnerships",
+                    "Recognizing Excellence",
+                    "Achievements in Sports",
+                    "Student Entrepreneurship",
+                    "Student Housing",
+                    "A University for All",
+                    "Student Events: Photo gallery"
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

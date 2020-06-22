@@ -25,10 +25,11 @@
 </template>
 
 <script>
-import RSection from "@/components/RSection.vue"
-import agilitydata from "@/data/agility.json" // configuration object from json file 
-import oneuwidata from "@/data/oneuwi.json"
-import alignmentdata from "@/data/alignment.json"
+import RSection from "@/components/RSection.vue";
+import accessdata from "@/data/access.json"; // configuration object from json file
+import agilitydata from "@/data/agility.json"; // configuration object from json file
+import oneuwidata from "@/data/oneuwi.json";
+import alignmentdata from "@/data/alignment.json";
 
 export default {
   components: {
@@ -37,18 +38,20 @@ export default {
   data() {
     return {
       sections: [],
+      acess: accessdata,
       agility: agilitydata,
-      oneuwi: oneuwidata
+      oneuwi: oneuwidata,
     };
   },
-  mounted () {
+  mounted() {
     this.sections = this.sections
-    .concat(alignmentdata.report)
-    .concat(agilitydata.report)
-    .concat(oneuwidata.report)
+      .concat(accessdata.report)
+      .concat(alignmentdata.report)
+      .concat(agilitydata.report)
+      .concat(oneuwidata.report);
     // console.log(agilitydata.report);
     // console.log(oneuwidata.report);
-    
+
     // console.log(this.sections)
   },
   methods: {
@@ -58,10 +61,9 @@ export default {
     parsedData(section) {
       let spec = JSON.parse(JSON.stringify(section));
       return spec.report;
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
