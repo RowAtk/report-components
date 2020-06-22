@@ -26,6 +26,7 @@
 
 <script>
 import RSection from "@/components/RSection.vue"
+import accessdata from "@/data/access.json"
 import agilitydata from "@/data/agility.json" // configuration object from json file 
 import oneuwidata from "@/data/oneuwi.json"
 import alignmentdata from "@/data/alignment.json"
@@ -43,6 +44,7 @@ export default {
   },
   mounted () {
     this.sections = this.sections
+    .concat(accessdata.report)
     .concat(alignmentdata.report)
     .concat(agilitydata.report)
     .concat(oneuwidata.report)
@@ -64,4 +66,5 @@ export default {
 </script>
 
 <style scoped>
+
 </style>

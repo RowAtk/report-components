@@ -13,9 +13,10 @@ def clean(text):
 
 # add 2 new lines to separate paragrapghs
 someText = """
-Locations of Universities with
-which The UWI Mona has
-research partnerships
+Professor Dale Webber, Pro Vice-Chancellor and Principal of The UWI Mona
+Campus, and Dr. Wayne Henry, Director General of the Planning Institute of
+Jamaica (PIOJ) during Dr. Henry’s Distinguished Lecture at The UWI Research
+Days 2019.
 """
 
 # print(someText)
