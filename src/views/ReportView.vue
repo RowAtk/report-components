@@ -26,7 +26,7 @@
 
 <script>
 import RSection from "@/components/RSection.vue";
-import accessdata from "@/data/access.json"; // configuration object from json file
+import accessdata from "@/data/access.json";
 import agilitydata from "@/data/agility.json"; // configuration object from json file
 import oneuwidata from "@/data/oneuwi.json";
 import alignmentdata from "@/data/alignment.json";
