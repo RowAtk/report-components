@@ -6,6 +6,178 @@
       "img": null,
       "rows": [
         {
+          "full": true,
+          "left": {
+            "size": 100,
+            "components": [
+              {
+                "group": "contents",
+                "type": "content-list",
+                "config": {
+                  "header": "1. STUDENTS: To be the University of Choice",
+                  "contents": [
+                    "Financing the Dream",
+                    "International Students",
+                    "Increasing Access through Online Delivery",
+                    "Engaging Students through Teaching and Learning",
+                    "Student Development: Fostering a Culture of Research",
+                    "Student Internships: Facilitating Industry Partnerships",
+                    "Recognizing Excellence",
+                    "Achievements in Sports",
+                    "Student Entrepreneurship",
+                    "Student Housing",
+                    "A University for All",
+                    "Student Events: Photo gallery"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "To be the University of First Choice"
+          },
+          "left": {
+            "size": 75,
+            "components": [
+              {
+                "group": "texts",
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Standing tall in our vision is the hope that the Mona Campus must be the preferred choice for the many communities we serve: students, neighbours, research affiliates and industry partners; and that government and civil society leaders see us as a major resource for supporting policy and socio-economic development initiatives.",
+                    "In 2018, we assessed the uptake of secondary education leading to tertiary education choices and found, according to the most recent census, that the Jamaican population possessing tertiary education qualifications increased from 12.3% in 2001 to 12.8% in 2011.1 Over the same inter-censal period, the Jamaican population aged 15 and over gaining a secondary education, declined from 55.5% in 2001 to 52.7% in 2011. In light of a waning uptake of secondary education, and its implications for a growing under-education in this society, our current drive in the second decade of the twenty-first century to increase access to a university education is both timely and necessary for revitalizing Caribbean development. In the 2018/19 academic year our total student registration showed a 3% increase over the previous academic year. Our marketing in high schools to encourage secondary students into tertiary education stimulates the necessary expansion of both levels of education.",
+                    "Although minimal gains were experienced, we were nonetheless able to achieve a steady rise in student registration at the Mona Campus between 2017/2018 and 2018/2019. The Campus in 2018/2019 registered 19,599 students, the highest number ever registered in the 71 years, providing more access than ever before. This was only possible through the efforts of the entire Mona Campus team maximizing the available resources."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "group": "texts",
+                "type": "callout",
+                "config": {
+                  "components": [
+                    {
+                      "type": "header",
+                      "config": {
+                        "level": 5,
+                        "text": "Further Expansion of the Mona Western Jamaica Campus"
+                      }
+                    },
+                    {
+                      "group": "texts",
+                      "type": "stacked",
+                      "config": {
+                        "texts": [
+                          "On Friday, March 22, 2019, a Ground Breaking Ceremony was held on Barnett site in Montego Bay to signal the start of construction of the new Mona Western Jamaica Campus."
+                        ]
+                      }
+                    },
+                    {
+                      "group": "texts",
+                      "type": "stacked",
+                      "config": {
+                        "texts": [
+                          "The development of The UWI Mona Western Jamaica Campus (The UWI-WJC) will provide: more tertiary opportunities in Western Jamaica (access); more academic and industry partnerships through collaboration with Barnett Limited (alignment) and; another step toward restoring the financial health of The UWI."
+                        ]
+                      }
+                    },
+                    {
+                      "group": "texts",
+                      "type": "stacked",
+                      "config": {
+                        "texts": [
+                          "The Campus is expected to have a world class School of Management that caters to Business Process Outsourcing (BPO), as well as Financial and Tourism Management. A world class School of Engineering will provide the technical skillset for the BPO sector."
+                        ]
+                      }
+                    },
+                    {
+                      "group": "texts",
+                      "type": "stacked",
+                      "config": {
+                        "texts": [
+                          "Minister of Tourism, The Hon. Edmund Bartlett, expressed his delight at the ceremony. “To see this vision now become a reality under the leadership of Professor Dale Webber, augurs well for tourism and our human capital development strategy.”"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "across": {
+            "components": [
+              {
+                "type": "columnChart",
+                "config": {
+                  "title": "Total Enrolment by Faculty",
+                  "properties": {
+                    "labels": ["FHE", "FOL", "FMS", "FST", "FOE", "FSS", "FOS"],
+                    "datasets": [
+                      {
+                        "label": "2016/17",
+                        "data": [2484, 576, 4501, 3484, 0, 7272]
+                      },
+                      {
+                        "label": "2017/18",
+                        "data": [2613, 647, 4428, 3639, 0, 7950, 3]
+                      },
+                      {
+                        "label": "2018/19",
+                        "data": [2578, 648, 4379, 3298, 262, 8297]
+                      }
+                    ]
+                  },
+                  "options": {
+                    "scales": {
+                      "xAxes": [
+                        {
+                          "stacked": false
+                        }
+                      ],
+                      "yAxes": [
+                        {
+                          "stacked": false
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "type": "columnChart",
+                "config": {
+                  "title": "Student Registrations",
+                  "properties": {
+                    "labels": ["2016-17", "2017-18", "2018-19"],
+                    "datasets": [
+                      {
+                        "label": "Registered Students",
+                        "data": [18469, 19408, 19599]
+                      }
+                    ]
+                  },
+                  "options": {
+                    "title": {
+                      "position": "top"
+                    },
+                    "legend": {
+                      "display": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
           "header": {
             "level": 4,
             "text": "A university for All"

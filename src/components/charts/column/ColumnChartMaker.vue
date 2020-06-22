@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import ChartMaker from "@/components/charts/ChartMaker.js"
+import ChartMaker from "@/components/charts/ChartMaker.js";
 import ColumnChart from "@/components/charts/column/ColumnChart.vue";
 // import { merge } from 'lodash'
 // backgroundColor: ["#3498DB", "#138D75", "#6C3483"],
@@ -22,8 +22,7 @@ export default {
   data() {
     return {
       chartdata: {
-        datasets: [ 
-        ] 
+        datasets: [],
       },
       dataset: {
         borderColor: "#000000",
@@ -33,15 +32,15 @@ export default {
         barPercentage: 0.9,
         categoryPercentage: 0.8,
         animation: {
-          animateScale: true
-        }
-      }
+          animateScale: true,
+        },
+      },
     };
   },
   mounted() {
     // console.log("USER CONFIG")
     // console.log(this.data)
-  }
+  },
 };
 </script>
 
