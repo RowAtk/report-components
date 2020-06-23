@@ -34,7 +34,7 @@ body {
   margin-top: 0;
   padding: 0;
   /* background: url("assets/bg1.svg") no-repeat center center fixed; */
-  background: url("assets/bg1.svg") no-repeat;
+  /* background: url("assets/bg1.svg") no-repeat; */
   background-size: contain;
   background-color: #fafafa;
 }

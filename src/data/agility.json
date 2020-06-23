@@ -394,6 +394,7 @@
                 "type": "columnChart",
                 "config": {
                   "title": "UWI MONA - FY 2015-19\nNet Revenue",
+                  "yaxis": "JMD",
                   "properties": {
                     "labels": [
                       "2014/15",
@@ -507,6 +508,7 @@
                 "type": "columnChart",
                 "config": {
                   "title": "UWI Mona Campus Total Comprehensive Income 2018/19",
+                  "yaxis": "JMD",
                   "properties": {
                     "labels": [
                       "2014/15",
@@ -518,18 +520,22 @@
                     "datasets": [
                       {
                         "label": "TC Income / (Loss)",
-                        "data": [4, -140, -1688, -963, -3413],
+                        "data": [4434, -140057, -1688095, -963359, -3413157],
                         "type": "line"
                       },
                       {
                         "label": "NI before PE Benefits",
-                        "data": [100, 200, 300, 400, 500]
+                        "data": [106600, 558237, 798133, 1242327, -565109]
                       },
                       {
                         "label": "PE Benefits",
-                        "data": [600, 700, 800, 900, 1000]
+                        "data": [102166, 698294, 2486228, 2205686, 2848048]
                       }
                     ]
+                  },
+                  "options":{
+                    "scales": {
+                    }
                   }
                 }
               }

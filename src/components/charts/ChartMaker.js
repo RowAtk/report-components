@@ -26,6 +26,26 @@ const ChartMaker = Vue.mixin({
         },
         legend: {
           display: true
+        },
+        scales: {
+          xAxes: [
+            {
+              display: true,
+              scaleLabel: {
+                display: false,
+                labelString: ''
+              }
+            }
+          ],
+          yAxes: [
+            {
+              display: true,
+              scaleLabel: {
+                display: false,
+                labelString: ''
+              }
+            }
+          ]
         }
       },
       bgnum: 0
@@ -58,6 +78,7 @@ const ChartMaker = Vue.mixin({
         d.push(merge({backgroundColor: this.backgroundColor[i]}, this.defaultDataset || {}, this.dataset || {}))
       }
       // console.log('ddd: ', d)
+      
       const defaultConfig = merge(this.defaultChartData, {datasets: d})
       // console.log("DEFAULT CONFIG:", defaultConfig)
       return defaultConfig
@@ -80,11 +101,21 @@ const ChartMaker = Vue.mixin({
      * merge user options and developer options. preference placed on user options
      * @return {Object} merged options object for chart
      */
-    mergeOptions() {
+    mergeOptions() {  
       // only show legend by default if more than 1 dataset provided
       const ldisplay = this.data.properties.datasets.length == 1 ? false : true
       const defaultOptions = JSON.parse(JSON.stringify(this.defaultOptions))
       defaultOptions.legend.display = ldisplay;
+
+      if(this.data.yaxis) {
+        defaultOptions.scales.yAxes[0].scaleLabel.display = true;
+        defaultOptions.scales.yAxes[0].scaleLabel.labelString = this.data.yaxis; 
+      }
+
+      if(this.data.xaxis) {
+        defaultOptions.scales.xAxes[0].scaleLabel.display = true;
+        defaultOptions.scales.xAxes[0].scaleLabel.labelString = this.data.xaxis; 
+      }
 
       // actual merging
       return merge(defaultOptions || {}, this.options || {}, this.data.options || {})
