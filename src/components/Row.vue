@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid border border-danger">
+  <div class="container-fluid border border-danger break">
     <div class="row d-flex justify-content-center">
       <div class="col-lg d-flex align-items-center justify-content-center">
         <RHeader v-if="data.header" :data="data.header" />
@@ -33,12 +33,8 @@
           </div>
         </div>
       </div>
-
-      
-
     </div>
     <div class="row d-flex justify-content-center" v-if="comp1">
-
       <div
         class="col-lg d-flex align-items-center justify-content-center"
         v-if="data.across"
@@ -70,14 +66,14 @@ export default {
     return {
       comp1: null,
       comp2: null,
-      full: null
+      full: null,
     };
   },
   mounted() {
     // console.log("ROW: ", this.data);
     this.full = this.data.full || false;
-    this.comp1 = this.data.left || (this.full? null : {});
-    this.comp2 = this.data.right || (this.full? null : {});
+    this.comp1 = this.data.left || (this.full ? null : {});
+    this.comp2 = this.data.right || (this.full ? null : {});
   },
   computed: {
     class1() {
@@ -105,5 +101,8 @@ export default {
 <style scoped>
 .row-item {
   justify-content: end;
+}
+.break {
+  margin: 2em auto;
 }
 </style>
