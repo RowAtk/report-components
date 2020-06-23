@@ -4,7 +4,7 @@
     <!-- :style="`height: ${data.height || 30}vw;`" -->
     <Flickity ref="flickity" :options="flickityOptions">
       <div v-for="(image, index) in data.images" :key="index" class="carousel-cell" :style="`height: ${data.height || 30}vw;`">
-        <img :src="require('@/assets/rimages/' + image)" alt="NOT FOUND" class="">
+        <img :src="require('@/assets/rimages2/' + image)" alt="NOT FOUND" class="">
         <!-- <RImage :data="{src: image} || {}" /> -->
         <!-- {{index}} -->
       </div>

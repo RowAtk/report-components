@@ -24,7 +24,7 @@ export default {
   computed: {
     src () {
       console.log('@/assets/rimages/' + this.data.src)
-      return this.data.src ? require('@/assets/rimages/' + this.data.src) : require('@/assets/placeholder.jpg')
+      return this.data.src ? require('@/assets/rimages2/' + this.data.src) : require('@/assets/placeholder.jpg')
     },
     style () {
       const height = this.data.height ? `height: ${this.data.height}vw;` : ''
@@ -43,8 +43,9 @@ img {
 
 .overlay {
   height: 20vw;
-  max-width: 100vw;
+  max-width: 100%;
   overflow: hidden;
+  margin: 0;
 }
 
 .filter {
@@ -54,5 +55,6 @@ img {
 .overlay-content {
   text-shadow: 2px 2px 5px rgba(24, 24, 24, 0.89);
   color: white;
+  margin: 0;
 }
 </style>

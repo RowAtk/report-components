@@ -1,17 +1,9 @@
 <template>
-  <div>
-    <div class="row d-flex">
-      
-      <div class="col p-0 d-flex flex-column align-items-center justify-content-center section-header">
+  <div class="container-fluid border border-danger p-0" :style="style">    
+    <div class="row d-flex justify-content-center p-0 m-0 w-100">
+      <div class="col-lg p-0 d-flex align-items-center justify-content-center section-header">
         <Overlay :data="overlay" />
-        <!-- <Level2 :data="data.header" />
-        <Level3 :data="data.subheader || ''" /> -->
       </div>
-
-      <!-- <div class="col p-0" v-if="data.img">
-        <RImage :data="{src: data.img} || {}"/>
-        <img src="@/assets/placeholder.jpg" alt="place holder image" class="section-img"> -->
-      <!-- </div> -->
     </div>
 
     <!-- Render all rows in section -->
@@ -48,6 +40,12 @@ export default {
       if(this.data.header) { headers.push(this.data.header)}
       if(this.data.subheader) { headers.push(this.data.subheader)}
       return {src: this.data.img || null, headers: headers, height: 40}
+    },
+    style() {
+      let style = ''
+      if(this.data.bg) style += "background: url(" +require(`@/assets/${this.data.bg}`) +") repeat; background-size: contain;"
+      console.log(style)
+      return style;
     }
   },
 };
@@ -60,6 +58,7 @@ export default {
 }
 
 .section-header {
+  max-width: 100%;
   background-color: #8d99ae;
 }
 </style>
