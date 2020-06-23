@@ -1,15 +1,17 @@
 <template>
   <div>
     <div class="row d-flex">
+      
       <div class="col p-0 d-flex flex-column align-items-center justify-content-center section-header">
-        <Level2 :data="data.header" />
-        <Level3 :data="data.subheader || ''" />
+        <Overlay :data="overlay" />
+        <!-- <Level2 :data="data.header" />
+        <Level3 :data="data.subheader || ''" /> -->
       </div>
 
-      <div class="col p-0" v-if="data.img">
+      <!-- <div class="col p-0" v-if="data.img">
         <RImage :data="{src: data.img} || {}"/>
-        <!-- <img src="@/assets/placeholder.jpg" alt="place holder image" class="section-img"> -->
-      </div>
+        <img src="@/assets/placeholder.jpg" alt="place holder image" class="section-img"> -->
+      <!-- </div> -->
     </div>
 
     <!-- Render all rows in section -->
@@ -19,17 +21,19 @@
 </template>
 
 <script>
+import Overlay from '@/components/images/overlay.vue'
 import Row from "@/components/Row.vue";
-import Level2 from "@/components/texts/header/level2.vue";
-import Level3 from "@/components/texts/header/level3.vue";
-import RImage from "@/components/images/image.vue";
+// import Level2 from "@/components/texts/header/level2.vue";
+// import Level3 from "@/components/texts/header/level3.vue";
+// import RImage from "@/components/images/image.vue";
 
 export default {
   components: {
     Row,
-    Level2,
-    Level3,
-    RImage,
+    Overlay,
+    // Level2,
+    // Level3,
+    // RImage,
   },
   props: ["data"],
   mounted() {
@@ -39,6 +43,12 @@ export default {
     image() {
       return this.data.img || "@/assests/agility/ph.jpg";
     },
+    overlay() {
+      let headers = []
+      if(this.data.header) { headers.push(this.data.header)}
+      if(this.data.subheader) { headers.push(this.data.subheader)}
+      return {src: this.data.img || null, headers: headers, height: 40}
+    }
   },
 };
 </script>
