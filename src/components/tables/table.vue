@@ -3,7 +3,7 @@
     <div class="title">
       <h2>{{ data.title }}</h2>
     </div>
-    <table class="table table-striped table-borderless">
+    <table class="table table-striped table-borderless white">
       <thead class="thead-dark">
         <tr>
           <th scope="col" v-for="(head, index) in data.headers" :key="index">
@@ -97,5 +97,8 @@ p {
 }
 h2 {
   padding-bottom: 0;
+}
+.white{
+  background-color: white;
 }
 </style>

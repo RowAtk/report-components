@@ -185,22 +185,42 @@
               {
                 "type": "columnChart",
                 "config": {
-                  "title": "Student Registrations",
+                  "title": "Total graduates by programme",
                   "properties": {
-                    "labels": ["2016-17", "2017-18", "2018-19"],
+                    "labels": [
+                      "First Degree",
+                      "Certificate",
+                      "Diploma",
+                      "Advanced Diploma",
+                      "Higher Degree"
+                    ],
                     "datasets": [
                       {
-                        "label": "Registered Students",
-                        "data": [18469, 19408, 19599]
+                        "label": "2016/17",
+                        "data": [5269, 6501, 6607, 6847, 7050]
+                      },
+                      {
+                        "label": "2017/18",
+                        "data": [2210, 2501, 2624, 2643, 2553]
+                      },
+                      {
+                        "label": "2018/19",
+                        "data": [4805, 5078, 5478, 5539, 5403]
                       }
                     ]
                   },
                   "options": {
-                    "title": {
-                      "position": "top"
-                    },
-                    "legend": {
-                      "display": false
+                    "scales": {
+                      "xAxes": [
+                        {
+                          "stacked": false
+                        }
+                      ],
+                      "yAxes": [
+                        {
+                          "stacked": false
+                        }
+                      ]
                     }
                   }
                 }
