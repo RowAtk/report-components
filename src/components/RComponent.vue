@@ -36,7 +36,9 @@ export default {
                 'image': 'images/image',
                 'caption-image': 'images/caption-image',
                 'note': 'texts/note',
-                'list': 'texts/list'
+                'list': 'texts/list',
+                'carousel': 'images/carousel',
+                'overlay': 'images/overlay'
             }
         }
     },

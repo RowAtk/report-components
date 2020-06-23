@@ -1,21 +1,6 @@
 <template>
   <div>
     <!-- Rendering of list ofsections from configuration object -->
-    <!-- <RSection
-      v-for="(section, index) in parsedData()"
-      :key="index"
-      :data="section"
-    > -->
-    <!-- <RSection
-      v-for="(section, index) in parsedData(agility)"
-      :key="index"
-      :data="section"
-    />
-    <RSection
-      v-for="(section, index) in parsedData(oneuwi)"
-      :key="index"
-      :data="section"
-    /> -->
     <RSection
       v-for="(section, index) in sections"
       :key="index"
@@ -38,7 +23,7 @@ export default {
   data() {
     return {
       sections: [],
-      acess: accessdata,
+      access: accessdata,
       agility: agilitydata,
       oneuwi: oneuwidata,
     };
@@ -49,10 +34,6 @@ export default {
       .concat(alignmentdata.report)
       .concat(agilitydata.report)
       .concat(oneuwidata.report);
-    // console.log(agilitydata.report);
-    // console.log(oneuwidata.report);
-
-    // console.log(this.sections)
   },
   methods: {
     /**

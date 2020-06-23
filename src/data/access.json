@@ -1664,7 +1664,7 @@
                 "type": "header",
                 "config": {
                   "level": 4,
-                  "text": "U W I  G R A D U A T I O N  2 0 1 8"
+                  "text": "U W I ~ G R A D U A T I O N ~ 2 0 1 8"
                 }
               },
               {
@@ -2712,6 +2712,892 @@
           }
         },
 
+        {
+          "header": {
+            "level": 5,
+            "text": "Social Advocacy"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "In addition to tackling issues related to the environment, staff and students undertook research that had important policy implications.  During the year under review, Linguistics students interested in language planning surveyed over one 1,000 persons in sections of Kingston and St. Andrew to ascertain language attitudes to members of the deaf community. The survey findings, which were later made available to government functionaries and other stakeholders in Jamaica, could have far-reaching implications for national language policy formulation, planning, and implementation.",
+                    "The Director of the UWI Centre for Disability Studies, Senator Dr. Floyd Morris, made three (3) presentations to groups in Trinidad and Tobago, advocating for persons with disabilities. Two (2) seminars were conducted at the United States Embassy in Port of Spain with leaders of Non-governmental Organisations (NGOs) and leading policy makers and civil servants in the Government of Trinidad and Tobago. At these two seminars, the Director appealed for a unified approach from NGOs when advocating for persons with disabilities."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "In order to address a sensitive topical issue affecting the Jamaican population, members of The UWI Nursing Students’ Association and staff of UWISON presented Uncovering Date Rape: A Hidden Crime as part of the annual Orange Your Day Public Lecture.  Dr. Kadian Walters and Mrs. Cynthia Pitter exposed attendees to stark realities faced by survivors of rape trauma.  The presenters also challenged members of the audience to use their respective platforms to lobby for improved policy frameworks and social change to address factors that contribute to, and sustain, rape trauma in Jamaica.",
+                    "A multidisciplinary cross-faculty initiative involving the Faculty of Medical Sciences, the Faculty of Humanities and Education, the Faculty of Social Sciences, and representatives from the Ministry of Health resulted in an important study having policy implications. The study, A national survey of the knowledge, attitudes and prescribing practices of doctors regarding antibiotic resistance in a Caribbean country was published in the Journal of Antimicrobial Resistance and Infection Control. The investigation helped to identify areas that needed to be addressed by medical professionals and helped to guide the development of a few advertisements that were aired."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The Institute for Gender and Development Studies (IGDS) whose vision and mandate stress social advocacy, were involved in a seminal undertaking for the society. The IGDS participated in a Child Protection Compact Partnership between the Government of Jamaica and the Government of the United States of America (CPC Project) to Eliminate Child Labour and Child Trafficking in Jamaica. Dr. Leith Dunn completed the background paper for a study initiated by the International Organization for Migration (IOM) to improve data on the nature and prevalence of child trafficking in Jamaica. Findings and recommendations are being used to plan the methodology for the prevalence study to be implemented by a team from a US based University.   In addition, Mr. Danny Gordon (PI) and IGDS Mona Unit’s co-investigators Dr. Leith Dunn and Mrs. Carol Watson-Williams,  formulated and submitted the National Action Plan to Reduce Child Labour in Jamaica for the Child Labour Committee in the Ministry of Labour and Social Security (MLSS) in July 2019.  This gender mainstreaming project provided an opportunity to integrate gender perspectives in the situation analysis and the recommendations for the National Action Plan.",
+                    "Research advocacy that contributes to social development remains a fixed one on the agenda of the Mona Campus.  The 2018/2019 achievements will be followed up and accelerated in the 2019/2020 period."
+                  ]
+                }
+              }
+            ]
+          },
+          "across": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+
+
+
+        {
+          "header": {
+            "level": 4,
+            "text": "A university for All"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "For the 2018/2019 period the Office of Student Services and Development (OSSD) welcomed a total of 53 students with disabilities – 26 males and 27 females. Of that total 47 were registered undergraduate students and the remaining 6 were graduate students. Linked to this, The UWI Centre for Disability Studies in collaboration with the OSSD secured summer internship for six (6) students with disabilities. Additionally, there are approximately 21 current or former Wards of the State currently enrolled in programmes at The UWI, one of whom is a scholarship recipient.",
+                    "The Mona Social Services (MSS), UWI, awarded eight (8) scholarships for the 2018/2019 academic year valued at approximately JMD$ 2 million, to residents of African Gardens, August Town, Bedward Gardens, Hermitage and Mona Common. These scholarships provide residents who live in the underserved communities surrounding the Campus an opportunity to pursue Degree programmes at The UWI. The recipients are all mandated to undertake 52 community service hours annually and participate in at least 2 personal development sessions. The sessions are aimed at helping to enrich their University life experiences and assist them in coping with a different environment to that which they are accustomed.",
+                    "Thirty-five (35) students attached to the Dentistry Programme and 236 students in the MBBS programme were granted tuition waivers for the 2018/2019 academic year; the total dollar value amounted to JMD$ 477,446,668. In addition to providing scholarships and grants, some students were also provided with opportunities to earn additional income. Twenty-five (25) vulnerable women received financial assistance through the Mary Seacole Hall student worker programme."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "table",
+                "config": {}
+              },
+              {
+                "type": "note",
+                "config": {
+                  "texts": [
+                    "Number of students with Disabilities (reported medical conditions) by Faculty"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Increasingly, the Mona Campus has ensured that its buildings and facilities are accommodating to the physically challenged, that we mark out and help those who need financial assistance and that we encourage access to different language groups. Potential and current students are informed of available subventions to assist them in making life decisions about education.",
+                    "Students are our number one clients and most important partners. Access to a UWI education is perhaps the most significant opportunity for self-actualization. The multi-faceted approaches of the Mona Campus in terms of entry opportunities, financing, course modification and development, internships and research are critical parts of the Campus’ vision and success. The Mona Campus stands proud in its efforts to provide this opportunity for ALL."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 4,
+                  "text": "U W I  G R A D U A T I O N  2 0 1 8"
+                }
+              },
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          },
+          "across": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              },
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              },
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              },
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "content-list",
+                "config": {
+                  "header": "2. OUTREACH: Revitalizing Caribbean Development",
+                  "contents": [
+                    "Outreach Contribution to Social Development",
+                    "Outreach Contribution to National Development"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "Outreach Contribution to Social Development"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Public service is an important function performed by The UWI staff, student and service entities.  Engaging in public service exposes the Campus community of scholars and practitioners to real world demands and allows for a continuous interaction between theory and praxis in disciplines taught at the University. A number of initiatives were undertaken in 2018/2019 that broadened access to UWI’s products and services.",
+                    "The Campus engages in an ongoing set of marketing activities to demonstrate its potential value to our customers and stakeholders throughout the academic year. A number of initiatives were undertaken in 2018/2019 to attract prospective recruits, especially secondary school students, to the Mona and Western Jamaica Campuses. The Faculty of Science and Technology held its annual CAPE workshops on the subjects of Biology, Chemistry, Computer Science, Geography, Mathematics, and Physics at both the Mona and Western Jamaica Campuses.  Since 2003, the Chemistry and Physics Departments have hosted over 23,000 students in 160 workshops. The workshops not only reflect a significant marketing and recruitment strategy, but equally stimulate interest in STEM disciplines and promote learning outcomes for all involved, from workshop facilitators, to secondary school teachers and, most importantly, to secondary school students."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "callout",
+                "config": {
+                  "components": [
+                    {
+                      "type": "header",
+                      "config": {
+                        "level": 5,
+                        "text": "Mona Social Services Kitchen Garden Initiative"
+                      }
+                    },
+                    {
+                      "type": "stacked",
+                      "config": {
+                        "texts": [
+                          "MSS received grant funding of approximately JMD$ 5 million through the Environmental Foundation of Jamaica (EFJ), to install a Waste Water Management System initially in two basic schools in Greater August Town - August Town Seventh Day Adventist and Hermitage Basic Schools. The Waste Water Management System involves installation of tanks for harvesting rain water, a water pump to direct grey water from the kitchen to the garden, and a solar panel to power the   water pump. The harvested rain water will be used for sanitation purposes while the grey and rain water should provide continuous water for the gardens. The implementation of a Waste Water Management System is a sustainable way of continuing the Kitchen Garden Project which was established in 2013.  In the Greater August Town Basic Schools construction and installation of this system will reduce food insecurities and boost health. This effort is linked to the second sustainable development goal - zero hunger, which aims to end hunger and malnutrition by 2030, and to ensure that everyone, especially children, have “access to sufficient and nutritious food all year round”."
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The UWI School of Nursing (UWISON) co-opted other members within Jamaica to host two mental health forums under the theme Resilience and Mental Health in Young People. Health care providers and educators were in attendance from the University Hospital of the West Indies, as well as students and guidance counsellors from Campion College, Jamaica College, Mona High School and Papine High School. The sessions were streamed live on Facebook, extending access to the global community.",
+                    "A Jamaica International Chapter of the International Association of Eating Disorders Professionals has been established in the Department of Sociology Psychology and Social Work (DSPSW). The International Association of Eating Disorders Professionals (IAEDP) is one of the leading bodies worldwide in providing training for eating disorder specialists. IAEDP has asked Dr. Caryl James Bateman, Lecturer in the Psychology Unit, to chair the Jamaica Chapter.",
+                    "The Estate Management Department (EMD) facilitated internships and practica for students to provide them with valuable experience for the world of work. Students from Papine High School, Excelsior High School, the MICO University College, and the Institute of International Recognized Qualifications (IIRQ) participated in these programmes. The students gained knowledge and hands-on experience in the areas of building and electrical services.",
+                    "Three (3) students from the Psychology Unit were placed on a four-month internship at the Mona Social Services from January to April 2019. These students were assigned to the Hope Valley Experimental and August Town Primary Schools. This was part of a Resilience Building Programme which was initiated as a response to the increased murders being committed in the Greater August Town area and to bolster resilience and develop coping strategies for students. The sessions included discussions on promoting promoting peaceful spaces, conflict resolution, communication and working in teams. Pre-test and post-test assessments were conducted to measure impact and provide direction for future interventions. Seventy (70) students participated in the Programme."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["The Faculty of Sport, aided by a grant from the Caribbean Development Bank (CDB), launched the Community Inclusion Project, a pilot project targeting children between the ages of 9 and 16 to expose them to the values and ethics of sports.  Youngsters from the community of August Town were counselled on vocational opportunities in and around sport and given the opportunity to mingle and compete with some of the top sportsmen and sportswomen in the region. Another portion of the CDB grant was used to commence the Regional Emerging Athlete Development Programme. National sporting organizations around the region nominated an athlete from which three (3) were selected for the programme. The athletes, accompanied by their coaches, had extensive baseline medical and sports science testing done in Barbados, following which customized programmes were forwarded to their coaches."]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["The athletes will be retested in the next academic year to monitor their progress. The Faculty of Sport also launched the Pace Like Fire programme scouting fast bowlers. Testing was conducted in multiple sites in Trinidad and Tobago, Guyana, St. Lucia, Barbados and Jamaica in which any fast bowler was invited to bowl balls which were measured using a radar gun. The top 20 were then assessed by an expert panel of elite coaches and were taken into a camp at Cave Hill for intensive baseline testing and training to enhance their bowling technique. The entire process was filmed by Flow Sports working in conjunction with UWItv and was aired as a multi-episode series on Flow Sports."]
+                }
+              }
+            ]
+          },
+          "across": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "In November 2018, the Western Jamaica Campus (WJC) introduced an initiative in public education around issues of child and adolescent development as part of a larger idea to build out a Centre of Excellence in Human and Behavioral Sciences at the WJC. Weekly public engagement sessions in the form of lectures, seminars, workshops and panel discussions, were held exploring such topics as Parenting in the 21stCentury; Fathering in Jamaica; Understanding Disabilities among Children and Adolescents; and Promoting Healthy Body Imaging among Children and Adolescents in the Age of Social Media. The series was developed and delivered by the WJC Psychology Unit and reached a combined audience of approximately 1,000 parents, teachers, health and education professionals, and students from communities and institutions across St. James.",
+                    "While community intervention aids social development, the Campus community also benefits by having to stretch its disciplinary boundaries to respond to concrete issues and demands for training or outreach support from our stakeholders."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The Western Jamaica Campus hosted a Sustainable Cities Symposium under the theme Information Assurance and the Drive towards SMART City Status. The Symposium had solid support from the North Carolina-based Forsyth Technical Community College, the Mona School of Business and Management, the Jamaica Computer Society, the Jamaica Constabulary Force, and the Ministry of National Security. At the Symposium, the Campus Director of the WJC, Dr. Patrick Prendergast, was officially presented as co-chair of the newly established Mayor’s Advisory Council in recognition of the Campus’ consistency in education and advocacy for the planned development of the city of Montego Bay.  The other co-chair was prominent Montego Bay businessman, Mr. Fred Smith.",
+                    "The Faculty of Social Sciences in collaboration with the Jamaica Red Cross hosted a Symposium in September 2018 under the theme Humanitarian Action through Partnership and Research in Support of Disaster Risk Reduction and Resilience in which there was a wide cross section of industry and civil society represented. Attendees included: Major Errol Alliman, Former Chairman, Emergency Services, Jamaica Red Cross; Major Clive Davis, Director General, Office of Disaster Preparedness & Emergency Management (ODPEM); Dr Hossam Elsharkawi, Vice President, International Operations, Canadian Red Cross; Mrs. Gloria Goffe, Executive Director, Combined Disabilities Association; Mrs. Josephine Shields-Recass, Head, Country Cluster Support Team, IFRC; and Colonel Mahatma Williams, Colonel General Staff, Jamaica Defence Force.  The FSS used the event to launch its Disaster Risk Reduction and Resilience Research Initiative with Dr. Dennis Edwards assigned as the Lead.",
+                    "The National Influenza Centre (NIC) under the leadership of Professor Monica Smikle, continued to perform the important functions of influenza surveillance and diagnosis in Jamaica in keeping with World Health Organization (WHO) terms of reference for National Influenza Centres. The NIC activities were supported by the collaborative efforts of the Ministry of Health (MOH), Jamaica, Centre for Disease Control and Prevention (CDC), Atlanta, Pan American Health Organization (PAHO) and The University of the West Indies."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "A Mosquito Research and Control Unit (MCRU) was established at The UWI as a collaborative effort between the Ministry of Health and Wellness (MOHW) and The UWI. Pivotal to the MCRU is the unique partnership with stakeholders for a coordinated strategy involving research, tracking and monitoring, and actively pursuing new ways to address the threat caused by mosquito-borne diseases. The MCRU will bring together a multi-disciplinary team of experts and scientists representing the spectrum of academia and public institutions with provision for engaging private institutions and international partners. Experts in the areas of entomology, virology and parasitology, epidemiology, data analytics, economics and social sciences, will be represented in tackling the challenge of vector-borne diseases through research.  The objective of the Unit is to provide solutions for mosquito control through three strategies; applied research, capacity building and resource development.",
+                    "These outreach activities are key to social cohesion and development and remind us that we are indeed a University for all."
+                  ]
+                }
+              },
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "full": true,
+          "left": {
+            "components": [{
+              "type": "content-list",
+              "config": {
+                "header": "3. STRATEGIC RESEARCH PARTNERSHIPS: Fostering a culture of Research",
+                "contents": [
+                  "Research Publications",
+                  "Fostering a Culture of Research for staff",
+                  "Research: Outstanding Researchers",
+                  "Research Advocacy: Contributions to Sustainable Development and the Environment",
+                  "Research: Contribution to Regional Development",
+                  "Research Advocacy: Contribution to Social Development"
+                ]
+              }
+            }]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "Introduction"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["Pure and applied research must both be understood and appreciated by the University and its partners. While there are immediate outcomes of some research that can serve commerce or policy, some research raises the profile of the University on the global landscape, signalling our capacity for both stridency and innovative research,  and allowing where possible conversion into entrepreneurial benefits.  Partnerships are established at all levels, between staff and students, with our national and regional partners across islands, with our sister University of the West Indies campuses, and with our international connections. In building strategic partnerships in research we recognize the importance of our research integrity - the formal and informal ethics, standards, protocols and policies researchers follow in their environment, and that developing a partnership is inevitably a non-linear process involving many “starts” and “restarts”. While funding the research enterprise is an important ingredient, the spill on effect of stimulating and generating research at all levels and with strategic vibrant partnerships is unmeasurable for a university. Research is the lifeblood of our existence, running through the arteries of each discipline as they cater to the varied needs of our society and the raison d’etre of our University."]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          },
+          "across": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "Research Publications"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The Faculty of Medical Sciences has always led the way in publishing at the Mona Campus and continued to do so in 2018/2019.  Over the 2017 to 2019 period, a total of 12 articles were published in the high-profile journal The Lancet while three (3) appeared in Science, two (2) in Nature, and one (1) in The New England Journal of Medicine. The Faculty of Medical Sciences accounted for 50% of publications as compiled in the annual Campus Departmental Reports.",
+                    "The decline in the publication rate was due in part to the financial challenges being faced by the Campus. Despite the limited resources, however, researchers found creative means of connecting their research with critical areas of impact. Plans were also put in place for the re-establishment of The Mona Office of Research and Innovation (MORI).  MORI will provide the necessary support for measures that will help improve the quality and relevance of research outputs.",
+                    "In celebration of The UWI’s 70thAnniversary, the Psychology Unit of the Department of Sociology Psychology and Social Work (DSPSW) in collaboration with the School for Graduate Studies and Research and the Board for Graduate Studies and Research, published a special issue of the Caribbean Journal of Psychology (CJP). The journal focuses on using a multidisciplinary approach to examine human behaviour and as such, integrates sociology, psychology, social psychology, history and poetics to investigate the Caribbean human experience. CJP was first published in 2004 and is currently published by The UWI Press."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "lineChart",
+                "config": {
+                  "title": "Number of Journal Articles Published in Reputable Journals by Academic Staff at The UWI, Mona based on Web of Science Global Citation Database",
+                  "properties": {
+                    "labels": ["2016", "2017", "2018", "2019"],
+                    "datasets": [
+                      {
+                        "data": [154, 168, 223, 201]
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "barChart",
+                "config": {
+                  "properties": {
+                    "labels": ["FMS", "FST", "FSS", "FHE", "LAW", "IGDS", "SPORT", "FEN"],
+                    "datasets": [
+                      {
+                        "label": "2015-2016",
+                        "data": [0.54, 0.21, 0.11, 0.15, 0.01, 0.02, 0, 0]
+                      },
+                      {
+                        "label": "2016-2017",
+                        "data": [0.51, 0.23, 0.09, 0.18, 0.02, 0.025, 0, 0]
+                      },
+                      {
+                        "label": "2017-2018",
+                        "data": [0.55, 0.2, 0.1, 0.15, 0.01, 0.04, 0.01, 0.015]
+                      },
+                      {
+                        "label": "2018-2019",
+                        "data": [0.56, 0.225, 0.085, 0.14, 0.025, 0.03, 0]
+                      }
+                    ]
+                  },
+                  "options": {
+                    "title": {
+                      "display": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "note",
+                "config": {
+                  "texts": ["Source: Departmental Reports (Book chapters, journal articles, and technical reports)"]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "Fostering a Culture of Research for Staff"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "An important aspect of a research culture is one in which the institution values individual and group research and values research time. A research culture recognizes the activities and competencies that are involved in the process of research and creates opportunities to disseminate and employ research findings and solutions for the collective good. Research is not restricted to those who have earned academic stripes already, but goes through all levels of staff to graduate and undergraduate  students and to all who are aware of its centrality. A research culture encompasses the values, expectations, attitudes and norms of our research communities. It influences researchers' career paths and determines the way that research is conducted and communicated.  Diversity, both in the wide array of research that is carried out by the University and in terms of the diversity of the Campus population and its partnerships benefits everyone. The Mona Campus underscores the importance of research and in this section attests to the value we place on the research initiatives of our faculty.",
+                    "The Principal facilitated staff who expressed an interest in attending Mixed Methods Research Conferences, understanding that transformation in research methodologies are important  triggers to  innovative research scholarship.",
+                    "The Faculty of Social Sciences (FSS) has continued to emphasize the importance of high-quality impactful research by encouraging and supporting the work of its academics and research students. In addition to the financial support and teaching relief that was provided at the departmental level, the Social Sciences Faculty Office allocated approximately JMD$ 1 million in financial support to colleagues’ research projects and has assigned forty-seven (47) student assistants to colleagues for research duties.  Additionally, a proposal has been written for an institutional research project to examine the Factors affecting research productivity in the FSS and FST.  The proposal has received Ethics approval and will commence in the 2019/2020 academic year.  The results of this project are expected to guide planning initiatives in the FSS as to the most effective means of increasing research output."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The Faculty currently has seven (7) active research clusters in the areas of: Crime Prevention and Offender Management; Migration and Development; Social Policy; Sustainable Rural Agricultural Development; Youth; Economic Development Policy; and Behavioural Sciences.",
+                    "The CETL also convened its first Technology Academy in August 2018 training ten (10) faculty members to use 21  century technologies for teaching. This was a 31 training programme for faculty to engage in hands-on technology training. It was specifically geared at developing a cadre of university teachers who would develop the skills and competencies in using 21s century technologies in the higher education classroom (face-to face or online) to advance teaching and learning and of course, support the strategic objectives of access and alignment. Eighteen (18) academic members of staff participated in the session."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "Supervisor Development Course"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The Supervisor Development Course was introduced as a University-wide course in 2014 to improve the level of supervision particularly of research degree students. Lecturers are drawn from across the University and include the Principal, a former Pro Vice-Chancellor of Research and Graduate Studies with many successful supervisions to his credit.",
+                    "Over the years, Mona has adapted the course to target the focus of the Faculties.  Two Faculties, Social Sciences and Medical Sciences, have offered annual courses in collaboration with the Office of Graduate Studies.  Other Faculties have hosted at least one (1) course.  Topics covered include, Getting the Student Started, Grant Writing, Thesis Writing and Plagiarism. The regulations are also discussed in detail.",
+                    "Over the years, Mona has adapted the course to target the focus of the Faculties.  Two Faculties, Social Sciences and Medical Sciences, have offered annual courses in collaboration with the Office of Graduate Studies.  Other Faculties have hosted at least one (1) course.  Topics covered include, Getting the Student Started, Grant Writing, Thesis Writing and Plagiarism. The regulations are also discussed in detail."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "Research and Publication Fund"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["For the 2018/2019 academic year, the Mona Campus received an allocation of JMD$ 6,068,953 for Research and Publication. A total of twenty (20) staff members were awarded Research and Publication Grants. The seed funding provided by the Research and Publication fund continues to be foundational to inspiring a research culture on the Campus for staff who are beginning to generate new and exciting research projects."]
+                }
+              },
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "Research Days"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["The traditionally staged UWI, Mona Research Day activities led by the Director of Graduate Studies and Research, was held between Wednesday, February 6 and Friday, February 8, 2019 under the theme Powering Development through Partnerships in Research & Innovation as the University celebrated twenty (20) years of Research Days. Research Days provide an opportunity for The UWI to showcase research that is being done across the Campus. Over the years, the series of activities have sparked the interest of the government, the public and private sector, and other institutions that share The UWI mission of positively transforming the Caribbean and the wider world."]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["Dr. Wayne Henry, Director General of the Planning Institute of Jamaica (PIOJ), participated in this years’ event by presenting a paper which highlighted the contributions of 32 UWI academics to Vision 2030, Jamaica’s National Development Agenda, from concept stage and continuing throughout to the now implementation."]
+                }
+              },
+              {
+                "type": "caption-image",
+                "config": {
+                  "src": null,
+                  "captions": ["Professor Dale Webber, Pro Vice-Chancellor and Principal of The UWI MonaCampus, and Dr. Wayne Henry, Director General of the Planning Institute ofJamaica (PIOJ) during Dr. Henry’s Distinguished Lecture at The UWI ResearchDays 2019."]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["The event received tremendous support from The UWI community. There were over 100 posters on display and 53 interactive sessions covering areas including gender, the environment, marine science, community, energy, puppets in teaching, archaeology digs and natural products. A Policy Wall was also mounted which looked back at the contributions of UWI academics over the past 20 years to significant policies impacting Child Health, Ageing, HIV Prevention, Medium Size Enterprises, Climate Change, and Mangroves and Environmental Management. Finance Minister, Dr. Nigel Clarke, in his keynote address at the Opening Ceremony, emphasized the importance of research to social and economic development. To underscore the government’s commitment to research and development, a budget allocation will be made for research at the tertiary level. Research and development will also be included in Jamaica’s measurement of Gross Domestic Product (GDP) as of September 2020."]
+                }
+              },
+              {
+                "type": "caption-image",
+                "config": {
+                  "src": null,
+                  "captions": ["Dr. Nigel Clarke interacts with the Discovery Bay Marine Lab exhibit in the Research Days tent village."]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["The Annual Research Day Awards was held to once again recognize the contributions of those in our community whose research has generated transformative solutions relevant to the region’s complex development. Their work is highlighted through the Awards Ceremony to encourage faculty to continue the tradition of knowledge-creation and to urge stakeholders in the public and private sectors to partner with The UWI to ensure the sustainability of the University’s research enterprise. This year over 75 researchers were recognized at the Awards for their contributions over the 2017/2018 academic year."]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "note",
+                "config": {
+                  "texts": ["Highlights from UWI Mona Research Days Awards Ceremony 2019"]
+                }
+              }
+            ]
+          },
+          "across": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              },
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              },
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 5,
+            "text": "Grant Funding"
+          },
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["Over the years, grant funding has provided an opportunity for The UWI to conduct research beyond its current capacity.  Partnerships that are established under these agreements bridge the gap between the goals of the funding institutions and the outputs of scholarly research.  Administration at The UWI has also benefitted immensely from the percentage monetary allocations that accompany these arrangements. For the academic period August 2018 to March 2019, the following data was recorded for The UWI Mona Campus:"]
+                }
+              },
+              {
+                "type": "table",
+                "config": {
+
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 5,
+            "text": "Entrepreneurship and Innovation"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["The Mona Campus Entrepreneurial Committee was established to identify and accelerate the entrepreneurial possibilities that exist on the Campus. For the 2018/2019 academic year efforts were made to inculcate a mindset about entrepreneurship – being a problem seeker, a problem solver, and an innovator - among our staff and students and to facilitate the commercialization of ideas. To help fulfill its mandate the Committee worked closely with the Mona Office of Research and Innovation (MORI), the Mona Entrepreneurial and Commercialization Centre (MECC), the Mona School of Business and Management (MSBM) and Faculties that offer courses on entrepreneurship. The Mona Campus Entrepreneurial Committee also falls under the umbrella of the Innovation and Entrepreneurship arm of the School for Graduate Studies and Research, headed by Pro Vice-Chancellor Professor Stephan Gift. In February 2019, the Mona Entrepreneurial and Commercialization Centre ran a Boot Camp that had 14 startup companies participating; of those, 8 were selected to participate in a twelve-week-long Entrepreneurship Development Programme. This was a project funded by the Development Bank of Jamaica. MECC provides guidance to aspiring entrepreneurs, and incubation to those that qualify."]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          },
+          "across": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "Research: Outstanding Researchers"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Along with an impressive publication output, a number of staff were accorded international honors and awards for their scholarship.  These awards were representative of the excellent research culture to be found in each of the faculties and research institutes housed on the Mona Campus. Climate scientist, Professor Michael Taylor, Dean of the Faculty of Science and Technology, was the recipient of the 2019 Anthony N. Sabga Caribbean Award for Excellence in Science and Technology. Professor Matthew Smith, Department of History and Archaeology received a prestigious research Fellowship at the National Humanities Center in Research Triangle, North Carolina for the academic year 2018/2019.  Dr. Leith Dunn, Head of the Institute for Gender and Development Studies, was named among the top 100 most influential persons globally in the areas of Gender Policy and Equality for 2019 – the only Caribbean person included on this year’s list. Dr. Tracy Robinson, Senior Lecturer and Deputy Dean, Graduate Studies and Research, Faculty of Law, was the recipient of the 2019 Prominent Woman in International Law (PWIL), an Award given by the American Society of International Law (ASIL). The senior lecturer was recognized for advancing issues of gender and sexuality through her employment of human rights and international law.",
+                    "Mr. Lindon Falconer, Head of Programme for Electronics & Electrical Power, Faculty of Engineering, placed first in the category of Engineering and Manufacturing at the National Innovation Competition held on November 21, 2018.   He appeared in the Jamaica Observer on January 21, 2019, the Jamaica Gleaner on January 22, 2019, and in an article published by the  Jamaica Information Service (JIS) about the Award he received.  The articles highlighted his contribution to science and technology in bringing a new electronic security product, the Falcon B4, to the market. The Falcon B4 is a low-cost GSM Alarm and Monitoring System. It enables the use of a mobile phone to control electronic gates, lights, or any electrical appliance that requires on/off control. The control can be done from anywhere in the world, once there is a connection to a mobile network. The system sends out an alert when there is a breach in security. The system is currently available for purchase online."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Professor Michael Boyne and Dr. Tamara Thompson from the Department of Medicine, Faculty of Medical Sciences, participated in the Royal Society’s Caribbean Frontiers of Science meeting, in 2019. This lead to a follow-on grant proposal with collaborators at the University of Cambridge on the “Prevalence of gestational diabetes mellitus (GDM) in high risk women in Kingston, Jamaica, and association with pregnancy outcomes”.",
+                    "While this Report has selected some scholars to highlight in this section, the examples do not do full justice to the full cadre of researchers who are seriously committed to path breaking research alongside graduate students or in research groups. The Mona Campus is cognizant of the contributions they collectively make to the research reputation of the University."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "Research Advocacy: Contributions to Sustainable Development and the Environment"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["The natural environment has taken center stage in the geo-political arena. It is a feature of both the UN Sustainable Development Goals and the Vision 2030 Jamaica National Development Plan. Understanding the fragile nature of the environment and the threat of climate change, UWI researchers sought to tackle some of the most pressing problems facing the region.  Central among these was the contribution of UWI, Mona academics to a global report of the United Nations’ Intergovernmental Panel on Climate Change (IPCC).  Contributors to the Special Report on Climate Change And Land were Dr. Adrian Spence of the International Centre for Environmental and Nuclear Sciences, Dr. Donovan Campbell of the Department of Geography and Geology, Professor Noureddine Benkeblia of the Department of Life Sciences, and Professor Michael Taylor and Dr. Tannecia Stephenson of the Faculty of Science and Technology. The Report highlighted the effects of climate change on oceans – increase in acidity, decline in oxygen levels, rising sea levels, and ocean warming and ice–melting of permafrost. Findings of the Report were also used to inform a special Summary for Policymakers."]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "During 2018/2019, a multidisciplinary team from the Faculty of Science and Technology partnered with the National Environment and Planning Agency (NEPA) to conduct research on the seaweed -  Sargassum. The research examined the possibility of valorising the Sargassum which has a range of potential applications and could be viewed as a resource rather than as a nuisance affecting coastlines.",
+                    "In other ground-breaking research on marine litter in Jamaica, researchers from the Centre for Marine Sciences and the International Centre for Environmental and Nuclear Sciences, were the first to document the concentrations and implications of microplastics in the Kingston Harbour and Jamaica. The study used scientific evidence to support the ban on plastics in Jamaica and to support a global movement to reduce plastic and microplastics everywhere.  The study was published in Science of the Total Environment, a 5.589 impact factor international multi-disciplinary journal published under Elsevier.",
+                    "In 2019, Principal and Pro Vice-Chancellor of the Mona Campus, Professor Dale Webber, attended a presidential summit in Guam consisting of leaders from eight island colleges and universities.  The purpose of the meeting was to address sustainability issues from the perspective of island states. Each Principal shared his or her unique experiences and actions to address sustainability at their institution. The summit leaders subsequently agreed as a collective to a number of initiatives that  included exchange of faculty, staff and students, and finding indigenous responses to island issues."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "callout",
+                "config": {
+                  "components": [
+                    {
+                      "type": "header",
+                      "config": {
+                        "level": 5,
+                        "text": "Professor Mona Webber, James Moss-Solomon Snr. (JSMSS) Chair of Environmental Management, addressing Sustainable Development Goals (SDGs) through Research"
+                      }
+                    },
+                    {
+                      "type": "stacked",
+                      "config": {
+                        "texts": ["SDG Goal 14: Conserve and sustainably use the oceans, seas and marine resources for sustainable development. Professor Mona Webber is the James S. Moss Solomon Sr. Chair in Environmental Management funded by the Grace Kennedy Foundation. During the previous academic year, the JSMSS Chair addressed SDG Goal 14 through the following initiatives:"]
+                      }
+                    },
+                    {
+                      "type": "bullet",
+                      "config": {
+                        "bullets": [
+                          "Establishment of a Sargassum Research Group whose research, to date, has served to identify the species of the seaweed, its chemical profile, its use in compost generation and agricultural applications.",
+                          "Secured five MOUs with the following entities: The National Oceanographic Centre; the Organisation of American States; National Environment and Planning Agency; University of York (UK); and Ocean Foundation.",
+                          "Delivered 10 presentations on the marine environment to raise awareness.",
+                          "Assisted 25 students in gaining internships with environmental organizations.",
+                          "Supervised 7 Master’s students and 9 Doctoral students on pertinent research projects.",
+                          "Continued oversight of the UWI Plastic Bottle Recycling Project."
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["In a world increasingly challenged with diminishing natural resources and devastating effects of global warming and climate change on food security and land for housing and settlement, the Mona Campus renewed its commitment in 2018/2019 to advocacy research that will improve the lives of citizens everywhere."]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "Research Advocacy: Contribution to Regional Development"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The UWI School of Nursing (UWISON) remained committed to addressing the regional shortage of nurses. One new franchise was successfully implemented in the 2018/2019 academic year at the St. Vincent and the Grenadines Community College.  The School has further plans to expand the franchise offering to the Turks and Caicos Islands.  It is anticipated that this arrangement will be formalized in 2019/2020, yielding one more site from which the Bachelor of Nursing programme can be accessed.",
+                    "The Mona Library commenced a Library Liaison initiative to respond to key areas in Caribbean development. Liaison Librarians ensured that resources were readily available to faculty to better serve research communities in twelve subject areas: Cultural and Entertainment Industries; Agriculture and Food Security; Behavioural Sciences; Crime, Security and Justice; Integration Studies and the Caribbean Single Market and Economy; Climate Change and Sustainable Development; Natural Hazard Management; Education; Health and Wellness; Gender Justice; Entrepreneurship; and Sports and Sports Management.  The Mona Library continues to play a vital role in facilitating research excellence among faculty and students on the Campus."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "Contribution to Social Development"
+          }
+        },
+        
         {
           "header": {
             "level": 5,
