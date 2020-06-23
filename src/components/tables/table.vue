@@ -13,10 +13,10 @@
       </thead>
       <tbody>
         <tr v-for="(row, index) in data.rows" :key="index">
-          <th scope="row">{{ row.header }}</th>
+          <th :class="row.foot" scope="row">{{ row.header }}</th>
           <td v-if="row.texts">
             <div class="spacer" v-for="(text, index) in row.texts" :key="index">
-              <p>
+              <p :class="row.foot">
                 {{ text.text }}
               </p>
             </div>
@@ -27,7 +27,7 @@
               v-for="(text, index) in row.texts2"
               :key="index"
             >
-              <p>
+              <p :class="row.foot">
                 {{ text.text }}
               </p>
             </div>
@@ -38,9 +38,18 @@
               v-for="(value, index) in row.values"
               :key="index"
             >
-              <p>
-                {{ value.value }}
+              <p :class="row.foot">
+                {{ value.value.text }}
+                <ul v-if="value.value.list">
+                <li
+                  v-for="(value, index) in value.value.list.config.items"
+                  :key="index"
+                >
+                  {{ value }}
+                </li></ul>
               </p>
+              
+              
             </div>
           </td>
         </tr>
@@ -67,7 +76,9 @@ p {
 .spacer {
   min-height: 100px;
 }
-
+.footer{
+  font-weight: 800;
+}
 .spacer:nth-child(n + 2) {
   margin-top: 0.5em;
 }

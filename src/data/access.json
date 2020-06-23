@@ -278,10 +278,14 @@
                       ],
                       "values": [
                         {
-                          "value": "JMD$ 50,000"
+                          "value": {
+                            "text": "JMD$ 50,000"
+                          }
                         },
                         {
-                          "value": "JMD$ 50,000"
+                          "value": {
+                            "text": "JMD$ 50,000"
+                          }
                         }
                       ]
                     },
@@ -300,13 +304,13 @@
                       ],
                       "values": [
                         {
-                          "value": "JMD$ 50,000"
+                          "value": { "text": "JMD$ 50,000" }
                         },
                         {
-                          "value": "JMD$ 50,000"
+                          "value": { "text": "JMD$ 50,000" }
                         },
                         {
-                          "value": "JMD$ 30,000 Gift Voucher"
+                          "value": { "text": "JMD$ 30,000 Gift Voucher" }
                         }
                       ]
                     },
@@ -322,10 +326,10 @@
                       ],
                       "values": [
                         {
-                          "value": "USD$ 1,000"
+                          "value": { "text": "USD$ 1,000" }
                         },
                         {
-                          "value": "USD$ 1,000"
+                          "value": { "text": "USD$ 1,000" }
                         }
                       ]
                     },
@@ -344,13 +348,15 @@
                       ],
                       "values": [
                         {
-                          "value": "Full Scholarship"
+                          "value": { "text": "Full Scholarship" }
                         },
                         {
-                          "value": "Computers for Students"
+                          "value": { "text": "Computers for Students" }
                         },
                         {
-                          "value": "Increased from USD$ 2,500 to USD$ 5,000"
+                          "value": {
+                            "text": "Increased from USD$ 2,500 to USD$ 5,000"
+                          }
                         }
                       ]
                     }
@@ -401,7 +407,7 @@
 
                       "values": [
                         {
-                          "value": "JMD$ 1,000,000"
+                          "value": { "text": "JMD$ 1,000,000" }
                         }
                       ]
                     },
@@ -410,7 +416,9 @@
 
                       "values": [
                         {
-                          "value": "Increased from JMD$ 100,000 to JMD$ 150,000"
+                          "value": {
+                            "text": "Increased from JMD$ 100,000 to JMD$ 150,000"
+                          }
                         }
                       ]
                     },
@@ -419,7 +427,7 @@
 
                       "values": [
                         {
-                          "value": "JMD$ 50,000 each"
+                          "value": { "text": "JMD$ 50,000 each" }
                         }
                       ]
                     },
@@ -428,7 +436,7 @@
 
                       "values": [
                         {
-                          "value": "JMD$ 350,000 each"
+                          "value": { "text": "JMD$ 350,000 each" }
                         }
                       ]
                     }
@@ -506,7 +514,7 @@
                       ],
                       "values": [
                         {
-                          "value": "7,000,000"
+                          "value": { "text": "7,000,000" }
                         }
                       ]
                     },
@@ -519,7 +527,7 @@
                       ],
                       "values": [
                         {
-                          "value": "28,500,000"
+                          "value": { "text": "28,500,000" }
                         }
                       ]
                     },
@@ -532,7 +540,7 @@
                       ],
                       "values": [
                         {
-                          "value": "475,600,000"
+                          "value": { "text": "475,600,000" }
                         }
                       ]
                     },
@@ -545,7 +553,7 @@
                       ],
                       "values": [
                         {
-                          "value": "9,800,000"
+                          "value": { "text": "9,800,000" }
                         }
                       ]
                     },
@@ -558,7 +566,7 @@
                       ],
                       "values": [
                         {
-                          "value": "80,000"
+                          "value": { "text": "80,000" }
                         }
                       ]
                     }
@@ -636,7 +644,7 @@
                       ],
                       "values": [
                         {
-                          "value": "1,808"
+                          "value": { "text": "1,808" }
                         }
                       ]
                     },
@@ -654,11 +662,766 @@
                       ],
                       "values": [
                         {
-                          "value": "1,864"
+                          "value": { "text": "1,864" }
                         }
                       ]
                     }
                   ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "Strengthening our Position"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Attracting international students has been emphasized as one of the criteria under which The UWI is ranked by the Times Higher Education (THE). Having made its debut in the THE ranking in 2018, the Mona Campus gathered momentum to improve its competitive position and to strengthen areas of weakness in the ranking. International students bring their intellectual strengths and cultural difference to the classroom or research laboratories, providing our students with a vicarious means of engaging with the global world right here in Jamaica. To this end, efforts were made by a number of entities on the Campus to attract more international students and to increase research connections and publication output.",
+                    "The International Students Office (ISO) cited the 2018/2019 academic year as one of both challenges and successes in reaching international candidates. The main challenge from an international perspective pertained to the image of the country. The view of Jamaica as a “dangerous” country continued to thwart efforts at recruiting a greater number of international students and attracting both Study Abroad and Exchange students. Much of the year was spent managing various public relations issues having to do with the imposed Zone of Special Operations in various parts of the Island – and particularly in Western Jamaica where our satellite Campus is based. Despite this, the ISO experienced some noteworthy successes such as the extension of funding arrangements by the European Commission, as well as a successful promotional tour of Canadian universities in Ontario. While participating in events overseas during the year, it was heartening to note that despite some reservations voiced, The UWI remained the institution of choice for international partners seeking academic collaborations in the Caribbean."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The ISO hosted 27 Exchange and Study Abroad students during Semester Two, 11 students from Colgate University (located in Hamilton, New York) and 15 Special International Groups during the period under review. These included delegations from Howard University, Washburn University, University of Pittsburgh, University College of Dublin, the European Commission, and the International Federation of the Red Cross. It is expected that the majority of these will lead to formal Agreements in the 2019/2020 academic year.",
+                    "The UWI School Nursing (UWISON) welcomed two (2) students from the University of Cagliari, Italy, on a four-month Study Abroad Programme to gain experience in research. Both students completed critical aspects of their research projects under the supervision of Professor Eulalia Kahwa. One student from McMaster University, Canada, visited UWISON to complete her fieldwork for her project Documenting the Status of Nursing and Midwifery Human Resources in Jamaica, the latter also a key activity of the Pan American Health Organization/World Health Organization (PAHO/WHO) Collaborating Centre. Professor Kahwa, who serves as Deputy Director for the Centre and leads its major activities, co-supervised this student with colleagues from McMaster University."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The Mona School of Business and Management (MSBM) hosted a group of 13 students from Clayton State University, Georgia, as part of the Study Abroad component of their programme. The students were accompanied by Professor Alphonso Ogbuehi. They participated in lectures, site visits and were exposed to various cultural experiences. The MSBM proposes further dialogue with Clayton State University in 2019/2020 with a view to extending this partnership. In a similar vein, a team of faculty members from the MSBM visited the Florida Atlantic University (FAU) College of Business to explore an opportunity to form a collaborative partnership in faculty exchanges, research collaboration, and study abroad programmes.",
+                    "Two (2) undergraduate students in the Social Work Unit had the opportunity to travel with Dr. Claudette Crawford-Brown to the University of Applied Sciences, Utrecht, in the Netherlands. During their stay, the students interacted with social work students on a Netherlands Project which examined Human Trafficking in Jamaica. To further strengthen the international connection with The Netherlands, eight (8) students from University College of Utrecht, accompanied by their professor, were also hosted by The UWI Psychology Unit in collaboration with the Department of Community Health in October 2018.",
+                    "Based on an agreement with the Global Institute of Software Technology (GIST) in China, the first cohort of the BSc in Software Engineering programme which is being offered at The UWI China Institute of Information Technology (UWI-CIIT), left for China on September 4, 2018. Under the agreement, UWI students complete the first two years at UWI and the last two years in China. As part of the programme, students also complete a six-month paid internship at an IT company in the Suzhou Industrial Park. What is more, graduating students receive a diploma from GIST and a Bachelors degree from The UWI."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 4,
+                  "text": "Increasing Access Through Online Delivery"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Online delivery of programmes opens up access to our education resources and allows many students whose work schedules, domestic responsibilities or physical mobility denies them the opportunity to access offerings by The UWI. A number of initiatives were undertaken to support the expansion of online delivery in 2018/2019. The Campus Office of Online Learning (COOL) was established in January 2019 to lead the expansion of online delivery of courses and programmes across the Campus. The focus of the Office has been on encouraging a more effective use of the Campus’ Learning Management System (LMS) for teaching and learning, guiding the conversion of existing courses for blended and online delivery, and reviewing and drafting guidelines to facilitate standardization of existing online delivery efforts at the Campus level. The COOL is central to the fulfillment of The UWI’s Digital Transformation initiative.",
+                    "The Campus increased course repositories on the online platform, Our Virtual Learning Environment-Moodle (OurVLE-Moodle), by 26%, from 2,300 to 2,892. Currently, the Faculty of Humanities and Education leads the way in online programme offerings."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "During the 2018/2019 academic year, 455 students were registered in online programmes of which 72% were studying in Humanities and Education followed by 21% in Medical Sciences. Overall, more postgraduate students (60%) were registered online compared to undergraduate students (40%)."
+                  ]
+                }
+              },
+              {
+                "type": "columnChart",
+                "config": {
+                  "title": "Student Registration in Online/Blended Programmes",
+                  "properties": {
+                    "labels": [
+                      "Humanities & Education",
+                      "Medical Sciences",
+                      "Science & Technology",
+                      "Social Sciences",
+                      "Sports"
+                    ],
+                    "datasets": [
+                      {
+                        "label": "Registered Students",
+                        "data": [327, 95, 22, 9, 1]
+                      }
+                    ]
+                  },
+                  "options": {
+                    "title": {
+                      "position": "top"
+                    },
+                    "legend": {
+                      "display": false
+                    }
+                  }
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The Sir Arthur Lewis Institute for Social and Economic Studies (SALISES) sought to increase access for students, by converting the face-to-face MSc Development Studies to online delivery mode. In October 2018, SALISES advertised its MSc programme on the masterstudies.com recruitment platform. Use of the website yielded 59,926 impressions, 2,975 clicks, and 226 interested applicants. The online programme, which is expected to commence in the academic year 2020/2021, will result in increased student access, regionally and internationally. Efforts to provide more online programmes, with aggressive marketing, is likely to widen access to a tertiary education, especially for international students."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 3,
+                  "text": "Introduced for Students"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "A number of academic courses and programmes were rolled out as a means of attracting new students. Students themselves request new options for programmes and courses that outfit them for a changing world of work. For many students, finding a job means possibly creating a job for themselves."
+                  ]
+                }
+              },
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The changing technologies of communication, industry and business models also require us as a University to review our curricula and outfit the programmes with state-of-the-art literature, new formats for delivery and cross- disciplinary choices. For example, an MSc in Media Management, offered jointly by the Mona School of Business and Management and the Caribbean School of Media and Communication (CARIMAC), was approved for delivery in 2019/2020. The first of its kind in the Caribbean, the programme will deliver instruction in the management of contemporary media systems inclusive of own-account enterprises. Graduates are expected to be effective media managers who can adapt to changing platforms. The Faculty of Humanities and Education also introduced two (2) full fee-paying programmes, the BA in History and Journalism and the BA in Music and Performance Studies. As part of the drive for financial self-sufficiency, the Faculty secured a JMD$ 4 million grant from the CHASE Foundation for the purchase of musical instruments. These programmes, with specific provisions for practica and internships, are expected to produce job-ready graduates well acquainted with industry standards.",
+                    "The Department of Medicine launched a new DM in Dermatology on July 1, 2019. This programme was long in gestation, although there was a great need to provide locally qualified dermatologists since there were no prior local/regional opportunities for training. The first cohort saw four (4) students being admitted, with a teaching complement of five (5) dermatologists."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "To take advantage of new developments, the Department of Computing (DoC) launched a new programme in Applied Data Science. Data science is among the most needed skills of the Fourth Industrial Revolution. Big Data and Machine Learning are playing important roles in several sectors. The programme is offered at the certificate, advanced diploma, and master’s degree levels.",
+                    "Within the Faculty of Social Sciences, four (4) economics courses on offer at the St. Augustine Campus were adopted for delivery in 2019/2020: Urban and Regional Economics; Energy Economics; Health Economics: Theory and Policy; and Labour Economics. In addition, The UWI Centre for Disability Studies (UWICDS) developed the following courses for delivery in 2019/2020: Understanding Persons with Disabilities; Disability, Law and Society; and Disability and Development. These courses collectively serve to broaden the appeal of the social sciences to individuals and organizations.",
+                    "Responding specifically to the national development agenda and to the SDG on climate change, The Centre for Excellence in Teaching and Learning (CETL) partnered with The UWI’s Disaster Risk Reduction Centre (DRRC) on developing three courses for the region and the first section of a Master’s degree programme on disaster risk reduction/ disaster risk management. The courses cover critical areas of disaster risk management including leadership, risk reduction and health management."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 3,
+                  "text": "Engaging Students through Teaching and Learning"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "In addition to forging partnerships that were beneficial to students’ professional development, efforts to improve teaching and learning generally on the Campus are continuous and an ongoing strategy to respond to student and industry needs. During the 2018/2019 academic year a number of initiatives were added to engage students both academically and professionally. Extensive reviews were undertaken in 2018/2019 of the postgraduate and undergraduate Nursing programmes to achieve compliance with the World Health Organization’s Revised Competencies for Nursing Education and Practice (2016) and to reflect the priority areas of the Nursing Council of Jamaica and the Regional Nursing Body. An implementation target date is set for September 2021/2022.",
+                    "To improve student learning, the Department of Computing began using the HackerRank ™ platform. The online platform allows faculty members to create programming problems to which students submit written solutions. The submissions are automatically tested and graded, and the students are immediately informed about the suitability of their submissions. Students are also permitted to resubmit solutions, encouraging them to learn from errors.",
+                    "At the Western Jamaica Campus, a concerted effort was made to equip students with special skills to elevate their writing from high school to university level. At the Institute of Caribbean Studies, students were provided with detailed rubrics for all their assignments, thus improving their performance in presenting coursework."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The Health Professions Education Unit (HPEU) through its Faculty Development Workshops on Item-Writing, Blueprinting, Standard Setting, Flipped Classroom, and Leadership promoted and enhanced the quality of teaching, learning and student development in the Faculty of Medical Sciences during 2018/2019. Consultations in quality assurance and accreditation by the HPEU (to MBBS, Dentistry, Diagnostic Imaging) further contributed to improving the quality of academic undergraduate programmes in the Faculty of Medical Sciences.",
+                    "The UWI Mona Library continued to play a major role in supporting teaching and learning through its thesis scrutiny, consultation and proactive programmes. During the year under review, the Library hosted 188 theses consultations and scrutinized 47 theses. It also conducted workshops for postgraduate students on Plagiarism, Referencing, Endnote, and Thesis Preparation. The Library hosted 3 workshops with librarians and the Faculties on avoiding predatory journals. During Research Days 2019, the Library conducted 14 workshops/seminars focusing on a number of areas including APA referencing, Chicago referencing, digitization, and copyright. One hundred and eighty-two (182) persons participated in these workshops."
+                  ]
+                }
+              }
+            ]
+          },
+          "across": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Such efforts, undertaken in each department and faculty over the 2018/2019 academic year to engage students with novel information in different teaching and learning strategies, will incrementally improve student academic performance and redound to The UWI’s research endeavours and the region’s human capital."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 4,
+                  "text": "Student Development: Fostering a Culture of Research"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Graduate student enrolment at the Mona Campus is heavily geared towards taught Masters programmes, with a smaller but highly motivated group of research students working towards Masters and Doctors of Philosophy degrees. The large Masters cohorts represent an opportunity to prepare students for entry into Doctoral studies. The period of graduate studies training is also well-placed to develop research and writing skills of students to enhance The UWI publication profile. During the previous academic year, a number of departments led special projects to strengthen students’ research and writing skills."
+                  ]
+                }
+              },
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "Initiatives By Faculty"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The Office of Graduate Studies and Research (OGSR) hosted a Getting Started workshop that was incorporated into the Orientation exercise. A series of ongoing measures were also implemented throughout the year to improve the graduate supervision experience, among these: guidelines were introduced for chairing Oral examinations and PhD upgrade seminars, and specific criteria were established for appointing supervisors. Mentorship programmes were implemented to further enhance the level of research productivity among graduate students. The Mona Association of Postgraduate Students (MAPS) also hosted a Thesis workshop in the first semester. The Library continues to be an active participant in all activities. There were a number of initiatives at Faculty level specifically geared at fostering a sense of community and strengthening the research proficiencies of our students:"
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "table",
+                "config": {
+                  "title": "Faculty Initiatives to Improve Student Research",
+                  "headers": [
+                    {
+                      "data": "Faculty"
+                    },
+                    {
+                      "data": "initiative"
+                    }
+                  ],
+                  "rows": [
+                    {
+                      "header": "Social Sciences",
+
+                      "values": [
+                        {
+                          "value": {
+                            "text": "Research Refresher Series which included sessions on",
+                            "list": {
+                              "type": "list",
+                              "config": {
+                                "items": [
+                                  "Designing the study",
+                                  "Developing the research proposal for ethics committee",
+                                  "Qualitative Research",
+                                  "Structural equation modelling",
+                                  "Past students share success stories"
+                                ]
+                              }
+                            }
+                          }
+                        },
+
+                        {
+                          "value": {
+                            "text": "A Dean’s Reception for graduate students and the Graduate Student Awards Ceremony"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Humanities And Education",
+
+                      "values": [
+                        {
+                          "value": {
+                            "text": "Weekly, and sometimes fortnightly, staff/postgraduate student seminars where students and supervisors discuss research findings. The aim is to assist throughput in research driven graduate programmes."
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Medical Sciences",
+
+                      "values": [
+                        {
+                          "value": {
+                            "text": "Hosted Teaching Skills workshops"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Science and Technology",
+
+                      "values": [
+                        {
+                          "value": {
+                            "text": "Implemented Grant Writing workshops"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Law",
+
+                      "values": [
+                        {
+                          "value": {
+                            "text": "Held a student seminar on Legal Writing"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Graduate students from The UWI School of Nursing (UWISON) participated in the School’s biweekly Journal Club providing opportunities for peer review of proposals, manuscripts, and research findings. A similar initiative was embraced in the Department of Microbiology where staff and students at different levels were encouraged to present and discuss articles of interest from reputable journals. In addition, the Department of Microbiology hosted weekly research meetings where carefully selected papers were reviewed for content, impact, and methodology. Different members of staff led the discussions each week. DM students were also advised to do the Collaborative Institutional Training Initiative (CITI) programme on research ethics in the first year of the programme and to submit research papers to the Faculty’s Annual Research Conference. During 2018/2019, five (5) postgraduate students in the Department were either current or newly accepted National Institute of Health (NIH) Fogarty Scholars. The scholars comprised Ms. Suzette Cameron, Dr. Ynolde Ley-Thomas, Dr. Camille Blake, Ms. Tiffany Butterfield and Mr. Chadwic Mears."
+                  ]
+                }
+              },
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "Research and Publication Grants"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Eighty-four (84) graduate students received funding from Research and Publication Grants to support their research efforts. The 2018/2019 allocation for the Mona Campus for Post Graduate Research was JMD$ 31,858,553. Grants were used to purchase equipment and supplies; for assistance with research; to present papers and posters at international conferences; and to facilitate training and observation at overseas laboratories. Developmental activities, such as workshops, were continuously supported throughout the year, supporting faculty drives to foster a culture of research."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "callout",
+                "config": {
+                  "components": [
+                    {
+                      "type": "header",
+                      "config": {
+                        "level": 5,
+                        "text": "NIH Fogarty Scholars"
+                      }
+                    },
+                    {
+                      "type": "stacked",
+                      "config": {
+                        "texts": [
+                          "Ms. Tiffany Butterfield and Mr. Chadwic Mears, NIH Fogarty Scholars in the Department of Microbiology, who are being supervised by Dr. Joshua Anzinger, have already received advanced training at several research institutions. Ms. Butterfield, while at the University of Buffalo, gained the ability to perform bioinformatic pathway analysis for her research project and Mr. Mears gained training in diagnostic arbovirus techniques for his research project while at the Wadsworth Laboratory in Albany, New York. Mr. Mears was also selected for advanced sequencing training at the Research Center for Zoonosis Control, Hokkaido University, sponsored by the Japanese Government."
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 4,
+                  "text": "Student Internships: Facilitating Industry Partnerships"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The Department of Computing (DoC) added nine (9) more companies to the list of 29 where students were placed as interns. The UWI-NCB Digital Agile Lab, which the Department manages in collaboration with the Mona School of Business and Management, commenced the second cohort of 15 interns and trained them over a period of 16 weeks. The interns were trained to fill key roles such as Software Developers, Customer Experience and Design experts, and Data Scientists at the National Commercial Bank (NCB). All 15 interns were subsequently hired by the NCB, a strong example of the Academic/Industry partnership at work.",
+                    "Five (5) students from the Faculty of Science and Technology (FST) were beneficiaries of the Annual Huawei Jamaica Seeds for the Future programme. They are: Mr. Jachin Mullings, Mr. Jhamali Vassell, Mr. Jahmin Chambers, Ms. Kaycilee Wright and Mr. D’Angelo Campbell. The Programme seeks to develop local information and communications technology talent, enhance knowledge transfer, promote a greater understanding of, and interest in, the ICT sector, and improve and encourage regional building and participation in the digital community. The students participated in a two-week internship at Huawei in China with the company covering all major expenses.",
+                    "Part of the mission of the Mona School of Business and Management (MSBM) is to “foster innovation for the positive transformation of Caribbean enterprises through the development of world-class business professionals and research-based solutions”. To this end, they partnered with approximately 20 companies in Kingston and Montego Bay to provide practical solutions to business problems, through the MSBM Graduate Programme Field Project. Approximately 120 students from both the Mona and Western Jamaica Campuses recently completed their projects through a partnership with both public and private sector companies across a range of industries including finance, aviation, marketing and information technology."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "caption-image",
+                "config": {
+                  "src": null,
+                  "captions": [
+                    "(Seated, front row, from left) UTech Deputy President, Professor Colin Gyles; Huawei Jamaica Country Manager, Mr. Allen Chen; Former Minister of Education then Senator Ruel Reid and UWI Mona Principal, Professor Dale Webber, with the 2018 recipients of Huawei's 'Seeds for the Future' awards."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 3,
+                  "text": "Recognizing Excellence"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "One of the enduring objectives of The UWI Strategic Plan is the development of student attributes that embody the ideal graduate; acknowledging the successes of those who have made the Campus proud through their sterling achievements reinforces the commitment to this objective. The Mona Campus is proud of those students who excelled in various spheres.",
+                    "As part of the Annual Student Orientation activities, the Faculty of Social Sciences launched an essay competition on the topic The UWI at 70: The Relevance of a University Education in the 21 Century Workplace. Ms. Maia Labastide, the competition winner, presented her paper at the Dean’s Welcome Ceremony. Mr. Desmond Campbell, a Nursing student at the Mona Western Jamaica Campus, was the recipient of the Nursing Student of the Year award for 2018/2019. This award was granted by LASCO and the Nursing Association of Jamaica. Mr. Campbell represented the first male to earn the title. The win was significant for opening doors to diversity in the health professions and for highlighting UWISON’s success over the last four (4) years.",
+                    "Other students who were recognized at the national level were valuable ambassadors of The UWI brand. Mr. Jordon Freeman received the 2018 Innovation Youth Award for his reduced calorie ''Healthy Sugar''; and the 2019 Governor General’s Achievement Award. Dr. Phylicia Ricketts, who recently completed her PhD in Applied Physics at The UWI, Mona, was awarded the Prime Minister’s Youth Award for Innovation in Science and Technology. Dr. Aldeam Facey received the Prime Minister’s Youth Award for Excellence in the category of Innovation in Science and Technology for work done while pursuing his PhD in Biochemistry. The study quantified adipocytic contributions to basal lactate and created a novel metabolic profile of Jamaican athletes. Ms. Eleanor Terrelonge, a Graduate student in The Department of Basic Medical Sciences and founder of the Jamaica Climate Change Youth Council (JCCYC), was among the 2018 Prime Minister’s Youth Award recipients. Dr. Shadae Foster, a PhD Biochemistry graduate of The UWI, Mona Campus, was also the 2018 recipient of the Young Scientists Award from the Ministry of Science and Technology."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "caption-image",
+                "config": {
+                  "src": null,
+                  "captions": [
+                    "Dr. Shadae Foster, recipient of the Young Scientists Award"
+                  ]
+                }
+              },
+              {
+                "type": "caption-image",
+                "config": {
+                  "src": null,
+                  "captions": [
+                    "Ms. Eleanor Terrelonge, recipient of the Prime Minister's Youth Award"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The UWI brand took further global accolades during the previous academic year when a number of talented students were recognized internationally for their outstanding performance. Mr. Cornel Bogle, First Class Honours student in Literatures in English, was the proud winner of the 2018 Herb Wyile Prize in Canadian Literature. His award-winning essay, The Politics of Homosociality in Austin Clarke’s ‘In the City,’ was published in Studies in Canadian Literature. As a requirement for the BA in Librarianship, Mr. Demar Ludford, was attached to the Brooklyn Public Library in the United States as an intern. While collating and classifying a set of archival collections, Mr. Ludford found a subset of papers on Martha Gayle, a Jamaican who travelled to the United States in the ninteen twenties and became a naturalized citizen in 1947. Driven by intellectual curiosity, Mr. Ludford wrote an essay about Miss Gayle which was highly commended and later published on the website of the Brooklyn Public Library.",
+                    "After a series of technical and behavioural interviews with representatives from Goldman Sachs, Mr. Michael Calloo, a student from the Department of Computing, succeeded in getting an internship at the Technology Division of Goldman Sachs Services (Asia) Limited in Hong Kong in the summer of 2019. He was subsequently offered a full-time job starting in January 2020, thus forging new paths for other students in educational and job opportunities.",
+                    "The Mona Association of Postgraduate Students Debate Team, comprised of students from the Department of Government, were the 2019 Champions of The UWI Inter-Campus Postgraduate Debate Competition. The debaters were accompanied by their coach, Ms. Kemesha Kelly, a Lecturer in the Department of Government."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "caption-image",
+                "config": {
+                  "src": null,
+                  "captions": ["Mr. Demar Ludford’s Martha Gayle Collection"]
+                }
+              },
+              {
+                "type": "caption-image",
+                "config": {
+                  "src": null,
+                  "captions": [
+                    "Congratulations to The UWI Mona Postgraduate Debating Team for retaining the title for the 6 consecutive year. th L - R: Mr. Chavon Rogers, Ms. Regan Reid, Ms. Kemesha Kelly (Coach), Ms. Ren-Neasha Blake, & Mr. Steven Gardiner"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "In the Faculty of Engineering, The UWI Institute of Electrical and Electronics Engineers (IEEE) Student Branch placed third in the IEEE Southeastern Conference Robotics Open Competition in Alabama, in 2019. Mr. Dominic Mills-Howell (MPhil Mathematics) attended the 69 Lindau Nobel Laureate Meeting in Lindau, Germany from June 30 to July 5, 2019. He was one of 580 young scientists representing 89 countries and chosen out a pool of more than 20,000 candidates from all over the world. He was the only Jamaican representative. The Lindau Nobel Laureate Meetings foster exchange among scientists of different generations, cultures, and disciplines. Annually, around 30-40 Nobel Laureates convene in Lindau to meet the next generation of leading scientists, including undergraduates, PhD students, and post-doc researchers from around the world."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Mr. Chevano Baker, graduate of The University of the West Indies, Mona Campus, was selected as the 2019 Rhodes Scholar. He graduated with a BSc (First Class Honours) in Actuarial Science after winning the prestigious UWI Open Scholarship in 2013. He was then awarded a JN Foundation/University of Birmingham Legacy Scholarship, where he pursued an MSc in Financial Economics. The Rhodes Scholarship is tenable at the University of Oxford in the United Kingdom."
+                  ]
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "These students, and many more like them, are ambassadors of The UWI personifying the ideal graduate while enhancing our brand. Their successes demonstrate that we prepare students for the local, regional and global market as recommended in The UWI Strategic Plan."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 3,
+            "text": "Achievements in Sports"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Thirteen (13) new graduate programmes were approved for future delivery. These cover areas such as pain management; applied data science; coaching; kinetics; biomechanics; and strength and conditioning. Students at the Mona Campus also celebrated some noticeable sporting wins for 2018/2019:"
+                  ]
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Akim Fraser, a scholarship athlete, was named to the Jamaica Scorpion Cricket Team in February 2019 where he took five (5) wickets on his debut in first class cricket and was named “Man of the Match”. He was also named to the West Indies A team and played in a friendly match against India. In this encounter he took four (4) wickets overall. The UWI Mona team, an all student team, won the Jamaica Cricket Association Junior Cup Championship and placed third in the Jamaica Cricket Association Senior T20 Championship."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The Mona Campus male football team won both of the Jamaica Intercollegiate Sports Association (Intercol) Football competitions (the Greg Garrel Knockout and the Intercol League) for the first time. The team featured both Sports scholarship and non-scholarship students."
+                  ]
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Both Male and Female Hockey Teams placed first in the Inter-collegiate competition for the year. Mr. Fedrick Dacres, one of our student-athletes, became the first Jamaican to gain a Diamond League Trophy in a throwing event by winning four of five Discus Throwing events in the Diamond League circuit for the year. He became the Pan Am Games Record holder after 36 years of winning that event with a throw of 68.67m. He is the Jamaican Record Holder in Discus after he threw a distance of 70.78 at the Rabat Diamond League and became the Intercol Track and Field Championship record holder at the 2019 Championship in the Discus event. He was also winner of the Shotput at this event."
+                  ]
+                }
+              }
+            ]
+          },
+          "across": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 4,
+                  "text": "Student Entrepreneurship"
+                }
+              },
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "Ja Bio Plastics"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The MSBM continues to lead teams in The UWI Vincent HoSang Venture Competition (UWIVC). Five teams represented The UWI at the National Business Model Competition (NBMC) - Ja Bio Plastics, Pree Labs, Carib Voxx, Align and ReRoute - at the final round of the competition in March 2019. The UWI placed first and third in the competition, with two (2) of the five (5) student-entrepreneur teams securing a combined cash prize of JMD$ 2.5 million. The first place prize went to Team JA Bio Plastics, a student-entrepreneur team comprising Mr. Jordon Freeman and Ms. Samantha Williams. The team presented an eco-friendly alternative to plastic bags which copped them a cash prize of $JMD 2 million and an all-expense paid trip to the International Business Model Competition later that year. Although they did not place among the top three winners at the International Competition, they received honourable mention, shining the spotlight, once again, on the Mona Campus’ commitment to preserving and protecting the environment. The MSBM provides the teams with mentorship, training and support. These students competed against thirteen other teams across four (4) universities - The UWI, Northern Caribbean University, University of Technology Jamaica and Edna Manley College of the Visual and Performing Arts. This is the 2 consecutive year that The UWI has won the Competition."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "caption-image",
+                "config": {
+                  "src": null,
+                  "captions": [
+                    "Ms. Samantha Williams and Mr. Jordon Freeman winners of The UWI Vincent HoSang Venture Competition"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "The Rush Alert App"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "A main priority of The UWI Mona is to provide a safe environment for our staff and students. In helping us to fulfil this mandate, a four-member team comprising Mr. Marvin Richards, Mr. Odaine Williams, Mr. Jhamali Vassel, and Mr. Ramon McLaren created a security notification mobile application feature, Rush Alert, to address the security concerns of The UWI community. The Rush Alert App enables an individual in distress to send status alerts to a list of predefined contacts. Pre-coded messages, or alerts, (e.g., “I feel unsafe”) are available to users to indicate their current state to their contacts. If a user fails to “check in” the application will initiate the issuance of a corresponding status alert to their list of contacts. Analytics from Rush Alert will also be used to inform security practices on the Campus. Approval is now being sought for the implementation and use of the App."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "caption-image",
+                "config": {
+                  "src": null,
+                  "captions": ["Rush Alert app login screen"]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 4,
+                  "text": "Student Housing"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The Halls of Residence function as learning communities for students who are being prepared for twenty-first century leadership. This is in keeping with the strategic aim of The University of the West Indies to provide nurturing environments which support teaching, learning and student development. The mission of the Halls is therefore to provide an aesthetically and intellectually appealing environment which fosters the qualitative advancement of student learners through creative, engaging and student-centred programmes and methodologies."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "caption-image",
+                "config": {
+                  "src": null,
+                  "captions": ["Growth in Students Residing on Halls"]
                 }
               }
             ]
@@ -687,7 +1450,188 @@
             "components": [
               {
                 "type": "table",
-                "config": {}
+                "config": {
+                  "title": "number of students with disabilities by faculty",
+                  "headers": [
+                    {
+                      "data": "Faculty"
+                    },
+                    {
+                      "data": "2016/17"
+                    },
+                    {
+                      "data": "2017/18"
+                    },
+                    {
+                      "data": "2018/19"
+                    }
+                  ],
+                  "rows": [
+                    {
+                      "header": "Humanities & Education",
+                      "texts": [
+                        {
+                          "text": "24"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "40"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "38" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Law",
+                      "texts": [
+                        {
+                          "text": "6"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "6"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "12" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Medical Sciences",
+                      "texts": [
+                        {
+                          "text": "23"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "31"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "29" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Science & Technology",
+                      "texts": [
+                        {
+                          "text": "42"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "42"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "41" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Engineering",
+                      "texts": [
+                        {
+                          "text": "--"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "--"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "3" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Social Sciences",
+                      "texts": [
+                        {
+                          "text": "101"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "106"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "110" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Institute for Gender & Development Studies",
+                      "texts": [
+                        {
+                          "text": "5"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "1"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "1" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Sport",
+                      "texts": [
+                        {
+                          "text": "--"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "0"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "0" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Total",
+                      "texts": [
+                        {
+                          "text": "201"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "226"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "234" }
+                        }
+                      ],
+                      "foot": "footer"
+                    }
+                  ]
+                }
               },
               {
                 "type": "note",
@@ -1315,7 +2259,242 @@
               },
               {
                 "type": "table",
-                "config": {}
+                "config": {
+                  "title": "Grant Funding Opportunities",
+                  "headers": [
+                    {
+                      "data": "Faculty/Other"
+                    },
+                    {
+                      "data": "Number of Grant Applications"
+                    },
+                    {
+                      "data": "Number of Grant Awards"
+                    },
+                    {
+                      "data": "Value of Grant Awards (JMD$)"
+                    }
+                  ],
+                  "rows": [
+                    {
+                      "header": "Engineering",
+                      "texts": [
+                        {
+                          "text": "0"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "0"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "--" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Humanities & Education (FHE)",
+                      "texts": [
+                        {
+                          "text": "1"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "1"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "JMD$ 2,565,747.00" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Law (FoL)",
+                      "texts": [
+                        {
+                          "text": "1"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "1"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "JMD$ 20,438,752.00" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Medical Sciences (FMS)",
+                      "texts": [
+                        {
+                          "text": "6"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "4"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "JMD$ 49,392,604.00" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Science & Technology (FST)",
+                      "texts": [
+                        {
+                          "text": "18"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "12"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "JMD$ 55,441,083.00" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Sport",
+                      "texts": [
+                        {
+                          "text": "0"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "0"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "--" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Social Sciences (FSS)",
+                      "texts": [
+                        {
+                          "text": "6"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "6"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "JMD$ 29,451,625.00" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Multi-Disciplinary: FMS-FST",
+                      "texts": [
+                        {
+                          "text": "1"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "--"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "--" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Multi-Disciplinary: FSS-FHE-IGDS Centre",
+                      "texts": [
+                        {
+                          "text": "1"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "1"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "JMD$ 37,701,859.00" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Multi-Disciplinary: FSS-FHE",
+                      "texts": [
+                        {
+                          "text": "1"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "0"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "--" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Other",
+                      "texts": [
+                        {
+                          "text": "6"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "29"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "JMD$ 20,580,071.00" }
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Total",
+                      "texts": [
+                        {
+                          "text": "51"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "54"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": { "text": "JMD$ 215,571,741.00" }
+                        }
+                      ],
+                      "foot": "footer"
+                    }
+                  ]
+                }
               }
             ]
           }
