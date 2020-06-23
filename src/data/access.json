@@ -112,7 +112,7 @@
           }
         },
         {
-          "across": {
+          "left": {
             "components": [
               {
                 "type": "columnChart",
@@ -150,7 +150,11 @@
                     }
                   }
                 }
-              },
+              }
+            ]
+          },
+          "right": {
+            "components": [
               {
                 "type": "columnChart",
                 "config": {
@@ -172,6 +176,489 @@
                       "display": false
                     }
                   }
+                }
+              }
+            ]
+          },
+          "across": {
+            "components": [
+              {
+                "type": "columnChart",
+                "config": {
+                  "title": "Student Registrations",
+                  "properties": {
+                    "labels": ["2016-17", "2017-18", "2018-19"],
+                    "datasets": [
+                      {
+                        "label": "Registered Students",
+                        "data": [18469, 19408, 19599]
+                      }
+                    ]
+                  },
+                  "options": {
+                    "title": {
+                      "position": "top"
+                    },
+                    "legend": {
+                      "display": false
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 4,
+                  "text": "Introduction"
+                }
+              },
+              {
+                "group": "texts",
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "In this section, we will look at the incentives and actions undertaken to ensure that current and potential students view us as their University of Choice. During the year 2018/2019 we continued to emphasize student inclusivity, provide financial and housing supports to increase student intake and improve the quality of life on the Campus. We also made determined efforts to expand international and regional enrolment, improve teaching and learning tools through our digital platforms, and validate the successes of our students."
+                  ]
+                }
+              },
+              {
+                "type": "header",
+                "config": {
+                  "level": 4,
+                  "text": "Financing the Dream"
+                }
+              },
+              {
+                "group": "texts",
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "To assist qualified students to gain entry to the Mona Campus, a number of scholarships and bursaries were made available to students through the Office of Student Financing (OSF) valuing over JMD$ 900 million. We provided financial assistance based on academic merit and economic need. Several Faculties normally offer bursaries and prizes to high performing students. We feature some new departmental supports that were awarded for the 2018/2019 academic year.",
+                    "The Library was also host of the Emerald Ambassador Programme which awarded a second-year student USD$ 500 for winning the competition to become Ambassador for the year. The selected Ambassador served as a Campus Library liaison between Emerald Publishing Limited, United Kingdom, and the student body, helping to raise awareness, value and usage of the UWI Emerald databases through targeted outreach initiatives. The Library was also one of the largest recruiters of student employees. For the reporting period, approximately 228 students were employed which facilitated their registration engagements.",
+                    "The Business Development Office (BDO) streamlined initiatives to advance the strategic pillar of providing access to The UWI. A total of JMD$ 1.97 million was collected from its commercial tenants as contributions to the Principal’s Scholarship Fund; scholarships valued at JMD$1 million were provided from Restaurants Associates Limited Group (RAL) for the Burger King and Little Caesars outlets on the Campus to support two (2) students for full tuition fees, meal vouchers, and book expenses each academic year. These scholarships are administered by the Office of Student Financing. The BDO also negotiated and obtained 60 meal vouchers valued at JMD$ 1,000 each from Little Caesars and Burger King. These were distributed to needy students during final exams 2018/2019 through student bodies such as the Guild, and the Office of Special Student Services. A total of six (6) student workers were also employed by the BDO."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "table",
+                "config": {
+                  "title": "new departmental awards",
+                  "headers": [
+                    {
+                      "data": "Faculty"
+                    },
+                    {
+                      "data": "award/scholarship"
+                    },
+                    {
+                      "data": "value"
+                    }
+                  ],
+                  "rows": [
+                    {
+                      "header": "Faculty of Science and Technology",
+                      "texts": [
+                        {
+                          "text": "The NCB Best Student in Computer Science/Software Engineering (Level 2)"
+                        },
+                        {
+                          "text": "The NCB Best Student in Information Technology (Level 2)"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": "JMD$ 50,000"
+                        },
+                        {
+                          "value": "JMD$ 50,000"
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Faculty of Law",
+                      "texts": [
+                        {
+                          "text": "The Maurice Robinson Prize for Intellectual Property Law"
+                        },
+                        {
+                          "text": "The Noel Levy Prize for Revenue Law"
+                        },
+                        {
+                          "text": "Defying the Odds Award"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": "JMD$ 50,000"
+                        },
+                        {
+                          "value": "JMD$ 50,000"
+                        },
+                        {
+                          "value": "JMD$ 30,000 Gift Voucher"
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Faculty of Medical Sciences",
+                      "texts": [
+                        {
+                          "text": "The Smiley’s Voice Foundation Scholarship"
+                        },
+                        {
+                          "text": "The Dr. Pamela DaCamara & Dr. Karl Massiah Scholarship"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": "USD$ 1,000"
+                        },
+                        {
+                          "value": "USD$ 1,000"
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Faculty of Engineering",
+                      "texts": [
+                        {
+                          "text": "Ministry of Education Youth and Information (MoEYI)"
+                        },
+                        {
+                          "text": "Elaine Bryan Scholarship"
+                        },
+                        {
+                          "text": "New Fortress Energy Scholarship"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": "Full Scholarship"
+                        },
+                        {
+                          "value": "Computers for Students"
+                        },
+                        {
+                          "value": "Increased from USD$ 2,500 to USD$ 5,000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "The UWI Development and Endowment Fund (UWIDEF)"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The UWI Development and Endowment Fund (UWIDEF) is a non-profit charitable organization, which was incorporated after Hurricane Gilbert devastated the Mona Campus in 1988. Since its inception, UWIDEF has raised and/or provided almost JMD$1 biillion of assistance to the Mona Campus for critical areas of research, funding for scholarships and much needed capital improvement projects.",
+                    "For the academic years 2017/2018 and 2018/2019, UWIDEF awarded over 70 scholarships and bursaries. Scholarships awarded were in excess of $JMD 10 million. New scholarships established during this period included:"
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "table",
+                "config": {
+                  "title": "new scholarships uwidef",
+                  "headers": [
+                    {
+                      "data": "Scholarship/Bursary"
+                    },
+                    {
+                      "data": "Value"
+                    }
+                  ],
+                  "rows": [
+                    {
+                      "header": "Women’s Studies",
+
+                      "values": [
+                        {
+                          "value": "JMD$ 1,000,000"
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Rudolph and Dorcas Brown Diamond Anniversary Scholarship",
+
+                      "values": [
+                        {
+                          "value": "Increased from JMD$ 100,000 to JMD$ 150,000"
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Department of Library Studies Bursaries",
+
+                      "values": [
+                        {
+                          "value": "JMD$ 50,000 each"
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Spanish Jamaica Foundation",
+
+                      "values": [
+                        {
+                          "value": "JMD$ 350,000 each"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "callout",
+                "config": {
+                  "components": [
+                    {
+                      "type": "header",
+                      "config": {
+                        "level": 4,
+                        "text": "The Erasmus+ Mobility Programme"
+                      }
+                    },
+                    {
+                      "type": "stacked",
+                      "config": {
+                        "texts": [
+                          "The International Students Office guides and supports faculty and staff in their applications to participate in various programmes and in submitting bids for participation in the Erasmus+ Mobility Programme. A joint bid submitted by the Universidad de Valladolid and The UWI, Mona for the European Commission’s Erasmus+ International Credit Mobility Project was successful, and the Project has been extended for an additional four (4) years. During the 2018/2019 academic year four (4) students and three (3) faculty members visited Valladolid with full funding under the project."
+                        ]
+                      }
+                    },
+                    {
+                      "type": "lineChart",
+                      "config": {
+                        "title": "Value (JMD$) of Financial Assistance to Students at The UWI, Mona through the Office of Student Service and Development (OSSD)",
+                        "properties": {
+                          "labels": ["2016-17", "2017-18", "2018-19"],
+                          "datasets": [
+                            {
+                              "data": [903000000, 941000000, 966000000]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "table",
+                "config": {
+                  "title": "major bursaries awarded through ossd",
+                  "headers": [
+                    {
+                      "data": "Faculty / departement"
+                    },
+                    {
+                      "data": "Number of beneficiaries"
+                    },
+                    {
+                      "data": "JMD$"
+                    }
+                  ],
+                  "rows": [
+                    {
+                      "header": "Law",
+                      "texts": [
+                        {
+                          "text": "75"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": "7,000,000"
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Engineering",
+                      "texts": [
+                        {
+                          "text": "65"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": "28,500,000"
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Medical Sciences",
+                      "texts": [
+                        {
+                          "text": "270"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": "475,600,000"
+                        }
+                      ]
+                    },
+                    {
+                      "header": "Western Jamaica Campus",
+                      "texts": [
+                        {
+                          "text": "67"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": "9,800,000"
+                        }
+                      ]
+                    },
+                    {
+                      "header": "University Bookshop",
+                      "texts": [
+                        {
+                          "text": "5"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": "80,000"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 4,
+                  "text": "International Students"
+                }
+              },
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "International and Regional Enrolment in Full-Time Programmes"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The number of international students increased by approximately 46% while the number of regional students (excluding Jamaica) showed a marginal decrease."
+                  ]
+                }
+              },
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "table",
+                "config": {
+                  "title": "International and Regional Enrolment in Full-Time Programmes",
+                  "headers": [
+                    {
+                      "data": "academic year"
+                    },
+                    {
+                      "data": "International"
+                    },
+                    {
+                      "data": "regional"
+                    },
+                    {
+                      "data": "total"
+                    }
+                  ],
+                  "rows": [
+                    {
+                      "header": "2017 / 2018",
+                      "texts": [
+                        {
+                          "text": "133"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "1,675"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": "1,808"
+                        }
+                      ]
+                    },
+                    {
+                      "header": "2018 / 2019",
+                      "texts": [
+                        {
+                          "text": "194"
+                        }
+                      ],
+                      "texts2": [
+                        {
+                          "text": "1,670"
+                        }
+                      ],
+                      "values": [
+                        {
+                          "value": "1,864"
+                        }
+                      ]
+                    }
+                  ]
                 }
               }
             ]
