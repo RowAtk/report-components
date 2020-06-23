@@ -38,14 +38,14 @@ export default {
   data() {
     return {
       sections: [],
-      acess: accessdata,
+      access: accessdata,
       agility: agilitydata,
       oneuwi: oneuwidata,
     };
   },
   mounted() {
     this.sections = this.sections
-      .concat(accessdata.report)
+      // .concat(accessdata.report)
       .concat(alignmentdata.report)
       .concat(agilitydata.report)
       .concat(oneuwidata.report);

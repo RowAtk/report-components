@@ -3,7 +3,7 @@
     {
       "header": "ALIGNMENT",
       "subheader": "Let us be your research engine",
-      "img": null,
+      "img": "Webber_Pandohie.jpg",
       "rows": [
         {
           "full": true,
@@ -65,7 +65,7 @@
               {
                 "type": "image",
                 "config": {
-                  "src": null
+                  "src": "law.jpg"
                 }
               }
             ]
@@ -95,7 +95,16 @@
                     "In June 2019 a Dendrochronology Laboratory was established in the Department of Geography and Geology to enhance capacity in Paleoclimatology. The lab was established in collaboration with researchers in Amsterdam and at the University of Nevada, Reno and funded by a National Geographic Grant. "
                   ]
                 }
-              }
+              },
+              {
+                "type": "carousel",
+                "config": {
+                  "images": [
+                    "IMG-20200214-WA0034.jpg",
+                    "IMG-20200214-WA0035.jpg"
+                  ]
+                }
+              }              
             ]
           }
         },
@@ -223,7 +232,7 @@
               {
                 "type": "image",
                 "config": {
-                  "src": null
+                  "src": "IMG-20200225-WA0010.jpg"
                 }
               }
             ]
@@ -233,13 +242,13 @@
               {
                 "type": "image",
                 "config": {
-                  "src": null
+                  "src": "IMG-20200225-WA0009.jpg"
                 }
               },
               {
                 "type": "image",
                 "config": {
-                  "src": null
+                  "src": "IMG-20200225-WA0006.jpg"
                 }
               }
             ]
