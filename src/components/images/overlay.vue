@@ -1,10 +1,11 @@
 <template>
   <!-- :style="style || ''" -->
-  <div class="card bg-dark text-white overlay">
+  <div class="card bg-dark text-white overlay" :style="style">
     <img class="card-img" :src="src" alt="Card image">
-    <div class="card-img-overlay d-flex align-items-center justify-content-center text-center filter">
-      <div><h1 class="overlay-content">{{data.header}}</h1></div>
-      
+    <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center text-center filter">
+      <div><h1 class="d-flex overlay-content">{{data.headers[0]}}</h1></div>
+      <div v-if="data.headers.length > 1"><h2 class="d-flex overlay-content">{{data.headers[1]}}</h2></div>
+      <div v-if="data.headers.length > 1"><h3 class="d-flex overlay-content">{{data.headers[2]}}</h3></div>
       <RComponent
         v-for="(comp, index) in data.components || []"
         :key="index"
@@ -26,8 +27,8 @@ export default {
       return this.data.src ? require('@/assets/rimages/' + this.data.src) : require('@/assets/placeholder.jpg')
     },
     style () {
-      const height = this.data.height ? this.data.height : null
-      return `height: ${height}%;`
+      const height = this.data.height ? `height: ${this.data.height}vw;` : ''
+      return height
     }
   }
 }
@@ -42,6 +43,7 @@ img {
 
 .overlay {
   height: 20vw;
+  max-width: 100vw;
   overflow: hidden;
 }
 
