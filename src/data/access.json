@@ -1683,7 +1683,7 @@
                 "type": "overlay",
                 "config": {
                   "src": "LQP_0036C.jpg",
-                  "header": "U W I ~ G R A D U A T I O N ~ 2 0 1 8"
+                  "headers": ["U W I ~ G R A D U A T I O N ~ 2 0 1 8"]
                 }
               },
               {

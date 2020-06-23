@@ -213,7 +213,7 @@
                 "type": "overlay",
                 "config": {
                   "src": "START.jpg",
-                  "header": "UWI/CB 5K"
+                  "headers": ["UWI/CB 5K"]
                 }
               }
             ]
@@ -366,6 +366,7 @@
     {
       "header": "THE WAY FORWARD",
       "subheader":"ANTICIPATING 2020 AND BEYOND",
+      "img": "20190923_122809C.jpg",
       "rows":[
         {
           "header": {
@@ -430,12 +431,6 @@
           "full": true,
           "left": {
             "components": [
-              {
-                "type": "image",
-                "config": {
-                  "src": "20190923_122809.jpg"
-                }
-              },
               {
                 "type": "stacked",
                 "config": {
