@@ -97,11 +97,8 @@
                 }
               }
             ]
-          }
-        },
-        {
-          "full": true,
-          "left": {
+          },
+          "across": {
             "components": [
               {
                 "type": "stacked-full",
@@ -151,11 +148,8 @@
                 }
               }
             ]
-          }
-        },
-        {
-          "full": true,
-          "left": {
+          },
+          "across": {
             "components": [
               {
                 "type": "stacked-full",
