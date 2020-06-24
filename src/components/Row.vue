@@ -29,16 +29,13 @@
       </div>
     </div>
 
-    <div class="row d-flex justify-content-center">
+    <div class="row d-flex justify-content-center" v-if="data.across">
       <div
         class="col-lg d-flex align-items-center justify-content-center"
-        v-if="data.across"
+        v-for="(comp, index) in data.across.components || []"
+        :key="index"
       >
-        <RComponent
-          v-for="(comp, index) in data.across.components || []"
-          :key="index"
-          :data="comp"
-        />
+        <RComponent :data="comp" />
       </div>
     </div>
   </div>
@@ -94,7 +91,7 @@ export default {
   justify-content: end;
 }
 .break {
-  margin: 0 auto 0 auto;
+  margin: 0 auto 8vh auto;
   padding-bottom: 2em;
 }
 </style>

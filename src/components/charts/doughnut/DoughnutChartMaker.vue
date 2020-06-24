@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import ChartMaker from "@/components/charts/ChartMaker.js"
+import ChartMaker from "@/components/charts/ChartMaker.js";
 import DoughnutChart from "@/components/charts/doughnut/DoughnutChart.vue";
 // backgroundColor: ["#3498DB", "#138D75", "#6C3483"],
 export default {
@@ -20,23 +20,57 @@ export default {
   props: ["data"], // user defined properties
   data() {
     return {
-      chartdata:{
-        datasets:[
+      chartdata: {
+        datasets: [
           {
-            backgroundColor: ["#2B2D42", "#39B54A", "#3F78BD", "#7AB6FF", "#DBECF8", "#D90429"],
-          }
-        ]
+            backgroundColor: [
+              "#2B2D42",
+              "#39B54A",
+              "#3F78BD",
+              "#7AB6FF",
+              "#DBECF8",
+              "#D90429",
+            ],
+          },
+        ],
       },
       options: {
         animation: {
-          animateScale: true
+          animateScale: true,
         },
-        legend:{
-          display: true
-        }
-      }
+        legend: {
+          display: true,
+        },
+        tooltips: {
+          callbacks: {
+            label: function(tooltipItem, data) {
+              return data['labels'][tooltipItem['index']] + ': ' + data['datasets'][0]['data'][tooltipItem['index']] + '%';
+            } 
+          }
+        },
+        scales: {
+          xAxes: [
+            {
+              display: false,
+              scaleLabel: {
+                display: false,
+                labelString: "",
+              },
+            },
+          ],
+          yAxes: [
+            {
+              display: false,
+              scaleLabel: {
+                display: false,
+                labelString: "",
+              },
+            },
+          ],
+        },
+      },
     };
-  }
+  },
 };
 </script>
 

@@ -5,6 +5,7 @@
       "subheader": "Agility, Alignment",
       "img": "20200228_162847.jpg",
       "bg": "bg4.svg",
+      "id": "one-uwi1",
       "rows": [
         {
           "full": true,
@@ -15,9 +16,9 @@
                 "config": {
                   "header": "UNIFYING OUR INTELLECTUAL RESOURCES",
                   "contents": [
-                    "Institute for Sustainable Development (ISD)",
-                    "Caribbean Institute for Health Research (CAIHR)",
-                    "Sir Arthur Lewis Institute for Social and Economic Studies (SALISES)"
+                    "The Institute for Sustainable Development (ISD)",
+                    "The Caribbean Institute for Health Research (CAIHR)",
+                    "The Sir Arthur Lewis Institute for Social and Economic Studies (SALISES)"
                   ]
                 }
               }
@@ -106,7 +107,14 @@
                 "type": "header",
                 "config": {
                   "level": 4,
-                  "text": "The Caribbean Institute for Health Research (CAIHR) Reach Up Early Childhood Parenting Programme continues to go global"
+                  "text": "The Caribbean Institute for Health Research (CAIHR)"
+                }
+              },
+              {
+                "type": "header",
+                "config": {
+                  "level": 4,
+                  "text": "Reach Up Early Childhood Parenting Programme continues to go global"
                 }
               },
               {
@@ -397,6 +405,7 @@
       "img": "20190923_122809C.jpg",
       "bg": "bg6.svg",
       "cover": "cover",
+      "id": "forward1",
       "rows": [
         {
           "header": {

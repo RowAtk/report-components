@@ -1,6 +1,7 @@
 <template>
   <!-- :style="style || ''" -->
-  <div class="card bg-dark text-white overlay" :style="overlay">
+  <div class="card text-white overlay w-100 h-100" :style="style">
+    <Carousel :data="data.carousel" class="" />
     <!-- <img class="card-img" :src="src" alt="Card image" /> -->
     <div
       class="card-img-overlay d-flex flex-column align-items-center justify-content-center text-center filter"
@@ -25,13 +26,13 @@
 
 <script>
 // import Header from '@/components/texts/header/header.vue';
+import Carousel from "@/components/images/carousel.vue";
 import RComponent from "@/components/RComponent.vue";
 export default {
-  components: { RComponent },
+  components: { RComponent, Carousel },
   props: ["data"],
   computed: {
     src() {
-      // console.log("@/assets/rimages/" + this.data.src);
       return this.data.src
         ? require("@/assets/rimages2/" + this.data.src)
         : require("@/assets/placeholder.jpg");
@@ -39,16 +40,6 @@ export default {
     style() {
       const height = this.data.height ? `height: ${this.data.height}vw;` : "";
       return height;
-    },
-    overlay() {
-      const overlay = `width: 100%; background: linear-gradient(rgb(${
-        this.data.rg1 ? this.data.rg1 : 255 + "," + 255 + "," + 255
-      }), rgba(${
-        this.data.rg2 ? this.data.rg2 : 63 + "," + 120 + "," + 189 + "," + 0.61
-      })), url(${require("@/assets/rimages2/" +
-        this.data.src)}); background-size: cover; ${this.style}`;
-      // console.log(overlay);
-      return overlay;
     },
   },
 };
@@ -62,7 +53,6 @@ img {
 }
 
 .overlay {
-  width: 100%;
   height: 20vw;
   max-width: 100%;
   overflow: hidden;

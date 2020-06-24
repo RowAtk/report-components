@@ -37,8 +37,15 @@ body {
   /* background: url("assets/bg1.svg") no-repeat; */
   background-size: contain;
   background-color: #fafafa;
+  max-width: 2600px;
 }
 ul {
   text-align: left;
+}
+
+#app > div {
+  overflow-x: hidden;
+  /* border: 1px solid red; */
+  /* overflow: hidden; */
 }
 </style>

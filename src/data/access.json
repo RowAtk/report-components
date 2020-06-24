@@ -2,10 +2,11 @@
   "report": [
     {
       "header": "Access",
-      "subheader": "",
+      "subheader": "Repositioning who we are to meet the needs of society",
       "img": "LQP_0093.jpg",
       "bg": "bg1.svg",
       "rg2": "63,120,189, 0.61",
+      "id": "access1",
       "rows": [
         {
           "full": true,
@@ -136,20 +137,6 @@
                         "data": [2578, 648, 4379, 3298, 262, 8297]
                       }
                     ]
-                  },
-                  "options": {
-                    "scales": {
-                      "xAxes": [
-                        {
-                          "stacked": false
-                        }
-                      ],
-                      "yAxes": [
-                        {
-                          "stacked": false
-                        }
-                      ]
-                    }
                   }
                 }
               }
@@ -215,12 +202,12 @@
                     "scales": {
                       "xAxes": [
                         {
-                          "stacked": false
+                          "stacked": true
                         }
                       ],
                       "yAxes": [
                         {
-                          "stacked": false
+                          "stacked": true
                         }
                       ]
                     }
@@ -254,7 +241,8 @@
                 "type": "header",
                 "config": {
                   "level": 4,
-                  "text": "Financing the Dream"
+                  "text": "Financing the Dream",
+                  "id": "financing"
                 }
               },
               {
@@ -1699,6 +1687,10 @@
           }
         },
         {
+          "header": {
+            "level": 4,
+            "text": "Student Events: Photo gallery"
+          },
           "full": true,
           "left": {
             "components": [
@@ -1706,7 +1698,7 @@
                 "type": "overlay",
                 "config": {
                   "src": "LQP_0036C.jpg",
-                  "headers": ["U W I ~ G R A D U A T I O N ~ 2 0 1 8"],
+                  "headers": ["UWI GRADUATION 2018"],
                   "rg1": "255,255,255,0",
                   "rg2": "255,255,255,0"
                 }
@@ -1867,6 +1859,10 @@
           }
         },
         {
+          "header": {
+            "level": 4,
+            "text": "Outreach Contribution to National Development"
+          },
           "left": {
             "components": [
               {
