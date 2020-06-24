@@ -4,6 +4,7 @@
       "header": "Agility",
       "subheader": "More Proactive, More Responsive",
       "img": "IMG_3612.jpg",
+      "bg": "bg3.svg",
       "rows": [
         {
           "full": true,
@@ -533,9 +534,8 @@
                       }
                     ]
                   },
-                  "options":{
-                    "scales": {
-                    }
+                  "options": {
+                    "scales": {}
                   }
                 }
               }
@@ -585,7 +585,6 @@
               {
                 "type": "image",
                 "config": {
-                  
                   "src": "SPS_6980.jpg"
                 }
               }

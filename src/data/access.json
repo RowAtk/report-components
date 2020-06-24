@@ -186,22 +186,42 @@
               {
                 "type": "columnChart",
                 "config": {
-                  "title": "Student Registrations",
+                  "title": "Total graduates by programme",
                   "properties": {
-                    "labels": ["2016-17", "2017-18", "2018-19"],
+                    "labels": [
+                      "First Degree",
+                      "Certificate",
+                      "Diploma",
+                      "Advanced Diploma",
+                      "Higher Degree"
+                    ],
                     "datasets": [
                       {
-                        "label": "Registered Students",
-                        "data": [18469, 19408, 19599]
+                        "label": "2016/17",
+                        "data": [5269, 6501, 6607, 6847, 7050]
+                      },
+                      {
+                        "label": "2017/18",
+                        "data": [2210, 2501, 2624, 2643, 2553]
+                      },
+                      {
+                        "label": "2018/19",
+                        "data": [4805, 5078, 5478, 5539, 5403]
                       }
                     ]
                   },
                   "options": {
-                    "title": {
-                      "position": "top"
-                    },
-                    "legend": {
-                      "display": false
+                    "scales": {
+                      "xAxes": [
+                        {
+                          "stacked": false
+                        }
+                      ],
+                      "yAxes": [
+                        {
+                          "stacked": false
+                        }
+                      ]
                     }
                   }
                 }
@@ -468,22 +488,22 @@
                           "The International Students Office guides and supports faculty and staff in their applications to participate in various programmes and in submitting bids for participation in the Erasmus+ Mobility Programme. A joint bid submitted by the Universidad de Valladolid and The UWI, Mona for the European Commission’s Erasmus+ International Credit Mobility Project was successful, and the Project has been extended for an additional four (4) years. During the 2018/2019 academic year four (4) students and three (3) faculty members visited Valladolid with full funding under the project."
                         ]
                       }
-                    },
-                    {
-                      "type": "lineChart",
-                      "config": {
-                        "title": "Value (JMD$) of Financial Assistance to Students at The UWI, Mona through the Office of Student Service and Development (OSSD)",
-                        "properties": {
-                          "labels": ["2016-17", "2017-18", "2018-19"],
-                          "datasets": [
-                            {
-                              "data": [903000000, 941000000, 966000000]
-                            }
-                          ]
-                        }
-                      }
                     }
                   ]
+                }
+              },
+              {
+                "type": "lineChart",
+                "config": {
+                  "title": "Value (JMD$) of Financial Assistance to Students at The UWI, Mona through the Office of Student Service and Development (OSSD)",
+                  "properties": {
+                    "labels": ["2016-17", "2017-18", "2018-19"],
+                    "datasets": [
+                      {
+                        "data": [903000000, 941000000, 966000000]
+                      }
+                    ]
+                  }
                 }
               }
             ]
@@ -804,11 +824,12 @@
                       "display": false
                     },
                     "scales": {
-                      "yAxes": [{
-                        "display": true
-                      }]
+                      "yAxes": [
+                        {
+                          "display": true
+                        }
+                      ]
                     }
-                
                   }
                 }
               },
@@ -1223,7 +1244,7 @@
               {
                 "type": "carousel",
                 "config": {
-                  "images":[
+                  "images": [
                     "DemarLudford.jpg",
                     "MarthaGaylecollection.jpg",
                     "MarthaGaylecollection (2).jpg"
@@ -1404,7 +1425,7 @@
               {
                 "type": "caption-image",
                 "config": {
-                  "src":"rushapp.png",
+                  "src": "rushapp.png",
                   "captions": ["Rush Alert app login screen"]
                 }
               }
@@ -1690,7 +1711,7 @@
               {
                 "type": "carousel",
                 "config": {
-                  "images":[
+                  "images": [
                     "LQP_0467.jpg",
                     "LQP_0070.jpg",
                     "LQP_0182.jpg",
@@ -2164,7 +2185,7 @@
               {
                 "type": "carousel",
                 "config": {
-                  "images":[
+                  "images": [
                     "SPS_6142.jpg",
                     "SPS_6229.jpg",
                     "SPS_6297.jpg",

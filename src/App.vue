@@ -38,8 +38,7 @@ body {
   background-size: contain;
   background-color: #fafafa;
 }
-
-* {
-  /* border:1px solid red; */
+ul {
+  text-align: left;
 }
 </style>

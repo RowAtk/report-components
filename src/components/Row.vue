@@ -1,20 +1,20 @@
 <template>
-  <div class="container-fluid border border-danger break">
+  <div class="container-fluid break">
     <div class="row d-flex justify-content-center">
       <div class="col-lg d-flex align-items-center justify-content-center">
         <RHeader v-if="data.header" :data="data.header" />
       </div>
     </div>
     <div class="row d-flex justify-content-center" v-if="comp1">
-      <div class="col-lg d-flex flex-column align-items-center justify-content-center">
-
+      <div
+        class="col-lg d-flex flex-column align-items-center justify-content-center"
+      >
         <RComponent
           v-for="(comp, index) in comp1.components || []"
           :key="index"
           :data="comp"
         />
         <!-- <div class="d-block block bg-info text-dark">COMP1</div> -->
-
       </div>
 
       <div
@@ -40,7 +40,6 @@
           :data="comp"
         />
       </div>
-       
     </div>
   </div>
 </template>
