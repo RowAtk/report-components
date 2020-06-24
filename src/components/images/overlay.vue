@@ -9,10 +9,10 @@
         <h1 class="d-flex overlay-content big">{{ data.headers[0] }}</h1>
       </div>
       <div v-if="data.headers.length > 1">
-        <h2 class="d-flex overlay-content">{{ data.headers[1] }}</h2>
+        <h2 class="d-flex overlay-content med">{{ data.headers[1] }}</h2>
       </div>
       <div v-if="data.headers.length > 1">
-        <h3 class="d-flex overlay-content">{{ data.headers[2] }}</h3>
+        <h3 class="d-flex overlay-content small">{{ data.headers[2] }}</h3>
       </div>
       <RComponent
         v-for="(comp, index) in data.components || []"
@@ -79,7 +79,13 @@ img {
   margin: 0;
 }
 .big {
-  font-size: 6em;
+  font-size: 5vw;
   text-transform: uppercase;
+}
+.med {
+  font-size: 3vw;
+}
+.small {
+  font-size: 2vw;
 }
 </style>

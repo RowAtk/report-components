@@ -91,9 +91,11 @@
               {
                 "type": "note",
                 "config": {
-                  "texts": ["Hon. Earl Jarrett, OJ, CD, JP, CStJ, Hon. LL.D, Hon. Ed.D, Hon. D. Univ, FCA  Chairman  The UWI, Mona Campus Council"]
+                  "texts": [
+                    "Hon. Earl Jarrett, OJ, CD, JP, CStJ, Hon. LL.D, Hon. Ed.D, Hon. D. Univ, FCA  Chairman  The UWI, Mona Campus Council"
+                  ]
                 }
-              } 
+              }
             ]
           }
         },
@@ -108,7 +110,6 @@
                     "Pro Vice-Chancellor and Campus Principal Professor Webber has provided sound leadership during the period as he seeks to expand the reach of The UWI in Western Jamaica, through online offerings and strategic partnerships. The financial reports submitted to the annual Campus Council meeting reflect the activities of the Mona Campus and also highlights the fact that greater effort will be needed to achieve financial sustainability.",
                     "There were some changes in administration during the year, including the appointment of Dr Donovan Stanberry as the new Campus Registrar. Outgoing Registrar, Dr Camille Bell-Hutchinson, provided outstanding leadership in this capacity to The University, and we commend her for her sterling contribution. I would also like to use this opportunity to welcome The University’s new Registrar, Dr Maurice Smith and extend our congratulations on his appointment in this role as the main administrator of the affairs of our regional university.",
                     "Like many organizations which are faced with uncertainty, The University has not acceded to the challenges it faces, but is committed to being a University for all of its constituents. With people at the heart of our quest for development status at the Mona Campus, let us continue to maximize resources, particularly the human resources, for a sustainable future."
-                    
                   ]
                 }
               }
@@ -208,7 +209,7 @@
               }
             ]
           }
-        },  
+        },
         {
           "header": {
             "level": 2,
@@ -316,7 +317,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The Campus conducts research and advocacy through the Centre for Marine Sciences (CMS), the Discovery Bay Marine Lab (DBML), and the Coastal Dynamic Modeling Laboratory at Mona Geoinformatics Institute Blue (MGIBlue). The Department of Geography and Geology and the International Centre for Environmental and Nuclear Sciences also continue to provide research data and recommendations on land degradation and disaster risk management."]
+                  "texts": [
+                    "The Campus conducts research and advocacy through the Centre for Marine Sciences (CMS), the Discovery Bay Marine Lab (DBML), and the Coastal Dynamic Modeling Laboratory at Mona Geoinformatics Institute Blue (MGIBlue). The Department of Geography and Geology and the International Centre for Environmental and Nuclear Sciences also continue to provide research data and recommendations on land degradation and disaster risk management."
+                  ]
                 }
               },
               {
@@ -352,7 +355,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["There are understandable parallels between national goals, global imperatives and the strategic vision of a university campus. The four National Goals that jointly strive to empower Jamaicans to achieve their fullest potential, to secure a cohesive and just society for all, to ensure economic prosperity, and to create a healthy environment are indivisible from those we have attempted to achieve through access, knowledge brokering, policy research, and expansion of curricula. The Mona Campus conducts and disseminates policy-oriented research that is intended to assist in the growth and development of the Jamaican economy. Responding to the needs of industry, teaching programmes and courses are offered through the Mona School of Business and Management (MSBM), while new programmes have been launched in Sports and in creative industries including Music, Animation, and Film."]
+                  "texts": [
+                    "There are understandable parallels between national goals, global imperatives and the strategic vision of a university campus. The four National Goals that jointly strive to empower Jamaicans to achieve their fullest potential, to secure a cohesive and just society for all, to ensure economic prosperity, and to create a healthy environment are indivisible from those we have attempted to achieve through access, knowledge brokering, policy research, and expansion of curricula. The Mona Campus conducts and disseminates policy-oriented research that is intended to assist in the growth and development of the Jamaican economy. Responding to the needs of industry, teaching programmes and courses are offered through the Mona School of Business and Management (MSBM), while new programmes have been launched in Sports and in creative industries including Music, Animation, and Film."
+                  ]
                 }
               }
             ]
@@ -369,7 +374,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["Much more than a place of learning, a driver of multi- disciplinary scientific innovation, a workplace for our employees, a partner in Jamaican national development and one of the satellites of the regional University of the West Indies, to those who hold the reins of this institution as caretakers over a determinate period, the Mona Campus is an enshrined legacy of our society’s heritage. Management of this Campus is an enormous responsibility to carry out and one that we do with pride and commitment, attempting to not only preserve its majesty as a site, but to ensure that the Campus anticipates future technologies and the changing demands of future generations. By maximizing our resources intelligently and with defined goals, and setting out a clearly signposted road map for the years ahead, we will ensure that we continue to build on the firmest foundations laid down by past architects who were similarly entrusted, to create a sustainable future for this space, our University of choice."]
+                  "texts": [
+                    "Much more than a place of learning, a driver of multi- disciplinary scientific innovation, a workplace for our employees, a partner in Jamaican national development and one of the satellites of the regional University of the West Indies, to those who hold the reins of this institution as caretakers over a determinate period, the Mona Campus is an enshrined legacy of our society’s heritage. Management of this Campus is an enormous responsibility to carry out and one that we do with pride and commitment, attempting to not only preserve its majesty as a site, but to ensure that the Campus anticipates future technologies and the changing demands of future generations. By maximizing our resources intelligently and with defined goals, and setting out a clearly signposted road map for the years ahead, we will ensure that we continue to build on the firmest foundations laid down by past architects who were similarly entrusted, to create a sustainable future for this space, our University of choice."
+                  ]
                 }
               }
             ]
@@ -383,10 +390,7 @@
                 "type": "overlay",
                 "config": {
                   "src": "_MG_4128.jpg",
-                  "headers": [
-                    "AT A GLANCE",
-                    "Campus Facts and Figures"
-                  ]
+                  "headers": ["AT A GLANCE", "Campus Facts and Figures"]
                 }
               }
             ]
@@ -400,6 +404,13 @@
                 "config": {
                   "level": 3,
                   "text": "Students"
+                }
+              },
+              {
+                "type": "header",
+                "config": {
+                  "level": 6,
+                  "text": "19,599"
                 }
               }
             ]
@@ -422,14 +433,16 @@
                   "title": "SEX DISTRIBUTION",
                   "properties": {
                     "labels": ["MALE", "FEMALE"],
-                    "datasets": [{
-                      "data": [31, 69]
-                    }]
+                    "datasets": [
+                      {
+                        "data": [31, 69]
+                      }
+                    ]
                   },
-                  "options":{
-                    "scales":{
-                      "xAxes":[{"display": false}],
-                      "yAxes":[{"display": false}]
+                  "options": {
+                    "scales": {
+                      "xAxes": [{ "display": false }],
+                      "yAxes": [{ "display": false }]
                     },
                     "title": {
                       "position": "top"
@@ -443,14 +456,16 @@
                   "title": "LEVEL OF STUDY",
                   "properties": {
                     "labels": ["POSTGRADUATE", "GRADUATE"],
-                    "datasets": [{
-                      "data": [18, 82]
-                    }]
+                    "datasets": [
+                      {
+                        "data": [18, 82]
+                      }
+                    ]
                   },
-                  "options":{
-                    "scales":{
-                      "xAxes":[{"display": false}],
-                      "yAxes":[{"display": false}]
+                  "options": {
+                    "scales": {
+                      "xAxes": [{ "display": false }],
+                      "yAxes": [{ "display": false }]
                     },
                     "title": {
                       "position": "top"
@@ -464,14 +479,16 @@
                   "title": "ENROLMENT STATUS",
                   "properties": {
                     "labels": ["PART-TIME", "FULL-TIME"],
-                    "datasets": [{
-                      "data": [24, 76]
-                    }]
+                    "datasets": [
+                      {
+                        "data": [24, 76]
+                      }
+                    ]
                   },
-                  "options":{
-                    "scales":{
-                      "xAxes":[{"display": false}],
-                      "yAxes":[{"display": false}]
+                  "options": {
+                    "scales": {
+                      "xAxes": [{ "display": false }],
+                      "yAxes": [{ "display": false }]
                     },
                     "title": {
                       "position": "top"
@@ -490,6 +507,13 @@
                 "config": {
                   "level": 3,
                   "text": "Employees"
+                }
+              },
+              {
+                "type": "header",
+                "config": {
+                  "level": 6,
+                  "text": "3,387"
                 }
               }
             ]
@@ -511,15 +535,23 @@
                 "config": {
                   "title": "CATEGORY OF STAFF",
                   "properties": {
-                    "labels": ["ACADEMIC", "SERVICES", "SR. ADMIN. & PROF", "ADMIN. & TECH", "OTHER"],
-                    "datasets": [{
-                      "data": [36, 14, 11, 35, 4]
-                    }]
+                    "labels": [
+                      "ACADEMIC",
+                      "SERVICES",
+                      "SR. ADMIN. & PROF",
+                      "ADMIN. & TECH",
+                      "OTHER"
+                    ],
+                    "datasets": [
+                      {
+                        "data": [36, 14, 11, 35, 4]
+                      }
+                    ]
                   },
-                  "options":{
-                    "scales":{
-                      "xAxes":[{"display": false}],
-                      "yAxes":[{"display": false}]
+                  "options": {
+                    "scales": {
+                      "xAxes": [{ "display": false }],
+                      "yAxes": [{ "display": false }]
                     },
                     "title": {
                       "position": "top"
@@ -533,14 +565,16 @@
                   "title": "SEX DISTRIBUTION",
                   "properties": {
                     "labels": ["MALE", "FEMLAE"],
-                    "datasets": [{
-                      "data": [37, 63]
-                    }]
+                    "datasets": [
+                      {
+                        "data": [37, 63]
+                      }
+                    ]
                   },
-                  "options":{
-                    "scales":{
-                      "xAxes":[{"display": false}],
-                      "yAxes":[{"display": false}]
+                  "options": {
+                    "scales": {
+                      "xAxes": [{ "display": false }],
+                      "yAxes": [{ "display": false }]
                     },
                     "title": {
                       "position": "top"
@@ -554,14 +588,16 @@
                   "title": "EMPLOYMENT STATUS",
                   "properties": {
                     "labels": ["PART-TIME", "FULL-TIME"],
-                    "datasets": [{
-                      "data": [16, 84]
-                    }]
+                    "datasets": [
+                      {
+                        "data": [16, 84]
+                      }
+                    ]
                   },
-                  "options":{
-                    "scales":{
-                      "xAxes":[{"display": false}],
-                      "yAxes":[{"display": false}]
+                  "options": {
+                    "scales": {
+                      "xAxes": [{ "display": false }],
+                      "yAxes": [{ "display": false }]
                     },
                     "title": {
                       "position": "top"
@@ -589,7 +625,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["During the 2018 / 19 academic year, the Mona Campus"]
+                  "texts": [
+                    "During the 2018 / 19 academic year, the Mona Campus"
+                  ]
                 }
               },
               {
@@ -607,7 +645,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["To date, The UWI Township Scholarship Programme has benefitted 75 beneficiaries from Mona Common and the Greater August Town Community."]
+                  "texts": [
+                    "To date, The UWI Township Scholarship Programme has benefitted 75 beneficiaries from Mona Common and the Greater August Town Community."
+                  ]
                 }
               },
               {
@@ -635,7 +675,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The Mona Campus continued to enhance the work readiness of graduates through curricular and extracurricular interventions. During the previous academic year,"]
+                  "texts": [
+                    "The Mona Campus continued to enhance the work readiness of graduates through curricular and extracurricular interventions. During the previous academic year,"
+                  ]
                 }
               },
               {
@@ -651,7 +693,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The Mona Campus is a major supplier of human resources. In 2019, the Campus graduated 3,967 students comprising"]
+                  "texts": [
+                    "The Mona Campus is a major supplier of human resources. In 2019, the Campus graduated 3,967 students comprising"
+                  ]
                 }
               },
               {
@@ -747,7 +791,9 @@
               {
                 "type": "note",
                 "config": {
-                  "texts": ["6 - Findings based on tracer surveys of UWI graduates administered by OPAIR."]
+                  "texts": [
+                    "6 - Findings based on tracer surveys of UWI graduates administered by OPAIR."
+                  ]
                 }
               }
             ]
