@@ -135,20 +135,6 @@
                         "data": [2578, 648, 4379, 3298, 262, 8297]
                       }
                     ]
-                  },
-                  "options": {
-                    "scales": {
-                      "xAxes": [
-                        {
-                          "stacked": false
-                        }
-                      ],
-                      "yAxes": [
-                        {
-                          "stacked": false
-                        }
-                      ]
-                    }
                   }
                 }
               }
@@ -214,12 +200,12 @@
                     "scales": {
                       "xAxes": [
                         {
-                          "stacked": false
+                          "stacked": true
                         }
                       ],
                       "yAxes": [
                         {
-                          "stacked": false
+                          "stacked": true
                         }
                       ]
                     }

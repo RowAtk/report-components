@@ -4,7 +4,7 @@
     <!-- :style="`height: ${data.height || 30}vw;`" -->
     <Flickity ref="flickity" :options="flickityOptions">
       <div v-for="(image, index) in data.images" :key="index" class="carousel-cell" :style="`height: ${data.height || 30}vw;`">
-        <img :src="require('@/assets/rimages2/' + image)" alt="NOT FOUND" class="">
+        <img :src="require('@/assets/rimages2/' + image)" alt="NOT FOUND" class="" :style="style">
         <!-- <RImage :data="{src: image} || {}" /> -->
         <!-- {{index}} -->
       </div>
@@ -25,12 +25,25 @@ export default {
         // cellAlign: "left",
         // contain: true,
         // draggable: false,
-        prevNextButtons: true,
+        prevNextButtons: this.data.buttons == undefined ? true : false,
         pageDots: false,
         wrapAround: true,
         freeScroll: true,
         autoPlay: true,
+        pauseAutoPlayOnHover: this.data.hoverPause == undefined ? true : false
       }
+    }
+  },
+  mounted(){
+    console.log(this.data.buttons)
+  },
+  computed:{
+    style(){
+      let style = '';
+      if(this.data.fullWidth) {
+        style += 'width: 100%;'
+      }
+      return style;
     }
   }
   

@@ -431,12 +431,12 @@
                     "scales": {
                       "xAxes": [
                         {
-                          "stacked": false
+                          "stacked": true
                         }
                       ],
                       "yAxes": [
                         {
-                          "stacked": false
+                          "stacked": true
                         }
                       ]
                     }

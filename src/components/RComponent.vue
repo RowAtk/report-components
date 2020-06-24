@@ -29,6 +29,7 @@ export default {
                 'callout': 'texts/callout',
                 'paragraph': 'texts/paragraph',
                 'stacked': 'texts/paragraph-stacked',
+                'stacked-full': 'texts/paragraph-stacked-full',
                 'table': 'tables/table',
                 'header': 'texts/header/header',
                 'bullet': 'texts/bullet',
@@ -38,7 +39,8 @@ export default {
                 'note': 'texts/note',
                 'list': 'texts/list',
                 'carousel': 'images/carousel',
-                'overlay': 'images/overlay'
+                'overlay': 'images/overlay',
+                'carousel-overlay': 'images/carousel-overlay'
             }
         }
     },

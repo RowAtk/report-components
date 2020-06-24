@@ -1,0 +1,577 @@
+{
+  "report": [
+    {
+      "header": "UWI ANNUAL REPORT 2018-2019",
+      "subheader": "MAXIMIZING OUR RESOURCES FOR A SUSTAINABLE FUTURE",
+      "img": "20190912_080208.jpg",
+      "rows": [
+        {
+          "left": {
+            "components": [
+              {
+                "type": "carousel",
+                "config": {
+                  "fullWidth": true,
+                  "hoverPause": false,
+                  "buttons": false,
+                  "images": [
+                    "20190912_080208.jpg",
+                    "20200226_114553.jpg",
+                    "20190918_075818.jpg",
+                    "SPS_6150.jpg",
+                    "UWISign.jpg",
+                    "20200228_123930.jpg",
+                    "SPS_5594.jpg",
+                    "LQP_0592.jpg",
+                    "IMG-20200225-WA0030.jpg"
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "carousel",
+                "config": {
+                  "fullWidth": true,
+                  "hoverPause": false,
+                  "buttons": false,
+                  "images": [
+                    "20200226_114553.jpg",
+                    "20190918_075818.jpg",
+                    "SPS_6150.jpg",
+                    "UWISign.jpg",
+                    "20200228_123930.jpg",
+                    "SPS_5594.jpg",
+                    "LQP_0592.jpg",
+                    "IMG-20200225-WA0030.jpg",
+                    "20190912_080208.jpg"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 1,
+            "text": "Chairman's Statement"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 2,
+                  "text": "Hon. Earl Jarret"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The University of the West Indies, Mona Campus’ performance during the 2018/2019 academic year was built on the foundations laid for realizing the goals of the 2017-2022 Triple A Strategic Plan. The success of the Plan rests on enabling increased Access to our educational programmes; greater Alignment and partnerships which would be beneficial to the region; and nimble Agility in responding to an ever-changing environment.",
+                    "As a tertiary institution of choice, we have made strides regarding the pillar of Access, in affording tertiary educational opportunities to a broad majority. Approximately 74% of undergraduates are firstgeneration university students. These students, armed with an education, have the power to change the trajectory of their families’ circumstances and to make a valuable contribution to nation-building. The returns of a good education are well-documented and include higher employment rates and compensation. It is important that The UWI continues to invest in young people. The stories of UWI students excelling in their fields are encouraging and inspiring and reflect the importance of mutuality. If we believe in and support others, they will perform to their utmost abilities."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": "Earl-Jarret.jpg"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "Pro Vice-Chancellor and Campus Principal Professor Webber has provided sound leadership during the period as he seeks to expand the reach of The UWI in Western Jamaica, through online offerings and strategic partnerships. The financial reports submitted to the annual Campus Council meeting reflect the activities of the Mona Campus and also highlights the fact that greater effort will be needed to achieve financial sustainability.",
+                    "There were some changes in administration during the year, including the appointment of Dr Donovan Stanberry as the new Campus Registrar. Outgoing Registrar, Dr Camille Bell-Hutchinson, provided outstanding leadership in this capacity to The University, and we commend her for her sterling contribution. I would also like to use this opportunity to welcome The University’s new Registrar, Dr Maurice Smith and extend our congratulations on his appointment in this role as the main administrator of the affairs of our regional university."
+                    
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["Like many organizations which are faced with uncertainty, The University has not acceded to the challenges it faces, but is committed to being a University for all of its constituents. With people at the heart of our quest for development status at the Mona Campus, let us continue to maximize resources, particularly the human resources, for a sustainable future."]
+                }
+              },
+              {
+                "type": "note",
+                "config": {
+                  "texts": ["Hon. Earl Jarrett, OJ, CD, JP, CStJ, Hon. LL.D, Hon. Ed.D, Hon. D. Univ, FCA  Chairman  The UWI, Mona Campus Council"]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 1,
+            "text": "Principal's Foreword"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 2,
+                  "text": "Professor Dale Webber"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "I am proud and pleased to present this Report, which reflects my first year in office as Pro Vice-Chancellor and Principal of the Mona Campus.",
+                    "It has been a challenging year, but not without its successes. I am grateful for the support of the Campus staff from all departments and at all levels. The most important resource that the Campus possesses is that of its human capital and the successes we have achieved this year would not have been possible without their collective contributions. The support and guidance of the Senior Management team has been invaluable. The unwavering support of the team in the Office of the Principal has allowed us to successfully launch the new website of the Office of the Principal which gives insight into the organogram, functions and projects of this Office.",
+                    "On taking up the position of Campus Principal, one of my main objectives was to sensitize and inform all Campus stakeholders to The UWI Triple ‘A’ Strategy including Vision, Mission and Core Values through in-house presentations, town hall meetings, orientation sessions and senior management meetings. "
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": "SPS_9189.jpg"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "At our September staff retreat, each of the Units in the Office of the Principal came away with a better understanding of the three Strategic pillars and as the Office was charged with aligning the Campus around these goals, visual reinforcements to embed and bring awareness to The UWI’s strategy were placed at focal points in the Office. While The UWI Triple ‘A’ Strategy and its three-pronged pillars had been repeatedly communicated in various fora from the rolling out of the 2017-2022 Strategic Plan, it seemed to me that our departments and divisions, whether teaching, research, administrative or service oriented, needed to appreciate how they were each contributing to the pillars of Access, Alignment and Agility, and more so, how their inputs incrementally added to the Campus delivery on these targets.",
+                    "During the 2018/2019 academic year, the Senior Management team revisited the initiatives that we agreed to in the first year of the Strategic Plan. Taking into consideration the physical plant, ICT infrastructure and financial health of the Campus, a decision was made to focus on six high-level strategic priorities at the Campus level."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["These were Digitization as a means of increasing access to a UWI education; Fostering a Culture of Research to improve publication output; Restoring Financial Health to bolster our economic base; Improving the quality of teaching, learning and student development; Establishing new academic/industry partnerships while nurturing our existing ones; and Initiating a caring, accountable and motivated professional (CAMP) team. As a new Principal on the block, I was especially moved to project the Mona Campus as a more caring community, with a customer service that was attentive and efficient in addressing the needs of our students, staff, the many stakeholders we currently serve and those we must attract and draw into our fold. The decision to focus on these six had the support of the Campus staff particularly, and at the end of 2018/2019 I can safely say, as this Report will also attest, that our determination to focus our energies on maximizing our best strengths and most available resources has borne results. We look forward to these solid foundational pillars moving the Campus along to further heights in the coming academic year. "]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "overlay",
+                "config": {
+                  "src": "_MG_4128.jpg",
+                  "headers": [
+                    "Executive Summary",
+                    "Maximizing our Resources for a Sustainable Future"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "stacked-full",
+                "config": {
+                  "texts": [
+                    "The University of the West Indies made its debut in the prestigious Times Higher Education (THE) ranking of research universities from around the world. The UWI participated for the first time in 2018 and represented the only Caribbean institution on the ranked list. Placed 37of 129 Latin American universities and 591of 1,258 universities, The UWI stood out visibly in the midst of a Caribbean region that has over 200 registered universities. We scored well in the areas of citation impact, international co-authorship, international staff, and staff-student ratio. Having a sizeable student population from the Caribbean, The UWI, however, still needs to attract more students from outside the region to improve its score on international students. The THE ranking exercise has provided the Mona Campus administrators with a better understanding of where the University stands locally, regionally and internationally, and provides a global performance metric for measuring our institution’s progress under the current UWI Strategic Plan. The UWI Strategic Plan 2017-2022 underscores the need for The University of the West Indies campuses to jointly utilize their resources and capabilities in order to achieve maximum outcomes, both to ensure their long-term survival, and to support a revitalized Caribbean development.",
+                    "The UWI Triple A Strategy provides a detailed and unifying guide for action, constantly reminding us of our vision and mission and the actions that are needed to reach our intended goals. The UWI’s vision is to be an excellent global university rooted in the Caribbean. This aspiration is supported by the Triple A pillars: Access, Alignment, and Agility that seek to increase access to a tertiary education, closer alignment with public and private sectors, and being agile in all we do to enhance our reputation and financial health.During the year 2018/2019, to ensure that on the Mona campus we were meeting our Triple A pillared goal, we provided an enabling environment that was channeled by six high-level priority strategies. These six strategies were geared to enhance infrastructural support and   motivationally stimulate our staff and current and potential stakeholders. The six overlapping priority strategies were: (1) Improving the quality of teaching, learning and student development, (2) Fostering a Culture of Research, (3) Establishing new academic/industry partnerships, (4) Restoring Financial Health, (5) Initiating a Caring, Accountable, Motivated Professional Team (CAMP), and (6) Digitization.",
+                    "(1) Improving the quality of teaching, learning and student development is an underlying goal of the Mona Campus. Efforts are ongoing to improve the ability of staff to transfer knowledge, especially that of current research, and to support the curriculum and instruction in our classrooms. Through our Centre for Excellence and Learning (CETL) and the Health Professionals Education Unit (HPEU) staff are engaged and empowered in instruction delivery. The addition of the Campus Office for Online Learning (COOL) further supports this effort as the Campus moves towards online delivery as a major goal.",
+                    "(2) Fostering a Culture of Research is central to our University as it is our reputation in research that separates The UWI from other tertiary institutions. This is our competitive advantage and the very core of who and what we are as a University. This year we have emphasized and reinforced this among our students, staff and partners through incentives and supports that allow for a continued thriving culture of research on the Mona Campus. This is evident in the research outputs of our students, departments and research centres.",
+                    "(3) Sustaining and establishing new academic/industry partnerships allow us to provide the research information and data required by industry partners to fuel national development. For the period under review our existing partnerships placed us at the heart of national and regional development, and symbolized our commitment to the belief that universities were not created for themselves but for the communities they serve.",
+                    "(4) Restoring Financial Health was identified as a major priority and selected because of the lack of financial resources on the Campus. The Campus needed to get back to the 2012 point of self-sufficiency and to aim to sustain this for the future. The initiatives taken under this priority are distributed in relevant sections of this Report and will demonstrate that the Mona Campus has given precedence to areas that are being funded, while also ensuring academic freedoms to pursue innovative research and knowledge making.",
+                    "(5) Initiating a Caring, Accountable, Motivated Professional Team (CAMP) is a less palpable but essential ingredient of this year’s resource maximization approach. Staff need to feel valued to generate the desired level of productivity. By motivating staff through training, retreats, recognition and other incentives, we began improvements to create greater accessibility and agility of our services, thus advancing the financial health of the Campus. The Mona Campus continues to be strapped financially but its most valuable asset is that of its human resources: its faculty, its students and the network of administrative, technical and service staff who carry out the business of the Campus daily.",
+                    "(6) We continue to view Digitization as a key to transformation of processes used both in administration and in the primary service we offer of teaching and communication of knowledge products. The process of moving to a fully digitized University began this year with selected first steps that will be accelerated in the next. These included assistance to Research and Teaching in the form of improved online processes and tools, improvements in our application processes, facilitating staff access to publications, enhancing citation indices for journals and the measurement of impact factors. There have been parallel digital transformation of the systems and processes in the Bursary in the fifth priority strategy of the Campus, CAMP, especially for improvement of our human resource processes. ",
+                    "The 2018/2019 Report evaluates the Campus performance for this year through the initiatives and achievements of departments, faculties and individuals, with a selection of illustrative examples. The Triple A Strategic pillars Access, Agility and Alignment underpin the objectives to be met by these initiatives and provide the structure for this Report’s narrative. The successes and challenges are distributed in the various sections of this comprehensive Report and are analyzed under the following metrics."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "across": {
+            "components": [
+              {
+                "type": "callout",
+                "config": {
+                  "components": [
+                    {
+                      "type": "header",
+                      "config": {
+                        "level": 5,
+                        "text": "THEME"
+                      }
+                    },
+                    {
+                      "type": "stacked",
+                      "config": {
+                        "texts": ["The UWI Triple A Strategy 2017-2022: Revitalizing Caribbean Development"]
+                      }
+                    }
+                  ]
+                }
+              },  
+              {
+                "type": "callout",
+                "config": {
+                  "components": [
+                    {
+                      "type": "header",
+                      "config": {
+                        "level": 5,
+                        "text": "VISION"
+                      }
+                    },
+                    {
+                      "type": "stacked",
+                      "config": {
+                        "texts": ["An excellent global university rooted in the Caribbean"]
+                      }
+                    }
+                  ]
+                }
+              }, 
+              {
+                "type": "callout",
+                "config": {
+                  "components": [
+                    {
+                      "type": "header",
+                      "config": {
+                        "level": 5,
+                        "text": "MISSION"
+                      }
+                    },
+                    {
+                      "type": "stacked",
+                      "config": {
+                        "texts": ["To advance learning, create knowledge and foster innovation for the positive transformation of the Caribbean and the wider world"]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "callout",
+                "config": {
+                  "components": [
+                    {
+                      "type": "header",
+                      "config": {
+                        "level": 5,
+                        "text": "CORE VALUES"
+                      }
+                    },
+                    {
+                      "type": "stacked",
+                      "config": {
+                        "texts": ["Integrity • Excellence • Gender Justice • Diversity • Student Centredness"]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 2,
+            "text": "ACCESS"
+          },
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 3,
+                  "text": "Repositioning who we are to meet the needs of society"
+                }
+              },
+              {
+                "type": "stacked-full",
+                "config": {
+                  "texts": [
+                    "The Mona Campus has made consistent gains over the year to ensure that our brand as the premier tertiary institution for students, for research and knowledge outputs, for creative and innovative thinking about our societal and regional future, remains firmly rooted in the hearts and minds of our stakeholders.",
+                    "The academic year 2018/2019 was an eventful one for The UWI, Mona. The Campus concluded its 70th Anniversary celebrations, commemorating 1948 when the College first opened its doors to 33 medical students from across the Caribbean. Seventy-one years later, the Campus boasts a population of over 19,000 students in over 300 programmes across seven (7) faculties.",
+                    "During the year under review, the Mona Campus made great strides in realizing the objective of being the University of choice. Our publication output in reputable journals showed consistent growth over the last four years.",
+                    "As developed in this Annual Report, the Mona Campus made some progress in widening access to a UWI education. We converted some face-to-face programmes for online delivery and hosted the Ground Breaking ceremony at Barnett Estates in Montego Bay for the planned expansion of the Western Jamaica Campus. The Mona Campus Research Days were one of our highpoints for the year. The exposition and events demonstrated the impressive spread and interdisciplinary nature of our research and the links that we are making between Campus research and the Sustainable Development Goals (SDGs)."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 2,
+            "text": "ALIGNMENT"
+          },
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 3,
+                  "text": "Let us be your research engine"
+                }
+              },
+              {
+                "type": "stacked-full",
+                "config": {
+                  "texts": [
+                    "We continued to forge partnerships with local, regional and international entities that have materialized in faculty and student exchanges, internships and employment opportunities for students, and research fellowships and funding for the institution. We further consolidated our ties with the National Commercial Bank (NCB) primarily through their ongoing linkages with the Mona School of Business and Management (MSBM).",
+                    "We strengthened our relationship with the Planning Institute of Jamaica (PIOJ) with which we have ongoing ties and exchanges. Dr. Wayne Henry, Director General of the PIOJ confirmed this working agreement between the institutions when he spoke of The UWI’s contribution to the PIOJ and Vision 2030, drawing attention to fact that 32 UWI members sit on the Thematic Working Group of Vision 2030 that is driven by the PIOJ. The PIOJ contributed financially to The UWI Mona Research Days 2018/2019, ensuring that we had the support to make this event a major success.",
+                    "Of special note was the completion of the new Confucius Institute (CI) at the Mona Campus signaling a ten-year partnership between this Campus and the People’s Republic of China."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 2,
+            "text": "AGILITY"
+          },
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 3,
+                  "text": "More proactive, more responsive"
+                }
+              },
+              {
+                "type": "stacked-full",
+                "config": {
+                  "texts": [
+                    "Restoring financial health as a mark of our agility was one of our priorities in 2018/19. The year began with the appointment of a Financial Subcommittee of the Finance and General Purposes Committee (F&GPC), a Subcommittee comprised predominantly of external members of F&GPC, that was charged to review and make decisions on each financial decision that affects the Campus. The year 2018/2019 saw the formal establishment of the Public Private Partnership (PPP) Unit to ensure intensive oversight and management over the financial, legal and technical relationships of this partnership. Three projects that are targeted to earn us the biggest financial gains are currently being monitored by the PPP Unit.",
+                    "The Mona Campus continues to play its part in ensuring that The UWI is the University of Choice through its international recognition in climate change and its alignment with sustainable and national development goals on climate change and the marine environment. With a focus on cost management, operational excellence and student centricity we are actively seeking to be more proactive by developing and testing new products and commercializing our services. We are confident that these efforts will continue to elevate our standing in The Times Higher Education World University Rankings.",
+                    "The 2017–2022 Strategic Plan calls for an articulated alignment between the academic research outputs and activity and industry requirements for Caribbean socioeconomic development in the twenty-first century. In addition, we have positioned ourselves as a Campus rooted in the Caribbean yet positioned to respond to global needs. In light of this, our centres of research, institutes and faculties have adopted a proactive stance to respond to the fundamental appeals of the United Nations Sustainable Development Goals, while simultaneously forging links with government and leading industry experts and organizations, the latter marking out our contribution to the Jamaica National Development Goals in Jamaica’s Vision 2030."
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "The United Nations Sustainable Development Goals"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": [
+                    "The 17 Sustainable Development Goals (SDGs) adopted in 2015 by UN member states are crucial to reducing inequality, ending poverty, arresting some of the deleterious effects of consumption on the planet, while stimulating economic growth and recovery and sustainability of both developed and developing countries. As drivers of scientific knowledge, innovation and research skills, universities are central actors in contributing to these Goals. Each of the 17 Goals cut across and through the academic disciplines that are advanced through teaching, research and innovation and public outreach. Contained in the theme of this Annual Report “towards a sustainable future” are the watchwords that speak directly to the SDGs. The Mona Campus undertakings this year have been processed with the 17 stated Goals in mind. While we have made contributions under all, we are especially proud of those that relate to Goals 13, 14 and 15, to combat climate change, conserve marine resources and promote viable ecosystems. We play a leading country role in Climate Studies through the work of Professor Michael Taylor and colleagues in the Faculty of Science and Technology (FST). During 2018/2019, the group contributed to a Special Report on Climate Change and Land that was published by the United Nations’ Intergovernmental Panel on Climate Change (IPCC)."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["The Campus conducts research and advocacy through the Centre for Marine Sciences (CMS), the Discovery Bay Marine Lab (DBML), and the Coastal Dynamic Modeling Laboratory at Mona Geoinformatics Institute Blue (MGIBlue). The Department of Geography and Geology and the International Centre for Environmental and Nuclear Sciences also continue to provide research data and recommendations on land degradation and disaster risk management."]
+                }
+              },
+              {
+                "type": "carousel",
+                "config": {
+                  "images": [
+                    "E-WEB-Goal-13.png",
+                    "E-WEB-Goal-14.png",
+                    "E-WEB-Goal-17.png"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 3,
+            "text": "The UWI, Mona Campus Contribution to National Development Goals"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["There are understandable parallels between national goals, global imperatives and the strategic vision of a university campus. The four National Goals that jointly strive to empower Jamaicans to achieve their fullest potential, to secure a cohesive and just society for all, to ensure economic prosperity, and to create a healthy environment are indivisible from those we have attempted to achieve through access, knowledge brokering, policy research, and expansion of curricula. The Mona Campus conducts and disseminates policy-oriented research that is intended to assist in the growth and development of the Jamaican economy. Responding to the needs of industry, teaching programmes and courses are offered through the Mona School of Business and Management (MSBM), while new programmes have been launched in Sports and in creative industries including Music, Animation, and Film."]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 3,
+            "text": "OUR COMMITMENT TO THE FUTURE"
+          },
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["Much more than a place of learning, a driver of multi- disciplinary scientific innovation, a workplace for our employees, a partner in Jamaican national development and one of the satellites of the regional University of the West Indies, to those who hold the reins of this institution as caretakers over a determinate period, the Mona Campus is an enshrined legacy of our society’s heritage. Management of this Campus is an enormous responsibility to carry out and one that we do with pride and commitment, attempting to not only preserve its majesty as a site, but to ensure that the Campus anticipates future technologies and the changing demands of future generations. By maximizing our resources intelligently and with defined goals, and setting out a clearly signposted road map for the years ahead, we will ensure that we continue to build on the firmest foundations laid down by past architects who were similarly entrusted, to create a sustainable future for this space, our University of choice."]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "overlay",
+                "config": {
+                  "src": "_MG_4128.jpg",
+                  "headers": [
+                    "MONA CAMPUS AT A GLANCE",
+                    "Campus Facts and Figures"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          },
+          "across": {
+            "components": [
+              {
+                "type": "doughnutChart",
+                "config": {
+                  "title": "SEX DISTRIBUTION",
+                  "properties": {
+                    "labels": ["MALE", "FEMALE"],
+                    "datasets": [{
+                      "data": [31, 69]
+                    }]
+                  },
+                  "options":{
+                    "scales":{
+                      "xAxes":[{"display": false}],
+                      "yAxes":[{"display": false}]
+                    },
+                    "title": {
+                      "position": "top"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "doughnutChart",
+                "config": {
+                  "title": "LEVEL OF STUDY",
+                  "properties": {
+                    "labels": ["POSTGRADUATE", "GRADUATE"],
+                    "datasets": [{
+                      "data": [18, 82]
+                    }]
+                  },
+                  "options":{
+                    "scales":{
+                      "xAxes":[{"display": false}],
+                      "yAxes":[{"display": false}]
+                    },
+                    "title": {
+                      "position": "top"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "doughnutChart",
+                "config": {
+                  "title": "ENROLMENT STATUS",
+                  "properties": {
+                    "labels": ["PART-TIME", "FULL-TIME"],
+                    "datasets": [{
+                      "data": [24, 76]
+                    }]
+                  },
+                  "options":{
+                    "scales":{
+                      "xAxes":[{"display": false}],
+                      "yAxes":[{"display": false}]
+                    },
+                    "title": {
+                      "position": "top"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
