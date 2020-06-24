@@ -85,37 +85,29 @@
                 "config": {
                   "src": "Earl-Jarret.jpg"
                 }
-              }
-            ]
-          }
-        },
-        {
-          "left": {
-            "components": [
-              {
-                "type": "stacked",
-                "config": {
-                  "texts": [
-                    "Pro Vice-Chancellor and Campus Principal Professor Webber has provided sound leadership during the period as he seeks to expand the reach of The UWI in Western Jamaica, through online offerings and strategic partnerships. The financial reports submitted to the annual Campus Council meeting reflect the activities of the Mona Campus and also highlights the fact that greater effort will be needed to achieve financial sustainability.",
-                    "There were some changes in administration during the year, including the appointment of Dr Donovan Stanberry as the new Campus Registrar. Outgoing Registrar, Dr Camille Bell-Hutchinson, provided outstanding leadership in this capacity to The University, and we commend her for her sterling contribution. I would also like to use this opportunity to welcome The University’s new Registrar, Dr Maurice Smith and extend our congratulations on his appointment in this role as the main administrator of the affairs of our regional university."
-                    
-                  ]
-                }
-              }
-            ]
-          },
-          "right": {
-            "components": [
-              {
-                "type": "stacked",
-                "config": {
-                  "texts": ["Like many organizations which are faced with uncertainty, The University has not acceded to the challenges it faces, but is committed to being a University for all of its constituents. With people at the heart of our quest for development status at the Mona Campus, let us continue to maximize resources, particularly the human resources, for a sustainable future."]
-                }
               },
               {
                 "type": "note",
                 "config": {
                   "texts": ["Hon. Earl Jarrett, OJ, CD, JP, CStJ, Hon. LL.D, Hon. Ed.D, Hon. D. Univ, FCA  Chairman  The UWI, Mona Campus Council"]
+                }
+              } 
+            ]
+          }
+        },
+        {
+          "full": true,
+          "left": {
+            "components": [
+              {
+                "type": "stacked-full",
+                "config": {
+                  "texts": [
+                    "Pro Vice-Chancellor and Campus Principal Professor Webber has provided sound leadership during the period as he seeks to expand the reach of The UWI in Western Jamaica, through online offerings and strategic partnerships. The financial reports submitted to the annual Campus Council meeting reflect the activities of the Mona Campus and also highlights the fact that greater effort will be needed to achieve financial sustainability.",
+                    "There were some changes in administration during the year, including the appointment of Dr Donovan Stanberry as the new Campus Registrar. Outgoing Registrar, Dr Camille Bell-Hutchinson, provided outstanding leadership in this capacity to The University, and we commend her for her sterling contribution. I would also like to use this opportunity to welcome The University’s new Registrar, Dr Maurice Smith and extend our congratulations on his appointment in this role as the main administrator of the affairs of our regional university.",
+                    "Like many organizations which are faced with uncertainty, The University has not acceded to the challenges it faces, but is committed to being a University for all of its constituents. With people at the heart of our quest for development status at the Mona Campus, let us continue to maximize resources, particularly the human resources, for a sustainable future."
+                    
+                  ]
                 }
               }
             ]
@@ -159,25 +151,17 @@
           }
         },
         {
+          "full": true,
           "left": {
             "components": [
               {
-                "type": "stacked",
+                "type": "stacked-full",
                 "config": {
                   "texts": [
                     "At our September staff retreat, each of the Units in the Office of the Principal came away with a better understanding of the three Strategic pillars and as the Office was charged with aligning the Campus around these goals, visual reinforcements to embed and bring awareness to The UWI’s strategy were placed at focal points in the Office. While The UWI Triple ‘A’ Strategy and its three-pronged pillars had been repeatedly communicated in various fora from the rolling out of the 2017-2022 Strategic Plan, it seemed to me that our departments and divisions, whether teaching, research, administrative or service oriented, needed to appreciate how they were each contributing to the pillars of Access, Alignment and Agility, and more so, how their inputs incrementally added to the Campus delivery on these targets.",
-                    "During the 2018/2019 academic year, the Senior Management team revisited the initiatives that we agreed to in the first year of the Strategic Plan. Taking into consideration the physical plant, ICT infrastructure and financial health of the Campus, a decision was made to focus on six high-level strategic priorities at the Campus level."
+                    "During the 2018/2019 academic year, the Senior Management team revisited the initiatives that we agreed to in the first year of the Strategic Plan. Taking into consideration the physical plant, ICT infrastructure and financial health of the Campus, a decision was made to focus on six high-level strategic priorities at the Campus level.",
+                    "These were Digitization as a means of increasing access to a UWI education; Fostering a Culture of Research to improve publication output; Restoring Financial Health to bolster our economic base; Improving the quality of teaching, learning and student development; Establishing new academic/industry partnerships while nurturing our existing ones; and Initiating a caring, accountable and motivated professional (CAMP) team. As a new Principal on the block, I was especially moved to project the Mona Campus as a more caring community, with a customer service that was attentive and efficient in addressing the needs of our students, staff, the many stakeholders we currently serve and those we must attract and draw into our fold. The decision to focus on these six had the support of the Campus staff particularly, and at the end of 2018/2019 I can safely say, as this Report will also attest, that our determination to focus our energies on maximizing our best strengths and most available resources has borne results. We look forward to these solid foundational pillars moving the Campus along to further heights in the coming academic year. "
                   ]
-                }
-              }
-            ]
-          },
-          "right": {
-            "components": [
-              {
-                "type": "stacked",
-                "config": {
-                  "texts": ["These were Digitization as a means of increasing access to a UWI education; Fostering a Culture of Research to improve publication output; Restoring Financial Health to bolster our economic base; Improving the quality of teaching, learning and student development; Establishing new academic/industry partnerships while nurturing our existing ones; and Initiating a caring, accountable and motivated professional (CAMP) team. As a new Principal on the block, I was especially moved to project the Mona Campus as a more caring community, with a customer service that was attentive and efficient in addressing the needs of our students, staff, the many stakeholders we currently serve and those we must attract and draw into our fold. The decision to focus on these six had the support of the Campus staff particularly, and at the end of 2018/2019 I can safely say, as this Report will also attest, that our determination to focus our energies on maximizing our best strengths and most available resources has borne results. We look forward to these solid foundational pillars moving the Campus along to further heights in the coming academic year. "]
                 }
               }
             ]
@@ -222,93 +206,7 @@
               }
             ]
           }
-        },
-        {
-          "across": {
-            "components": [
-              {
-                "type": "callout",
-                "config": {
-                  "components": [
-                    {
-                      "type": "header",
-                      "config": {
-                        "level": 5,
-                        "text": "THEME"
-                      }
-                    },
-                    {
-                      "type": "stacked",
-                      "config": {
-                        "texts": ["The UWI Triple A Strategy 2017-2022: Revitalizing Caribbean Development"]
-                      }
-                    }
-                  ]
-                }
-              },  
-              {
-                "type": "callout",
-                "config": {
-                  "components": [
-                    {
-                      "type": "header",
-                      "config": {
-                        "level": 5,
-                        "text": "VISION"
-                      }
-                    },
-                    {
-                      "type": "stacked",
-                      "config": {
-                        "texts": ["An excellent global university rooted in the Caribbean"]
-                      }
-                    }
-                  ]
-                }
-              }, 
-              {
-                "type": "callout",
-                "config": {
-                  "components": [
-                    {
-                      "type": "header",
-                      "config": {
-                        "level": 5,
-                        "text": "MISSION"
-                      }
-                    },
-                    {
-                      "type": "stacked",
-                      "config": {
-                        "texts": ["To advance learning, create knowledge and foster innovation for the positive transformation of the Caribbean and the wider world"]
-                      }
-                    }
-                  ]
-                }
-              },
-              {
-                "type": "callout",
-                "config": {
-                  "components": [
-                    {
-                      "type": "header",
-                      "config": {
-                        "level": 5,
-                        "text": "CORE VALUES"
-                      }
-                    },
-                    {
-                      "type": "stacked",
-                      "config": {
-                        "texts": ["Integrity • Excellence • Gender Justice • Diversity • Student Centredness"]
-                      }
-                    }
-                  ]
-                }
-              }
-            ]
-          }
-        },
+        },  
         {
           "header": {
             "level": 2,
@@ -442,7 +340,7 @@
               {
                 "type": "image",
                 "config": {
-                  "src": null
+                  "src": "ndp.png"
                 }
               }
             ]
