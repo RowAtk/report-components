@@ -1,31 +1,36 @@
-import { merge } from 'lodash'
-import Vue from 'vue';
+import { merge } from "lodash";
+import Vue from "vue";
 
 const ChartMaker = Vue.mixin({
-  data () {
+  data() {
     return {
       defaultChartData: {
-        datasets: [
-        ] 
+        datasets: [],
       },
-      backgroundColor: ["#2B2D42", "#39B54A", "#3F78BD", "#7AB6FF", "#DBECF8", "#D90429"],
+      backgroundColor: [
+        "#2B2D42",
+        "#39B54A",
+        "#3F78BD",
+        "#7AB6FF",
+        "#DBECF8",
+        "#D90429",
+      ],
       defaultDataset: {
-
         // line graphs
         lineTension: 0,
-        fill: false
+        fill: false,
       },
       defaultOptions: {
         title: {
           display: true,
           text: this.splitTitle(),
-          position: 'bottom',
+          position: "bottom",
           padding: 30,
-          fontColor: '#2B2D42',
-          fontSize: 16
+          fontColor: "#2B2D42",
+          fontSize: 16,
         },
         legend: {
-          display: true
+          display: true,
         },
         scales: {
           xAxes: [
@@ -33,23 +38,23 @@ const ChartMaker = Vue.mixin({
               display: true,
               scaleLabel: {
                 display: false,
-                labelString: ''
-              }
-            }
+                labelString: "",
+              },
+            },
           ],
           yAxes: [
             {
               display: true,
               scaleLabel: {
                 display: false,
-                labelString: ''
-              }
-            }
-          ]
-        }
+                labelString: "",
+              },
+            },
+          ],
+        },
       },
-      bgnum: 0
-    }
+      bgnum: 0,
+    };
   },
   methods: {
     getRandomInt() {
@@ -58,30 +63,36 @@ const ChartMaker = Vue.mixin({
 
     splitTitle() {
       if (this.data && this.data.title) {
-        const limit = 7
-        const words = this.data.title.split(' ')
-        let lines = []
-        for(var i = 0; i<words.length; i+=limit){
-          lines.push(words.slice(i, i+limit).join(' '))
+        const limit = 7;
+        const words = this.data.title.split(" ");
+        let lines = [];
+        for (var i = 0; i < words.length; i += limit) {
+          lines.push(words.slice(i, i + limit).join(" "));
         }
         // console.log(lines)
-        return lines
+        return lines;
       } else {
-        return ''
+        return "";
       }
     },
 
     makeDefaults() {
-      let d = []
+      let d = [];
       // console.log("LENGTH DATASET: ", this.data.properties.datasets)
-      for(var i=0; i < this.data.properties.datasets.length; i++) {
-        d.push(merge({backgroundColor: this.backgroundColor[i]}, this.defaultDataset || {}, this.dataset || {}))
+      for (var i = 0; i < this.data.properties.datasets.length; i++) {
+        d.push(
+          merge(
+            { backgroundColor: this.backgroundColor[i] },
+            this.defaultDataset || {},
+            this.dataset || {}
+          )
+        );
       }
       // console.log('ddd: ', d)
-      
-      const defaultConfig = merge(this.defaultChartData, {datasets: d})
+
+      const defaultConfig = merge(this.defaultChartData, { datasets: d });
       // console.log("DEFAULT CONFIG:", defaultConfig)
-      return defaultConfig
+      return defaultConfig;
     },
 
     /**
@@ -90,10 +101,14 @@ const ChartMaker = Vue.mixin({
      */
     mergeData() {
       if (this.data) {
-        const defaultConfig = this.makeDefaults(); 
+        const defaultConfig = this.makeDefaults();
         // console.log("DEFAULT CONFIG:", defaultConfig)
-        let mp = merge(defaultConfig, this.chartdata || {}, this.data.properties)
-        return mp
+        let mp = merge(
+          defaultConfig,
+          this.chartdata || {},
+          this.data.properties
+        );
+        return mp;
       }
     },
 
@@ -101,25 +116,29 @@ const ChartMaker = Vue.mixin({
      * merge user options and developer options. preference placed on user options
      * @return {Object} merged options object for chart
      */
-    mergeOptions() {  
+    mergeOptions() {
       // only show legend by default if more than 1 dataset provided
-      const ldisplay = this.data.properties.datasets.length == 1 ? false : true
-      const defaultOptions = JSON.parse(JSON.stringify(this.defaultOptions))
+      const ldisplay = this.data.properties.datasets.length == 1 ? false : true;
+      const defaultOptions = JSON.parse(JSON.stringify(this.defaultOptions));
       defaultOptions.legend.display = ldisplay;
 
-      if(this.data.yaxis) {
+      if (this.data.yaxis) {
         defaultOptions.scales.yAxes[0].scaleLabel.display = true;
-        defaultOptions.scales.yAxes[0].scaleLabel.labelString = this.data.yaxis; 
+        defaultOptions.scales.yAxes[0].scaleLabel.labelString = this.data.yaxis;
       }
 
-      if(this.data.xaxis) {
+      if (this.data.xaxis) {
         defaultOptions.scales.xAxes[0].scaleLabel.display = true;
-        defaultOptions.scales.xAxes[0].scaleLabel.labelString = this.data.xaxis; 
+        defaultOptions.scales.xAxes[0].scaleLabel.labelString = this.data.xaxis;
       }
 
       // actual merging
-      return merge(defaultOptions || {}, this.options || {}, this.data.options || {})
-    }
+      return merge(
+        defaultOptions || {},
+        this.options || {},
+        this.data.options || {}
+      );
+    },
   },
 });
 
