@@ -231,7 +231,9 @@
                 "type": "overlay",
                 "config": {
                   "src": "START.jpg",
-                  "headers": ["UWI/CB 5K"]
+                  "headers": ["UWI/CB 5K"],
+                  "rg1": "255,255,255,0",
+                  "rg2": "255,255,255,0"
                 }
               }
             ]
