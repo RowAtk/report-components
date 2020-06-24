@@ -16,14 +16,14 @@ export default {
   name: "App",
   components: {
     // Access,
-    ReportView
+    ReportView,
   },
 };
 </script>
 
 <style>
 body {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -33,10 +33,12 @@ body {
   color: #2c3e50;
   margin-top: 0;
   padding: 0;
-  background-color: #FAFAFA;
+  /* background: url("assets/bg1.svg") no-repeat center center fixed; */
+  /* background: url("assets/bg1.svg") no-repeat; */
+  background-size: contain;
+  background-color: #fafafa;
 }
-
-*{
-  /* border:1px solid red; */
+ul {
+  text-align: left;
 }
 </style>

@@ -25,6 +25,7 @@ export default {
                 "doughnutChart": "charts/doughnut/DoughnutChartMaker",
                 "lineChart": "charts/line/LineChartMaker",
                 "columnChart": "charts/column/ColumnChartMaker",
+                "barChart": "charts/bar/BarChartMaker",
                 'callout': 'texts/callout',
                 'paragraph': 'texts/paragraph',
                 'stacked': 'texts/paragraph-stacked',
@@ -35,7 +36,9 @@ export default {
                 'image': 'images/image',
                 'caption-image': 'images/caption-image',
                 'note': 'texts/note',
-                'list': 'texts/list'
+                'list': 'texts/list',
+                'carousel': 'images/carousel',
+                'overlay': 'images/overlay'
             }
         }
     },

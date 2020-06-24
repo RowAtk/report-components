@@ -1,6 +1,6 @@
 <template>
   <div class="img-wrapper">
-    <img :src="src" alt="" />
+    <RImage :data="{ src: data.src } || {}" alt="" />
     <div class="caption-wrapper">
       <i>
         <h3 class="caption">
@@ -18,15 +18,11 @@
 </template>
 
 <script>
+import RImage from "@/components/images/image.vue";
 export default {
   name: "ImageCaption",
+  components: { RImage },
   props: ["data"],
-  computed: {
-    src () {
-      const src = this.data.src ? require(this.data.src) : require('@/assets/placeholder.jpg')
-      return src
-    }
-  }
 };
 </script>
 
@@ -42,9 +38,11 @@ img {
   justify-content: center;
   align-items: center;
   max-width: 600px;
+  background-color: white;
 }
 
 .caption-wrapper {
+  padding: 1em 0;
   width: 75%;
 }
 .caption {

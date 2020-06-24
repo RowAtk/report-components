@@ -1,5 +1,6 @@
 <template>
-  <div class="d-flex justify-content-center">
+  <!-- :style="style || ''" -->
+  <div class="d-flex justify-content-center overflow-hidden">
     <img :src="src" alt="Image not found">
   </div>
 </template>
@@ -11,8 +12,12 @@ export default {
   props: ['data'],
   computed: {
     src () {
-      const src = this.data.src ? require(this.data.src) : require('@/assets/placeholder.jpg')
-      return src
+      console.log('@/assets/rimages/' + this.data.src)
+      return this.data.src ? require('@/assets/rimages2/' + this.data.src) : require('@/assets/placeholder.jpg')
+    },
+    style () {
+      const height = this.data.height ? this.data.height : null
+      return `height: ${height}vw;`
     }
   }
 }
@@ -21,6 +26,9 @@ export default {
 <style scoped>
 img {
   max-width: 100%;
+  /* max-height: 40vw; */
   height: auto;
+  /* width: auto; */
+  object-fit: cover;
 }
 </style>
