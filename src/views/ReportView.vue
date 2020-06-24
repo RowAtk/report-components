@@ -1,15 +1,21 @@
 <template>
   <div>
-    <!-- Rendering of list ofsections from configuration object -->
-    <RSection
-      v-for="(section, index) in sections"
-      :key="index"
-      :data="section"
-    />
+    <div>
+      <Nav :sections="sections" />
+    </div>
+    <div>
+      <!-- Rendering of list ofsections from configuration object -->
+      <RSection
+        v-for="(section, index) in sections"
+        :key="index"
+        :data="section"
+      />
+    </div>
   </div>
 </template>
 
 <script>
+import Nav from "@/components/navigation/nav.vue";
 import RSection from "@/components/RSection.vue";
 import openingdata from "@/data/opening.json";
 import accessdata from "@/data/access.json";
@@ -20,6 +26,7 @@ import alignmentdata from "@/data/alignment.json";
 export default {
   components: {
     RSection,
+    Nav,
   },
   data() {
     return {
@@ -52,5 +59,4 @@ export default {
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

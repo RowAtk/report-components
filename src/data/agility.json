@@ -6,6 +6,7 @@
       "img": "IMG_3612.jpg",
       "bg": "bg3.svg",
       "rg2": "47,173,0, 0.61",
+      "id": "agility1",
       "rows": [
         {
           "full": true,
@@ -145,7 +146,7 @@
         {
           "header": {
             "level": 4,
-            "text": "Public Private Partnerships (PPPs)"
+            "text": "Public Private Partnerships"
           },
           "left": {
             "size": 50,
