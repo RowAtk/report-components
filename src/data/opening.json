@@ -394,9 +394,20 @@
           "left": {
             "components": [
               {
+                "type": "header",
+                "config": {
+                  "level": 3,
+                  "text": "Students"
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
                 "type": "image",
                 "config": {
-                  "src": null
+                  "src": "students.svg"
                 }
               }
             ]
@@ -470,16 +481,23 @@
           }
         },
         {
-          "header": {
-            "level": 3,
-            "text": "Employees"
-          },
           "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 3,
+                  "text": "Employees"
+                }
+              }
+            ]
+          },
+          "right": {
             "components": [
               {
                 "type": "image",
                 "config": {
-                  "src": null
+                  "src": "staff.svg"
                 }
               }
             ]
