@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid border border-danger p-0" :style="style">
+  <div class="container-fluid p-0" :style="style">
     <div class="row d-flex justify-content-center p-0 m-0 w-100">
       <div
         class="col-lg p-0 d-flex align-items-center justify-content-center section-header"
