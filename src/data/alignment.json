@@ -5,7 +5,8 @@
       "subheader": "Let us be your research engine",
       "img": "Webber_Pandohie.jpg",
       "bg": "bg2.svg",
-      "rg2": "217,4,41, 0.40",
+      "rg2": "217,196,4, 0.61",
+      "id": "alignment1",
       "rows": [
         {
           "full": true,

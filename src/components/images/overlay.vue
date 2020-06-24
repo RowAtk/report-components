@@ -47,7 +47,7 @@ export default {
         this.data.rg2 ? this.data.rg2 : 63 + "," + 120 + "," + 189 + "," + 0.61
       })), url(${require("@/assets/rimages2/" +
         this.data.src)}); background-size: cover; ${this.style}`;
-      console.log(overlay);
+      // console.log(overlay);
       return overlay;
     },
   },

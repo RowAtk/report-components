@@ -6,6 +6,7 @@
       "img": "LQP_0093.jpg",
       "bg": "bg1.svg",
       "rg2": "63,120,189, 0.61",
+      "id": "access1",
       "rows": [
         {
           "full": true,
@@ -240,7 +241,8 @@
                 "type": "header",
                 "config": {
                   "level": 4,
-                  "text": "Financing the Dream"
+                  "text": "Financing the Dream",
+                  "id": "financing"
                 }
               },
               {
@@ -1685,6 +1687,10 @@
           }
         },
         {
+          "header": {
+            "level": 4,
+            "text": "Student Events: Photo gallery"
+          },
           "full": true,
           "left": {
             "components": [
@@ -1853,6 +1859,10 @@
           }
         },
         {
+          "header": {
+            "level": 4,
+            "text": "Outreach Contribution to National Development"
+          },
           "left": {
             "components": [
               {
