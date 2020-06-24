@@ -44,7 +44,12 @@ export default {
       if (this.data.subheader) {
         headers.push(this.data.subheader);
       }
-      return { src: this.data.img || null, headers: headers, height: 40 };
+      return {
+        src: this.data.img || null,
+        headers: headers,
+        height: 40,
+        rg2: this.data.rg2,
+      };
     },
     style() {
       let style = "";
