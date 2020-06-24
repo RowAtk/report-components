@@ -91,7 +91,7 @@ export default {
   justify-content: end;
 }
 .break {
-  margin: 0 auto 15vh auto;
+  margin: 0 auto 8vh auto;
   padding-bottom: 2em;
 }
 </style>

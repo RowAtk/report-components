@@ -1,6 +1,11 @@
 <template>
   <div>
-    <component v-if="level" :is="level" :data="data.text" />
+    <component
+      :id="makeLink(data)"
+      v-if="level"
+      :is="level"
+      :data="data.text"
+    />
   </div>
 </template>
 
@@ -22,6 +27,20 @@ export default {
     Level4,
     Level5,
     Level6,
+  },
+  methods: {
+    makeLink(data) {
+      const anon = data.anon == undefined ? false : data.anon;
+      if (!anon) {
+        return data.text
+          .toLowerCase()
+          .replace(/[^\w\s]/gi, "")
+          .split(" ")
+          .join("_");
+      } else {
+        return "";
+      }
+    },
   },
   data() {
     return {

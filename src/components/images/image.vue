@@ -1,26 +1,27 @@
 <template>
   <!-- :style="style || ''" -->
   <div class="d-flex justify-content-center overflow-hidden">
-    <img :src="src" alt="Image not found">
+    <img :src="src" alt="Image not found" />
   </div>
 </template>
 
 <script>
-
 export default {
   name: "r-image",
-  props: ['data'],
+  props: ["data"],
   computed: {
-    src () {
-      console.log('@/assets/rimages/' + this.data.src)
-      return this.data.src ? require('@/assets/rimages2/' + this.data.src) : require('@/assets/placeholder.jpg')
+    src() {
+      // console.log('@/assets/rimages/' + this.data.src)
+      return this.data.src
+        ? require("@/assets/rimages2/" + this.data.src)
+        : require("@/assets/placeholder.jpg");
     },
-    style () {
-      const height = this.data.height ? this.data.height : null
-      return `height: ${height}vw;`
-    }
-  }
-}
+    style() {
+      const height = this.data.height ? this.data.height : null;
+      return `height: ${height}vw;`;
+    },
+  },
+};
 </script>
 
 <style scoped>
