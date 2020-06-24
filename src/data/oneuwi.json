@@ -4,21 +4,24 @@
       "header": "One Uwi",
       "subheader": "Agility, Alignment",
       "img": "20200228_162847.jpg",
+      "bg": "bg4.svg",
       "rows": [
         {
           "full": true,
           "left": {
-            "components": [{
-              "type": "content-list",
-              "config": {
-                "header": "UNIFYING OUR INTELLECTUAL RESOURCES",
-                "contents": [
-                  "Institute for Sustainable Development (ISD)",
-                  "Caribbean Institute for Health Research (CAIHR)",
-                  "Sir Arthur Lewis Institute for Social and Economic Studies (SALISES)"
-                ]
+            "components": [
+              {
+                "type": "content-list",
+                "config": {
+                  "header": "UNIFYING OUR INTELLECTUAL RESOURCES",
+                  "contents": [
+                    "Institute for Sustainable Development (ISD)",
+                    "Caribbean Institute for Health Research (CAIHR)",
+                    "Sir Arthur Lewis Institute for Social and Economic Studies (SALISES)"
+                  ]
+                }
               }
-            }]
+            ]
           }
         },
         {
@@ -31,7 +34,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The Institute for Sustainable Development (ISD) includes the Centre for Policy Studies in Sustainable Development led by the Alcan Chair in Sustainable Development, the Centre for Environmental Management (CEM) and the Disaster Risk Reduction Centre (DRRC). ISD supports research and postgraduate study through its component Units; students read for MSc, MPhil, and PhD degrees.  ISD has collaborative links with other universities and research institutes and offers a joint postgraduate certificate with Empire State College at SUNY through the UWI-SUNY Institute for Leadership and Sustainable Development."]
+                  "texts": [
+                    "The Institute for Sustainable Development (ISD) includes the Centre for Policy Studies in Sustainable Development led by the Alcan Chair in Sustainable Development, the Centre for Environmental Management (CEM) and the Disaster Risk Reduction Centre (DRRC). ISD supports research and postgraduate study through its component Units; students read for MSc, MPhil, and PhD degrees.  ISD has collaborative links with other universities and research institutes and offers a joint postgraduate certificate with Empire State College at SUNY through the UWI-SUNY Institute for Leadership and Sustainable Development."
+                  ]
                 }
               }
             ]
@@ -57,7 +62,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["Dr. Barbara Carby, Director of the Disaster Risk Reduction Centre (DRRC) and Dr. David Smith, Coordinator ISD, are the Principal Investigators for the Enhancing Knowledge and Application of Comprehensive Disaster Management (EKACDM) project funded by a CDN$ 2.7 million grant from the Government of Canada through Global Affairs Canada.  The EKACDM Initiative is a five-year project whose Ultimate Outcome is the implementation of the CARICOM Enhanced Comprehensive Disaster Management (CDM) Framework (2007) to reduce the impacts of natural and technological hazards, and the effect mechanism and programme to manage knowledge in CDM, which is Priority Outcome 2 of the CDM Strategy of the Caribbean Disaster Emergency Management Agency (CDEMA). The Initiative had three key outcomes:"]
+                  "texts": [
+                    "Dr. Barbara Carby, Director of the Disaster Risk Reduction Centre (DRRC) and Dr. David Smith, Coordinator ISD, are the Principal Investigators for the Enhancing Knowledge and Application of Comprehensive Disaster Management (EKACDM) project funded by a CDN$ 2.7 million grant from the Government of Canada through Global Affairs Canada.  The EKACDM Initiative is a five-year project whose Ultimate Outcome is the implementation of the CARICOM Enhanced Comprehensive Disaster Management (CDM) Framework (2007) to reduce the impacts of natural and technological hazards, and the effect mechanism and programme to manage knowledge in CDM, which is Priority Outcome 2 of the CDM Strategy of the Caribbean Disaster Emergency Management Agency (CDEMA). The Initiative had three key outcomes:"
+                  ]
                 }
               },
               {
@@ -73,7 +80,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The project was successfully completed in December 2018 and produced very commendable outcomes, including: online graduate courses on Disaster Risk Management; training on business continuity and developing business plans for small business owners; postgraduate research scholarships; software development; staff and student exchanges; the development of guidelines and policy frameworks to reduce disaster risk for Tourism and Agriculture, and; training for  SMEs in the tourism, and agriculture sectors and the private sector to increase resilience to disasters."]
+                  "texts": [
+                    "The project was successfully completed in December 2018 and produced very commendable outcomes, including: online graduate courses on Disaster Risk Management; training on business continuity and developing business plans for small business owners; postgraduate research scholarships; software development; staff and student exchanges; the development of guidelines and policy frameworks to reduce disaster risk for Tourism and Agriculture, and; training for  SMEs in the tourism, and agriculture sectors and the private sector to increase resilience to disasters."
+                  ]
                 }
               }
             ]
@@ -103,7 +112,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The Reach Up Early Childhood Parenting programme is a training package developed from the Jamaica Home Visit Intervention, to increase capacity for implementation of parenting programmes for children zero (0) to three (3) years old.  The package includes the curriculum, toy manual, training manuals with videos from three (3) countries, as well as a guide for adaptation and implementation planning. In partnership with government agencies, universities and NGOs, Reach Up has now been implemented in 14 countries. In July 2019, CAIHR collaborated with the Africa Early Childhood Network (AfECN) to conduct a senior level training workshop in Nairobi, Kenya for countries in sub-Saharan Africa, including Liberia, Kenya, Mozambique, Senegal, Tanzania, and Zimbabwe."]
+                  "texts": [
+                    "The Reach Up Early Childhood Parenting programme is a training package developed from the Jamaica Home Visit Intervention, to increase capacity for implementation of parenting programmes for children zero (0) to three (3) years old.  The package includes the curriculum, toy manual, training manuals with videos from three (3) countries, as well as a guide for adaptation and implementation planning. In partnership with government agencies, universities and NGOs, Reach Up has now been implemented in 14 countries. In July 2019, CAIHR collaborated with the Africa Early Childhood Network (AfECN) to conduct a senior level training workshop in Nairobi, Kenya for countries in sub-Saharan Africa, including Liberia, Kenya, Mozambique, Senegal, Tanzania, and Zimbabwe."
+                  ]
                 }
               },
               {
@@ -116,7 +127,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["SALISES, Mona is one of the leading research institutes across the Caribbean. The Institute boasts its own documentation centre, databank and publications section; the Norman Girvan Documentation Centre provides access to over 70,000 books, documents and journals and the Derek Gordon Data Bank provides an on-line resource of Caribbean data on important aspects of Caribbean development. Research at the Institute is aligned with the needs of the Caribbean region and also seeks to address development challenges such as those cited in the Sustainable Development Goals."]
+                  "texts": [
+                    "SALISES, Mona is one of the leading research institutes across the Caribbean. The Institute boasts its own documentation centre, databank and publications section; the Norman Girvan Documentation Centre provides access to over 70,000 books, documents and journals and the Derek Gordon Data Bank provides an on-line resource of Caribbean data on important aspects of Caribbean development. Research at the Institute is aligned with the needs of the Caribbean region and also seeks to address development challenges such as those cited in the Sustainable Development Goals."
+                  ]
                 }
               }
             ]
@@ -143,7 +156,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["Fueled by its mission to undertake high-impact research and excellent graduate teaching, The Sir Arthur Lewis Institute of Social and Economic Studies (SALISES) entered into four (4) Memoranda of Understanding aimed at pursuing collaboration in teaching and research. The agreements were formalized with the Institute of Development Studies (IDS) at the University of Sussex, United Kingdom; the University of Prince Edward Island (The Institute of Island Studies) in Canada; Humber College Institute of Technology and Advanced Learning in Canada; and the Universität Kassel in Germany.  One of the initiatives under the MOU between SALISES and Humber College is to foster student exchange between these institutions. To this end, SALISES hosted sixteen (16) Humber College students for two (2) weeks in May 2019. During their stay, the students were briefed on Jamaica’s criminal justice system. Arising from the MOU with the University of Prince Edward Island (UPEI), Dr. Dacia Leslie, Research Fellow (SALISES), was granted a Canada-CARICOM Leadership Scholarship to conduct research work at UPEI for five (5) months."]
+                  "texts": [
+                    "Fueled by its mission to undertake high-impact research and excellent graduate teaching, The Sir Arthur Lewis Institute of Social and Economic Studies (SALISES) entered into four (4) Memoranda of Understanding aimed at pursuing collaboration in teaching and research. The agreements were formalized with the Institute of Development Studies (IDS) at the University of Sussex, United Kingdom; the University of Prince Edward Island (The Institute of Island Studies) in Canada; Humber College Institute of Technology and Advanced Learning in Canada; and the Universität Kassel in Germany.  One of the initiatives under the MOU between SALISES and Humber College is to foster student exchange between these institutions. To this end, SALISES hosted sixteen (16) Humber College students for two (2) weeks in May 2019. During their stay, the students were briefed on Jamaica’s criminal justice system. Arising from the MOU with the University of Prince Edward Island (UPEI), Dr. Dacia Leslie, Research Fellow (SALISES), was granted a Canada-CARICOM Leadership Scholarship to conduct research work at UPEI for five (5) months."
+                  ]
                 }
               }
             ]
@@ -153,7 +168,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The employment of a Grants Writer at SALISES resulted in an increase in the number of consultancies that the Institute provided. Consultancy services were provided to Winrock International Jamaica, the EU-LAC Foundation, the United Nations Development Programme, the Ministry of Labour and Social Security, and the Urban Development Corporation. Policy orientated consultancies included the completion of a Horizon Scanning and Foresighting Study for Jamaica’s Third City (sponsored by the UDC).  SALISES was also contracted to design and implement protection and prevention activities to address child trafficking in Jamaica. This contract was in support of a Child Protection Compact Partnership signed between the United States Department of State and the Government of Jamaica."]
+                  "texts": [
+                    "The employment of a Grants Writer at SALISES resulted in an increase in the number of consultancies that the Institute provided. Consultancy services were provided to Winrock International Jamaica, the EU-LAC Foundation, the United Nations Development Programme, the Ministry of Labour and Social Security, and the Urban Development Corporation. Policy orientated consultancies included the completion of a Horizon Scanning and Foresighting Study for Jamaica’s Third City (sponsored by the UDC).  SALISES was also contracted to design and implement protection and prevention activities to address child trafficking in Jamaica. This contract was in support of a Child Protection Compact Partnership signed between the United States Department of State and the Government of Jamaica."
+                  ]
                 }
               }
             ]
@@ -174,7 +191,8 @@
     },
     {
       "header": "NOTABLE ACHIEVEMENTS AND EVENTS",
-      "rows":[
+      "bg": "bg5.svg",
+      "rows": [
         {
           "header": {
             "level": 4,
@@ -225,7 +243,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The 7th Annual CB Group UWI 5K and Smart Eggs Kids K was held on Sunday, November 11, 2018, once again under the patronage of Dr. Douglas Orane, OD; Dr. Donette Chin-Loy Chang and Dr. Thalia Lyn, OD. It is the largest fundraising event for the Mona Campus Scholarship Fund and the only road race in Jamaica that has an official component for children ages four (4) to ten (10) years old."]
+                  "texts": [
+                    "The 7th Annual CB Group UWI 5K and Smart Eggs Kids K was held on Sunday, November 11, 2018, once again under the patronage of Dr. Douglas Orane, OD; Dr. Donette Chin-Loy Chang and Dr. Thalia Lyn, OD. It is the largest fundraising event for the Mona Campus Scholarship Fund and the only road race in Jamaica that has an official component for children ages four (4) to ten (10) years old."
+                  ]
                 }
               }
             ]
@@ -235,7 +255,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["Almost 4,000 participants registered for the run/walk raising JMD$ 10 million dollars for the University’s Scholarship Fund. Since the inaugural event in 2012, over 200 scholarships have been awarded from this Fund to academically outstanding students in dire financial need. They continually express their appreciation for the opportunities afforded them as a result of this event."]
+                  "texts": [
+                    "Almost 4,000 participants registered for the run/walk raising JMD$ 10 million dollars for the University’s Scholarship Fund. Since the inaugural event in 2012, over 200 scholarships have been awarded from this Fund to academically outstanding students in dire financial need. They continually express their appreciation for the opportunities afforded them as a result of this event."
+                  ]
                 }
               }
             ]
@@ -289,7 +311,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The Centre for Tourism and Policy Research (CTPR) hosted the seventh staging of the GATFFEST Film Festival in June 2019. For the 2019 staging of the festival, 51 films were submitted from a total of 20 countries. The festival also boasted an expansion from 8 to 10 days, with the most collaborations with embassies and partners to date.  The GATFFEST Film festival has quickly grown to be the largest film festival in Jamaica, one of the largest film festivals in the Caribbean, as well as one of the longest running film festivals in Jamaica after celebrating its seventh staging in June 2019.  Over the years GATTFEST has received ongoing support from the Japanese, Mexican, South African and Colombian embassies; during GATFFEST 2018, the CTPR was approached by many potential partners including the Embassy of Mexico, The Republic of Korea and the Embassy of Cuba to partner to co-host their own GATFFEST film nights in June 2019. A new award, the “Archie”, in recognition of and named after the former Mona Campus Principal, Professor Archibald McDonald, was also unveiled at the staging of this years’ event."]
+                  "texts": [
+                    "The Centre for Tourism and Policy Research (CTPR) hosted the seventh staging of the GATFFEST Film Festival in June 2019. For the 2019 staging of the festival, 51 films were submitted from a total of 20 countries. The festival also boasted an expansion from 8 to 10 days, with the most collaborations with embassies and partners to date.  The GATFFEST Film festival has quickly grown to be the largest film festival in Jamaica, one of the largest film festivals in the Caribbean, as well as one of the longest running film festivals in Jamaica after celebrating its seventh staging in June 2019.  Over the years GATTFEST has received ongoing support from the Japanese, Mexican, South African and Colombian embassies; during GATFFEST 2018, the CTPR was approached by many potential partners including the Embassy of Mexico, The Republic of Korea and the Embassy of Cuba to partner to co-host their own GATFFEST film nights in June 2019. A new award, the “Archie”, in recognition of and named after the former Mona Campus Principal, Professor Archibald McDonald, was also unveiled at the staging of this years’ event."
+                  ]
                 }
               }
             ]
@@ -321,7 +345,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["CARIMAC and Frame of Reference, a Post Production facility in Kingston, hosted Film Rush, an annual film workshop held on March 8 to 10, 2019 at CARIMAC Annex II.  This activity exposed high school students to different areas of film production.  Filmmaker, Mr. Gerald Hynes, conducted a workshop for the participants on Friday, March 8 after which the teams wrote, shot and edited their films. A screening and an award ceremony were held on Sunday, March 10.  CARIMAC also hosted the KingstOOn 2019 animation forum in conjunction with the World Bank’s Youth Employment in the Digital and Animation Industry (YEDAI) project at the University of Technology, Jamaica. The School contributed by awarding scholarships for the categories of Best Storyboard, Best Character Design, Best Caribbean Short Film, Best Concept, Best Student Film, and the Best Performance in the Pitch Development Boot Camp Competition.  The winners were given the opportunity to pursue a CARIMAC Summer Short Course. Faculty also attended the event to improve their delivery and understanding of the international animation industry.  Through this event, CARIMAC was able to establish relationships with Animation Lounge and Raquel Benitez of Centennial College in Toronto, Canada. Benitez also owns and operates Comet Entertainment Inc.  and is willing to lecture for a few weeks on her expertise in producing animation projects to CARIMAC students.  Still in the field of media studies, in April 2019, the top two documentaries produced by Journalism students were presented to an audience of media practitioners, business people, and students.  The documentaries titled, Long Live Free Grenada and Rasta Revelation, produced by Trellona Charles and Kemeisha Ellis, respectively, were well received and the students were commended for their efforts."]
+                  "texts": [
+                    "CARIMAC and Frame of Reference, a Post Production facility in Kingston, hosted Film Rush, an annual film workshop held on March 8 to 10, 2019 at CARIMAC Annex II.  This activity exposed high school students to different areas of film production.  Filmmaker, Mr. Gerald Hynes, conducted a workshop for the participants on Friday, March 8 after which the teams wrote, shot and edited their films. A screening and an award ceremony were held on Sunday, March 10.  CARIMAC also hosted the KingstOOn 2019 animation forum in conjunction with the World Bank’s Youth Employment in the Digital and Animation Industry (YEDAI) project at the University of Technology, Jamaica. The School contributed by awarding scholarships for the categories of Best Storyboard, Best Character Design, Best Caribbean Short Film, Best Concept, Best Student Film, and the Best Performance in the Pitch Development Boot Camp Competition.  The winners were given the opportunity to pursue a CARIMAC Summer Short Course. Faculty also attended the event to improve their delivery and understanding of the international animation industry.  Through this event, CARIMAC was able to establish relationships with Animation Lounge and Raquel Benitez of Centennial College in Toronto, Canada. Benitez also owns and operates Comet Entertainment Inc.  and is willing to lecture for a few weeks on her expertise in producing animation projects to CARIMAC students.  Still in the field of media studies, in April 2019, the top two documentaries produced by Journalism students were presented to an audience of media practitioners, business people, and students.  The documentaries titled, Long Live Free Grenada and Rasta Revelation, produced by Trellona Charles and Kemeisha Ellis, respectively, were well received and the students were commended for their efforts."
+                  ]
                 }
               }
             ]
@@ -348,7 +374,7 @@
                 "type": "carousel",
                 "config": {
                   "height": 40,
-                  "images":[
+                  "images": [
                     "VMP_0581.jpg",
                     "SP2_0164.jpg",
                     "SP3_4949.jpg",
@@ -365,9 +391,11 @@
     },
     {
       "header": "THE WAY FORWARD",
-      "subheader":"ANTICIPATING 2020 AND BEYOND",
+      "subheader": "ANTICIPATING 2020 AND BEYOND",
       "img": "20190923_122809C.jpg",
-      "rows":[
+      "bg": "bg6.svg",
+      "cover": "cover",
+      "rows": [
         {
           "header": {
             "level": 4,
@@ -434,7 +462,9 @@
               {
                 "type": "stacked",
                 "config": {
-                  "texts": ["The activities over the 2018/2019 academic year that are contained within the six (6) strategic areas examined closely in this Report were also highlights of the Self-Assessment Report for the institutional accreditation of the Mona Campus. The recommendations from the Accreditation Report and Council will provide a framework for the further expansion of the strategic goals and our implementation of proposed innovation in processes in the coming years. We fully appreciate that to ensure our survival, the Mona Campus has no other choice than to maximize its intellectual, human and physical resources for a sustainable future."]
+                  "texts": [
+                    "The activities over the 2018/2019 academic year that are contained within the six (6) strategic areas examined closely in this Report were also highlights of the Self-Assessment Report for the institutional accreditation of the Mona Campus. The recommendations from the Accreditation Report and Council will provide a framework for the further expansion of the strategic goals and our implementation of proposed innovation in processes in the coming years. We fully appreciate that to ensure our survival, the Mona Campus has no other choice than to maximize its intellectual, human and physical resources for a sustainable future."
+                  ]
                 }
               }
             ]

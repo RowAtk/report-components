@@ -38,6 +38,7 @@ img {
   justify-content: center;
   align-items: center;
   max-width: 600px;
+  background-color: white;
 }
 
 .caption-wrapper {

@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import RComponent from '@/components/RComponent.vue'
+import RComponent from "@/components/RComponent.vue";
 export default {
   name: "CaptionsText",
   components: { RComponent },
@@ -36,5 +36,8 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   width: 80%;
+  background-color: rgba(255, 255, 255, 0.555);
+  padding: 1em;
+  margin: 1em;
 }
 </style>
