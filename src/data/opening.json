@@ -13,6 +13,7 @@
                 "config": {
                   "fullWidth": true,
                   "hoverPause": false,
+                  "freeScroll": false,
                   "buttons": false,
                   "images": [
                     "20190912_080208.jpg",
@@ -36,6 +37,7 @@
                 "config": {
                   "fullWidth": true,
                   "hoverPause": false,
+                  "freeScroll": false,
                   "buttons": false,
                   "images": [
                     "20200226_114553.jpg",

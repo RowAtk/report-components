@@ -25,12 +25,13 @@ export default {
         // cellAlign: "left",
         // contain: true,
         // draggable: false,
-        prevNextButtons: this.data.buttons == undefined ? true : false,
+        prevNextButtons: this.data.buttons == undefined ? true : this.data.buttons,
         pageDots: false,
         wrapAround: true,
-        freeScroll: true,
+        freeScroll: this.data.freeScroll == undefined ? true : this.data.freeScroll,
+        draggable: this.data.freeScroll == undefined ? true : this.data.freeScroll,
         autoPlay: true,
-        pauseAutoPlayOnHover: this.data.hoverPause == undefined ? true : false
+        pauseAutoPlayOnHover: this.data.hoverPause == undefined ? true : this.data.hoverPause
       }
     }
   },
