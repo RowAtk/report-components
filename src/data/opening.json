@@ -484,7 +484,7 @@
                 "config": {
                   "src": "_MG_4128.jpg",
                   "headers": [
-                    "MONA CAMPUS AT A GLANCE",
+                    "AT A GLANCE",
                     "Campus Facts and Figures"
                   ]
                 }
@@ -566,6 +566,270 @@
                       "position": "top"
                     }
                   }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 3,
+            "text": "Employees"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "image",
+                "config": {
+                  "src": null
+                }
+              }
+            ]
+          },
+          "across": {
+            "components": [
+              {
+                "type": "doughnutChart",
+                "config": {
+                  "title": "CATEGORY OF STAFF",
+                  "properties": {
+                    "labels": ["ACADEMIC", "SERVICES", "SR. ADMIN. & PROF", "ADMIN. & TECH", "OTHER"],
+                    "datasets": [{
+                      "data": [36, 14, 11, 35, 4]
+                    }]
+                  },
+                  "options":{
+                    "scales":{
+                      "xAxes":[{"display": false}],
+                      "yAxes":[{"display": false}]
+                    },
+                    "title": {
+                      "position": "top"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "doughnutChart",
+                "config": {
+                  "title": "SEX DISTRIBUTION",
+                  "properties": {
+                    "labels": ["MALE", "FEMLAE"],
+                    "datasets": [{
+                      "data": [37, 63]
+                    }]
+                  },
+                  "options":{
+                    "scales":{
+                      "xAxes":[{"display": false}],
+                      "yAxes":[{"display": false}]
+                    },
+                    "title": {
+                      "position": "top"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "doughnutChart",
+                "config": {
+                  "title": "EMPLOYMENT STATUS",
+                  "properties": {
+                    "labels": ["PART-TIME", "FULL-TIME"],
+                    "datasets": [{
+                      "data": [16, 84]
+                    }]
+                  },
+                  "options":{
+                    "scales":{
+                      "xAxes":[{"display": false}],
+                      "yAxes":[{"display": false}]
+                    },
+                    "title": {
+                      "position": "top"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "header": {
+            "level": 4,
+            "text": "Campus Facts and Figures. Impact of The UWI, Mona Campus"
+          },
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "Access"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["During the 2018 / 19 academic year, the Mona Campus"]
+                }
+              },
+              {
+                "type": "bullet",
+                "config": {
+                  "bullets": [
+                    "enrolled 19,599 students, *2 the majority (74%) of whom are first generation students *3",
+                    "disbursed JMD$ 966 million in financial assistance to 2,449 students *4",
+                    "welcomed 234 students with a reported disability",
+                    "attracted 200 students from outside the Caribbean region",
+                    "hosted 43 international exchange students"
+                  ]
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["To date, The UWI Township Scholarship Programme has benefitted 75 beneficiaries from Mona Common and the Greater August Town Community."]
+                }
+              },
+              {
+                "type": "note",
+                "config": {
+                  "texts": [
+                    "2 - End of year registration figure compiled by the Offi ce of Planning and Institutional R esearch ( O PAI R ) .",
+                    "3 - In 2018, 74% of undergraduates reported neither parent being a university graduate, based on the 2018 Undergraduate Student Satisfaction Survey conducted by O PAI R.",
+                    "4 - As reported by the Offi ce of Student F inancing. This amount excludes faculty and departmental initiatives",
+                    "5 - STEM refers to science, technology, engineering and mathematics."
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "Alignment"
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["The Mona Campus continued to enhance the work readiness of graduates through curricular and extracurricular interventions. During the previous academic year,"]
+                }
+              },
+              {
+                "type": "bullet",
+                "config": {
+                  "bullets": [
+                    "238 students benefited from internships as part of their academic programme",
+                    "1,492 students engaged in practicums associated with a profession",
+                    "5,376 students participated in clerkships as part of their medical education"
+                  ]
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["The Mona Campus is a major supplier of human resources. In 2019, the Campus graduated 3,967 students comprising"]
+                }
+              },
+              {
+                "type": "bullet",
+                "config": {
+                  "bullets": [
+                    "374 medical doctors",
+                    "480 graduates in STEM *5 disciplines",
+                    "317 nurses",
+                    "274 teachers",
+                    "17 engineers",
+                    "145 legal professionals",
+                    "2,000 professionals in Humanities, Business, and Social Sciences"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "left": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "Earning a UWI Degree has its benefits:"
+                }
+              },
+              {
+                "type": "bullet",
+                "config": {
+                  "bullets": [
+                    "70% or more of graduates report employment one year after graduation. *6",
+                    "70% or more of employers are satisfied with UWI graduates",
+                    "85% or more of employers will continue to hire UWI graduates"
+                  ]
+                }
+              },
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "The Mona Campus is aligned to targeted outcomes in the Vision 2030 National Development Plan and the UN’s Sustainable Development Goals."
+                }
+              },
+              {
+                "type": "bullet",
+                "config": {
+                  "bullets": [
+                    "NDP Goal 4 “Jamaica has a healthy natural environment”",
+                    "SDG 13 “Take urgent action to combat climate change and its impact”"
+                  ]
+                }
+              },
+              {
+                "type": "stacked",
+                "config": {
+                  "texts": ["During the academic year:"]
+                }
+              },
+              {
+                "type": "bullet",
+                "config": {
+                  "bullets": [
+                    "20 courses related to climate change and the natural environment attracted 508 inquiring minds",
+                    "5 academics contributed to the United Nation’s Intergovernmental Panel on Climate Change (IPCC)",
+                    "JMD$40 million in funding was acquired for research on climate change and the natural environment"
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "components": [
+              {
+                "type": "header",
+                "config": {
+                  "level": 5,
+                  "text": "Agility"
+                }
+              },
+              {
+                "type": "bullet",
+                "config": {
+                  "bullets": [
+                    "Number of MOUs signed in 2018/2019",
+                    "Cost savings from PPPs",
+                    "The Campus has saved JMD$1.5 million annually from the Digitization Project"
+                  ]
+                }
+              },
+              {
+                "type": "note",
+                "config": {
+                  "texts": ["6 - Findings based on tracer surveys of UWI graduates administered by OPAIR."]
                 }
               }
             ]
