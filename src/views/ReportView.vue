@@ -4,6 +4,7 @@
       <Nav :sections="sections" />
     </div>
     <div>
+      <Cover :data="access.cover" />
       <!-- Rendering of list ofsections from configuration object -->
       <RSection
         v-for="(section, index) in sections"
@@ -16,6 +17,7 @@
 
 <script>
 import Nav from "@/components/navigation/nav.vue";
+import Cover from "@/components/texts/header/cover.vue";
 import RSection from "@/components/RSection.vue";
 import openingdata from "@/data/opening.json";
 import accessdata from "@/data/access.json";
@@ -27,6 +29,7 @@ export default {
   components: {
     RSection,
     Nav,
+    Cover,
   },
   data() {
     return {

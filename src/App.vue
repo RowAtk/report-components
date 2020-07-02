@@ -22,11 +22,14 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+
 body {
   background-color: #fafafa;
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -38,6 +41,7 @@ body {
   background-size: contain;
   background-color: #fafafa;
   max-width: 2600px;
+  scroll-behavior: smooth;
 }
 ul {
   text-align: left;

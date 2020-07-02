@@ -5,6 +5,21 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 Vue.config.productionTip = false;
 
+window.addEventListener("scroll", function() {
+  var body = document.getElementById("cover-body");
+
+  if (
+    document.documentElement.scrollTop ||
+    document.body.scrollTop > window.innerHeight
+  ) {
+    body.classList.add("square");
+    body.classList.remove("trap");
+  } else {
+    body.classList.add("trap");
+    body.classList.remove("square");
+  }
+});
+
 /* const requireComponent = require.context(
   // The relative path of the components folder
   './components',
