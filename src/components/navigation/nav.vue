@@ -64,7 +64,6 @@ export default {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-family: "Open Sans";
   color: rgb(44, 62, 80);
   font-weight: 600;
 }
