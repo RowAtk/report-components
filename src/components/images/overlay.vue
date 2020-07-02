@@ -1,6 +1,6 @@
 <template>
   <!-- :style="style || ''" -->
-  <div class="card bg-dark text-white overlay" :style="overlay">
+  <div class="card bg-dark text-white overlay" :style="bgonly">
     <!-- <img class="card-img" :src="src" alt="Card image" /> -->
     <div
       class="card-img-overlay d-flex flex-column align-items-center justify-content-center text-center filter"
@@ -41,15 +41,18 @@ export default {
       return height;
     },
     overlay() {
-      const overlay = `width: 100%; background: linear-gradient(rgb(${
-        this.data.rg1 ? this.data.rg1 : 255 + "," + 255 + "," + 255
+      const overlay = `width: 100%; background: linear-gradient(rgba(${
+        this.data.rg1 ? this.data.rg1 : `255, 255, 255, 0.85` 
       }), rgba(${
-        this.data.rg2 ? this.data.rg2 : 63 + "," + 120 + "," + 189 + "," + 0.61
+        this.data.rg2 ? this.data.rg2 : `63, 120, 189, 0.21`
       })), url(${require("@/assets/rimages2/" +
         this.data.src)}); background-size: cover; ${this.style}`;
       // console.log(overlay);
       return overlay;
     },
+    bgonly() {
+      return `background: url(${require("@/assets/rimages2/" + this.data.src)}); background-size: cover; ${this.style}`
+    }
   },
 };
 </script>
@@ -63,20 +66,34 @@ img {
 
 .overlay {
   width: 100%;
-  height: 20vw;
+  height: 25vw;
   max-width: 100%;
   overflow: hidden;
   margin: 0;
+  border: 0;
 }
 
 .filter {
-  background-color: rgba(124, 121, 121, 0.418);
+  animation-name: slowbgflash;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  /* background-color: rgba(77, 77, 77, 0.418); */
+  /* background-color: rgba(252, 252, 252, 0.397); */
 }
 
 .overlay-content {
-  text-shadow: 2px 2px 5px rgba(24, 24, 24, 0.89);
-  color: white;
+  text-shadow: 3px 3px 6px rgba(24, 24, 24, 0.9);
+  /* color: snow; */
+  /* color: #071291; */
+  /* color: #D90429; */
+  /* color: #bfdcff; */
   margin: 0;
+  text-decoration: underline;
+  /* animation-name: slowflash; */
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
 }
 .big {
   font-size: 5vw;
@@ -87,5 +104,22 @@ img {
 }
 .small {
   font-size: 2vw;
+}
+
+/* animations */
+@keyframes slowflash {
+  0%   {color:rgb(255, 255, 255); left:0px; top:0px;}
+  25%  {color:rgb(195, 224, 252); left:200px; top:0px;}
+  50%  {color:rgb(165, 210, 252); left:200px; top:200px;}
+  75%  {color:rgb(133, 195, 253); left:0px; top:200px;}
+  100% {color:rgb(94, 175, 252); left:0px; top:0px;}
+}
+
+@keyframes slowbgflash {
+  0%    {background-color: rgba(77, 77, 77, 0.418);}
+  25%   {background-color: rgba(77, 77, 77, 0.318);}
+  50%   {background-color: rgba(77, 77, 77, 0.218);}
+  75%   {background-color: rgba(77, 77, 77, 0.118);}
+  100%  {background-color: rgba(77, 77, 77, 0.018);}
 }
 </style>
