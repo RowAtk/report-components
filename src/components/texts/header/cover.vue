@@ -29,7 +29,7 @@ export default {
     style() {
       return (
         "background-image: url(" +
-        require("@/assets/rimages2/" + this.data.cover) +
+        require("@/assets/rimages/" + this.data.cover) +
         ");  background-size: cover; background-attachment: fixed; background-position: center;"
       );
     },

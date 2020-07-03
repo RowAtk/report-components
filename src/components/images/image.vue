@@ -13,7 +13,7 @@ export default {
     src() {
       // console.log('@/assets/rimages/' + this.data.src)
       return this.data.src
-        ? require("@/assets/rimages2/" + this.data.src)
+        ? require("@/assets/rimages/" + this.data.src)
         : require("@/assets/placeholder.jpg");
     },
     style() {
@@ -30,6 +30,6 @@ img {
   /* max-height: 40vw; */
   height: auto;
   /* width: auto; */
-  /* object-fit: cover; */
+  object-fit: cover;
 }
 </style>
