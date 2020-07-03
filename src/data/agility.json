@@ -7,6 +7,7 @@
       "bg": "bg3.svg",
       "rg2": "47,173,0, 0.61",
       "id": "agility1",
+      "linkColor": "#C0E6B2",
       "rows": [
         {
           "full": true,

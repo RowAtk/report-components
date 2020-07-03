@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
     <div class="title">
       <h2>{{ data.title }}</h2>
     </div>

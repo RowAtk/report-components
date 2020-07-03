@@ -1,17 +1,15 @@
 <template>
-  <!-- :style="style || ''" -->
-  <div class="card bg-dark text-white overlay" :style="bgonly">
-    <!-- <img class="card-img" :src="src" alt="Card image" /> -->
+  <div data-aos="zoom-in-down" class="card bg-dark text-white overlay" :style="bgonly">
     <div
       class="card-img-overlay d-flex flex-column align-items-center justify-content-center text-center filter"
     >
-      <div>
+      <div data-aos="zoom-out">
         <h1 class="d-flex overlay-content big">{{ data.headers[0] }}</h1>
       </div>
-      <div v-if="data.headers.length > 1">
+      <div v-if="data.headers.length > 1" data-aos="zoom-out">
         <h2 class="d-flex overlay-content med">{{ data.headers[1] }}</h2>
       </div>
-      <div v-if="data.headers.length > 1">
+      <div v-if="data.headers.length > 1" data-aos="zoom-out">
         <h3 class="d-flex overlay-content small">{{ data.headers[2] }}</h3>
       </div>
       <RComponent
@@ -51,6 +49,7 @@ export default {
       return overlay;
     },
     bgonly() {
+      // const img = this.data.img != null ? `background: url(${require("@/assets/rimages2/" + this.data.src)})` : ''
       return `background: url(${require("@/assets/rimages2/" + this.data.src)}); background-size: cover; ${this.style}`
     }
   },
@@ -74,26 +73,18 @@ img {
 }
 
 .filter {
-  animation-name: slowbgflash;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  /* background-color: rgba(77, 77, 77, 0.418); */
+  background-color: rgba(77, 77, 77, 0.618);
   /* background-color: rgba(252, 252, 252, 0.397); */
 }
 
 .overlay-content {
   text-shadow: 3px 3px 6px rgba(24, 24, 24, 0.9);
-  /* color: snow; */
-  /* color: #071291; */
+  color: snow;
   /* color: #D90429; */
   /* color: #bfdcff; */
   margin: 0;
-  text-decoration: underline;
-  /* animation-name: slowflash; */
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
+  font-weight: bold;
+  /* text-decoration: underline; */
 }
 .big {
   font-size: 5vw;
@@ -104,22 +95,5 @@ img {
 }
 .small {
   font-size: 2vw;
-}
-
-/* animations */
-@keyframes slowflash {
-  0%   {color:rgb(255, 255, 255); left:0px; top:0px;}
-  25%  {color:rgb(195, 224, 252); left:200px; top:0px;}
-  50%  {color:rgb(165, 210, 252); left:200px; top:200px;}
-  75%  {color:rgb(133, 195, 253); left:0px; top:200px;}
-  100% {color:rgb(94, 175, 252); left:0px; top:0px;}
-}
-
-@keyframes slowbgflash {
-  0%    {background-color: rgba(77, 77, 77, 0.418);}
-  25%   {background-color: rgba(77, 77, 77, 0.318);}
-  50%   {background-color: rgba(77, 77, 77, 0.218);}
-  75%   {background-color: rgba(77, 77, 77, 0.118);}
-  100%  {background-color: rgba(77, 77, 77, 0.018);}
 }
 </style>

@@ -15,6 +15,7 @@
       "bg": "bg1.svg",
       "rg2": "63,120,189, 0.61",
       "id": "access1",
+      "linkColor": "#E2EBF5",
       "rows": [
         {
           "full": true,

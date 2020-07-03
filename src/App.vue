@@ -52,4 +52,8 @@ ul {
   /* border: 1px solid red; */
   /* overflow: hidden; */
 }
+
+.bold {
+  font-weight: bold;
+}
 </style>

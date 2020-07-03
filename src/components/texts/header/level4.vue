@@ -1,6 +1,6 @@
 <template>
   <div class="p-1">
-    <h4>{{data}}</h4>
+    <h4 class="bold">{{data}}</h4>
   </div>
 </template>
 

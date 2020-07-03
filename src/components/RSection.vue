@@ -2,6 +2,7 @@
   <div :id="data.id" class="container-fluid p-0" :style="style">
     <div class="row d-flex justify-content-center p-0 m-0 w-100">
       <div
+        v-if="data.header"
         class="col-lg p-0 d-flex align-items-center justify-content-center section-header"
       >
         <Overlay :data="overlay" />
@@ -30,7 +31,7 @@ export default {
   },
   props: ["data"],
   mounted() {
-    // console.log(this.data.img || '@/assets/agility/ph.jpg')
+    console.log(this.data.header, this.data.img)
   },
   computed: {
     image() {
