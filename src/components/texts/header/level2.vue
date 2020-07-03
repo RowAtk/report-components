@@ -1,6 +1,6 @@
 <template>
-  <div class="p-2">
-    <h2>{{ data }}</h2>
+  <div data-aos="fade-up" class="p-2">
+    <h2 class="bold">{{ data }}</h2>
   </div>
 </template>
 

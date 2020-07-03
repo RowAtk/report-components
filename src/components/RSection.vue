@@ -2,6 +2,7 @@
   <div :id="data.id" class="container-fluid p-0" :style="style">
     <div class="row d-flex justify-content-center p-0 m-0 w-100">
       <div
+        v-if="data.header"
         class="col-lg p-0 d-flex align-items-center justify-content-center section-header"
       >
         <Overlay :data="overlay" />
@@ -16,21 +17,16 @@
 <script>
 import Overlay from "@/components/images/overlay.vue";
 import Row from "@/components/Row.vue";
-// import Level2 from "@/components/texts/header/level2.vue";
-// import Level3 from "@/components/texts/header/level3.vue";
-// import RImage from "@/components/images/image.vue";
 
 export default {
   components: {
     Row,
     Overlay,
-    // Level2,
-    // Level3,
-    // RImage,
+
   },
   props: ["data"],
   mounted() {
-    // console.log(this.data.img || '@/assets/agility/ph.jpg')
+    console.log(this.data.header, this.data.img)
   },
   computed: {
     image() {
