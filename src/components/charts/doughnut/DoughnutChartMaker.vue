@@ -42,11 +42,11 @@ export default {
           display: true,
         },
         tooltips: {
-          callbacks: {
+          callbacks: this.data.properties.datasets[0].data.reduce((a, b) => a + b, 0) === 100 ? {
             label: function(tooltipItem, data) {
               return data['labels'][tooltipItem['index']] + ': ' + data['datasets'][0]['data'][tooltipItem['index']] + '%';
             } 
-          }
+          } : {}
         },
         scales: {
           xAxes: [
@@ -68,16 +68,13 @@ export default {
             },
           ],
         },
-        // plugins: {
-        //   deferred: {
-        //     xOffset: 150,   // defer until 150px of the canvas width are inside the viewport
-        //     yOffset: '50%', // defer until 50% of the canvas height are inside the viewport
-        //     delay: 500      // delay of 500 ms after the canvas is considered inside the viewport
-        //   }
-        // }
       },
     };
   },
+  mounted(){
+    console.log(this.data.perc);
+    
+  }
 };
 </script>
 
