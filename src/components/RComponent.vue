@@ -33,7 +33,7 @@ export default {
                 'table': 'tables/table',
                 'header': 'texts/header/header',
                 'bullet': 'texts/bullet',
-                'content-list': 'nav/contentList',
+                'content-list': 'navigation/contentList',
                 'image': 'images/image',
                 'caption-image': 'images/caption-image',
                 'note': 'texts/note',

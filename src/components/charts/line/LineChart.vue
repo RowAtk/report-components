@@ -1,6 +1,7 @@
 <script>
 // template tag will overwrite rendered chart template
 import { Line } from 'vue-chartjs';
+import deferred from 'chartjs-plugin-deferred'
 
 export default {
     name: "LineChart",
@@ -13,6 +14,7 @@ export default {
         return {};
     },
     mounted() {
+        this.addPlugin(deferred);
         this.renderChart(this.chartdata, this.options);
     }
 }

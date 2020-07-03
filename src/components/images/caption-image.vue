@@ -38,7 +38,7 @@ img {
   justify-content: center;
   align-items: center;
   max-width: 600px;
-  background-color: white;
+  background-color: rgba(255, 250, 250, 0.553);
 }
 
 .caption-wrapper {

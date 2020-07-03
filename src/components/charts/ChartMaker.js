@@ -52,6 +52,13 @@ const ChartMaker = Vue.mixin({
             },
           ],
         },
+        plugins: {
+          deferred: {
+            xOffset: 150,   // defer until 150px of the canvas width are inside the viewport
+            yOffset: '40%', // defer until 50% of the canvas height are inside the viewport
+            delay: 400      // delay of 500 ms after the canvas is considered inside the viewport
+          }
+        }
       },
       bgnum: 0,
     };

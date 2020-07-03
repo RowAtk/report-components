@@ -6,6 +6,7 @@
       "img": "20200228_162847.jpg",
       "bg": "bg4.svg",
       "id": "one-uwi1",
+      "linkColor": "#D99661",
       "rows": [
         {
           "full": true,
@@ -199,6 +200,7 @@
     },
     {
       "header": "NOTABLE ACHIEVEMENTS AND EVENTS",
+      "img": "SPS_6150.jpg",
       "bg": "bg5.svg",
       "rows": [
         {
@@ -238,7 +240,7 @@
               {
                 "type": "overlay",
                 "config": {
-                  "src": "START.jpg",
+                  "src": "STARTC.jpg",
                   "headers": ["UWI/CB 5K"],
                   "rg1": "255,255,255,0",
                   "rg2": "255,255,255,0"
@@ -405,6 +407,7 @@
       "img": "20190923_122809C.jpg",
       "bg": "bg6.svg",
       "cover": "cover",
+      "linkColor": "#84741D",
       "id": "forward1",
       "rows": [
         {

@@ -6,16 +6,11 @@
 </template>
 
 <script>
-// import Access from "@/components/sections/access/access.vue";
 import ReportView from "@/views/ReportView.vue";
-// import ReportData from "@/data/report-spec.json";
-// // import Access from "@/components/sections/access/access.vue";
-// import ReportView from '@/views/ReportView.vue';
 
 export default {
   name: "App",
   components: {
-    // Access,
     ReportView,
   },
 };
@@ -51,5 +46,9 @@ ul {
   overflow-x: hidden;
   /* border: 1px solid red; */
   /* overflow: hidden; */
+}
+
+.bold {
+  font-weight: bold;
 }
 </style>
