@@ -77,7 +77,7 @@ export default {
 </script>
 
 <style scoped>
-.header{
+.header {
   font-weight: bold;
 }
 </style>

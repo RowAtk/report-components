@@ -1,6 +1,8 @@
 <script>
 // template tag will overwrite rendered chart template
 import { Bar } from "vue-chartjs";
+import deferred from 'chartjs-plugin-deferred'
+
 
 export default {
   name: "ColumnChart",
@@ -10,6 +12,7 @@ export default {
     return {};
   },
   mounted() {
+    this.addPlugin(deferred);
     this.renderChart(this.chartdata, this.options);
   },
 };

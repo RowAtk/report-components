@@ -30,6 +30,6 @@ img {
   /* max-height: 40vw; */
   height: auto;
   /* width: auto; */
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 </style>
