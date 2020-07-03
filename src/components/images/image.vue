@@ -26,10 +26,19 @@ export default {
 
 <style scoped>
 img {
-  max-width: 100%;
+  width: 100%;
+  max-height: 70vh;
   /* max-height: 40vw; */
   height: auto;
   /* width: auto; */
-  object-fit: cover;
+  object-fit: contain;
+  margin: 1em auto;
+}
+@media screen and (max-width: 1023px) {
+  img {
+    width: 100%;
+    max-height: 50vh;
+    object-fit: cover;
+  }
 }
 </style>

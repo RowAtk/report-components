@@ -28,11 +28,12 @@ export default {
 
 <style scoped>
 img {
-  width: 80%;
+  width: 100%;
   padding: 3%;
 }
 
 .img-wrapper {
+  padding: 3%;
   display: flex;
   flex-direction: column;
   justify-content: center;
