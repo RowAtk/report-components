@@ -15,4 +15,7 @@ export default {
 h6 {
   font-size: 8vw;
 }
+.p-1 {
+  margin: 1.5em auto;
+}
 </style>
