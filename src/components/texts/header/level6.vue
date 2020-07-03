@@ -1,6 +1,6 @@
 <template>
-  <div class="p-1">
-    <h6>{{ data }}</h6>
+  <div data-aos="fade-up-left" class="p-1">
+    <h6 class="bold">{{ data }}</h6>
   </div>
 </template>
 
@@ -14,5 +14,8 @@ export default {
 <style scoped>
 h6 {
   font-size: 8vw;
+}
+.p-1 {
+  margin: 1.5em auto;
 }
 </style>

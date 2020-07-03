@@ -1,4 +1,12 @@
 {
+  "cover": {
+    "cover": "20190912_080208.jpg",
+    "logo": "logo.png",
+    "title": "UWI ANNUAL REPORT",
+    "year": "2018 - 2019",
+    "theme": "MAXIMIZING OUR RESOURCES FOR A SUSTAINABLE FUTURE",
+    "quote": "Sustainability has to be a way of life to be a way of business - Anand Mahindra"
+  },
   "report": [
     {
       "header": "Access",
@@ -7,6 +15,7 @@
       "bg": "bg1.svg",
       "rg2": "63,120,189, 0.61",
       "id": "access1",
+      "linkColor": "#E2EBF5",
       "rows": [
         {
           "full": true,

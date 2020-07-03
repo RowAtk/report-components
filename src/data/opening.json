@@ -1,9 +1,6 @@
 {
   "report": [
     {
-      "header": "UWI ANNUAL REPORT 2018-2019",
-      "subheader": "MAXIMIZING OUR RESOURCES FOR A SUSTAINABLE FUTURE",
-      "img": "20190912_080208.jpg",
       "bg": "bg4.svg",
       "id": "home",
       "rows": [
@@ -103,7 +100,7 @@
           "across": {
             "components": [
               {
-                "type": "stacked-full",
+                "type": "stacked",
                 "config": {
                   "texts": [
                     "Pro Vice-Chancellor and Campus Principal Professor Webber has provided sound leadership during the period as he seeks to expand the reach of The UWI in Western Jamaica, through online offerings and strategic partnerships. The financial reports submitted to the annual Campus Council meeting reflect the activities of the Mona Campus and also highlights the fact that greater effort will be needed to achieve financial sustainability.",
@@ -154,7 +151,7 @@
           "across": {
             "components": [
               {
-                "type": "stacked-full",
+                "type": "stacked",
                 "config": {
                   "texts": [
                     "At our September staff retreat, each of the Units in the Office of the Principal came away with a better understanding of the three Strategic pillars and as the Office was charged with aligning the Campus around these goals, visual reinforcements to embed and bring awareness to The UWI’s strategy were placed at focal points in the Office. While The UWI Triple ‘A’ Strategy and its three-pronged pillars had been repeatedly communicated in various fora from the rolling out of the 2017-2022 Strategic Plan, it seemed to me that our departments and divisions, whether teaching, research, administrative or service oriented, needed to appreciate how they were each contributing to the pillars of Access, Alignment and Agility, and more so, how their inputs incrementally added to the Campus delivery on these targets.",
@@ -188,7 +185,7 @@
           "left": {
             "components": [
               {
-                "type": "stacked-full",
+                "type": "stacked",
                 "config": {
                   "texts": [
                     "The University of the West Indies made its debut in the prestigious Times Higher Education (THE) ranking of research universities from around the world. The UWI participated for the first time in 2018 and represented the only Caribbean institution on the ranked list. Placed 37of 129 Latin American universities and 591of 1,258 universities, The UWI stood out visibly in the midst of a Caribbean region that has over 200 registered universities. We scored well in the areas of citation impact, international co-authorship, international staff, and staff-student ratio. Having a sizeable student population from the Caribbean, The UWI, however, still needs to attract more students from outside the region to improve its score on international students. The THE ranking exercise has provided the Mona Campus administrators with a better understanding of where the University stands locally, regionally and internationally, and provides a global performance metric for measuring our institution’s progress under the current UWI Strategic Plan. The UWI Strategic Plan 2017-2022 underscores the need for The University of the West Indies campuses to jointly utilize their resources and capabilities in order to achieve maximum outcomes, both to ensure their long-term survival, and to support a revitalized Caribbean development.",
@@ -222,7 +219,7 @@
                 }
               },
               {
-                "type": "stacked-full",
+                "type": "stacked",
                 "config": {
                   "texts": [
                     "The Mona Campus has made consistent gains over the year to ensure that our brand as the premier tertiary institution for students, for research and knowledge outputs, for creative and innovative thinking about our societal and regional future, remains firmly rooted in the hearts and minds of our stakeholders.",
@@ -251,7 +248,7 @@
                 }
               },
               {
-                "type": "stacked-full",
+                "type": "stacked",
                 "config": {
                   "texts": [
                     "We continued to forge partnerships with local, regional and international entities that have materialized in faculty and student exchanges, internships and employment opportunities for students, and research fellowships and funding for the institution. We further consolidated our ties with the National Commercial Bank (NCB) primarily through their ongoing linkages with the Mona School of Business and Management (MSBM).",
@@ -279,7 +276,7 @@
                 }
               },
               {
-                "type": "stacked-full",
+                "type": "stacked",
                 "config": {
                   "texts": [
                     "Restoring financial health as a mark of our agility was one of our priorities in 2018/19. The year began with the appointment of a Financial Subcommittee of the Finance and General Purposes Committee (F&GPC), a Subcommittee comprised predominantly of external members of F&GPC, that was charged to review and make decisions on each financial decision that affects the Campus. The year 2018/2019 saw the formal establishment of the Public Private Partnership (PPP) Unit to ensure intensive oversight and management over the financial, legal and technical relationships of this partnership. Three projects that are targeted to earn us the biggest financial gains are currently being monitored by the PPP Unit.",

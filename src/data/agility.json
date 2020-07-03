@@ -7,6 +7,7 @@
       "bg": "bg3.svg",
       "rg2": "47,173,0, 0.61",
       "id": "agility1",
+      "linkColor": "#C0E6B2",
       "rows": [
         {
           "full": true,
@@ -921,12 +922,13 @@
           "right": {
             "components": [
               {
-                "type": "image",
-                "config": { "src": "UWICrest_IGDS_Vertical_12x10in_000.jpg" }
-              },
-              {
-                "type": "image",
-                "config": { "src": "UWI70thLogo-mark-01.jpg" }
+                "type": "carousel",
+                "config": {
+                  "images": [
+                    "UWICrest_IGDS_Vertical_12x10in_000.jpg",
+                    "UWI70thLogo-mark-01.jpg"
+                  ]
+                }
               }
             ]
           }

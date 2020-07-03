@@ -18,7 +18,7 @@ p {
   font-size: 16px;
   margin: 0 auto;
   text-align: justify;
-  padding: 0% 3% 6% 3%;
+  padding: 0% 3% 3% 3%;
   line-height: 2em;
 }
 

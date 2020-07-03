@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="header">
     <component
       :id="makeLink(data)"
       v-if="level"
@@ -76,4 +76,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.header {
+  font-weight: bold;
+}
+</style>

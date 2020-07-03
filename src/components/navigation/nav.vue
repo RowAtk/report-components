@@ -1,6 +1,8 @@
 <template>
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <a class="navbar-brand" href="#">
+      <img src="@/assets/rimages/uwilogo.png" width="25px" height="30px">
+    </a>
     <button
       class="navbar-toggler"
       type="button"
@@ -14,14 +16,14 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#"
+        <a class="nav-item nav-link active linkText" href="#"
           >Home <span class="sr-only">(current)</span></a
         >
-        <div v-for="(section, index) in sections.slice(1)" :key="index">
+        <div v-for="(section, index) in sections.slice(1)" :key="index" >
           <div v-if="section.id">
-            <a class="nav-item nav-link" :href="makeLink(section.id)">{{
-              titleCase(section.header)
-            }}</a>
+            <a class="nav-item nav-link" style="" :href="makeLink(section.id)" :style="`color: ${section.linkColor}`">
+              <div class="linkText">{{titleCase(section.header)}}</div>
+            </a>
           </div>
         </div>
       </div>
@@ -60,12 +62,22 @@ export default {
 <style scoped>
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: green;
+  /* color: green; */
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-family: "Open Sans";
+  /* color: rgb(44, 62, 80); */
+  /* font-weight: 600; */
+}
+
+.linkText{
   color: rgb(44, 62, 80);
   font-weight: 600;
+}
+
+.linkText:focus,
+.linkText:hover {
+  text-decoration: underline;
+  color: inherit;
 }
 </style>
