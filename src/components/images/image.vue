@@ -38,7 +38,7 @@ img {
   img {
     width: 100%;
     max-height: 50vh;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 </style>
