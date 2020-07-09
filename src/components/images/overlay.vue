@@ -1,5 +1,9 @@
 <template>
-  <div data-aos="zoom-in-down" class="card bg-dark text-white overlay" :style="bgonly">
+  <div
+    data-aos="zoom-in-down"
+    class="card bg-dark text-white overlay"
+    :style="bgonly"
+  >
     <div
       class="card-img-overlay d-flex flex-column align-items-center justify-content-center text-center filter"
     >
@@ -29,7 +33,6 @@ export default {
   props: ["data"],
   computed: {
     src() {
-      // console.log("@/assets/rimages/" + this.data.src);
       return this.data.src
         ? require("@/assets/rimages/" + this.data.src)
         : require("@/assets/placeholder.jpg");
@@ -40,18 +43,18 @@ export default {
     },
     overlay() {
       const overlay = `width: 100%; background: linear-gradient(rgba(${
-        this.data.rg1 ? this.data.rg1 : `255, 255, 255, 0.85` 
+        this.data.rg1 ? this.data.rg1 : `255, 255, 255, 0.85`
       }), rgba(${
         this.data.rg2 ? this.data.rg2 : `63, 120, 189, 0.21`
       })), url(${require("@/assets/rimages/" +
         this.data.src)}); background-size: cover; ${this.style}`;
-      // console.log(overlay);
       return overlay;
     },
     bgonly() {
       // const img = this.data.img != null ? `background: url(${require("@/assets/rimages/" + this.data.src)})` : ''
-      return `background: url(${require("@/assets/rimages/" + this.data.src)}); background-size: cover; ${this.style}`
-    }
+      return `background: url(${require("@/assets/rimages/" +
+        this.data.src)}); background-size: cover; ${this.style}`;
+    },
   },
 };
 </script>

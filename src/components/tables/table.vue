@@ -1,5 +1,9 @@
 <template>
-  <div class="container" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+<div>
+  <div class="size-info">
+    <h6>Please use larger device to view tables</h6>
+  </div>
+  <div class="container tbl" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
     <div class="title">
       <h2>{{ data.title }}</h2>
     </div>
@@ -56,6 +60,7 @@
       </tbody>
     </table>
   </div>
+</div>
 </template>
 
 <script>
@@ -100,5 +105,19 @@ h2 {
 }
 .white{
   background-color: white;
+}
+.size-info{
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .tbl {
+    display: none;
+  }
+  .size-info{
+    display: inline;
+    font-style: italic;
+    font-weight: 800;
+  }
 }
 </style>

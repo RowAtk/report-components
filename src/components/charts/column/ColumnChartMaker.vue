@@ -37,10 +37,6 @@ export default {
       },
     };
   },
-  mounted() {
-    // console.log("USER CONFIG")
-    // console.log(this.data)
-  },
 };
 </script>
 

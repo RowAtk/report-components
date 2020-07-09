@@ -42,11 +42,20 @@ export default {
           display: true,
         },
         tooltips: {
-          callbacks: this.data.properties.datasets[0].data.reduce((a, b) => a + b, 0) === 100 ? {
-            label: function(tooltipItem, data) {
-              return data['labels'][tooltipItem['index']] + ': ' + data['datasets'][0]['data'][tooltipItem['index']] + '%';
-            } 
-          } : {}
+          callbacks:
+            this.data.properties.datasets[0].data.reduce((a, b) => a + b, 0) ===
+            100
+              ? {
+                  label: function(tooltipItem, data) {
+                    return (
+                      data["labels"][tooltipItem["index"]] +
+                      ": " +
+                      data["datasets"][0]["data"][tooltipItem["index"]] +
+                      "%"
+                    );
+                  },
+                }
+              : {},
         },
         scales: {
           xAxes: [
@@ -71,10 +80,6 @@ export default {
       },
     };
   },
-  mounted(){
-    console.log(this.data.perc);
-    
-  }
 };
 </script>
 
