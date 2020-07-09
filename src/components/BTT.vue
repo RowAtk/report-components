@@ -22,9 +22,9 @@ export default {
   align-items: center;
   position: fixed;
   bottom: 20px;
-  right: 30px;
-  width: 3vw;
-  height: 3vw;
+  right: 20px;
+  width: 2.5em;
+  height: 2.5em;
   border-radius: 100%;
   background-color: #ffffff;
   transition: all 500ms ease-in;
@@ -33,6 +33,6 @@ export default {
   transform: translateY(100px);
 }
 .btt img {
-  width: 1vw;
+  width: 1.1em;
 }
 </style>

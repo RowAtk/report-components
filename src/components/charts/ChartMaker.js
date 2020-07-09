@@ -54,11 +54,11 @@ const ChartMaker = Vue.mixin({
         },
         plugins: {
           deferred: {
-            xOffset: 150,   // defer until 150px of the canvas width are inside the viewport
-            yOffset: '40%', // defer until 50% of the canvas height are inside the viewport
-            delay: 400      // delay of 500 ms after the canvas is considered inside the viewport
-          }
-        }
+            xOffset: 150, // defer until 150px of the canvas width are inside the viewport
+            yOffset: "40%", // defer until 50% of the canvas height are inside the viewport
+            delay: 400, // delay of 500 ms after the canvas is considered inside the viewport
+          },
+        },
       },
       bgnum: 0,
     };
@@ -76,7 +76,6 @@ const ChartMaker = Vue.mixin({
         for (var i = 0; i < words.length; i += limit) {
           lines.push(words.slice(i, i + limit).join(" "));
         }
-        // console.log(lines)
         return lines;
       } else {
         return "";
@@ -85,7 +84,6 @@ const ChartMaker = Vue.mixin({
 
     makeDefaults() {
       let d = [];
-      // console.log("LENGTH DATASET: ", this.data.properties.datasets)
       for (var i = 0; i < this.data.properties.datasets.length; i++) {
         d.push(
           merge(
@@ -95,10 +93,8 @@ const ChartMaker = Vue.mixin({
           )
         );
       }
-      // console.log('ddd: ', d)
 
       const defaultConfig = merge(this.defaultChartData, { datasets: d });
-      // console.log("DEFAULT CONFIG:", defaultConfig)
       return defaultConfig;
     },
 
@@ -109,7 +105,6 @@ const ChartMaker = Vue.mixin({
     mergeData() {
       if (this.data) {
         const defaultConfig = this.makeDefaults();
-        // console.log("DEFAULT CONFIG:", defaultConfig)
         let mp = merge(
           defaultConfig,
           this.chartdata || {},

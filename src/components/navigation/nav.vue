@@ -45,7 +45,6 @@ export default {
   methods: {
     makeLink(data) {
       // `this` points to the vm instance
-      console.log(data.split(" ").join("_"));
       return (
         "#" +
         data
