@@ -12,11 +12,13 @@
         :data="section"
       />
     </div>
+    <BTT />
   </div>
 </template>
 
 <script>
 import Nav from "@/components/navigation/nav.vue";
+import BTT from "@/components/BTT.vue";
 import Cover from "@/components/texts/header/cover.vue";
 import RSection from "@/components/RSection.vue";
 import openingdata from "@/data/opening.json";
@@ -30,6 +32,7 @@ export default {
     RSection,
     Nav,
     Cover,
+    BTT,
   },
   data() {
     return {
