@@ -5,15 +5,15 @@
       "id": "home",
       "rows": [
         {
+          "full": true,
           "left": {
             "components": [
               {
                 "type": "carousel",
                 "config": {
-                  "fullWidth": true,
                   "hoverPause": false,
                   "freeScroll": false,
-                  "buttons": false,
+                  "buttons": true,
                   "images": [
                     "20190912_080208.jpg",
                     "20200226_114553.jpg",
@@ -34,7 +34,6 @@
               {
                 "type": "carousel",
                 "config": {
-                  "fullWidth": true,
                   "hoverPause": false,
                   "freeScroll": false,
                   "buttons": false,
