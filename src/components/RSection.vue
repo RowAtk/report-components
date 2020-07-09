@@ -22,12 +22,8 @@ export default {
   components: {
     Row,
     Overlay,
-
   },
   props: ["data"],
-  mounted() {
-    console.log(this.data.header, this.data.img)
-  },
   computed: {
     image() {
       return this.data.img || "@/assests/agility/ph.jpg";
@@ -57,7 +53,6 @@ export default {
           `background-size: ${
             this.data.cover != null ? this.data.cover : "contain;"
           }`;
-      // console.log(style);
       return style;
     },
   },
