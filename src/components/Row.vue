@@ -58,7 +58,6 @@ export default {
     };
   },
   mounted() {
-    // console.log("ROW: ", this.data);
     this.full = this.data.full || false;
     this.comp1 = this.data.left || (this.full ? null : {});
     this.comp2 = this.data.right || (this.full ? null : {});

@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
-      <img src="@/assets/rimages/uwilogo.png" width="25px" height="30px">
+      <img src="@/assets/rimages/uwilogo.png" width="25px" height="30px" />
     </a>
     <button
       class="navbar-toggler"
@@ -16,13 +16,21 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active linkText" href="#"
+        <a
+          class="nav-item nav-link active linkText"
+          href="https://www.mona.uwi.edu/principal/"
+          target="_blank"
           >Home <span class="sr-only">(current)</span></a
         >
-        <div v-for="(section, index) in sections.slice(1)" :key="index" >
+        <div v-for="(section, index) in sections.slice(1)" :key="index">
           <div v-if="section.id">
-            <a class="nav-item nav-link" style="" :href="makeLink(section.id)" :style="`color: ${section.linkColor}`">
-              <div class="linkText">{{titleCase(section.header)}}</div>
+            <a
+              class="nav-item nav-link"
+              style=""
+              :href="makeLink(section.id)"
+              :style="`color: ${section.linkColor}`"
+            >
+              <div class="linkText">{{ titleCase(section.header) }}</div>
             </a>
           </div>
         </div>
@@ -37,7 +45,6 @@ export default {
   methods: {
     makeLink(data) {
       // `this` points to the vm instance
-      console.log(data.split(" ").join("_"));
       return (
         "#" +
         data
@@ -70,7 +77,7 @@ export default {
   /* font-weight: 600; */
 }
 
-.linkText{
+.linkText {
   color: rgb(44, 62, 80);
   font-weight: 600;
 }

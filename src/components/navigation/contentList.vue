@@ -35,8 +35,6 @@ export default {
     },
 
     navigate(data) {
-      console.log(this.makeLink(data));
-
       $("html, body").animate(
         { scrollTop: $(this.makeLink(data)).offset().top - 100 },
         "slow"
@@ -44,11 +42,11 @@ export default {
     },
 
     animate(i) {
-      if( i%2 == 0) {
-        return "fade-left"
+      if (i % 2 == 0) {
+        return "fade-left";
       }
-      return "fade-right"
-    }
+      return "fade-right";
+    },
   },
   props: ["data"],
 };

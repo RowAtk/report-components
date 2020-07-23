@@ -7,14 +7,16 @@ Vue.config.productionTip = false;
 
 window.addEventListener("scroll", function() {
   var body = document.getElementById("cover-body");
-
+  var btt = document.getElementById("btt");
   if (
     document.documentElement.scrollTop ||
     document.body.scrollTop > window.innerHeight
   ) {
     body.classList.add("square");
     body.classList.remove("trap");
+    btt.classList.remove("hide");
   } else {
+    btt.classList.add("hide");
     body.classList.add("trap");
     body.classList.remove("square");
   }
