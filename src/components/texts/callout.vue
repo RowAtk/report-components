@@ -6,8 +6,7 @@
         :key="index"
         :data="comp"
       />
-      <p v-for="(text, index) in data.texts" :key="index">
-        {{ text }}
+      <p v-for="(text, index) in data.texts" :key="index" v-html="text">
       </p>
     </i>
   </div>
@@ -35,9 +34,9 @@ p {
   /* background-color: green; */
   display: grid;
   grid-template-columns: 1fr;
-  width: 80%;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.555);
   padding: 1em;
-  margin: 1em;
+  margin: 0.5em;
 }
 </style>

@@ -1,8 +1,6 @@
 <template>
   <div class="paragraph-wrapper">
-    <p v-for="(text, index) in data.texts" :key="index">
-      {{ text }}
-    </p>
+    <p v-for="(text, index) in data.texts" :key="index" v-html="text"></p>
   </div>
 </template>
 
