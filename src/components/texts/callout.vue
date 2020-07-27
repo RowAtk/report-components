@@ -6,8 +6,7 @@
         :key="index"
         :data="comp"
       />
-      <p v-for="(text, index) in data.texts" :key="index">
-        {{ text }}
+      <p v-for="(text, index) in data.texts" :key="index" v-html="text">
       </p>
     </i>
   </div>
