@@ -3,6 +3,7 @@
     <a class="navbar-brand" href="#">
       <img src="@/assets/rimages/uwilogo.png" width="25px" height="30px" />
     </a>
+    <span class="mobiletitle">Principal's Report 2020</span>
     <button
       class="navbar-toggler"
       type="button"
@@ -86,5 +87,16 @@ export default {
 .linkText:hover {
   text-decoration: underline;
   color: inherit;
+}
+
+.mobiletitle {
+  visibility: collapse;
+}
+
+@media screen and (max-width: 768px){
+  .mobiletitle {
+    visibility: visible;
+    font-weight: 12px;
+  }
 }
 </style>
