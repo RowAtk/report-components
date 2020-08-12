@@ -90,12 +90,12 @@ export default {
 }
 
 .mobiletitle {
-  visibility: collapse;
+  display: none;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 991px) {
   .mobiletitle {
-    visibility: visible;
+    display: block;
     font-weight: 12px;
   }
 }
