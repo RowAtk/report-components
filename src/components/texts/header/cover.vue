@@ -1,6 +1,5 @@
 <template>
   <div class="cover-container" :style="style">
-    <!-- <div class="cover-img"><img src="image.jpg" alt="forest"></div> -->
     <div id="cover-body" class="cover-body trap">
       <div class="cover-text">
         <img class="logo" :src="src" alt="" />
