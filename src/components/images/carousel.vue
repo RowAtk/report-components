@@ -10,7 +10,7 @@
         :style="`height: ${data.height || 30}vw;`"
       >
         <img
-          :src="require('@/assets/rimages/' + image)"
+          :src="require('@/assets/rimages2/' + image)"
           alt="NOT FOUND"
           class=""
           :style="style"
