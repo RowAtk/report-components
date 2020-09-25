@@ -1,7 +1,5 @@
 <template>
   <div class="w-100">
-    <!-- <img :src="require('@/assets/rimages/' + 'Earl-Jarret.jpg')" alt="NOT FOUND"> -->
-    <!-- :style="`height: ${data.height || 30}vw;`" -->
     <Flickity ref="flickity" :options="flickityOptions">
       <div
         v-for="(image, index) in data.images"

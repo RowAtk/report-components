@@ -46,13 +46,12 @@ export default {
         this.data.rg1 ? this.data.rg1 : `255, 255, 255, 0.85`
       }), rgba(${
         this.data.rg2 ? this.data.rg2 : `63, 120, 189, 0.21`
-      })), url(${require("@/assets/rimages/" +
+      })), url(${require("@/assets/rimages2/" +
         this.data.src)}); background-size: cover; ${this.style}`;
       return overlay;
     },
     bgonly() {
-      // const img = this.data.img != null ? `background: url(${require("@/assets/rimages/" + this.data.src)})` : ''
-      return `background: url(${require("@/assets/rimages/" +
+      return `background: url(${require("@/assets/rimages2/" +
         this.data.src)}); background-size: cover; ${this.style}`;
     },
   },

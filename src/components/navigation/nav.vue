@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
-      <img src="@/assets/rimages/uwilogo.png" width="25px" height="30px" />
+      <img src="@/assets/rimages2/uwilogo.png" width="25px" height="30px" />
     </a>
     <span class="mobiletitle">Principal's Report 2020</span>
     <button
